@@ -1,0 +1,270 @@
+================================================================================
+AVRASYA2 (metin2client.bin & rascal.dll) REA + CAPSTONE TAM OFFSET VE
+"CALISIRKEN (NATIVE) vs CALISMAZKEN (SCRIPT)" DIFERANSIYEL ANALIZ RAPORU
+================================================================================
+Binary       : C:\Program Files (x86)\Avrasya2\metin2client.bin
+Mimari       : PE32 (x86, 32-bit), ImageBase = 0x00400000
+Anti-Cheat   : C:\Program Files (x86)\Avrasya2\rascal.dll + VMProtect (.vmp0, .vmp1)
+Analiz Araci : REA MCP (open_binary, triage, inspect_binary_layout, read_bytes) + Capstone x86
+Tarih        : 2026-11-08
+================================================================================
+
+1. GLOBAL SINGLETON POINTER TABLOSU (.data Bolumu, ImageBase = 0x00400000)
+--------------------------------------------------------------------------------
+Adres        | Sembol / Sinif Adi             | Alt Nesne / VTable ve Aciklama
+-------------|--------------------------------|-------------------------------------------------
+0x009c47bc   | CPythonPlayer*                 | +0x00 vtable=0x008a6c08, +0x04 IAbstractPlayer (vtable=0x008a6c10)
+0x009c47c0   | CPythonCharacterManager*       | +0x00 vtable=0x0089861c, +0x04 ICharacterManager (vtable=0x00898624)
+0x009c53c8   | CPythonNetworkStream*          | Paket gonderim / alim ana ag akisi singleton'i
+0x009c54c8   | CPythonItem*                   | +0x04 m_GroundItemInstanceMap (std::map<DWORD, TGroundItemInstance*>)
+0x009c47d0   | CPythonTextTail*               | +0x10 m_CharacterTextTailMap, +0x14 m_ItemTextTailMap
+0x009c54dc   | CAutoNav* / CPythonBackground* | Harita ve A* AutoNav singleton'i (0x009c54d8 = harita hazir bayragi)
+0x009c47b4   | CPythonNonPlayer*              | mob_proto / canavar tablosu ve derece/event sorgu singleton'i
+0x009c5638   | CPythonSkill*                  | Beceri tablosu singleton'i
+0x009c47c8   | CItemManager*                  | item_proto / esya tablosu singleton'i
+0x009b90e0   | g_pkSelectedInstance           | chr.SelectInstance(vid) tarafindan yazilan secili CInstanceBase*
+
+================================================================================
+2. SIFRELI BELLEK ALANLARI VE HARITA YARDIMCILARI (__cdecl - ctypes ILE DOGRUDAN CAGRILABILIR)
+================================================================================
+Avrasya2 istemcisinde CPythonPlayer, CPythonCharacterManager, CInstanceBase ve
+CActorInstance icindeki kritik alanlar duz (plain) DWORD/float olarak degil,
+ozel XOR/anahtar tabanli sifreli hucrelerde tutulur. Ancak bu hucreleri okuyan
+ve yazan tum yardimci fonksiyonlar standart `__cdecl` cagrisi kullanir ve
+`.vmp` disinda (`.text` icinde) yer alir:
+
+Adres        | C Imzasi (__cdecl)                                                                 | Gorevi
+-------------|------------------------------------------------------------------------------------|---------------------------------------------------------
+0x006dbd90   | void __cdecl EncRead_A(void* field_addr, void* out_buf, uint32_t size)             | Tip-A sifreli alani (1 veya 4 byte) cozer ve out_buf'a yazar.
+0x006dbe10   | void __cdecl EncWrite_A(void* field_addr, const void* in_buf, uint32_t size)       | Tip-A sifreli alana in_buf degerini sifreleyerek yazar.
+0x006dbf70   | void __cdecl EncRead_B(void* field_addr, void* out_buf, uint32_t size)             | Tip-B sifreli alani (CPythonPlayer +0x60..0xF8, Speed) cozer.
+0x006dc0a0   | void __cdecl EncWrite_B(void* field_addr, const void* in_buf, uint32_t size)       | Tip-B sifreli alana (m_eReservedMode, m_isAtkKey, Speed) yazar.
+0x006dc310   | int  __cdecl EncMapCount(void* map_handle)                                         | m_kAliveInstMap icindeki canli varlik sayisini dondurur.
+0x006dc240   | int  __cdecl EncMapByIdx(void* map_h, int idx, void* out_p, uint32_t sz, uint32_t* out_sz) | m_kAliveInstMap[idx] -> CInstanceBase* (sz=4) okur.
+0x006dc470   | int  __cdecl EncMapFind(void* map_h, uint32_t vid, void* out_p, uint32_t sz, uint32_t* out_sz) | VID ile CInstanceBase* (sz=4) bulur.
+0x006ccc90   | void __cdecl RascalGate(uint32_t code, uint32_t arg1, uint32_t arg2)               | RASCAL ANTI-CHEAT KAPISI! (Sadece 4 yerden cagirilir).
+
+Not: `0x006ccc90` (RascalGate) `.text` icinde yalnizca su 4 noktadan cagirilir:
+  1) `0x004fbc0e` (`CPythonPlayer::SetAttackKeyState` icinde `code=2` ile)
+  2) `0x0054271a`, `0x00542734`, `0x00542761` (`SendLoginPacket` icinde `code=6, 7, 8` ile)
+
+================================================================================
+3. SINIF BELLEK DUZENLERI (STRUCT OFFSETS)
+================================================================================
+
+3.1. CPythonCharacterManager (`*(DWORD*)0x009c47c0`)
+--------------------------------------------------------------------------------
+Offset   | Erisim Tipi | Alan Adi              | Aciklama / Referans Adres
+---------|-------------|-----------------------|------------------------------------------------------------
++0x00    | Plain Ptr   | vtable                | `0x0089861c`
++0x04    | Subobject   | ICharacterManager     | `0x00898624`
++0x0C    | EncRead_A   | m_pkInstMain          | Ana oyuncu `CInstanceBase*` (`0x004b4610` GetMainInstancePtr)
++0x10    | EncRead_A   | m_pkInstPick          | Fare altindaki secili `CInstanceBase*` (`0x004b5ff0` GetPickedVID)
++0x14    | EncRead_A   | m_pkInstBind          | Bagli `CInstanceBase*` (`0x004b47c0`)
++0x18    | Plain Float | m_v2PickedInstProjPos | Secili varlik ekran izdumu
++0x20    | Plain Ptr   | m_kAliveInstMap       | Sifreli canli varlik haritasi handle'i (`0x006dc310` / `0x006dc240` / `0x006dc470`)
++0x24    | std::list   | m_kDeadInstList       | Olu varliklar listesi
+
+3.2. CInstanceBase (`inst_ptr`) ve Gomulu CActorInstance (`actor_ptr = inst_ptr + 0x1E0`)
+--------------------------------------------------------------------------------
+Offset (Inst) | Offset (Actor) | Erisim Tipi | Alan Adi               | Aciklama / Referans Adres
+--------------|----------------|-------------|------------------------|----------------------------------------------
++0x170        | -              | EncRead_A   | m_dwRace               | Yaratik/NPC/Oyuncu VNUM (`0x004a0ee0` GetRace)
++0x19C        | -              | Plain std::string | m_stName         | Karakter / Canavar Ismi (`0x004a0de0`)
++0x1E0        | +0x000         | Subobject   | m_GraphicThingInstance | Gomulu `CActorInstance` baslangici (`0x008b6fb4`)
++0x5E8        | +0x408         | EncRead_A   | m_eActorType           | Varlik Tipi (`0x00609000` GetActorType). Avrasya2 +2 kaydirilmis:
+              |                |             |                        |   2 = PC (Oyuncu)
+              |                |             |                        |   3 = Object / Kapi
+              |                |             |                        |   6 = Enemy (Canavar / Boss)
+              |                |             |                        |   7 = NPC
+              |                |             |                        |  10 = Stone (Metin Tasi)
+              |                |             |                        |  11 = Goto / Warp
++0x654        | +0x474         | EncRead_A   | m_v3Position.x         | Gercek Dunya X Koordinati (float, `0x00609340`)
++0x658        | +0x478         | EncRead_A   | m_v3Position.y         | Negatif Dunya Y Koordinati (float -Y, `y = -val`)
++0x65C        | +0x47C         | EncRead_A   | m_v3Position.z         | Gercek Dunya Z Yuksekligi (float)
++0x674        | +0x494         | EncRead_B   | m_fAtkSpd              | Saldiri Hizi Carpan (`0x005ffc30` SetAttackSpeed)
++0x684        | +0x4A4         | EncRead_B   | m_fMovSpd              | Hareket Hizi Carpan (`0x005ffb50` SetMoveSpeed)
++0x694        | +0x4B4         | EncRead_B   | m_fRotSpd              | Donus Hizi (`0x005ffab0`)
++0x6A4        | +0x4C4         | EncRead_A   | m_fCurRotation         | Anlik Bakis Acisi (derece)
++0x6B4        | +0x4D4         | EncRead_A   | m_fAdvancingRotation   | Ilerleme Acisi (`0x004abcd0` SetDirection)
++0x75C        | +0x57C         | EncRead_A   | m_dwVirtualID          | Varlik VID (`0x004a1080` -> `0x00609020`)
++0x9A8        | +0x7C8         | Plain Byte  | m_wcurMotionMode       | Silah Hareket Modu (1=Yumruk, 2=TekEl, 3=CiftEl, 4=Hancer)
+
+3.3. CPythonPlayer (`*(DWORD*)0x009c47bc`)
+--------------------------------------------------------------------------------
+Offset   | Erisim Tipi | Alan Adi                 | Aciklama / Referans Adres
+---------|-------------|--------------------------|------------------------------------------------------------
++0x00    | Plain Ptr   | vtable                   | `0x008a6c08`
++0x04    | Subobject   | IAbstractPlayer          | `0x008a6c10`
++0x08    | Plain HWND  | m_hWnd                   | Oyun pencere handle'i
++0x14    | EncRead_A   | m_dwMainCharacterIndex   | Ana karakter VID (`0x004fa420` GetMainCharacterIndex)
++0x54    | Plain DWORD | m_aeMBFButton[0]         | Sol Fare Fonksiyonu (`MBF_SMART=1`, `MBF_AUTO=2`, `MBF_ATTACK=3`)
++0x58    | Plain DWORD | m_aeMBFButton[1]         | Sag Fare Fonksiyonu (`MBF_CAMERA=5`)
++0x60    | EncRead_B   | m_eReservedMode          | Rezerve Aksiyon Modu (`0x004fb590`..`0x004fb620`):
+         |             |                          |   0 = MODE_NONE
+         |             |                          |   1 = MODE_CLICK_POSITION (`__ReserveClickGround` 0x004fb5d0)
+         |             |                          |   2 = MODE_CLICK_ITEM (`__ReserveClickItem` 0x004fb620)
+         |             |                          |   3 = MODE_CLICK_ACTOR (`__ReserveClickActor` 0x004fb590)
++0x70    | Plain Float | m_fReservedDelayTime     | Rezerve aksiyon gecikmesi (`0.1f = 0x3dcccccd`)
++0x78    | EncRead_B   | m_isSmtMov               | Akilli hareket bayragi (1 byte)
++0x88    | EncRead_B   | m_isDirMov               | Yon tuslariyla hareket bayragi (1 byte)
++0x98    | EncRead_B   | m_isLeft                 | Sol (A) basili bayragi (1 byte, `0x004fb890`)
++0xA0    | EncRead_B   | m_isRight                | Sag (D) basili bayragi (1 byte)
++0xA8    | EncRead_B   | m_isUp                   | Ileri (W) basili bayragi (1 byte)
++0xB0    | EncRead_B   | m_isDown                 | Geri (S) basili bayragi (1 byte)
++0xB8    | EncRead_B   | m_isAtkKey               | Space / Saldiri tusu basili bayragi (1 byte, `0x004fbc45`!)
++0xC8    | EncRead_B   | m_isDirKey               | Herhangi bir yon tusu basili bayragi (1 byte)
++0xF7E0  | EncRead_A   | m_dwVIDReserved          | `MODE_CLICK_ACTOR` hedef VID (`0x004fb590`)
++0xF7E4  | Plain DWORD | m_dwItemIDReserved       | `MODE_CLICK_ITEM` hedef esya VID (`0x004fb620`)
++0xF800  | Plain Vec3  | m_kPPosReserved          | `MODE_CLICK_POSITION` hedef (float x, float y, float z) (`0x004fb5d0`)
++0xF854  | Plain Byte  | m_isCoolTime             | Beceri dolum suresi kontrol bayragi (`1`=Acik, `0`=Kapali, `0x004f9680`)
++0xF855  | Plain Byte  | m_isLevelLimit           | Beceri seviye siniri kontrol bayragi (`0x004f9690`)
++0xF878  | EncRead_A   | m_dwAutoAttackTargetVID  | Otomatik saldiri hedef VID (`0x004faeb0`)
++0xF88C  | EncRead_A   | m_dwTargetVID            | Kilitli hedef VID (`0x004fa2e0` GetTargetVID)
+
+3.4. CPythonItem (`*(DWORD*)0x009c54c8`)
+--------------------------------------------------------------------------------
+Offset   | Erisim Tipi | Alan Adi                 | Aciklama / Referans Adres
+---------|-------------|--------------------------|------------------------------------------------------------
++0x04    | std::_Tree* | m_GroundItemInstanceMap  | Yerdeki esyalarin MSVC `std::map<DWORD, TGroundItemInstance*>` agac basi:
+         |             |                          |   `head = *(DWORD*)(item_ptr + 0x04)`
+         |             |                          |   `first_node = *(DWORD*)(head + 0x00)` (`node != head` iken donulur)
+         |             |                          |   `dwItemVID = *(DWORD*)(node + 0x10)`
+         |             |                          |   `pGroundItem = *(DWORD*)(node + 0x14)`
+         |             |                          |   `item_x = *(float*)(pGroundItem + 0x08)`
+         |             |                          |   `item_y = -(*(float*)(pGroundItem + 0x0C))`
+         |             |                          |   `item_z = *(float*)(pGroundItem + 0x10)`
++0x10    | Plain DWORD | m_dwPickedItemID         | Fare altindaki yer esyasi VID (`0x004c1840`)
+
+================================================================================
+4. "CALISIRKEN (NATIVE OYUN ICI) vs CALISMAZKEN (SCRIPT CAGRISI)" KARSILASTIRMASI
+================================================================================
+
+--------------------------------------------------------------------------------
+4.1. CANAVAR / METIN KOORDINATLARI VE RADAR TARAMASI
+--------------------------------------------------------------------------------
+[CALISMAZKEN - Neden `chr.GetPixelPosition(vid)` (0,0,0) Donuyordu?]:
+  - `chr.GetPixelPosition` (`0x004b7560`) disasm incelendiginde `0x004b759e..0x004b75ba`
+    arasinda Avrasya2 gelistiricilerinin ekledigi anti-bot kontrolu tespit edildi:
+      0x004b7599: mov ecx, [0x009c47c0]   ; CPythonCharacterManager
+      0x004b759f: call 0x004b4610         ; GetMainInstancePtr()
+      0x004b75a8: mov ecx, eax
+      0x004b75aa: call 0x004a1080         ; main_inst->GetVirtualID()
+      0x004b75af: cmp eax, [ebp-0x14]     ; if (main_vid != requested_vid)
+      0x004b75b2: jne 0x004b75c4          ;   return (0.0f, 0.0f, 0.0f)!
+  - Yani `chr.GetPixelPosition(vid)` kendi karakterin disindaki TUM VID'ler icin
+    bilerek `(0.0, 0.0, 0.0)` dondurur!
+  - Ayrica v4.4'teki trilaterasyon (`chr.SetPixelPosition` ile kendi karakterimizi
+    +500 kaydirip mesafe olcme) `0x00609380` uzerinden kendi karakterimizin yurume
+    ve hareket durumunu sifirladigi icin karakterin yurumesini bozuyordu.
+
+[CALISIRKEN - Native Motor Koordinatlari Nasil Okuyor?]:
+  - Oyun motoru (`player.GetCharacterDistance` `0x004fb6a0` ve `CInstanceBase::NEW_GetPixelPosition` `0x004abbf0`),
+    varligi `m_kAliveInstMap` (`*(DWORD*)(chrmgr_ptr + 0x20)`) icinden `0x006dc310` (`EncMapCount`),
+    `0x006dc240` (`EncMapByIdx`) veya `0x006dc470` (`EncMapFind`) ile alir ve
+    `0x006dbd90` (`EncRead_A`) ile dogrudan `inst_ptr + 0x654` (`float X`),
+    `inst_ptr + 0x658` (`float -Y`), `inst_ptr + 0x65C` (`float Z`) okur!
+  - Ustelik `EncMapCount` + `EncMapByIdx` ile haritadaki 50-150 canli varligin tamami
+    0.05 milisaniyede (300.000 VID dongusu olmadan ve `SetPixelPosition`'a hic
+    dokunmadan!) %100 kesin koordinatlariyla okunur.
+
+--------------------------------------------------------------------------------
+4.2. OTOMATIK SALDIRI, HEDEF SECIMI VE CANAVARA YURUME
+--------------------------------------------------------------------------------
+[CALISMAZKEN - Neden `SetAttackKeyState(1)`, `SetTarget` ve `MoveToDestPosition` Calismadi?]:
+  1) `player.SetAttackKeyState` (`0x00500240` -> `0x004fbc00`):
+       0x004fbc04: push 0
+       0x004fbc06: push dword ptr [esi + 8]
+       0x004fbc09: push 2
+       0x004fbc0b: mov [ebp - 1], cl
+       0x004fbc0e: call 0x006ccc90        ; <--- RASCAL ANTI-CHEAT GATE (code=2)!
+     Script'ten `player.SetAttackKeyState(1)` cagrildiginda `0x004fbc0e`'deki
+     `RascalGate(2, m_hWnd, 0)` cagrisi tetiklenir!
+  2) `player.SetTarget` (`0x00500af0`), `player.ComboAttack` (`0x004fa4c0`),
+     `player.SetSingleDIKKeyState` (`0x004fb9f0`) ve `CInstanceBase::MoveToDestPosition`
+     (`0x004ab530` -> `0x0067c33d`) dogrudan `.vmp0`/`.vmp1` korumali bolgeye atlar;
+     sahte script cagrilarini filtreler.
+
+[CALISIRKEN - Oyuncu Fareyle Tikladiginda veya Space'e Bastiginda Ne Oluyor?]:
+  - YONTEM A (`CPythonPlayer::__ReserveClickActor` - `0x004fb590`):
+    Oyuncu bir canavara veya Metin tasina tikladiginda motor `CPythonPlayer::Update()`
+    icinde islenmek uzere su sifreli alanlari yazar:
+      1) `EncWrite_B(player_ptr + 0x60, &uint32(3), 4)` (`0x006dc0a0` -> `m_eReservedMode = 3 = MODE_CLICK_ACTOR`)
+      2) `EncWrite_A(player_ptr + 0xF7E0, &uint32(target_vid), 4)` (`0x006dbe10` -> `m_dwVIDReserved = target_vid`)
+      3) `EncWrite_A(player_ptr + 0xF878, &uint32(target_vid), 4)` (`0x006dbe10` -> `m_dwAutoAttackTargetVID = target_vid`)
+      4) `EncWrite_A(player_ptr + 0xF88C, &uint32(target_vid), 4)` (`0x006dbe10` -> `m_dwTargetVID = target_vid`)
+    Bir sonraki karede `.vmp` icinden calisan orijinal `CPythonPlayer::Update()` bu
+    rezerve komutu gorur, karakteri kendi C++ motoruyla canavarin yanina yurutur ve
+    saldiriyi baslatir!
+  - YONTEM B (`m_pkInstPick` + `MBF_AUTO` Fare Otomatik Saldirisi - `0x004b4790` & `0x004fd9f0`):
+    `EncWrite_A(chrmgr_ptr + 0x10, &target_inst_ptr, 4)` (`0x006dbe10`) yazildiginda
+    oyun motoru farenin tam olarak o canavarin uzerinde oldugunu (`GetPickedVID() == target_vid`)
+    gorur. Ardindan `player.SetMouseFunc(player.MBT_LEFT, player.MBF_AUTO)` ve
+    `player.SetMouseState(player.MBT_LEFT, player.MBS_PRESS)` cagrildiginda C++
+    `__OnPressSmart`/`__OnPressAuto` hedefi otomatik secip kesmeye baslar!
+  - YONTEM C (Rascal Gate `0x006ccc90`'a Hic Ugramadan `m_isAtkKey` Yazimi - `0x004fbc45`):
+    `0x004fbc00` fonksiyonunun `0x006ccc90` cagrisindan sonraki tek yaptigi islem:
+      0x004fbc45: push 1
+      0x004fbc47: lea eax, [ebp - 1]
+      0x004fbc4a: push eax
+      0x004fbc4b: lea ecx, [esi + 0xB8]
+      0x004fbc51: push ecx
+      0x004fbc52: call 0x006dc0a0         ; EncWrite_B(player_ptr + 0xB8, &state, 1)
+    Dolayisiyla `EncWrite_B(player_ptr + 0xB8, &uint8(1), 1)` cagrildiginda Rascal
+    kapisi (`0x006ccc90`) tamamen atlanarak native Space saldirisi aktif edilir!
+  - YONTEM D (`CPythonPlayer::__ReserveClickGround` - `0x004fb5d0`):
+    `player_ptr + 0xF800` (`m_kPPosReserved`) adresine `(float tx, float ty, float 0.0f)`,
+    `player_ptr + 0x70` adresine `0.1f`, ve `EncWrite_B(player_ptr + 0x60, &uint32(1), 4)`
+    (`MODE_CLICK_POSITION = 1`) yazildiginda `CPythonPlayer::Update()` karakteri o
+    koordinata kendi icinden yurutur!
+
+--------------------------------------------------------------------------------
+4.3. SALDIRI HIZI (ATTACK SPEED) VE HAREKET HIZI (MOVE SPEED)
+--------------------------------------------------------------------------------
+[CALISMAZKEN - Neden `chr.SetAttackSpeed` ve `chr.SetMoveSpeed` Etkisizdi?]:
+  - `chr.SetAttackSpeed` (`0x004b80c0`), `chr.SetMoveSpeed` (`0x004b82e0`) ve
+    `chrmgr.SetMovingSpeed` (`0x004b66f0`) adresleri disasm edildiginde hepsinin
+    ilk komutunun:
+      0x004b80c0: jmp 0x00684680          ; Py_BuildNone() -> NO-OP!
+      0x004b82e0: jmp 0x00684680          ; Py_BuildNone() -> NO-OP!
+    oldugu kanitlandi. Python C-API uzerinden yapilan hiz cagrilari bos donmektedir.
+
+[CALISIRKEN - CActorInstance Hizi Nasil Degistiriyor?]:
+  - `CActorInstance::SetAttackSpeed` (`0x005ffc30`):
+      0x005ffc36: push 4
+      0x005ffc38: lea eax, [ebp + 8]      ; &float_atk_spd
+      0x005ffc3b: push eax
+      0x005ffc3c: add ecx, 0x494          ; actor_ptr + 0x494 (inst_ptr + 0x674)
+      0x005ffc42: push ecx
+      0x005ffc43: call 0x006dc0a0         ; EncWrite_B(inst_ptr + 0x674, &float_spd, 4)
+  - `CActorInstance::SetMoveSpeed` (`0x005ffb50`):
+      0x005ffb56: push 4
+      0x005ffb58: lea eax, [ebp + 8]      ; &float_mov_spd
+      0x005ffb5b: push eax
+      0x005ffb5c: add ecx, 0x4A4          ; actor_ptr + 0x4A4 (inst_ptr + 0x684)
+      0x005ffb62: push ecx
+      0x005ffb63: call 0x006dc0a0         ; EncWrite_B(inst_ptr + 0x684, &float_spd, 4)
+  - Ayrica kullanicinin envanterinde (`[DIAG_INV]`) bulunan `27208` (`Yesil Iksir (O)`)
+    ve `27211` (`Mor Iksir (O)`) VNUM'lari `ELIXIR_DEW_VNUMS` listesine eklendiginde
+    sunucu tarafinda da (server-side) gercek saldiri ve hareket hizi artisi saglanir.
+
+--------------------------------------------------------------------------------
+4.4. YERDEKI ESYALARI TOPLAMA (AUTO-PICKUP)
+--------------------------------------------------------------------------------
+[CALISMAZKEN - Neden `player.PickCloseItem()` Yavas veya Eksik Topluyordu?]:
+  - `CPythonPlayer::PickCloseItem` (`0x004fabb0`) -> `0x004fb0a0` (`GetPickCloseItemDistance`)
+    yaya iken yalnizca `300.0` birim (binekte `500.0` birim) yaricap icindeki
+    TEK bir esyayi secer ve `SendItemPickUpPacket(dwIID)` gonderir.
+
+[CALISIRKEN - Tum Yerdeki Esyalar Nasil Bulunur ve Toplanir?]:
+  - `CPythonItem` singleton (`*(DWORD*)0x009c54c8`) icinde `+0x04` offsetinde
+    `m_GroundItemInstanceMap` (`std::map<DWORD, TGroundItemInstance*>`) yer alir
+    (`0x004c0590` disasm):
+      - Agac bas dugumu: `head = *(DWORD*)(item_ptr + 0x04)`
+      - Ilk dugum: `node = *(DWORD*)(head + 0x00)`
+      - Her dugumde: `dwItemVID = *(DWORD*)(node + 0x10)`, `pInst = *(DWORD*)(node + 0x14)`
+      - Esya koordinati: `x = *(float*)(pInst + 0x08)`, `y = -(*(float*)(pInst + 0x0C))`
+  - Menzildeki tum `dwItemVID` degerleri icin `CPythonPlayer::__ReserveClickItem`
+    (`0x004fb620`: `*(DWORD*)(player_ptr + 0xF7E4) = dwItemVID`, `m_eReservedMode = 2`)
+    ve `player.PickCloseItem()` cagrilarak yerdeki tum ganimetler aninda toplanir.
+================================================================================

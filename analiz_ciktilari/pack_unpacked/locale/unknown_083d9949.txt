@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "avrasya2logo.tga"
+left 0
+top 0
+right 2126
+bottom 828

@@ -1,0 +1,2 @@
+=== RPC OK (22:55:45) ===
+AFTER GC MIGRATE: map_shops=0 scanned=0 items=0 bargains=0

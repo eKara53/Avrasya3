@@ -1,0 +1,2181 @@
+vnum	locale_name	kr_name	type	rank	level
+101	Yabani Köpek	들개	0	0	1
+102	Kurt	늑대	0	0	3
+103	Alfa Kurt	두목늑대	0	0	4
+104	Mavi Kurt	푸른늑대	0	0	6
+105	Alfa Mavi Kurt	푸른 두목늑대	0	0	9
+106	Gri Kurt	회색늑대	0	0	13
+107	Alfa Gri Kurt	회색 두목늑대	0	1	16
+108	Yaban Domuzu	멧돼지	0	0	7
+109	Kırmızı Yaban Domuzu	붉은 멧돼지	0	1	10
+110	Ayı	곰	0	0	12
+111	Boz Ayı	회색곰	0	1	15
+112	Siyah Ayı	검은곰	0	0	19
+113	Kahverengi Ayı	불곰	0	1	21
+114	Kaplan	호랑이	0	0	18
+115	Beyaz Kaplan	대호	0	1	24
+131	Lanetli Kurt	저주받은 늑대	0	2	8
+132	Lanetli Alfa Kurt	저주받은 두목늑대	0	3	9
+133	Lanetli Mavi Kurt	저주받은 푸른늑대	0	2	11
+134	Lanetli Alfa Mavi Kurt	저주받은 푸른 두목늑대	0	3	14
+135	Lanetli Gri Kurt	저주받은 회색늑대	0	2	18
+136	Lanetli Alfa Gri Kurt	저주받은 회색 두목늑대	0	3	21
+137	Lanetli Yaban Domuzu	저주받은 멧돼지	0	2	12
+138	Lan.Kırmızı Yaban Domuzu	저주받은 붉은 멧돼지	0	3	15
+139	Lanetli Ayı	저주받은 곰	0	2	17
+140	Lanetli Gri Ayı	저주받은 회색곰	0	3	20
+141	Lanetli Siyah Ayı	저주받은 검은곰	0	2	24
+142	Lanetli Kahverengi Ayı	저주받은 불곰	0	3	26
+143	Lanetli Kaplan	저주받은 호랑이	0	2	24
+144	Lanetli Beyaz Kaplan	저주받은 대호	0	3	29
+151	Cung-Mok	푸른 두목늑대 청목	0	3	9
+152	Mu-Rang	회색 두목늑대 무랑	0	3	16
+153	Jug-Hyul	붉은 멧돼지 적혈	0	3	10
+154	Young-Ji	불곰 영지	0	3	21
+155	Li-An	대호 일안	0	3	24
+171	Aç Yabani Köpek	굶주린 들개	0	0	1
+172	Aç Kurt	굶주린 늑대	0	0	3
+173	Aç Alfa Kurt	굶주린 두목늑대	0	0	4
+174	Aç Mavi Kurt	굶주린 푸른늑대	0	0	6
+175	Aç Alfa Mavi Kurt	굶주린 푸른 두목늑대	0	0	9
+176	Aç Gri Kurt	굶주린 회색늑대	0	0	13
+177	Aç Alfa Gri Kurt	굶주린 회색 두목늑대	0	1	16
+178	Aç Yaban Domuzu	굶주린 멧돼지	0	0	7
+179	Aç Kırmızı Yaban Domuzu	굶주린 붉은 멧돼지	0	1	10
+180	Aç Ayı	굶주린 곰	0	0	12
+181	Aç Boz Ayı	굶주린 회색곰	0	1	15
+182	Aç Siyah Ayı	굶주린 검은곰	0	0	19
+183	Aç Kahverengi Ayı	굶주린 불곰	0	1	21
+184	Aç Kaplan	굶주린 호랑이	0	0	18
+185	Aç Beyaz Kaplan	굶주린 대호	0	1	24
+191	Lykos	산견신	0	3	30
+192	Scrofa	저신	0	3	31
+193	Bera	웅신	0	3	33
+194	Tigris	호신	0	3	35
+301	Beyaz Yeminli Asker	백결단원	0	0	18
+302	Beyaz Yeminli Okçu	백결궁병	0	0	20
+303	Beyaz Yeminli General	백결장수 일령	0	1	25
+304	Beyaz Yeminli Komutan	백결장수 이령	0	1	25
+331	Beyaz Yeminli Asker	백결단원 은주	0	1	18
+332	Beyaz Yeminli Okçu	백결궁병 지영	0	1	20
+333	Beyaz Yeminli General	백결장수 지연	0	2	25
+334	Beyaz Yeminli Komutan	백결장수 인자	0	2	25
+351	Korkak Beyaz Yeminli Ask	소심한 백결단원	0	1	18
+352	Korkak Beyaz Yeminli Okç	소심한 백결궁병	0	1	20
+353	Korkak Beyaz Yeminli Gen	소심한 백결장수 일령	0	2	25
+354	Korkak Beyaz Yeminli Kom	소심한 백결장수 이령	0	2	25
+391	Mi-Jung	미정	0	3	23
+392	Eun-Jung	은정	0	3	26
+393	Se-Rang	세랑	0	3	28
+394	Jin-Hee	진희	0	3	31
+395	Moralsiz Mi-Jung	소심한 미정	0	3	23
+396	Moralsiz Eun-Jung	소심한 은정	0	3	26
+397	Moralsiz Se-Rang	소심한 세랑	0	3	28
+398	Moralsiz Jin-Hee	소심한 진희	0	3	31
+401	Siyah Rüzgar Askeri	흑풍단원	0	0	26
+402	Siyah Rüzgar Delisi	흑풍돌격대	0	0	27
+403	Siyah Rüzgar Okçusu	흑풍궁수	0	0	29
+404	Siyah Rüzgar Jak-To	흑풍장수 작도	0	1	30
+405	Siyah Rüzgar To-Su	흑풍장수 도수	0	1	33
+406	Siyah Rüzgar Gu-Ryung	흑풍장수 구령	0	1	35
+431	Siyah Fırtına Askeri	흑풍단원 두봉	0	2	31
+432	Siyah Fırtına Delisi	흑풍돌격대 상두	0	2	33
+433	Siyah Fırtına Okçusu	흑풍궁수 관규	0	2	35
+434	Siyah Fırtına Joh-Hwan	흑풍장수 세민	0	3	36
+435	Siyah Fırtına Kyuk-Jan	흑풍장수 민호	0	3	38
+436	Siyah Fırtına Pho-Hwan	흑풍장수 윤석	0	3	40
+451	Kötü Siy. Fırtına Askeri	비열한 흑풍단원	0	0	26
+452	Kötü Siy. Fırtına Delisi	비열한 흑풍돌격대	0	0	27
+453	Kötü Siy.Fırtına Okçusu	비열한 흑풍궁수	0	0	29
+454	KötüSiy.Fırtına Joh-Hwan	비열한 흑풍장수 작도	0	1	30
+455	KötüSiy.Fırtına Kyuk-Jan	비열한 흑풍장수 도수	0	1	33
+456	KötüSiy.Fırtına Pha-Hwan	비열한 흑풍장수 구령	0	1	35
+491	Mahon	맹환	0	3	32
+492	Bo	보우	0	3	37
+493	Goo-Pae	구패	0	3	39
+494	Chuong	추흔	0	3	45
+501	Yabani Piyade	오랑캐보병	0	0	29
+502	Yabani Uşak	오랑캐졸개	0	0	32
+503	Yabani Okçu	오랑캐궁수	0	1	35
+504	Yabani General	오랑캐장수	0	2	36
+531	Vahşi Asker	오랑캐보병 비연	0	2	35
+532	Vahşi Deli	오랑캐졸개 강두	0	2	37
+533	Vahşi Okçu	오랑캐궁수 상천	0	3	40
+534	Vahşi Uzman	오랑캐부단장 강천	0	3	42
+551	Güçlü Yabani Asker	음흉한 오랑캐보병	0	0	29
+552	Güçlü Yabani Deli	음흉한 오랑캐졸개	0	0	32
+553	Güçlü Yabani Okçu	음흉한 오랑캐궁수	0	1	35
+554	Güçlü Yabani General	음흉한 오랑캐장수	0	2	36
+591	Vahşi Yüzbaşı	비류단대장	0	4	42
+595	Vahşi Geum-Chul	오랑캐궁수 금철	0	2	42
+601	Ork	진웅귀병 둔살라	0	0	26
+602	Ork Gözcüsü	진웅귀 척후병 사실리	0	1	29
+603	Ork Savaşçısı	진웅귀 투병 무로도	0	1	31
+604	Ork Büyücüsü	진웅귀 마병 두오쿠	0	2	33
+631	Elit Ork	진웅귀병	0	0	34
+632	Elit Ork Gözcüsü	진웅귀 척후병	0	1	36
+633	Elit Ork Savaşçısı	진웅귀 투병	0	1	39
+634	Elit Ork Büyücüsü	진웅귀 마병	0	2	40
+635	Elit Ork Generali	진웅귀 장군	0	2	44
+636	Siyah Ork	흑웅귀	0	3	46
+637	Siyah Ork Devi	거대 흑웅귀	0	3	49
+651	Cesur Büyük Ork	멍청한 진웅귀병	0	0	34
+652	Cesur Büyük Ork Gözcüsü	멍청한 진웅귀 척후병	0	1	36
+653	Cesur Büyük OrkSavaşçısı	멍청한 진웅귀 투병	0	1	39
+654	Cesur Büyük Ork Büyücüsü	멍청한 진웅귀 마병	0	2	40
+655	Cesur Büyük Ork Generali	멍청한 진웅귀 장군	0	2	44
+656	Cesur Siyah Ork	멍청한 흑웅귀	0	3	46
+657	Cesur Siyah Ork Devi	멍청한 거대 흑웅귀	0	3	49
+691	Ork Reisi	웅귀 족장	0	4	50
+692	Elit Ork Reisi	진웅귀 족장	0	4	50
+693	Dirilmiş Ork Reisi	웅귀대족장	0	5	97
+701	Karanlık Fanatik	밀교추종자	0	0	35
+702	Karanlık Arahan	밀교나한병	0	1	38
+703	Mistik Arahan Savaşçısı	밀교나한투병	0	1	41
+704	Mistik Arahan Reisi	밀교나한장	0	2	44
+705	Mistik Cellat	밀교집행병	0	1	48
+706	Karanlık İşkenceci	밀교강박령	0	3	49
+707	Karanlık Haberci	밀교소환령	0	3	51
+731	Kibirli Karanlık Fanatik	진밀교추종자	0	0	52
+732	Kibirli Karanlık Arahan	진밀교나한병	0	1	53
+733	Kibirli Karanlık Savaşçı	진밀교나한투병	0	1	54
+734	Kibirli Karanlık Albay	진밀교나한장	0	2	54
+735	Kibirli Karanlık Nişancı	진밀교집행병	0	1	55
+736	Elit Mistik İşkenceci	진밀교강박령	0	3	56
+737	Elit Mistik Haberci	진밀교소환령	0	3	57
+751	Büyük Fanatik	비열한 밀교추종자	0	0	35
+752	Büyük Arahan	비열한 밀교나한병	0	1	38
+753	Büyük Arahan Savaşçısı	비열한 밀교나한투병	0	1	41
+754	Büyük Elit Arahan	비열한 밀교나한장	0	2	44
+755	Büyük Cellat	비열한 밀교집행병	0	1	48
+756	Büyük İşkenceci	비열한 밀교강박령	0	3	49
+757	Büyük Haberci	비열한 밀교소환령	0	3	51
+771	Vahşi Fanatik	잔혹한 진밀교추종자	0	0	52
+772	Vahşi Arahan	잔혹한 진밀교나한병	0	1	53
+773	Vahşi Arahan Savaşçısı	잔혹한 진밀교나한투병	0	1	54
+774	Vahşi Arahan Reisi	잔혹한 진밀교나한장	0	2	54
+775	Vahşi Cellat	잔혹한 진밀교집행병	0	1	55
+776	Vahşi İşkenceci	잔혹한 진밀교강박령	0	3	56
+777	Vahşi Haberci	잔혹한 진밀교소환령	0	3	57
+791	Karanlık Lider	밀교교주	0	4	54
+792	Karanlık Hayalet Lider	환생한 밀교교주	0	5	62
+793	Elit Karanlık Lider	진밀교교주	0	4	54
+794	Elit Karan.Hayalet Lider	환생한 진밀교교주	0	5	62
+795	Elit Savaşçı	밀교대주교	0	5	97
+796	Elit Mistik Savaşçı	환생한 밀교대주교	0	5	97
+901	Zombi	시귀	0	1	49
+902	Hastalıklı Köpek	괴질감염견	0	1	51
+903	Hastalıklı Adam	괴질감염자	0	1	53
+904	Hast. Kılıç Savaşçısı	괴질감염병	0	2	55
+905	Hastalıklı Mızrakçı	괴질감염창병	0	2	58
+906	Hastalıklı Okçu	괴질감염궁수	0	2	58
+907	Hastalıklı Lider	괴질감염대장	0	3	59
+931	Kızgın Zombi	한많은 시귀	0	1	49
+932	Kızgın Hastalıklı Köpek	한많은 괴질감염견	0	1	51
+933	Kızgın Hastalıklı Adam	한많은 괴질감염자	0	1	53
+934	Kızg.Hast.KılıçSavaşçısı	한많은 괴질감염병	0	2	55
+935	Kızgın Hastal. Mızrakçı	한많은 괴질감염창병	0	2	58
+936	Kızgın Hastalıklı Okçu	한많은 괴질감염궁수	0	2	58
+937	Kızgın Hastalıklı Lider	한많은 괴질감염대장	0	3	59
+991	Hastalıklı Yumurta	괴질감염알	0	3	59
+992	Hastalık Taşıyıcısı	괴질감염매개체	0	3	60
+993	Dev Hastalık Taşıyıcısı	대형감염매개체	0	5	61
+1001	Şeytan Askeri	사귀병	0	1	57
+1002	Şeytan Okçusu	사귀궁병	0	1	58
+1003	Şeytan Mızrakçısı	사귀창병	0	1	59
+1004	Şeytan Şamanı	사귀주술사	0	2	60
+1031	Çirkin Şeytan Askeri	전귀병	0	2	67
+1032	Çirkin Şeytan Okçusu	전귀궁병	0	2	69
+1033	Çirkin Şeytan Mızrakçısı	전귀창병	0	2	70
+1034	Çirkin Şeytan Şamanı	전귀주술사	0	2	71
+1035	Hınç Hayaleti	원망의 망령	0	2	72
+1036	Kaos Hayaleti	혼돈의 망령	0	2	73
+1037	Çirkin Şeytan Lideri	전귀장	0	3	71
+1038	Kafatası Kılıç Ustası	지마장	0	3	72
+1039	Uçan Kafatası	전령사	0	3	73
+1040	Ölümsüz Hayalet	불사귀	0	3	74
+1041	Şeytani Canavar	재활괴물	0	3	75
+1061	Ölümcül Şeytan Askeri	부활한 전귀병	0	2	67
+1062	Ölümcül Şeytan Okçusu	부활한 전귀궁병	0	2	69
+1063	Ölümcül ŞeytanMızrakçısı	부활한 전귀창병	0	2	70
+1064	Ölümcül Şeytan Şamanı	부활한 전귀주술사	0	2	71
+1065	Ölümcül Hınç Hayaleti	부활한 원망의 망령	0	2	72
+1066	Ölümcül Kaos Hayaleti	부활한 혼돈의 망령	0	2	73
+1067	Ölümcül Şeytan Lideri	부활한 전귀장	0	3	71
+1068	Hayalet Kılıç Ustası	부활한 지마장	0	3	72
+1069	Ölümcül Uçan Kafatası	부활한 전령사	0	3	73
+1070	Ölümsüz Hayalet	부활한 불사귀	0	3	74
+1071	Şeytani Canavar	부활한 재활괴물	0	3	75
+1091	Şeytan Kralı	사귀왕	0	4	75
+1092	Kibirli Şeytan Kralı	진사귀왕	0	4	75
+1093	Lusifer	사신	0	5	78
+1094	Elit Çirkin Şeytan Kralı	명사귀왕	0	5	97
+1095	Mavi Ölüm	사신	0	5	97
+1096	Áø»ç±Í¿Õ	진사귀왕	0	4	75
+1101	Büyülü Buz	빙마	0	1	62
+1102	Buz Katil Balinası	얼음뿔범고래	0	1	63
+1103	Buz Böceği	빙충	0	1	64
+1104	Buz Arslanı	설구	0	2	64
+1105	Buz Adam	빙인	0	2	65
+1106	Yeti	설거인	0	2	66
+1107	Buz Golemi	얼음고렘	0	3	66
+1131	Yeraltı Buz Parçası	천의빙마	0	1	81
+1132	Yeraltı BuzKatilBalinası	천의얼음뿔범고래	0	1	81
+1133	Yeraltı Buz Böceği	천의빙충	0	1	82
+1134	Yeraltı Buz Aslanı	천의설구	0	2	83
+1135	Yeraltı Buz Adamı	천의빙인	0	2	83
+1136	Yeraltı Yetisi	천의설거인	0	2	84
+1137	Yeraltı Buz Golemi	천의얼음고렘	0	3	85
+1151	Buz Şeytanı	빙마	0	1	52
+1152	Buz Boynuzlu Katil Balin	얼음뿔범고래	0	1	53
+1153	Buz Haşeresi	빙충	0	1	54
+1154	Seol-Gu	설구	0	2	54
+1155	Buz Adam	빙인	0	2	55
+1156	Buz Devi	설거인	0	2	56
+1157	Buz Golemi	얼음고렘	0	3	56
+1171	Acımasız Büyülü Buz	사나운 빙마	0	1	62
+1172	Acımasız Buz Balina	사나운 얼음뿔범고래	0	1	63
+1173	Acımasız Buz Böcek	사나운 빙충	0	1	64
+1174	Acımasız Buz Arslan	사나운 설구	0	2	64
+1175	Acımasız Buz Adam	사나운 빙인	0	2	65
+1176	Acımasız Yeti	사나운 설거인	0	2	66
+1177	Acımasız Buz Golemi	사나운 얼음고렘	0	3	66
+1191	Buz Cadı	설마녀	0	4	74
+1192	Güçlü Buz Cadısı	설마녀	0	4	89
+1301	Ağaç Kurbağası Askeri	청와병	0	1	57
+1302	Ağaç Kurbağası Lideri	청와장	0	3	59
+1303	Gulyabani	풀잎머리도깨비	0	1	58
+1304	Sarı Kaplan Hayaleti	누렁범귀	0	4	75
+1305	Kurbağa Generali	수구대장군	0	3	61
+1306	Elit SarıKaplan Hayaleti	진누렁범귀	0	4	75
+1307	Elit SarıKaplan Hayaleti	누렁투범귀	0	5	97
+1308	Elit SarıKaplan Hayaleti	진누렁범귀	0	4	40
+1309	Elit SarıKaplan Hayaleti	진누렁범귀	0	4	65
+1310	Elit SarıKaplan Hayaleti	진누렁범귀	0	4	95
+1331	Büy.AğaçKurbağası Askeri	혀짧은 청와병	0	1	57
+1332	Büy.AğaçKurbağası Lideri	혀짧은 청와장	0	3	59
+1333	Büyük Gulyabani	혀짧은 풀잎머리도깨비	0	1	58
+1334	Büy.Sarı Kaplan Hayaleti	다혈질 누렁범귀	0	4	75
+1335	Kötü Kurbağa Generali	혀짧은 수구대장군	0	3	61
+1401	Yokedici	투귀병	0	1	66
+1402	Maymun Savaşçı	투귀척후병	0	2	73
+1403	Bin Savaşçı	투귀천장수	0	3	77
+1501	Taş Golemi	석인	0	1	69
+1502	Kaya Golemi	투석인	0	1	72
+1503	Dev Kaya Golemi	거대투석인	0	2	76
+1601	Öcü Savaşçı	투귀일꾼	0	0	68
+1602	Öcü Kasap	투귀감찰병	0	2	70
+1603	Öcü Berserker	투귀백장수	0	2	75
+1901	Dokuz Kuyruk	구미호	0	4	72
+1902	Elit Dokuz Kuyruk	진구미호	0	4	72
+1903	Elit Dokuz Kuyruk	진구미호	0	5	97
+1904	Elit Dokuz Kuyruk	진구미호	0	4	40
+1905	Elit Dokuz Kuyruk	진구미호	0	4	65
+1906	Elit Dokuz Kuyruk	진구미호	0	4	95
+2001	Yavru Örümcek	새끼거미	0	0	43
+2002	Zehirli Örümcek	독거미	0	0	45
+2003	Kırmızı Zehirli Örümcek	붉은독거미	0	1	48
+2004	Pençe Örümceği	집게거미	0	1	50
+2005	Asker Örümcek	병정거미	0	1	52
+2031	Yavru Zehirli Örümcek	새끼독거미	0	2	50
+2032	Ölümcül Zehirli Örümcek	맹독거미	0	2	52
+2033	Kırm. Ölüm. Zeh. Örümcek	붉은맹독거미	0	3	54
+2034	Zehirli Pençe Örümceği	집게독거미	0	3	56
+2035	Zehirli Asker Örümcek	병정독거미	0	3	58
+2036	Kibirli Zehirli Asker Ör	진병정독거미	0	3	58
+2051	Huysuz Zehirli Yavru Örü	사나운 새끼거미	0	0	43
+2052	Huysuz Ölümcül Zehirli Ö	사나운 독거미	0	0	45
+2053	Huys.Kırm.Öl.Zeh.Örümcek	사나운 붉은독거미	0	1	48
+2054	Huys.Zeh. Pençe Örümceği	사나운 집게거미	0	1	50
+2055	Huysuz Zehirli Asker Örü	사나운 병정거미	0	1	52
+2061	Küçük Zehirli Örümcek	새끼독거미	0	0	60
+2062	Öldürücü Zehirli Örümcek	맹독거미	0	1	62
+2063	Kırm. Ölüm. Zeh. Örümcek	붉은맹독거미	0	2	64
+2064	Zehirli Pençe Örümceği	집게독거미	0	2	66
+2065	Zehirli Asker Örümcek	병정독거미	0	3	68
+2071	Vahşi Yav. Zeh. Örümcek	사나운 새끼독거미	0	2	60
+2072	Vahşi Ölüm.Zeh. Örümcek	사나운 맹독거미	0	2	62
+2073	Vahşi Kırm. Zeh. Örümcek	사나운 붉은맹독거미	0	3	64
+2074	Vahşi Zeh.Pençe Örümceği	사나운 집게독거미	0	3	66
+2075	Vahşi Zeh. Asker Örümcek	사나운 병정독거미	0	3	68
+2076	Vahşi Güçlü Zeh. Örümcek	사나운 진병정독거미	0	3	68
+2091	Kraliçe Örümcek	여왕거미	0	4	60
+2092	Örümcek Barones	대왕거미	0	5	75
+2093	Elit Kraliçe Örümcek	진여왕거미	0	5	97
+2094	Örümcek Baronu	진여왕거미	0	5	72
+2095	Örümcek Yumurtası	거미의 알	0	5	70
+2101	Çöl Tilkisi	페넥여우	0	1	19
+2102	Çölün Uçan Gözü	비마귀안	0	1	37
+2103	Kral Akrep	대왕전갈	0	1	39
+2104	Genç Akrep Adam	전갈인간	0	2	44
+2105	Akrep Okçu	전갈궁수	0	2	47
+2106	Yılan Kılıççı	반인반사검병	0	2	48
+2107	Yılan Okçu	반인반사궁병	0	2	51
+2108	Çöl Haydutu	사막의무법자	0	3	54
+2131	Vahşi Akrep Adam	전갈인간	0	0	60
+2132	Akrep Okçu	전갈궁수	0	1	62
+2133	Yılan Kılıççı	반인반사검병	0	2	64
+2134	Yılan Okçu	반인반사궁병	0	2	66
+2135	Çöl Haydutu	사막의무법자	0	3	68
+2151	Güçlü Çöl Tilkisi	난폭한 페넥여우	0	1	19
+2152	Güçlü Derviş	난폭한 비마귀안	0	1	37
+2153	Güçlü Akrep Kral	난폭한 대왕전갈	0	1	39
+2154	Güçlü Akrep Adam	난폭한 전갈인간	0	2	44
+2155	Güçlü Akrep Okçu	난폭한 전갈궁수	0	1	47
+2156	Güçlü Yılan Kılıççı	난폭한 반인반사검병	0	2	48
+2157	Güçlü Yılan Okçu	난폭한 반인반사궁병	0	2	51
+2158	Güçlü Çöl Haydutu	난폭한 사막의무법자	0	3	54
+2191	Dev Çöl Kaplumbağası	거대사막거북	0	4	67
+2192	Elit Dev ÇölKaplumbağası	진거대사막거북	0	5	97
+2201	Savaş Kaplanı Kölesi	투지범졸개	0	1	69
+2202	Alev Hayaleti	화령	0	1	69
+2203	Savaş Kaplanı	투지범	0	2	70
+2204	Alev	참마인	0	2	71
+2205	Alev Savaşçı	태화무인	0	3	72
+2206	Alev Kral	화염왕	0	4	73
+2207	Elit Alev Kral	진화염왕	0	4	73
+2231	GüçlüSavaşKaplanı Kölesi	터프한 투지범졸개	0	1	69
+2232	Güçlü Alev Hayaleti	터프한 화령	0	1	69
+2233	Güçlü Savaş Kaplanı	터프한 투지범	0	2	70
+2234	Güçlü Alev Hayaleti	터프한 참마인	0	2	71
+2235	Güçlü Alev Savaşçısı	터프한 태화무인	0	3	72
+2291	Kırmızı Ejderha	화룡	0	5	75
+2301	Hayalet Ağaç	귀목	0	0	65
+2302	Hayalet Ağaç Kökü	밑둥귀목	0	0	67
+2303	Orman Perisi	목령	0	1	69
+2304	Hayalet Söğüt	화류귀목	0	1	70
+2305	Kötü Ağaç	흑귀목	0	2	71
+2306	Dev Hayalet Ağaç	거대귀목	0	4	84
+2307	Hayalet Ağaç Lordu	귀목령주	0	5	86
+2311	Kırmızı Hayalet Ağaç	적귀목	0	1	74
+2312	Kırm.Hayalet Ağaç Kökü	밑둥적귀목	0	2	76
+2313	Kırmızı Orman Perisi	적목령	0	2	77
+2314	Kırmızı Hayalet Söğüt	화류적귀목	0	3	80
+2315	Kırmızı Kötü Ağaç	흑적귀목	0	3	82
+2401	Setaou Savaşçısı	천의병사	0	0	87
+2402	Setaou Avcısı	천의궁병	0	0	89
+2403	Setaou Mistik	천의법사	0	1	89
+2404	Setaou Lideri	천의장수	0	1	90
+2411	Setaou Askeri	진천의병사	0	1	91
+2412	Setaou Okçusu	진천의궁병	0	2	93
+2413	Setaou Yargıcı	진천의법사	0	2	95
+2414	Setaou Komutanı	진천의장수	0	3	97
+2415	Setaou Komutanı	진천의장수	0	3	97
+2431	ÃµÀÇº´»ç	천의병사	0	0	80
+2432	ÃµÀÇ±Ãº´	천의궁병	0	0	82
+2433	ÃµÀÇ¹ı»ç	천의법사	0	1	82
+2434	ÃµÀÇÀå¼ö	천의장수	0	1	83
+2451	ÁøÃµÀÇº´»ç	진천의병사	0	1	84
+2452	ÁøÃµÀÇ±Ãº´	진천의궁병	0	2	86
+2453	ÁøÃµÀÇ¹ı»ç	진천의법사	0	2	88
+2454	ÁøÃµÀÇÀå¼ö	진천의장수	0	3	90
+2491	Komutan	천의장군	0	3	93
+2492	General	진천의장군	0	4	95
+2493	Beran-Setaou	수룡	0	5	97
+2494	General	천의장군	0	3	88
+2495	General	진천의장군	0	4	90
+2501	Cehennem Deniz Anası	아귀	0	0	79
+2502	Cehennem Köpeği	아귀견	0	1	80
+2503	Zombi	아귀 감염자	0	1	81
+2504	Cehennem Subayı	아귀 돌격병	0	2	82
+2505	Cehennem Bekçisi	아귀 감염 창병	0	2	83
+2506	İkibaşlı Cehennem Okçusu	아귀 감염 궁수	0	3	84
+2507	Cehennem Kepçesi	아귀 감염 대장	0	3	85
+2508	Cehennem Savaşçısı	아귀병	0	0	79
+2509	Cehennem Okçusu	아귀 궁병	0	1	80
+2510	Cehennem Mızrakçısı	아귀 창병	0	1	81
+2511	Cehennem Papazı	아귀 주술사	0	2	82
+2512	Cehennem Binbaşısı	아귀 검병	0	2	83
+2513	Cehennem Katliamcısı	아귀 마검사	0	3	84
+2514	Cehennem Generali	아귀 장수	0	3	86
+2541	Kötü Cehennem Savaşçısı	부활한 아귀병	0	0	79
+2542	Kötü Cehennem Okçusu	부활한 아귀 궁병	0	1	80
+2543	Kötü Cehennem Mızrakçısı	부활한 아귀 창병	0	1	81
+2544	Kötü Cehennem Papazı	부활한 아귀 주술사	0	2	82
+2545	Kötü Cehennem Binbaşısı	부활한 아귀 검병	0	2	83
+2546	Kötü Cehennem Katliamcı	부활한 아귀 마검사	0	3	84
+2547	Kötü Cehennem Generali	부활한 아귀 장수	0	3	86
+2591	Tartarus	아귀대장군	0	3	89
+2592	Cehennem Kırması	아귀대장군	0	3	89
+2593	Cehennem Kırması	아귀대장군	0	3	89
+2594	Cehennem Kırması	아귀대장군	0	3	89
+2595	Erebos	아귀대장군	0	3	89
+2596	Azrailin Tohumu	아귀대장군	0	3	89
+2597	Kharoon	아귀왕 염천	0	5	91
+2598	Azrail	아귀대제 파황	0	5	91
+2600	Zodyak Kurdu	십이지 늑대	0	2	1
+2601	Zodyak Mavi Kurdu	십이지 푸른늑대	0	3	1
+2602	Zodyak Lykosu	십이지 산경	0	3	1
+2603	Zodyak Okçusu	십이지 궁병	0	0	1
+2604	Zodyak Yaban Domuzu	십이지 멧돼지	0	2	1
+2605	Kır. Zodyak Yaban Domuzu	십이지 붉은 멧돼지	0	3	1
+2606	Zodyak Scrofa	십이지 저신 	0	3	1
+2607	Zodyak Mi Jung	십이지 미정	0	3	1
+2608	Zodyak Bera	십이지 웅신	0	3	1
+2609	Zodyak Ayısı	십이지 곰	0	2	1
+2610	Zodyak Boz Ayısı	십이지 회색곰	0	3	1
+2611	Zodyak Kahverengi Ayı	십이지 불곰	0	3	1
+2612	Zodyak Eun Jung	십이지 은정	0	3	1
+2613	Zodyak Tigris	십이지 호신	0	3	1
+2614	Zodyak Kaplan	십이지 호랑이	0	2	1
+2615	Beyaz Zodyak Kaplanı	십이지 대호	0	3	1
+2616	Zodyak Se Rang	십이지 세랑	0	3	1
+2617	Zodyak Jin Hee	십이지 진희	0	3	1
+2618	Zodyak Yavru Örümcek	십이지 새끼거미	0	0	1
+2619	Zodyak Zehirli Örümcek	십이지 독거미	0	0	1
+2620	Kr. Zod. Zehirli Örümcek	십이지 붉은거미	0	1	1
+2621	Zodyak Pençe Örümceği	십이지 집게거미	0	1	1
+2622	Zodyak Asker Örümceği	십이지 병정거미	0	1	1
+2623	Zodyak Alev Ruhu	십이지 화령	0	1	1
+2624	Zodyak Savaş Kaplanı	십이지 투지범	0	2	1
+2625	Zodyak Alevi	십이지 참마인	0	2	1
+2626	Zodyak Alev Savaşçısı	십이지 태화무인	0	3	1
+2627	Zodyak Ateş Kralı	십이지 화염왕	0	2	1
+2628	Karan. Zodyak Ateş Kralı	십이지 진화염왕	0	2	1
+2629	Vahşi Zodyak Piyadesi	십이지 오랑캐보병	0	0	1
+2630	Vahşi Zodyak Uşağı	십이지 오랑캐졸개	0	0	1
+2631	Vahşi Zodyak Okçusu	십이지 오랑캐궁수	0	1	1
+2632	Vahşi Zodyak Generali	십이지 오랑캐장수	0	2	1
+2633	Zalim Zodyak Yüzbaşı	십이지 비류단대장	0	2	1
+2634	Büyülü Zodyak Buzu	십이지 빙마	0	1	1
+2635	Zod. Katil Buz Balinası	십이지 얼음뿔범고래	0	1	1
+2636	Zodyak Buz Böceği	십이지 빙충	0	1	1
+2637	Zodyak Buz Aslanı	십이지 설구	0	2	1
+2638	Buzlu Zodyak Yüzbaşısı	십이지 빙인	0	2	1
+2639	Zodyak Yeti	십이지 설거인	0	2	1
+2640	Zodyak Buz Golemi	십이지 얼음고렘	0	3	1
+2641	Zodyak Çöl Tilkisi	십이지 페넥여우	0	1	1
+2642	Zodyak Kral Akrep	십이지 대왕전갈	0	1	1
+2643	Zodyak Yılan Dövüşçüsü	십이지 반인반사검병	0	2	1
+2644	Zodyak Yılan Okçusu	십이지 반인반사궁병	0	2	1
+2645	Zodyak Çöl Haydudu	십이지 사막의무법자	0	3	1
+2646	Zod. Siyah Rüzgar Askeri	십이지 흑풍단원	0	0	1
+2647	Zod. Siyah Rüzgar Delisi	십이지 흑풍돌격대	0	0	1
+2648	Zod. Siyah Rüzgar Okçusu	십이지 흑풍궁수	0	0	1
+2649	Zodyak Mahon	십이지 맹환	0	3	1
+2650	Zodyak Bo	십이지 보우	0	3	1
+2651	Zodyak Goo Pae	십이지 구패	0	3	1
+2652	Zodyak Chuong	십이지 추흔	0	3	1
+2653	Zalim Zodyak Akrep Adam	십이지 전갈인간	0	2	1
+2654	Zodyak Akrep Okçu	십이지 전갈궁수	0	2	1
+2655	Zodyak Dervişi	십이지 비마귀안	0	1	1
+2656	Zod. Ağaç Kurb. Askeri	십이지 청와병	0	1	1
+2657	Zod. Ağaç Kurb. Acemisi	십이지 청와장	0	3	1
+2658	Zodyak Gulyabanisi	십이지 풀잎머리도깨비	0	1	1
+2659	Zodyak Yokedicisi	십이지 투귀병	0	1	1
+2660	Zodyak Baltalı Savaşçısı	십이지 투귀척후병	0	2	1
+2661	Zodyak Bir Savaşçısı	십이지 투귀천장수	0	3	1
+2662	Karanlık Zodyak Fanatiği	십이지 밀교추종자	0	0	1
+2663	Zodyak Arahan	십이지 밀교나한병	0	1	1
+2664	Karanlık Zod. Dövüşçüsü	십이지 밀교나한투병	0	1	1
+2665	O. Karanlık Zod. Arahan	십이지 밀교나한장	0	2	1
+2666	Karanlık Zodyak Celladı	십이지 밀교집행병	0	1	1
+2667	Karanlık Zo. İşkencecisi	십이지 밀교강박령	0	3	1
+2668	Zodyak Çağırıcısı	십이지 밀교소환령	0	3	1
+2669	Gururlu Zodyak Ork	십이지 진웅귀병	0	0	1
+2670	Gururlu Zod. Ork Gözcüsü	십이지 진웅귀 척후병	0	1	1
+2671	Gururlu Zodyak Ork Döv.	십이지 진웅귀 투병	0	1	1
+2672	Gururlu Zo. Ork Büyücüsü	십이지 진웅귀 마병	0	2	1
+2673	Gururlu Zod. Ork General	십이지 진웅귀 장군	0	2	1
+2674	Kara Zodyak Ork	십이지 흑웅귀	0	3	1
+2675	Kara Zodyak Ork Devi	십이지 거대 흑웅귀	0	3	1
+2676	Zod. Kızılhırsız Amazonu	십이지 붉은도적단원	0	0	1
+2677	Zod. Kızılhır. Suikastçı	십이지 붉은도적단상급단	0	1	1
+2678	Zod. Kızılhırsız Büyücü	십이지 붉은도적단법사	0	1	1
+2679	Zod. Kızılhırsız Cellat	십이지 붉은도적단장수	0	2	1
+2680	Zodyak Yengeç Dövüşçüsü	십이지 갑각충	0	0	1
+2681	Akrep Zodyak Okçusu	십이지 갑각투충	0	1	1
+2682	Zodyak Karides Askeri	십이지 갑각구충	0	1	1
+2683	Şeyt. Zodyak Yerleşimci	십이지 갑각방충	0	2	1
+2684	Zodyak Zırhlı Yengeç	십이지 갑각신충	0	3	1
+2685	Devasa Zodyak Dişlek	십이지 거인병	0	0	1
+2686	Devasa Zodyak Kasabı	십이지 거인척후병	0	1	1
+2687	Zodyak Büyücüsü	십이지 거인법사	0	1	1
+2688	Zodyak Yarım Dünya	십이지 거인장군	0	2	1
+2689	Zodyak Öcü Celladı	십이지 저인병	0	0	1
+2690	Zodyak Öcü Okçusu	십이지 저인궁사	0	1	1
+2691	Zodyak Savaş Öcüsü	십이지 저인척후병	0	1	1
+2692	Zodyak Öcü Büyücüsü	십이지 저인법사	0	2	1
+2700	Vargulf	견인병	0	2	1
+2701	Vargulf Askeri	견인장수	0	1	1
+2702	Vargulf Generali	견인신장	0	3	1
+2703	Kerberos	두호병	0	2	1
+2704	Yılan Kerberos	두호장수	0	1	1
+2705	Ejder Kerberos	두호신장 	0	3	1
+2706	Kentor	마인병	0	2	1
+2707	Kentor Savaşçısı	마인장수	0	1	1
+2708	Kentor Generali	마인신장	0	3	1
+2709	Moloch	귀인병	0	2	1
+2710	Moloch Savaşçısı	귀인장수	0	1	1
+2711	Moloch Generali	귀인신장	0	3	1
+2712	Ölüm Kanadı	독인병	0	2	1
+2713	Çürük Ölüm Kanadı	독인장수	0	1	1
+2714	Küflü Ölüm Kanadı	독인신장	0	3	1
+2715	Zefir	천인병	0	2	1
+2716	Zefir Savaşçısı	천인장수	0	1	1
+2717	Zefir Generali	천인신장	0	3	1
+2718	Uruk	괴인병	0	2	1
+2719	Uruk Savaşçısı	괴인신장	0	1	1
+2720	Uruk Generali	괴인장수	0	3	1
+2721	Fantilla	코인병	0	2	1
+2722	Fantilla Savaşçısı	코인장수	0	1	1
+2723	Fantilla Generali	코인 신장	0	3	1
+2724	Spartalı	카인병	0	2	1
+2725	Spartalı Asker	카인장수	0	1	1
+2726	Spartalı General	카인신장	0	3	1
+2727	Kemik Gladyatör	철인병	0	2	1
+2728	Kemik Gladyatör Askeri	철인장수	0	1	1
+2729	Kemik Gladyatör Generali	철인신장	0	3	1
+2730	Uğur Böceği Yay	태풍궁수	0	2	1
+2731	Uğur Böceği Dev	태풍전사	0	1	1
+2732	Uğur Böceği Başak	태풍법사	0	3	1
+2733	Demir Okçu	녹두병	0	2	1
+2734	Demir Savaşçı	녹두투병	0	1	1
+2735	Demir General	녹두군사	0	3	1
+2736	Kaçak	타격진 도둑	0	0	80
+2737	Damage_Trap	Damage_Trap	0	0	70
+2750	Zi Subayı	십이지 대장 자	0	4	119
+2751	Zi Bekçisi	십이지 장 자	0	5	135
+2752	Zi Generali	수호장 곤돈(도감용)	0	5	135
+2760	Chou Subayı	십이지대장 축	0	4	119
+2761	Chou Bekçisi	십이지 장 축	0	5	135
+2762	Chou Generali	수호장 적분약(도감용)	0	5	135
+2770	Yin Subayı	십이지대장 인	0	4	119
+2771	Yin Bekçisi	십이지장 인	0	5	135
+2772	Yin Generali	수호장 섭제격(도감용)	0	5	135
+2780	Mao Subayı	십이지대장 묘	0	4	119
+2781	Mao Bekçisi	십이지장 묘	0	5	135
+2782	Mao Generali	수호장 단알(도감용)	0	5	135
+2790	Chen Subayı	십이지대장 진	0	4	119
+2791	Chen Bekçisi	십이지장 진	0	5	135
+2792	Chen Generali	수호장 집서(도감용)	0	5	135
+2800	Si Subayı	십이지대장 사	0	4	119
+2801	Si Bekçisi	십이지장 사	0	5	135
+2802	Si Generali	수호장 대황락(도감용)	0	5	135
+2810	Wu Subayı	십이지대장 오	0	4	119
+2811	Wu Bekçisi	십이지장 오	0	5	135
+2812	Wu Generali	수로장 돈장(도감용)	0	5	135
+2820	Wei Subayı	십이지대장 미	0	4	119
+2821	Wei Bekçisi	십이지장 미	0	5	135
+2822	Wei Generali	수호장 협흡 (도감용)	0	5	135
+2830	Shen Subayı	십이지대장 신	0	4	119
+2831	Shen Bekçisi	십이지장 신	0	5	135
+2832	Shen Generali	수호장 군탄(도감용)	0	5	135
+2840	Yu Subayı	십이지대장 유	0	4	119
+2841	Yu Bekçisi	십이지장 유	0	5	135
+2842	Yu Generali	수호장 작악(도감용)	0	5	135
+2850	Xu Subayı	십이지대장 술	0	4	119
+2851	Xu Bekçisi	십이지장 술	0	5	135
+2852	Xu Generali	수호장 엄무(도감용)	0	5	135
+2860	Hai Subayı	십이지대장 해	0	4	119
+2861	Hai Bekçisi	십이지장 해	0	5	135
+2862	Hai Generali	수호장 대연헌(도감용)	0	5	135
+2900	Fare Metini	십이지 마석	2	4	20
+2901	Manda Metini	십이지 마석	2	4	30
+2902	Kaplan Metini	십이지 마석	2	4	40
+2903	Ejder Metini	십이지 마석	2	4	50
+2904	Yılan Metini	십이지 마석	2	4	55
+2905	At Metini	십이지 마석(보너스)	2	5	130
+2906	Keçi Metini	십이지 마석(보너스)	2	5	130
+2907	Maymun Metini	십이지 마석(보너스)	2	5	20
+2908	Köpek Metini	십이지 마석(보너스)	2	5	30
+3001	Gnoll Savaşçı	낭인병	0	0	95
+3002	Gnoll Okçu	낭인궁사	0	1	96
+3003	Gnoll Savunucu	낭인척후병	0	1	97
+3004	Gnoll Büyücü	낭인대법사	0	2	98
+3005	Gnoll General	낭인상급장군	0	3	99
+3090	Lord Gnoll	낭인족 부족장	0	4	103
+3091	Baş Gnoll Nöbetçi	낭인족장	0	5	105
+3101	Tekgözlü Kavgacı	외안투귀병	0	0	98
+3102	Kiklop Asker	외안투귀척후병	0	1	99
+3103	Kiklop Büyücü	외안투귀법사	0	1	100
+3104	Kiklop Cellat	외안투귀장군	0	2	101
+3105	General Outis	외안투귀상급장군	0	3	102
+3190	Arges	외안투귀족 부족장	0	4	104
+3191	Polyphemos	외안투귀족장	0	5	106
+3201	Mantikor Savaşçı	범익병	0	0	96
+3202	Mantikor Asker	범익척후병	0	1	97
+3203	Mantikor Büyücü	범익법사	0	1	98
+3204	Mantikor Cellat	범익장군	0	2	99
+3205	General Kor	범익상급장군	0	3	101
+3290	Rakshasa	범익족 부족장	0	4	103
+3291	Martyaxwar	범익족장	0	5	105
+3301	Lemur Savaşçı	망량병	0	0	97
+3302	Lemur Asker	망량척후병	0	1	98
+3303	Lemur Büyücü	망량법사	0	1	99
+3304	Lemur Cellat	망량장군	0	2	100
+3305	Lemur General	망량상급장군	0	3	101
+3390	Lemur Prensi	망량족 부족장	0	4	103
+3391	Lemur Muhafız	망량족장	0	5	105
+3401	Triton Murana	어인병	0	0	96
+3402	Köpekbalığı Askeri	어인척후병	0	1	97
+3403	Triton Büyücü	어인법사	0	1	98
+3404	Triton Avcı	어인장군	0	2	99
+3405	Triton Usturacı	어인상급장군	0	3	101
+3490	General Kappa	어인족 부족장	0	4	103
+3491	Triton	어인족장	0	5	105
+3501	Kızılhırsız Amazon	붉은도적단원	0	0	95
+3502	Kızılhırsız Katil	붉은도적단상급단원	0	1	96
+3503	Kızılhırsız Büyücü	붉은도적단법사	0	1	97
+3504	Kızılhırsız Cellat	붉은도적단장수	0	2	98
+3505	Siyah General	붉은도적단상급장군	0	3	99
+3551	Zalim Kızılhırsız Amazon	진붉은도적단원	0	0	97
+3552	Zalim Kızılhırsız Katil	진붉은도적단상급단원	0	1	98
+3553	Zalim Kızılhırsız Büyücü	진붉은도적단법사	0	1	99
+3554	Zalim Kızılhırsız Cellat	진붉은도적단장수	0	2	100
+3555	Beyaz General	진붉은도적단상급장군	0	3	101
+3590	Kemiksurat	붉은도적단부단장	0	4	103
+3591	Kızıl Reis	붉은도적단단장	0	5	105
+3595	Zalim Kemiksurat	진붉은도적단부단장	0	4	105
+3596	Zalim Kızıl Reis	진붉은도적단단장	0	5	107
+3601	Yengeç Savaşçı	갑각충	0	0	96
+3602	Akrep Savaşçı	갑각투충	0	1	97
+3603	Karides Asker	갑각구충	0	1	98
+3604	Şeytani Keşiş	갑각방충	0	2	99
+3605	Zırhlı Yengeç	갑각신충	0	3	101
+3690	General Istakoz	거대갑각투신충	0	4	103
+3691	Kral Yengeç	대왕투귀충	0	5	105
+3701	Devasa Dişlek	거인병	0	0	100
+3702	Dev Kasap	거인척후병	0	1	101
+3703	Dev Büyücü	거인법사	0	1	103
+3704	Yarım Dünya	거인장군	0	2	104
+3705	Kaptan Kanca	거인상급장군	0	3	105
+3790	Gargoyle	거인족 부족장	0	4	106
+3791	Kral Voba	거인족장	0	5	107
+3801	Cellatork	저인병	0	0	99
+3802	Okçu Öcü	저인궁사	0	1	100
+3803	Kavgacı Öcü	저인척후병	0	1	101
+3804	Öcü Büyücü	저인법사	0	2	102
+3805	General Öcü	저인상급장군	0	3	103
+3890	Kaptan Şrak	저인족 부족장	0	4	105
+3891	Dev Öcü	저인족장	0	5	107
+3901	Daladam	귀목 보스	0	5	110
+3902	Eoten	귀목 보스	0	5	110
+3903	Ruhlu Ağaç	귀목 보스	0	5	110
+3904	Kaptan Kanca	지무신왕	0	2	101
+3905	Mu-Shu	천무신녀	0	5	110
+3906	Yah-Ki	진천무신녀	0	5	110
+3907	Moghu	흑사대법사	0	1	99
+3908	Karnifeks	흑사대장수	0	2	100
+3909	General Albus	흑사대 상급장군	0	3	101
+3910	Skeletos	흑사단장	0	4	103
+3911	Aku Beku	길 잃은 거대귀목	0	4	105
+3912	Arboretum	외로운 거대귀목	0	4	105
+3913	Sekomor	혼란한 거대귀목	0	4	105
+3949	Portal: Yeni kıta	포탈	1	5	1
+3950	Kappa	나가	0	0	97
+3951	Lagun Kappası	나가	0	0	97
+3952	Okyanus Kappası	나가	0	0	97
+3953	Kappa lideri	나가정령	0	3	105
+3954	Murana askeri	나가전사	0	2	103
+3955	Okyanus Murana savaşçısı	나가전사2	0	2	103
+3956	Siren kraliçesi	나가족장	0	4	110
+3957	Hidra'nın yavrusu	미니히드라1	0	4	110
+3958	Hidra'nın yavrusu	미니히드라2	0	4	110
+3959	Hidra'nın yavrusu	미니히드라3	0	4	110
+3960	Hidra	히드라1	0	5	120
+3961	Hidra	히드라2	0	5	120
+3962	Hidra	히드라3	0	5	120
+3963	Hidra	히드라(left)	0	5	120
+3964	Hidra	히드라(right)	0	5	120
+3965	Hidra'nın hazinesi	히드라보상	0	5	105
+3970	NONAME		4	5	1
+3980	Ateş elementeri	화염의정령	0	2	118
+3981	Buz elementeri	냉기의정령	0	2	118
+3982	Şimşek elementeri	전기의정령	0	2	118
+3983	Rüzgar elementeri	바람의정령	0	2	118
+3984	Toprak elementeri	대지의정령	0	2	118
+3985	Karanlık elementeri	어둠의정령	0	2	118
+3986	Kor ruhu	화염의 정령졸개	0	0	115
+3987	Buz ruhu	냉기의 정령졸개	0	0	115
+3988	Elektrik ruhu	전기의 정령졸개	0	0	115
+3989	Hava ruhu	바람의 정령졸개	0	0	115
+3990	Taş ruhu	대지의 정령졸개	0	0	115
+3991	Alacakaranlık ruhu	어둠의 정령졸개	0	0	115
+3992	Yangın hükumdarı	화염의정령(대)	0	3	120
+3993	Buzul hükumdarı	냉기의정령(대)	0	3	120
+3994	Yıldırım hükumdarı	전기의정령(대)	0	3	120
+3995	Fırtına hükumdarı	바람의정령(대)	0	3	120
+3996	Toprak hükumdarı	대지의정령(대)	0	3	120
+3997	Gece hükumdarı	어둠의정령(대)	0	3	120
+3998	Elementer dünyası	정령포탈	1	5	1
+3999	Çıkış	나가기포탈	1	5	1
+4000	Ateş Metini	화염석	2	5	120
+4001	Buz Metini	냉기석	2	5	120
+4002	Şimşek Metini	전기석	2	5	120
+4003	Rüzgar Metini	바람석	2	5	120
+4004	Toprak Metini	대지석	2	5	120
+4005	Gece Metini	어둠석	2	5	120
+4006	Elementer korucusu	정령골렘	0	3	120
+4101	Son devir bekçisi Zi	미니던전B 자	0	5	80
+4102	Son devir bekçisi Chou	미니던전B 축	0	5	80
+4103	Son devir bekçisi Yin	미니던전B 인	0	5	80
+4104	Son devir bekçisi Mao	미니던전B 묘	0	5	80
+4105	Son devir bekçisi Chen	미니던전B 진	0	5	80
+4106	Son devir bekçisi Si	미니던전B 사	0	5	80
+4107	Son devir bekçisi Wu	미니던전B 오	0	5	80
+4108	Son devir bekçisi Wei	미니던전B 미	0	5	80
+4109	Son devir bekçisi Shen	미니던전B 신	0	5	80
+4110	Son devir bekçisi Yu	미니던전B 유	0	5	80
+4111	Son devir bekçisi Xu	미니던전B 술	0	5	80
+4112	Son devir bekçisi Hai	미니던전B 해	0	5	80
+4121	Son devir bekçisi Zi	미니던전R 자	0	5	135
+4122	Son devir bekçisi Chou	미니던전R 축	0	5	135
+4123	Son devir bekçisi Yin	미니던전R 인	0	5	135
+4124	Son devir bekçisi Mao	미니던전R 묘	0	5	135
+4125	Son devir bekçisi Chen	미니던전R 진	0	5	135
+4126	Son devir bekçisi Si	미니던전R 사	0	5	135
+4127	Son devir bekçisi Wu	미니던전R 오	0	5	135
+4128	Son devir bekçisi Wei	미니던전R 미	0	5	135
+4129	Son devir bekçisi Shen	미니던전R 신	0	5	135
+4130	Son devir bekçisi Yu	미니던전R 유	0	5	135
+4131	Son devir bekçisi Xu	미니던전R 술	0	5	135
+4132	Son devir bekçisi Hai	미니던전R 해	0	5	135
+4141	Çöküş Metini	미니던전 마석	2	4	70
+4142	Kimsesizlik Metini	미니던전 마석	2	4	70
+4143	Lanet kapısı	미니던전 마석	2	4	120
+4144	Kıyamet Metini	미니던전 마석	2	4	120
+4145	Son devir Henkogu	미니던전 저인병	0	0	70
+4146	Son devir Henkogu	미니던전 저인병	0	0	120
+4147	Son devir Kappası	미니던전 나가	0	0	80
+4148	Son devir okyanus Kappa	미니던전 나가	0	0	120
+4149	Son devir Chuongu	미니던전 추흔	0	3	80
+4150	Arkan son devir Chuong	미니던전 추흔	0	3	120
+4151	Son devir büyücüsü	미니던전 붉은도적단법사	0	1	80
+4152	Arkan son devir büyücüsü	미니던전 붉은도적단법사	0	1	120
+4200	ZÇ: Setaou Savaşçısı	균열 천의병사	0	0	108
+4201	ZÇ: Setaou Savaşçısı	균열 천의궁병	0	0	110
+4202	ZÇ: Setaou Mistik	균열 천의법사	0	1	110
+4203	ZÇ: Setaou Askeri	균열 진천의병사	0	1	114
+4204	ZÇ: Setaou Okçusu	균열 진천의궁병	0	2	116
+4205	ZÇ: Setaou Yargıcı	균열 진천의법사	0	2	118
+4206	ZÇ: Setaou Komutanı	균열 진천의장수	0	3	120
+4207	ZÇ: Yüzbaşı Yonghan	균열 천의장군	0	3	116
+4208	ZÇ: Yüzbaşı Yonghan	균열 천의장군	0	3	110
+4209	ZÇ: General Yonghan	균열 진천의장군	0	4	115
+4210	ZÇ: General Yonghan	균열 진천의장군	0	4	115
+4220	ZÇ: Kor Alev Hayaleti	균열 화정	0	0	110
+4221	ZÇ: Kor Alev Kaplanı	균열 염정	0	0	112
+4222	ZÇ: Kor Alev	균열 극열정	0	1	113
+4223	ZÇ: Kor Alev Savaşçısı	균열 혈화정	0	1	113
+4224	ZÇ: Kor Alev Kralı	균열 화마	0	2	116
+4225	ZÇ: Kor Alev Golemi	균열 염마	0	2	116
+4226	ZÇ: Kor Alev Sakallısı	균열 화괴	0	2	118
+4227	ZÇ: Kor Alev Generali	균열 염괴	0	3	118
+4228	ZÇ: Kor Alev Lordu	균열 초열괴	0	3	120
+4229	ZÇ: İgnatör	균열 진초열괴	0	3	120
+4240	ZÇ: Ayaz Kristali	균열 빙정	0	0	110
+4241	ZÇ: Ayaz Böceği	균열 냉정	0	0	110
+4242	ZÇ: Ayaz Adam	균열 극빙정	0	1	113
+4243	ZÇ: Ayaz Yetisi	균열 한빙정	0	1	113
+4244	ZÇ: Ayaz Golemi	균열 빙마	0	2	116
+4245	ZÇ: Ayaz Trolü	균열 냉마	0	2	116
+4246	ZÇ: Ayaz Sakal	균열 빙괴	0	2	118
+4247	ZÇ: Ayaz Generali	균열 냉괴	0	3	118
+4248	ZÇ: Ayaz Lordu	균열 초냉괴	0	3	120
+4249	ZÇ: Magma Yeti	균열 진초냉괴	0	4	120
+4260	ZÇ: En-Tai Dövüşçüsü	균열 녹림병	0	0	107
+4261	ZÇ: En-Tai Savaşçısı	균열 녹림척후병	0	1	109
+4262	ZÇ: En-Tai Rahibi	균열 녹림법사	0	1	111
+4263	ZÇ: En-Tai Şifacısı	균열 녹림주술사	0	2	112
+4264	ZÇ: En-Tai İmhacısı	균열 녹림장수	0	3	113
+4265	ZÇ: En-Tai Hükümdarı	균열 녹림왕	0	4	128
+4266	ZÇ: Ochao Şifacısı	균열 망량주술사	0	1	113
+4267	ZÇ: En-Tai Dövüşçüsü	균열 녹림병	0	0	119
+4268	ZÇ: En-Tai Savaşçısı	균열 녹림척후병	0	1	120
+4269	ZÇ: En-Tai Rahibi	균열 녹림법사	0	1	120
+4270	ZÇ: En-Tai Şifacısı	균열 녹림주술사	0	2	121
+4271	ZÇ: En-Tai İmhacısı	균열 녹림장수	0	3	125
+4272	ZÇ: Bagjanamu	균열 녹림지왕	0	4	130
+4273	ZÇ: Ochao Askeri	균열 망량척후병	0	1	109
+4274	ZÇ: Ochao Büyücüsü	균열 망량법사	0	1	110
+4275	ZÇ: Ochao Celladı	균열 망량장군	0	2	111
+4276	ZÇ: Ochao Generali	균열 망량상급장군	0	3	112
+4280	TS: Setaou Savaşçısı	각성 천의병사	0	0	108
+4281	TS: Setaou Avcısı	각성 천의궁병	0	0	110
+4282	TS: Setaou Mistik	각성 천의법사	0	1	110
+4283	TS: Setaou Askeri	각성 진천의병사	0	1	114
+4284	TS: Setaou Okçusu	각성 진천의궁병	0	2	116
+4285	TS: Setaou Yargıcı	각성 진천의법사	0	2	118
+4286	TS: Setaou Komutanı	각성 진천의장수	0	3	120
+4287	TS: Yüzbaşı Yonghan	각성 천의장군	0	3	116
+4288	TS: Yüzbaşı Yonghan	각성 천의장군	0	3	110
+4289	TS: General Yonghan	각성 진천의장군	0	4	115
+4290	TS: General Yonghan	각성 진천의장군	0	4	115
+4300	TS: Kor Alev Hayaleti	각성 화정	0	0	110
+4301	TS: Kor Alev Kaplanı	각성 염정	0	0	112
+4302	TS: Kor Alev	각성 극열정	0	1	113
+4303	TS: Kor Alev Savaşçısı	각성 혈화정	0	1	113
+4304	TS: Kor Alev Kralı	각성 화마	0	2	116
+4305	TS: Kor Alev Kaplanı	각성 염마	0	2	116
+4306	TS: Kor Alev Sakallısı	각성 화괴	0	2	118
+4307	TS: Kor Alev Generali	각성 염괴	0	3	118
+4308	TS: Kor Alev Lordu	각성 초열괴	0	3	120
+4309	TS: İgnatör	각성 진초열괴	0	3	120
+4320	TS: Ayaz Kristali	각성 빙정	0	0	110
+4321	TS: Ayaz Böceği	각성 냉정	0	0	110
+4322	TS: Ayaz Adam	각성 극빙정	0	1	113
+4323	TS: Ayaz Yetisi	각성 한빙정	0	1	113
+4324	TS: Ayaz Golemi	각성 빙마	0	2	116
+4325	TS: Ayaz Trolü	각성 냉마	0	2	116
+4326	TS: Ayaz Sakal	각성 빙괴	0	2	118
+4327	TS: Ayaz Generali	각성 냉괴	0	3	118
+4328	TS: Ayaz Lordu	각성 초냉괴	0	3	120
+4329	TS: Magma Yeti	각성 진초냉괴	0	4	120
+4340	TS: En-Tai Dövüşçüsü	각성 녹림병	0	0	107
+4341	TS: En-Tai Savaşçısı	각성 녹림척후병	0	1	109
+4342	TS: En-Tai Rahibi	각성 녹림법사	0	1	111
+4343	TS: En-Tai Şifacısı	각성 녹림주술사	0	2	112
+4344	TS: En-Tai İmhacısı	각성 녹림장수	0	3	113
+4345	TS: En-Tai Hükümdarı	각성 녹림왕	0	4	128
+4346	TS: Ochao Şifacısı	각성 망량주술사	0	1	113
+4347	TS: En-Tai Dövüşçüsü	각성 녹림병	0	0	119
+4348	TS: En-Tai Savaşçısı	각성 녹림척후병	0	1	120
+4349	TS: En-Tai Rahibi	각성 녹림법사	0	1	120
+4350	TS: En-Tai Şifacısı	각성 녹림주술사	0	2	121
+4351	TS: En-Tai İmhacısı	각성 녹림장수	0	3	125
+4352	TS: Bagjanamu	각성 녹림지왕	0	4	130
+4353	TS: Ochao Askeri	각성 망량척후병	0	1	109
+4354	TS: Ochao Büyücüsü	각성 망량법사	0	1	110
+4355	TS: Ochao Celladı	각성 망량장군	0	2	111
+4356	TS: Ochao Generali	각성 망량상급장군	0	3	112
+4400	ZÇ: Beran-Setaou	균열 수룡	0	5	122
+4401	ZÇ: Razadör	균열 야마천	0	4	130
+4402	ZÇ: Nemere	균열 한마의	0	4	130
+4403	ZÇ: Jotun Thrym	균열 뇌마	0	5	135
+4410	TS: Beran-Setaou	각성 수룡	0	5	122
+4411	TS: Razadör	각성 야마천	0	4	130
+4412	TS: Nemere	각성 한마의	0	4	130
+4413	TS: Jotun Thrym	각성 뇌마	0	5	135
+4420	W: En-Tai Warrior	W_녹림병	0	0	117
+4421	W: En-Tai Soldier	W_녹림척후병	0	1	118
+4422	W: En-Tai Druid	W_녹림법사	0	1	118
+4423	W: En-Tai Healer	W_녹림주술사	0	2	119
+4424	W: En-Tai Destroyer	W_녹림장수	0	3	120
+4429	W: Bagjanamu	W_녹림지왕	0	5	120
+4430	W: Gnoll Archer	W_낭인궁사	0	1	117
+4431	W: Cyclops Soldier	W_외안투귀척후병	0	1	118
+4432	W: Cyclops Magician	W_외안투귀법사	0	1	118
+4433	W: Cyclops Executioner	W_외안투귀장군	0	2	119
+4434	W: General Outis	W_외안투귀상급장군	0	3	120
+4439	W: Polyphemos	W_외안투귀족장	0	5	120
+4440	W: Hell Archer	W_아귀 궁병	0	1	117
+4441	W: Hell Spearman	W_아귀 창병	0	1	118
+4442	W: Hell Priest	W_아귀 주술사	0	2	118
+4443	W: Hell Major	W_아귀 검병	0	2	119
+4444	W: Hell General	W_아귀 장수	0	3	120
+4449	W: Azrael	W_아귀대제파황	0	5	120
+4450	W: Big Tree Frog Soldier	W_청와병	0	1	117
+4451	W: Tree Frog Leader	W_청와장	0	1	118
+4452	W: Leflet Bogeyman	W_풀잎머리도깨비	0	2	118
+4453	W: E. Yellow Tiger Ghost	W_누렁범귀_상급	0	2	119
+4454	W: Bullfrog General	W_수구대장군	0	3	120
+4459	W: Yellow Tiger Ghost	W_누렁범귀	0	5	120
+4460	W: Ember Flame Ghost	W_화정	0	1	117
+4461	W: Ember Flame Tiger	W_염정	0	1	118
+4462	W: Ember Flame	W_극열정	0	2	118
+4463	W: Ember Flame Warrior	W_혈화정	0	2	119
+4464	W: Ember Flame King	W_화마+	0	3	120
+4469	W: Dragon Watcher Idall	W_인간형보스	0	5	120
+4470	W: Hangork	W_저인병	0	1	117
+4471	W: Archie Ogre	W_저인궁사	0	1	118
+4472	W: Brawl Ogre	W_저인척후병	0	2	118
+4473	W: Ogre Magus	W_저인법사	0	2	119
+4474	W: General Ogg	W_저인상급장군	0	3	120
+4479	W: The Great Ogre	W_저인족장	0	5	120
+5001	Korsan Tanaka	왜구 다나까	0	4	1
+5002	Hae-Tae	해태	0	4	60
+5003	Maymun	원숭이	0	0	1
+5004	Korsan Tanaka	왜구 다나까	0	0	80
+5101	Zayıf Maymun Asker	하선동 원병	0	0	22
+5102	Zayıf Maymun Atıcı	하선동 투마원병	0	1	25
+5103	Zayıf Maymun Savaşçı	하선동 기무원병	0	2	27
+5104	Zayıf Maymun General	하선동 원장수	0	3	29
+5111	Maymun Asker	중선동 원병	0	0	35
+5112	Maymun Atıcı	중선동 투마원병	0	1	37
+5113	Maymun Savaşçı	중선동 기무원병	0	2	39
+5114	Maymun General	중선동 원장수	0	3	40
+5115	Taş Maymun	중선동 돌원숭이	0	3	41
+5116	Maymun Lider	중선동 대장원숭이	0	3	42
+5121	Güçlü Maymun Asker	상선동 원병	0	0	45
+5122	Güçlü Maymun Atıcı	상선동 투마원병	0	1	47
+5123	Güçlü Maymun Savaşçı	상선동 기무원병	0	2	49
+5124	Güçlü Maymun General	상선동 원장수	0	3	52
+5125	Güçlü Taş Maymun	상선동 돌원숭이	0	3	53
+5126	Güçlü Altın Maymun	상선동 금원숭이	0	3	54
+5127	Güçlü Maymun Lider	상선동 대장원숭이	0	3	54
+5131	Zeki Küçük Maymun Asker	귀여운 하선동 원병	0	0	22
+5132	Zeki Küçük Maymun Atıcı	귀여운 하선동 투마원병	0	1	25
+5133	Zeki Küçük MaymunSavaşçı	귀여운 하선동 기무원병	0	2	27
+5134	Zeki Küçük Maymun Genera	귀여운 하선동 원장수	0	3	29
+5141	Zeki Maymun Asker	건방진 중선동 원병	0	0	35
+5142	Zeki Maymun Atıcı	건방진 중선동 투마원병	0	1	37
+5143	Zeki Maymun Savaşçı	건방진 중선동 기무원병	0	2	39
+5144	Zeki Maymun General	건방진 중선동 원장수	0	3	40
+5145	Zeki Taş Maymun	건방진 중선동 돌원숭이	0	3	41
+5146	Zeki Maymun Lider	건방진 중선동 대장원숭	0	3	42
+5151	Kötü Güçlü Maymun Asker	포악한 상선동 원병	0	0	45
+5152	Kötü Güçlü Maymun Atıcı	포악한 상선동 투마원병	0	1	47
+5153	Kötü Güçlü MaymunSavaşçı	포악한 상선동 기무원병	0	2	49
+5154	Kötü Güçlü Maymun Genera	포악한 상선동 원장수	0	3	52
+5155	Kötü Güçlü Taş Maymun	포악한 상선동 돌원숭이	0	3	53
+5156	Kötü Güçlü Altın Maymun	포악한 상선동 금원숭이	0	3	54
+5157	Kötü Güçlü Maymun Lider	포악한 상선동 대장원숭	0	3	54
+5161	Kaya Maymun	이산대성	0	4	30
+5162	Yürüyen Maymun	통천대성	0	4	43
+5163	Maymun Lordu	제천대성	0	4	55
+5201	Yabani Köpek	들개	0	0	1
+5202	Yaban Domuzu	멧돼지	0	0	3
+5203	Kırmızı Yaban Domuzu	붉은 멧돼지	0	1	4
+5204	Ayı	곰	0	0	4
+5205	Kahverengi Ayı	회색곰	0	1	5
+5206	Siyah Ayı	검은곰	0	0	6
+5207	Aç Kahverengi Ayı	불곰	0	1	6
+5208	Kaplan	호랑이	0	0	7
+5209	Beyaz Kaplan	대호	0	1	8
+6001	Kor Alev Hayaleti	화정	0	0	97
+6002	Kor Alev Kaplanı	염정	0	0	99
+6003	Kor Alev	극열정	0	1	100
+6004	Kor Alev Savaşçısı	혈화정	0	1	100
+6005	Kor Alev Kralı	화마	0	2	103
+6006	Kor Ateş Golemi	염마	0	2	103
+6007	Kor Alev Sakallısı	화괴	0	2	105
+6008	Kor Alev Generali	염괴	0	3	105
+6009	Kor Alev Lordu	초열괴	0	3	107
+6051	İgnatör	진초열괴	0	3	107
+6091	Razadör	야마천	0	4	108
+6101	Ayaz Kristali	빙정	0	0	97
+6102	Ayaz Böceği	냉정	0	0	99
+6103	Ayaz Adam	극빙정	0	1	100
+6104	Ayaz Yetisi	한빙정	0	1	100
+6105	Ayaz Golemi	빙마	0	2	103
+6106	Ayaz Trolü	냉마	0	2	103
+6107	Ayaz Sakal	빙괴	0	2	105
+6108	Ayaz Generali	냉괴	0	3	105
+6109	Ayaz Lordu	초냉괴	0	3	107
+6110	Magma Yeti	화정+	0	0	103
+6111	Magma Golemi	화염골렘+	0	2	107
+6112	Magma Böceği	극열정+	0	1	105
+6113	Magma Adamı	혈화정+	0	2	105
+6114	Magma Kristali	화마+	0	0	103
+6115	Magma Ejderi	새끼적룡	0	3	110
+6116	Ejderha Bekçisi İdall	인간형보스	0	4	113
+6117	İdall'in Cellati	부활한인간형	0	3	97
+6118	Ejderha Heykeli	드래곤석상	2	5	120
+6151	Szel	진초냉괴	0	4	107
+6191	Nemere	한마의	0	4	108
+6192	Jotun Thrym	뇌마	0	5	123
+6193	Ejderha Kraliçesi Meley	적룡	0	5	123
+6201	Magma Yeti	화정+	0	0	97
+6202	Magma Golemi	화염골렘+	0	2	98
+6203	Magma Böceği	극열정+	0	1	99
+6204	Magma Adamı	혈화정+	0	2	101
+6205	Magma Kristali	화마+	0	0	103
+6206	Magma Ejderi	새끼적룡	0	3	105
+6207	Ejderha Bekçisi İdall	인간형보스	0	4	107
+6209	Ejderha Heykeli	드래곤석상	2	5	105
+6301	Ochao Savaşçısı	망량병	0	0	98
+6302	Ochao Askeri	망량척후병	0	1	99
+6303	Ochao Büyücüsü	망량법사	0	1	100
+6304	Ochao Celladı	망량장군	0	2	101
+6305	Ochao Generali	망량상급장군	0	3	102
+6306	Güçlü Ochao Savaşçısı	망량병	0	0	117
+6307	Güçlü Ochao Askeri	망량척후병	0	1	117
+6308	Güçlü Ochao Büyücüsü	망량법사	0	1	118
+6309	Güçlü Ochao Celladı	망량장군	0	2	118
+6310	Güçlü Ochao Generali	망량상급장군	0	3	119
+6391	Ochao Dükü	망량족 부족장	0	4	103
+6392	Ochao Muhafızı	망량족장	0	5	108
+6393	Güçlü Ochao Dükü	망량족 부족장	0	4	120
+6394	Güçlü Ochao Muhafızı	망량족장	0	5	120
+6401	En Tai Savaşçısı	녹림병	0	0	100
+6402	En Tai Savaşçısı	녹림척후병	0	1	102
+6403	En Tai Rahibi	녹림법사	0	1	104
+6404	En Tai Şifacısı	녹림주술사	0	2	105
+6405	En Tai Bekçisi	문지기	0	5	105
+6406	En Tai İmhacısı	녹림장수	0	3	108
+6407	En Tai Hükümdarı	녹림왕	0	4	112
+6408	Bagjanamu	녹림지왕	0	4	120
+6409	Ochao Şifacısı	망량주술사	0	1	110
+6410	Güçlü En Tai Savaşçısı	녹림병	0	0	117
+6411	Güçlü En Tai Savaşçısı	녹림척후병	0	1	118
+6412	Güçlü En Tai Rahibi	녹림법사	0	1	118
+6413	Güçlü En Tai Şifacısı	녹림주술사	0	2	119
+6414	Güçlü En Tai İmhacısı	녹림장수	0	3	120
+6415	Beran Setaou Etkinliği	이벤트수룡	0	5	105
+6416	Nemere Etkinliği	이벤트한마의	0	5	105
+6417	Razadör Etkinliği	이벤트야마천	0	5	105
+6418	Jotun Thrym Etkinliği	이벤트뇌마	0	5	105
+6419	Kırmızı Ejderha Etkinl.	이벤트화룡	0	5	105
+6420	Gölge Savaşçısı	이벤트폭주무사	0	5	115
+6421	Baashido	이벤트백양	0	5	105
+6422	Agoni Metini	행운석	2	5	50
+6500	Ejderha Kralı Akzadur	작은용왕1	0	4	120
+6501	Ejderha Kralı Nafaroth	작은용왕2	0	4	121
+6502	Ejderha Kralı Exedyar	큰용왕1	0	4	122
+6503	Ejderha Kralı Ruilith	큰용왕2	0	4	123
+6504	Tyolduran	화룡	0	5	115
+6513	Ejderha portalı	포탈(전투입장)	1	5	1
+6514	Ejderha kralına git	포탈(보스방입장) 371 12	9	5	1
+6515	Çıkış	포탈(나가기)	1	5	1
+7001	Maymun Asker	상선동 원병	0	1	52
+7002	Maymun Binici	상선동 투마원병	0	1	53
+7003	Gimu Maymun Asker	상선동 기무원병	0	1	54
+7004	Maymun Komutan	상선동 원장수	0	2	54
+7005	Taş Maymun	상선동 돌원숭이	0	2	55
+7006	Altın Maymun	상선동 금원숭이	0	2	56
+7007	Maymun General	상선동 대장원숭이	0	3	56
+7008	Tu-Gui İşçi	투귀일꾼	0	1	52
+7009	Tu-Gui Asker Müfettiş	투귀감찰병	0	3	53
+7010	Tu-Gui Beyaz Komutan	투귀백장수	0	1	54
+7012	Bi-Ma-Gui-An	비마귀안	0	1	52
+7013	Akrep Kral	대왕전갈	0	1	53
+7014	Zeki Akrep Adam	전갈인간	0	2	54
+7015	Akrep Okçu	전갈궁수	0	1	54
+7016	Yılan Kılıççı	반인반사검병	0	2	55
+7017	Yılan Okçu	반인반사궁병	0	2	56
+7018	Çöl Haydutu	사막의무법자	0	3	56
+7019	Tu-Ji Asker	투지범졸개	0	1	59
+7020	Hwa-ryung	화령	0	1	59
+7021	Tu-Ji Serseri	투지범	0	2	60
+7022	Cham-Ma	참마인	0	2	61
+7023	Teawha-Mu	태화무인	0	3	62
+7024	Juk-gui	적귀목	0	1	64
+7025	Dung-Juk	밑둥적귀목	0	2	66
+7026	Juk-Mok	적목령	0	2	67
+7027	Hwaryu Juk	화류적귀목	0	3	70
+7028	Siyah Juk-Guimok	흑적귀목	0	3	72
+7029	Buz Şeytanı	빙마	0	1	35
+7030	Buz Boynuzlu Katil Balin	얼음뿔범고래	0	1	31
+7031	Buz Böceği	빙충	0	1	33
+7032	Seol-Gu	설구	0	2	35
+7033	Buz Adam	빙인	0	2	36
+7034	Buz Devi	설거인	0	2	38
+7035	Buz Golemi	얼음고렘	0	3	40
+7036	Buz Şeytanı	빙마	0	1	52
+7037	Buz Boynuzlu Katil Balin	얼음뿔범고래	0	1	53
+7038	Buz Böceği	빙충	0	1	54
+7039	Seol-Gu	설구	0	2	54
+7040	Buz Adam	빙인	0	2	55
+7041	Buz Devi	설거인	0	2	56
+7042	Buz Golemi	얼음고렘	0	3	57
+7043	Buz Şeytanı	빙마	0	1	81
+7044	Buz Boynuzlu Katil Balin	얼음뿔범고래	0	1	81
+7045	Buz Böceği	빙충	0	1	82
+7046	Seol-Gu	설구	0	2	83
+7047	Buz Adam	빙인	0	2	83
+7048	Buz Devi	설거인	0	2	84
+7049	Buz Golemi	얼음고렘	0	3	85
+7050	Çölün Uçan Gözü	비마귀안	0	1	35
+7051	Kral Akrep	대왕전갈	0	1	31
+7052	Genç Akrep Adam	전갈인간	0	2	33
+7053	Akrep Okçu	전갈궁수	0	1	35
+7054	Yılan Kılıççı	반인반사검병	0	2	36
+7055	Yılan Okçu	반인반사궁병	0	2	38
+7056	Çöl Haydutu	사막의무법자	0	3	40
+7057	Çölün Uçan Gözü	비마귀안	0	1	52
+7058	Kral Akrep	대왕전갈	0	1	53
+7059	Genç Akrep Adam	전갈인간	0	2	54
+7060	Akrep Okçu	전갈궁수	0	1	54
+7061	Yılan Kılıççı	반인반사검병	0	2	55
+7062	Yılan Okçu	반인반사궁병	0	2	56
+7063	Çöl Haydutu	사막의무법자	0	3	57
+7064	Çölün Uçan Gözü	비마귀안	0	1	81
+7065	Kral Akrep	대왕전갈	0	1	81
+7066	Genç Akrep Adam	전갈인간	0	2	82
+7067	Akrep Okçu	전갈궁수	0	1	83
+7068	Yılan Kılıççı	반인반사검병	0	2	83
+7069	Yılan Okçu	반인반사궁병	0	2	84
+7070	Çöl Haydutu	사막의무법자	0	3	85
+7071	Savaş Kaplanı Kölesi	투지범졸개	0	1	33
+7072	Alev Hayaleti	화령	0	1	35
+7073	Savaş Kaplanı	투지범	0	2	36
+7074	Alev	참마인	0	2	38
+7075	Alev Savaşçı	태화무인	0	3	40
+7076	Savaş Kaplanı Kölesi	투지범졸개	0	1	54
+7077	Alev Hayaleti	화령	0	1	54
+7078	Savaş Kaplanı	투지범	0	2	55
+7079	Alev	참마인	0	2	56
+7080	Alev Savaşçı	태화무인	0	3	57
+7081	Savaş Kaplanı Kölesi	투지범졸개	0	1	82
+7082	Alev Hayaleti	화령	0	1	83
+7083	Savaş Kaplanı	투지범	0	2	83
+7084	Alev	참마인	0	2	84
+7085	Alev Savaşçı	태화무인	0	3	85
+7086	Hayalet Ağaç Kökü	밑둥귀목	0	0	35
+7087	Orman Perisi	목령	0	1	36
+7088	Hayalet Söğüt	화류귀목	0	1	38
+7089	Kötü Ağaç	흑귀목	0	2	40
+7090	Hayalet Ağaç Kökü	밑둥귀목	0	0	54
+7091	Orman Perisi	목령	0	1	55
+7092	Hayalet Söğüt	화류귀목	0	1	56
+7093	Kötü Ağaç	흑귀목	0	2	57
+7094	Hayalet Ağaç Kökü	밑둥귀목	0	0	83
+7095	Orman Perisi	목령	0	1	83
+7096	Hayalet Söğüt	화류귀목	0	1	84
+7101	Top	청동대포	0	2	100
+7102	Top	청동대포	0	2	100
+7103	Ok Yağmuru Mancınığı	신기전	0	2	100
+7104	Ok Yağmuru Mancınığı	신기전	0	2	100
+7105	Kule	맹호포탑	0	2	100
+7106	Ocak	무쇠화로	0	2	100
+7107	Ocak	무쇠화로	2	5	85
+7108	Ocak	무쇠화로	2	5	85
+7109	Ocak	무쇠화로	2	5	85
+7110	Ocak	무쇠화로	2	5	85
+7111	Ocak	무쇠화로	2	5	85
+7112	Ocak	무쇠화로	2	5	85
+7113	Cheeta	긴팔원숭이1	0	1	72
+7114	Kraton	긴팔원숭이2	0	1	73
+7115	Charly	긴팔원숭이3	0	1	74
+7116	Nini	긴팔원숭이4	0	2	74
+7117	Zulu	골렘원숭이	0	2	75
+7118	Maymun Savaşçısı Deka	무인원숭이1	0	2	76
+7119	Maymun Savaşçısı Oba	무인원숭이2	0	3	76
+7120	Kral Keung	두목원숭이	0	1	72
+7121	Kiros	철퇴원숭이1	0	3	73
+7122	Manchu	철퇴원숭이2	0	1	74
+7123	Sgok	구미호원숭이	0	4	75
+7124	İndrik	사자원숭이	0	4	85
+8001	Üzüntü Metini	비마석	2	5	5
+8002	Dövüş Metini	전마석	2	5	10
+8003	Savaş Metini	투마석	2	5	15
+8004	Hırs Metini	욕마석	2	5	20
+8005	Siyah Metin	흑마석	2	5	25
+8006	Karanlık Metin	암마석	2	5	30
+8007	Kıskançlık Metini	질마석	2	5	35
+8008	Ruh Metini	혼마석	2	5	40
+8009	Gölge Metini	영마석	2	5	45
+8010	Dayanıklılık Metini	강마석	2	5	50
+8011	Şeytan Metini	악마석	2	5	55
+8012	Lanet Metini	운마석	2	5	60
+8013	Ölüm Metini	사마석	2	5	65
+8014	Katil Metini	살마석	2	5	70
+8015	Dayanıklılık Metini	강마석	2	5	50
+8016	Şeytan Metini	악마석	2	5	55
+8017	Lanet Metini	운마석	2	5	60
+8018	Ölüm Metini	사마석	2	5	65
+8019	Katil Metini	살마석	2	5	70
+8020	Shinsoo Kayası	신수석	2	5	1
+8021	Jinno Kayası	진노석	2	5	1
+8022	Chunjo Kayası	천조석	2	5	1
+8023	İmparatorluk Kayası	제국석	2	5	1
+8024	Metin Pung-Ma	풍마석	2	5	75
+8025	Metin Ma-An	마안석	2	5	80
+8026	Metin Tu-Young	투용석	2	5	85
+8027	Metin Jeon-Un	전운석	2	5	90
+8031	Dağ Metini	수룡석	2	5	60
+8032	İntikam Metini	수룡석	2	5	60
+8033	Kimsesizlik Metini	수룡석	2	5	60
+8034	Kibir Metini	수룡석	2	5	60
+8035	Kurtuluşun Metin'i	천루석	2	5	60
+8036	Hainliğin Metin'i	마혼석	2	5	80
+8037	Mutsuzluğun Metin'i	소마석	2	5	60
+8038	Misilleme Metin'i	무형석	2	5	85
+8039	Gurur Metini	묵혈석	2	5	60
+8040	Hasetin Metin'i	절망석	2	5	60
+8041	Paskalya Metini	부활석	2	5	10
+8042	Paskalya Metini	부활석	2	5	20
+8043	Paskalya Metini	부활석	2	5	30
+8044	Paskalya Metini	부활석	2	5	40
+8045	Paskalya Metini	부활석	2	5	50
+8046	Paskalya Metini	부활석	2	5	60
+8047	Paskalya Metini	부활석	2	5	70
+8048	Paskalya Metini	부활석	2	5	80
+8049	Paskalya Metini	부활석	2	5	90
+8050	Paskalya Metini	부활석	2	5	95
+8051	Işıksızlık Metini	혼마석	2	5	95
+8052	Korluğun Metini	귀마석	2	5	95
+8053	Mağrurluğun Metini	폭마석	2	5	100
+8054	Öfkenin Metini	용마석	2	5	100
+8055	Felaketin Metini	지마석	2	5	105
+8056	Namertlik Metini	망마석	2	5	105
+8057	Cehennem Ateşi Metini	화마석	2	5	100
+8058	Ayaz Metini	빙마석	2	5	100
+8059	Ağaç Yaratığı Metini	목마석	2	5	100
+8060	Bal Kabağı Metini	호박석	2	5	10
+8061	Orman Metini	목마석	2	5	120
+8101	Üzüntü Metini	비마석	2	5	5
+8102	Dövüş Metini	전마석	2	5	10
+8103	Savaş Metini	투마석	2	5	15
+8104	Hırs Metini	욕마석	2	5	20
+8105	Siyah Metin	흑마석	2	5	25
+8106	Karanlık Metin	암마석	2	5	30
+8107	Kıskançlık Metini	질마석	2	5	35
+8108	Ruh Metini	혼마석	2	5	40
+8109	Gölge Metini	영마석	2	5	45
+8110	Dayanıklılık Metini	강마석	2	5	50
+8111	Şeytan Metini	악마석	2	5	55
+8112	Düşüş Metini	운마석	2	5	60
+8113	Ölüm Metini	사마석	2	5	65
+8114	Katil Metini	살마석	2	5	70
+8115	Ay Metini	요마석	2	5	5
+8120	ZÇ: Dağ Metini	균열 수룡석	2	5	111
+8121	ZÇ: İntikam Metini	균열 수룡석	2	5	111
+8122	ZÇ: Kimsesizlik Metini	균열 수룡석	2	5	111
+8123	ZÇ: Kibir Metini	균열 수룡석	2	5	111
+8124	ZÇ: Cehennm Ateşi Metini	균열 화마석	2	5	115
+8125	ZÇ: İntikam Metini	균열 빙마석	2	5	115
+8126	ZÇ: Ağaç Yaratığı Metini	균열 목마석	2	5	120
+8127	ZÇ: Orman Metini	균열 목마석	2	5	125
+8130	TS: Dağ Metini	각성 수룡석	2	5	111
+8131	TS: İntikam Metini	각성 수룡석	2	5	111
+8132	TS: Kimsesizlik Metini	각성 수룡석	2	5	111
+8133	TS: Kibir Metini	각성 수룡석	2	5	111
+8134	TS: Cehennm Ateşi Metini	각성 화마석	2	5	115
+8135	TS: Ayaz Metini	각성 빙마석	2	5	115
+8136	TS: Ağaç Yaratığı Metini	각성 목마석	2	5	120
+8137	TS: Orman Metini	각성 목마석	2	5	125
+8200	Çikolata Metin Taşı	초콜릿석	2	5	10
+8201	Çikolata Metin Taşı	초콜릿석	2	5	10
+8203	Aydınlanma Metini	카림석	2	5	10
+8204	Yumurta Bayramı Metini	부활석	2	5	100
+8205	Yumurta Bayramı Metini	부활석	2	5	105
+8206	Yumurta Bayramı Metini	부활석	2	5	120
+8501	Yabani Köpek	들개	0	0	35
+8502	Yaban Domuzu	멧돼지	0	0	30
+8503	Ayı	곰	0	0	25
+8504	Beyaz Kaplan	대호	0	0	5
+8505	Siyah Dev Ork	거대 흑웅귀	0	0	10
+8506	Ağaç Kurbağası Lideri	청와장	0	0	12
+8507	Çöl Haydutu	사막의무법자	0	0	15
+8508	Mistik İşkenceci	밀교강박령	0	0	20
+8509	Mistik Haberci	밀교소환령	0	0	25
+8510	Alev Savaşçı	태화무인	0	0	21
+8511	Buz Golemi	얼음고렘	0	0	11
+8600	¿õ±Í´ëÁ·Àå	웅귀대족장	0	4	73
+8601	¿õ±Í´ëÁ·Àå	웅귀대족장	0	5	86
+8602	¹Ğ±³´ëÁÖ±³	밀교대주교	0	4	73
+8603	¹Ğ±³´ëÁÖ±³	밀교대주교	0	5	86
+8604	¸í»ç±Í¿Õ	명사귀왕	0	4	73
+8605	¸í»ç±Í¿Õ	명사귀왕	0	5	86
+8606	»ç½Å	사신	0	4	73
+8607	»ç½Å	사신	0	5	86
+8608	±¸¹ÌÈ£	구미호	0	4	73
+8609	±¸¹ÌÈ£	구미호	0	5	86
+8610	´©··Åõ¹ü±Í	누렁투범귀	0	4	73
+8611	´©··Åõ¹ü±Í	누렁투범귀	0	5	86
+8612	¿©¿Õ°Å¹Ì	여왕거미	0	4	73
+8613	¿©¿Õ°Å¹Ì	여왕거미	0	5	86
+8614	°Å´ë»ç¸·°ÅºÏ	거대사막거북	0	4	73
+8615	°Å´ë»ç¸·°ÅºÏ	거대사막거북	0	5	86
+8616	Billy Loomis	할로윈 대장장이	0	3	15
+8617	Jack Torrance	할로윈 대장장이	0	3	30
+8618	Chucky	할로윈 대장장이	0	3	50
+8619	Zep Hindle	할로윈 대장장이	0	3	65
+8620	Jason	할로윈 대장장이	0	3	75
+8621	Michael Myers	할로윈 대장장이	0	3	85
+8622	Freddy Krüger	할로윈 대장장이	0	3	95
+8623	Deri Surat	할로윈 대장장이	0	3	110
+9001	Silah Satıcısı	무기상점 주인	1	2	70
+9002	Zırh Satıcısı	방어구상점 주인	1	2	70
+9003	Satıcı	잡화상점 주인	1	2	70
+9004	Olay Yardımcısı	행사도우미 미애	1	2	70
+9005	Depocu	서평반점 할아버지	1	2	70
+9006	Yaşlı Kadın	노파	1	2	70
+9007	Silah Satıcısı	무기상점 주인	1	2	70
+9008	Zırh Satıcısı	방어구상점 주인	1	2	70
+9009	Balıkçı	어부	1	2	70
+9010	Genel Depocu Helen	만물상점주인 혜정	1	2	70
+9011	Evlenme Tasarımcısı	결혼도우미 하나	1	2	70
+9012	Işınlayıcı	공간이동술사	1	2	70
+9013	Yanılsama tüccarı	미궁 잡화상인	1	2	70
+10001	Jayang_Bölgesi 4002 8995	자양현 4002 8995	3	0	70
+10002	YounganBölgesi 4503 9050	영안읍성 4503 9050	3	0	70
+10003	BokjungBölgesi 1118 2161	복정현 1118 2161	3	0	70
+10004	Joan_Bölgesi 876 2131	조안읍성 876 2131	3	0	70
+10005	Bakra_Bölgesi 9064 2214	박라현 9064 2214	3	0	70
+10006	Pyungmo_Bölges 9372 2188	평무읍성 9372 2188	3	0	70
+10007	YounganBölgesi 4188 9560	영안읍성 4188 9560	3	0	70
+10008	Jayang_Bölgesi 3179 8332	자양현 3179 8332	3	0	70
+10009	Joan_Bölgesi 897 1127	조안읍성 897 1127	3	0	70
+10010	Bokjun_Bölgesi 1759 2210	복정현 1759 2210	3	0	70
+10011	Pyungmo_Bölges 9343 3143	평무읍성 9343 3143	3	0	70
+10012	Bakra_Bölgesi 8348 2926	박라현 8348 2926	3	0	70
+10013	Hwang_Tapınağı 5536 1441	밀교사원 5536 1441	3	0	70
+10014	Seungryong 3326 7468	승룡곡 3326 7468	3	0	70
+10015	Yongbi_Çölü 3467 6329	영비사막 3467 6329	3	0	70
+10016	Kuahklo_Dong 600 4960	거미던전 600 4960	3	0	70
+10017	Hwang_Tapınağı 5906 1102	밀교사원 5906 1102	3	0	70
+10018	Gunsam_Kulesi 2165 7270	사귀타워 2165 7270	3	0	70
+10019	Jayang_Bölgesi 3211 9009	자양현 3211 9009	3	0	70
+10020	Jungrang 1356 43	중랑현 1356 43	3	0	70
+10021	Bokjun_Bölgesi 1168 2920	복정현 1168 2920	3	0	70
+10022	Waryong 2219 93	와룡현 2219 93	3	0	70
+10023	Bakra_Bölgesi 9098 2948	박라현 9098 2948	3	0	70
+10024	Imha 2718 130	임하현 2718 130	3	0	70
+10025	Sohan_Dağı 4993 2984	서한산 4993 2984	3	0	70
+10026	Lungsam 2887 57	귀목림 2887 57	3	0	70
+10027	Lungsam 2866 437	귀목림 2866 437	3	0	70
+10028	Kızıl_Orman 11199 708	적귀목림 11199 708	3	0	70
+10029	Yılan_Vadisi 10590 7262	사황평야 10590 7262	3	0	70
+10030	Yongbi_Çölü 3519 6223	영비사막 3519 6223	3	0	70
+10031	Yılan_Vadisi 10590 7262	사황평야 10594 7525	3	0	70
+10032	Devler_Diyarı 8283 7635	사황곡 8283 7635	3	0	70
+10033	Zin-Grotto 10594 7525	천의동굴1층 10594 7525	3	0	70
+10034	2_Zin-Grotto 10594 7525	천의동굴2층 10594 7525	3	0	70
+10035	Deon-Zeon 917 5253	거미던전 917 5253	3	0	70
+10036	2_Deon-Zeon 7041 4642	거미던전지하 7041 4642	3	0	70
+10037	ÀÚ¾çÇö 3809 8233	자양현 3809 8233	3	0	70
+10038	½Å¼ö¼º 9752 1330	신수성 9752 1330	3	0	70
+10039	º¹Á¤Çö 1917 2900	복정현 1917 2900	3	0	70
+10040	Áø³ë¼º 9239 1836	진노성 9239 1836	3	0	70
+10041	¹Ú¶óÇö 8316 2154	박라현 8316 2154	3	0	70
+10042	ÃµÁ¶¼º 9772 1850	천조성 9772 1850	3	0	70
+10043	¼­ÇÑ»ê 3819 2969	서한산 3819 2969	3	0	70
+10044	½Å¼ö¼º 10189 1484	신수성 10189 1484	3	0	70
+10045	¼­ÇÑ»ê 3819 2969	서한산 3819 2969	3	0	70
+10046	½Å¼ö¼º 9774 1501	신수성 9774 1501	3	0	70
+10047	½Â·æ°î 2699 6752	승룡곡 2699 6752	3	0	70
+10048	Áø³ë¼º 9679 1994	진노성 9679 1994	3	0	70
+10049	½Â·æ°î 2699 6752	승룡곡 2699 6752	3	0	70
+10050	Áø³ë¼º 9256 2012	진노성 9256 2012	3	0	70
+10051	¿µºñ»ç¸· 3478 6189	영비사막 3478 6189	3	0	70
+10052	ÃµÁ¶¼º 9780 1995	천조성 9780 1995	3	0	70
+10053	¿µºñ»ç¸· 3478 6189	영비사막 3478 6189	3	0	70
+10054	ÃµÁ¶¼º 10190 2002	천조성 10190 2002	3	0	70
+10055	µµ¿°È­Áö 6011 6874	도염화지 6011 6874	3	0	70
+10056	¼­ÇÑ»ê 4368 2158	서한산 4368 2158	3	0	70
+10057	½Â·æ°î 3355 7558	승룡곡 3355 7558	3	0	70
+10058	¹Ğ±³»ç¿ø 5943 1337	밀교사원 5943 1337	3	0	70
+10059	¼­ÇÑ»ê 0 10496	서한산 0 10496	3	0	70
+10060	¹Ğ±³»ç¿ø 1536 10496	밀교사원 1536 10496	3	0	70
+10061	Ateş Diyarı 4608 10496	도염화지 4608 10496	3	0	70
+10062	½Â·æ°î 6144 10496	승룡곡 6144 10496	3	0	70
+10063	±Í¸ñ¸² 3031 266	귀목림 3031 266	3	0	70
+10064	Àû±Í¸ñ¸² 11133 534	적귀목림 11133 534	3	0	70
+10065	½Å±Í¸ñ¸² 7754 10553	신귀목림 7754 10553	3	0	70
+10066	½ÅÀû±Í¸ñ¸² 9915 11195	신적귀목림 9915 11195	3	0	70
+10067	MaymunZindanı 7752 4477	하선동 7752  4477	3	0	70
+10068	Jayang_Bölgesi 4062 8756	자양현 4062 8756	3	0	70
+10069	MaymunZindanı 8520 4477	하선동 8520  4477	3	0	70
+10070	BokjungBölgesi 1611 2130	복정현 1611 2130	3	0	70
+10071	MaymunZindanı 9288 4477	하선동 9288  4477	3	0	70
+10072	Bakra_Bölgesi 8727 2100	박라현 8727 2100	3	0	70
+10073	Yongbi_Çölü 3061 6202	영비사막 3061 6202	3	0	70
+10074	MaymunZindanı 1352 6532	중선동 1352  6532	3	0	70
+10075	Yongbi_Çölü 2879 5407	영비사막 2879 5407	3	0	70
+10076	MaymunZindanı 1352 7300	상선동 1352  7300	3	0	70
+10077	Sürgün_Mağarası 9 12078	천의동굴1층 9 12078	3	0	70
+10078	½Â·æ°î 2842 8106	승룡곡 2842 8106	3	0	70
+10079	Grotte1 1459 13236	천의동굴1층 1459 13236	3	0	70
+10080	Grotte2 2413 12755	천의동굴2층 2413 12755	3	0	70
+10081	ÃµÀÇµ¿±¼1Ãş 99 13618	천의동굴1층 99 13618	3	0	70
+10082	¿µ¾ÈÀ¾¼º 5028 9998	영안읍성 5028 9998	3	0	70
+10083	ÃµÀÇµ¿±¼1Ãş 1360 14972	천의동굴1층 1360 14972	3	0	70
+10084	ÃµÀÇµ¿±¼2Ãş 2414 14289	천의동굴2층 2414 14289	3	0	70
+10085	ÃµÀÇµ¿±¼1Ãş 99 15154	천의동굴1층 99 15154	3	0	70
+10086	Á¶¾ÈÀ¾¼º 616 1148	조안읍성 616 1148	3	0	70
+10087	ÃµÀÇµ¿±¼1Ãş 1360 16508	천의동굴1층 1360 16508	3	0	70
+10088	ÃµÀÇµ¿±¼2Ãş 2414 15825	천의동굴2층 2414 15825	3	0	70
+10089	ÃµÀÇµ¿±¼1Ãş 99 16690	천의동굴1층 99 16690	3	0	70
+10090	Æò¹«À¾¼º 9609 3188	평무읍성 9609 3188	3	0	70
+10091	ÃµÀÇµ¿±¼1Ãş 1360 18044	천의동굴1층 1360 18044	3	0	70
+10092	ÃµÀÇµ¿±¼2Ãş 2414 17361	천의동굴2층 2414 17361	3	0	70
+10093	Ejder_Kapısı 1731 12205	용의방 8192 10496	3	0	70
+10094	Ejder_Kapısı 1733 13743	용의방 1733  13743	3	0	70
+10095	Ejder_Kapısı 1728 15277	용의방 1728 15277	3	0	70
+10096	Ejder_Kapısı 1724 16824	용의방 1724 16824	3	0	70
+10097	ÖZ2 7040 5235	거미동굴2층 7040 5235 	3	0	70
+10098	ÖZ3 984 5711	거미동굴3층 984 5711	3	0	70
+10099	Burnu 11043 17885	용두곶 11043 17885	3	0	70
+10100	Burnu 10963 16744	용두곶 10963 16744	3	0	70
+10101	Nefrit 10869 16558	흑사만 10869 16558	3	0	70
+10102	Burnu 11664 16779	용두곶 11664 16779	3	0	70
+10103	Yıldırım 11345 16546	뇌성산 11345 16546	3	0	70
+10104	Yıldırım 11921 16550	뇌성산 11921 16550	3	0	70
+10105	Gautama 12263 16811	효무림 12263 16811	3	0	70
+10106	³ì¸²Áö 8168 15050	녹림지 8168 15050	3	0	70
+10109	ŞimşekSırtı 451 9492	전기1구역간다 451 9492	3	0	70
+10110	ŞimşekZirvesi 830 9454	전기2구역간다 830 9454	3	0	70
+10111	AteşSırtı 1430 9616	눈에서불바람 1430 9616	3	0	70
+10112	BuzDağı 690 10169	전기2에서눈 690 10169	3	0	70
+10113	ŞimşekZirvesi 1023 9623	눈에서전기2 1023 9623	3	0	70
+10114	BuzDağı 303 10113	불에서눈 303 10113	3	0	70
+10115	AteşZirvesi 2117 9447	불2구역간다 2117 9447	3	0	70
+10116	AteşSırtı 1720 9499	불1구역간다 1720 9499	3	0	70
+10117	RüzgarAdası 1973 10159	불에서바람 1973 10159	3	0	70
+10118	AteşZirvesi 2337 9633	바람에서불 2337 9633	3	0	70
+10119	KaranlıkSırtı 2710 9616	바람대지간다 2710 9616	3	0	70
+10120	RüzgarAdası 1582 10111	어둠에서바람 1582 10111	3	0	70
+10121	KaranlıkZirve 3393 9454	어둠2구역간다 3393 9454	3	0	70
+10122	KaranlıkSırtı 3012 9500	어둠1구역간다 3012 9500	3	0	70
+10123	ToprakÇölü 3069 10174	대지간다 3069 10174	3	0	70
+10124	KaranlıkZirve 3685 9551	대지에서어둠 3685 9551	3	0	70
+10501	. 345 361	. 345 361	9	5	1
+10502	. 106 547	. 106 547	9	5	1
+10503	. 75 368	. 75 368	9	5	1
+10504	. 89 746	. 89 746	9	5	1
+10505	. 520 352	. 520 352	9	5	1
+10506	. 541 45	. 541 45	9	5	1
+10507	. 211 109	. 211 109	9	5	1
+10508	. 615 49	. 615 49	9	5	1
+10509	. 284 705	. 284 705	9	5	1
+10510	. 145 310	. 145 310	9	5	1
+10511	. 553 285	. 553 285	9	5	1
+10512	. 487 274	. 487 274	9	5	1
+10513	. 626 291	. 626 291	9	5	1
+10514	. 285 569	. 285 569	9	5	1
+10515	. 80 303	. 80 303	9	5	1
+10516	. 315 238	. 315 238	9	5	1
+10517	. 416 272	. 416 272	9	5	1
+10518	. 72 498	. 72 498	9	5	1
+10519	. 215 495	. 215 495	9	5	1
+10520	. 523 415	. 523 415	9	5	1
+10521	. 72 498	. 72 498	9	5	1
+10522	. 518 480	. 518 480	9	5	1
+10523	. 583 379	. 583 379	9	5	1
+10524	. 459 558	. 459 558	9	5	1
+10601	. 345 361	. 345 361	9	5	1
+10602	. 520 352	. 520 352	9	5	1
+10603	. 487 274	. 487 274	9	5	1
+10604	. 75 368	. 75 368	9	5	1
+10605	. 211 109	. 211 109	9	5	1
+10606	. 215 495	. 215 495	9	5	1
+10607	. 315 238	. 315 238	9	5	1
+10608	. 520 352	. 520 352	9	5	1
+10609	. 284 705	. 284 705	9	5	1
+10610	. 145 310	. 145 310	9	5	1
+10611	. 416 272	. 416 272	9	5	1
+10612	. 80 303	. 80 303	9	5	1
+10613	. 72 498	. 72 498	9	5	1
+10614	. 106 547	. 106 547	9	5	1
+10615	. 523 415	. 523 415	9	5	1
+10616	. 541 45	. 541 45	9	5	1
+10617	. 72 121	. 72 121	9	5	1
+10618	. 518 480	. 518 480	9	5	1
+10619	. 89 746	. 89 746	9	5	1
+10620	. 285 569	. 285 569	9	5	1
+10621	. 615 49	. 615 49	9	5	1
+10622	. 72 498	. 72 498	9	5	1
+10623	. 583 379	. 583 379	9	5	1
+10624	. 459 558	. 459 558	9	5	1
+10625	. 609 553	. 609 553	9	5	1
+10626	. 594 338	. 594 338	9	5	1
+10701	. 75 368	. 75 368	9	5	1
+10702	. 541 45	. 541 45	9	5	1
+10703	. 615 49	. 615 49	9	5	1
+10704	. 284 705	. 284 705	9	5	1
+10705	. 520 352	. 520 352	9	5	1
+10706	. 553 285	. 553 285	9	5	1
+10707	. 145 310	. 145 310	9	5	1
+10708	. 345 361	. 345 361	9	5	1
+10709	. 523 415	. 523 415	9	5	1
+10710	. 72 498	. 72 498	9	5	1
+10711	. 626 291	. 626 291	9	5	1
+10712	. 487 274	. 487 274	9	5	1
+10713	. 72 498	. 72 498	9	5	1
+10714	. 106 547	. 106 547	9	5	1
+10715	. 518 480	. 518 480	9	5	1
+10716	. 285 569	. 285 569	9	5	1
+10717	. 80 303	. 80 303	9	5	1
+10718	. 211 109	. 211 109	9	5	1
+10719	. 416 272	. 416 272	9	5	1
+10720	. 215 495	. 215 495	9	5	1
+10721	. 315 238	. 315 238	9	5	1
+10722	. 89 746	. 89 746	9	5	1
+10723	. 583 379	. 583 379	9	5	1
+10724	. 459 558	. 459 558	9	5	1
+10725	. 609 553	. 609 553	9	5	1
+10726	. 594 338	. 594 338	9	5	1
+10801	. 70 581	. 70 581	9	5	1
+10802	. 69 664	. 69 664	9	5	1
+10803	. 132 660	. 132 660	9	5	1
+10804	. 184 566	. 184 566	9	5	1
+10805	. 285 567	. 285 567	9	5	1
+10806	. 272 636	. 272 636	9	5	1
+10807	. 191 667	. 191 667	9	5	1
+10808	. 345 563	. 345 563	9	5	1
+10809	. 400 570	. 400 570	9	5	1
+10810	. 68 806	. 68 806	9	5	1
+10811	. 140 811	. 140 811	9	5	1
+10812	. 189 722	. 189 722	9	5	1
+10813	. 274 722	. 274 722	9	5	1
+10814	.233 780	. 233 780	9	5	1
+10815	. 318 780	. 318 780	9	5	1
+10816	. 273 833	. 273 833	9	5	1
+10817	.356 717	. 359 717	9	5	1
+10818	.412 712	. 410 712	9	5	1
+10819	. 372 776	. 372 776	9	5	1
+10820	. 354 840	. 354 840	9	5	1
+10821	. 366 817	. 366 817	9	5	1
+10822	. 420 841	. 420 841	9	5	1
+10823	. 94 846	. 94 846	9	5	1
+10824	. 63 864	. 63 864	9	5	1
+10825	. 131 866	. 131 866	9	5	1
+10826	. 59 920	. 59 920	9	5	1
+10827	. 91 940	. 91 940	9	5	1
+10828	. 135 919	. 135 919	9	5	1
+10829	. 194 870	. 194 870	9	5	1
+10830	. 243 862	. 243 862	9	5	1
+10831	. 312 861	. 312 861	9	5	1
+10832	. 373 893	. 373 893	9	5	1
+10833	. 406 880	. 406 880	9	5	1
+10834	. 422 935	. 422 935	9	5	1
+10835	. 500 807	. 500 807	9	5	1
+11000	Köy Gardiyanı	경비병	1	2	100
+11001	Savaş Sorumlusu	경비병	1	2	100
+11002	Köy Gardiyanı	경비병	1	2	100
+11003	Savaş Sorumlusu	경비병	1	2	100
+11004	Köy Gardiyanı	경비병	1	2	100
+11005	Savaş Sorumlusu	경비병	1	2	100
+11100	Köy Gardiyanı	경비병	0	2	50
+11101	Savaş Sorumlusu	경비병	0	2	50
+11102	Köy Gardiyanı	경비병	0	2	50
+11103	Savaş Sorumlusu	경비병	0	2	50
+11104	Köy Gardiyanı	경비병	0	2	50
+11105	Savaş Sorumlusu	경비병	0	2	50
+11106	Köy Gardiyanı	경비병	0	2	70
+11107	Savaş Sorumlusu	경비병	0	2	70
+11108	Köy Gardiyanı	경비병	0	2	70
+11109	Savaş Sorumlusu	경비병	0	2	70
+11110	Köy Gardiyanı	경비병	0	2	70
+11111	Savaş Sorumlusu	경비병	0	2	70
+11112	Köy Gardiyanı	경비병	0	2	90
+11113	Savaş Sorumlusu	경비병	0	2	90
+11114	Köy Gardiyanı	경비병	0	2	90
+11115	Savaş Sorumlusu	경비병	0	2	90
+11116	Köy Gardiyanı	경비병	0	2	90
+11117	Savaş Sorumlusu	경비병	0	2	90
+11505	Altın Kurbağa	황금두꺼비	0	2	100
+11506	ºÀÈ­	봉화	0	2	100
+11507	ºÀÈ­	봉화	0	2	100
+11508	ºÀÈ­	봉화	0	2	100
+11509	ºÀÈ­	봉화	0	2	100
+11510	ºÀÈ­	봉화	0	2	100
+12000	Kamp Ateşi	모닥불	1	2	100
+13000	Tahta Kapı	나무문	4	5	70
+13001	Taş Kapı	돌문	4	5	70
+14000	Atölye	공작소	5	5	70
+14001	Atölye	공작소	5	5	70
+14002	Atölye	공작소	5	5	70
+14003	Atölye	공작소	5	5	70
+14004	Atölye	공작소	5	5	70
+14005	Atölye	공작소	5	5	70
+14006	Atölye	공작소	5	5	70
+14007	Atölye	공작소	5	5	70
+14008	Atölye	공작소	5	5	70
+14009	Atölye	공작소	5	5	70
+14010	Sunak	제단	5	5	70
+14011	Sunak	제단	5	5	70
+14012	Sunak	제단	5	5	70
+14013	Sunak	제단	5	5	70
+14014	Sunak	제단	5	5	70
+14015	Sunak	제단	5	5	70
+14016	Sunak	제단	5	5	70
+14017	Sunak	제단	5	5	70
+14018	Sunak	제단	5	5	70
+14019	Sunak	제단	5	5	70
+14020	Karargah	사령부	5	5	70
+14021	Karargah	사령부	5	5	70
+14022	Karargah	사령부	5	5	70
+14023	Karargah	사령부	5	5	70
+14024	Karargah	사령부	5	5	70
+14025	Karargah	사령부	5	5	70
+14026	Karargah	사령부	5	5	70
+14027	Karargah	사령부	5	5	70
+14028	Karargah	사령부	5	5	70
+14029	Karargah	사령부	5	5	70
+14030	Eğitim Kampı	수련장	5	5	70
+14031	Eğitim Kampı	수련장	5	5	70
+14032	Eğitim Kampı	수련장	5	5	70
+14033	Eğitim Kampı	수련장	5	5	70
+14034	Eğitim Kampı	수련장	5	5	70
+14035	Eğitim Kampı	수련장	5	5	70
+14036	Eğitim Kampı	수련장	5	5	70
+14037	Eğitim Kampı	수련장	5	5	70
+14038	Eğitim Kampı	수련장	5	5	70
+14039	Eğitim Kampı	수련장	5	5	70
+14040	Ocak	용광로	5	5	70
+14041	Ocak	용광로	5	5	70
+14042	Ocak	용광로	5	5	70
+14043	Ocak	용광로	5	5	70
+14044	Ocak	용광로	5	5	70
+14045	Ocak	용광로	5	5	70
+14046	Ocak	용광로	5	5	70
+14047	Ocak	용광로	5	5	70
+14048	Ocak	용광로	5	5	70
+14049	Ocak	용광로	5	5	70
+20001	Simyacı	연금술사	1	2	1
+20002	Aranyo	아라녀	1	2	1
+20003	Ah-Yu	아유	1	2	1
+20004	Dilenci	거지	1	2	1
+20005	Yonah	연나환	1	2	1
+20006	Mirine	미리내	1	2	1
+20007	Depocu	정육점	1	2	1
+20008	Octavio	옥구	1	2	1
+20009	Yaşlı Adam	노인	1	2	1
+20010	Seyyar satıcı	행상인	1	2	1
+20011	Uriel	을두지	1	2	1
+20012	Yu-Rang	유랑	1	2	1
+20013	Balıkçı	어부	1	2	1
+20014	Taurean	태우랑	1	2	1
+20015	Deokbae	나무꾼 덕배	1	2	1
+20016	Demirci	대장장이	1	2	1
+20017	Yu-Hwan	유환	1	2	1
+20018	Baek-Go	백고	1	2	1
+20019	Yang-Shin	양신	1	2	1
+20020	Hain Balso	배신자 발소	1	2	1
+20021	Ariyoung	아리영	1	2	1
+20022	Huahn-So	후안소	1	2	1
+20023	Soon	순유길	1	2	1
+20024	Harang	유화랑	1	2	1
+20025	.	.	1	2	1
+20026	Ji-Ryu	어지류	1	2	1
+20027	Gillian	길라소	1	2	1
+20028	Mirinenin Erkek Kardeşi	미리내오빠	1	2	1
+20029	Midilli	조랑말	1	2	1
+20030	At	말	1	2	1
+20031	Noel Baba	산타클로스	1	2	1
+20032	Noel Ağacı	크리스마스 트리	1	2	1
+20033	Noel Ağacı	크리스마스 트리	1	2	1
+20034	Noel Ağacı	크리스마스 트리	1	2	1
+20035	Bayrak	깃발	1	2	1
+20036	Bayrak	깃발	1	2	1
+20037	Bayrak	깃발	1	2	1
+20038	..	..	1	2	1
+20039	.	.	9	5	1
+20040	Emlakçı	토지관원	1	2	1
+20041	Sarhoş	남루한 행인	1	2	1
+20042	Seyyar satıcı	떠돌이 행상인	1	2	1
+20043	.	.	1	2	1
+20044	Silah Ustası, Stanley	무기 대장장이 철부	1	2	1
+20045	Zırhçı, Stanton	방어구 대장장이 철야	1	2	1
+20046	Kuyumcu, Starbuck	악세사리 대장장이 철장	1	2	1
+20047	Elmas Damarı	다이아몬드광맥	1	2	1
+20048	Kehribar Damarı	호박광맥	1	2	1
+20049	Fosil Tahta Damarı	화석목광맥	1	2	1
+20050	Bakır Damarı	구리광맥	1	2	1
+20051	Gümüş Damarı	은맥	1	2	1
+20052	Altın Damarı	금맥	1	2	1
+20053	Yeşim Damarı	옥석맥	1	2	1
+20054	Abanoz Damarı	흑단석맥	1	2	1
+20055	Midye Yığını	조개무더기	1	2	1
+20056	Beyaz Altın Damarı	백금맥	1	2	1
+20057	Kristal Damarı	수정석맥	1	2	1
+20058	Kuvars Damarı	자수정석맥	1	2	1
+20059	Cennetin Gözyaşı Damarı	천루광맥	1	2	1
+20060	Elmas Simyacısı	다이아몬드 연금술사 호	1	2	1
+20061	Kehribar Simyacısı	호박 연금술사 서아	1	2	1
+20062	Fosil Odun Simyacısı	화석목 연금술사 목상	1	2	1
+20063	Bakır Simyacısı	구리 연금술사 수교	1	2	1
+20064	Gümüş Simyacısı	은 연금술사 사술	1	2	1
+20065	Altın Simyacısı	금 연금술사 금수아	1	2	1
+20066	Yeşim Simyacısı	옥석 연금술사 신라	1	2	1
+20067	Abanoz Simyacısı	흑단 연금술사 흑비아	1	2	1
+20068	İnci Simyacısı	진주 연금술사 진혁	1	2	1
+20069	Beyaz Altın Simyacısı	백금 연금술사 금척	1	2	1
+20070	Kristal Simyacısı	수정 연금술사 정기	1	2	1
+20071	Ametist Simyacısı	자수정 연금술사 정철	1	2	1
+20072	Cennet Gözyaşı Simyacısı	천루 연금술사 할비	1	2	1
+20073	Eski Mühür	봉인석	1	2	1
+20074	ŞeytanKulesi SilahUstası	사귀탑 무기 대장장이	1	2	1
+20075	ŞeytanKulesi Zırh Ustası	사귀탑 방어구 대장장이	1	2	1
+20076	Şeytan Kulesi Kuyumcusu	사귀탑 악세사리 대장장	1	2	1
+20077	Sunak muhafızı	힘의제단 경비병 역산	1	2	70
+20078	Sunak muhafızı	힘의제단 경비병 역산	1	2	70
+20079	Sunak muhafızı	힘의제단 경비병 역산	1	2	70
+20080	Eğitim Rehberi	수련장 관리자 육번	1	2	1
+20081	Çalıntı Geçit Mühürü	통로 봉인석	1	5	1
+20082	Usta	관리자	1	2	1
+20083	Jegal-Tunseok	제국선관위 제갈윤석	1	2	1
+20084	Biyolog Chaegirab	생물학자 채기랍	1	2	1
+20085	Jimjunja	둔갑술사 진전자	1	2	1
+20086	Handu-Up	한두업	1	2	1
+20087	Wonda-Rim	원다림	1	2	1
+20088	Shuk-Sal	척살수 도평	1	2	1
+20089	Pung-Ho	풍진 성신호	1	2	1
+20090	Heuk-Yong	흑미화 영지	1	2	1
+20091	Seon-Pyeong	백선 아평	1	2	1
+20092	Hwa-Hee	야일화 오희	1	2	1
+20093	Koe-Pung	쾌살풍 현상	1	2	1
+20094	Hong-Hae	홍선 아해	1	2	1
+20095	Seon-Hae	조합사 곤	1	2	1
+20096	Dikili taş	시공간 이동석	1	2	1
+20097	Kale Girişi	이동관문	1	5	1
+20098	Kale Girişi	이동관문	1	5	1
+20099	Kale Girişi	이동관문	1	5	1
+20101	Beyaz At	백마	1	2	1
+20102	Kahverengi At	적마	1	2	1
+20103	Siyah At	흑마	1	2	1
+20104	Beyaz At	백마	1	2	1
+20105	Kahverengi At	적마	1	2	1
+20106	Siyah At	흑마	1	2	1
+20107	Beyaz At	백마	1	2	1
+20108	Kahverengi At	적마	1	2	1
+20109	Siyah At	흑마	1	2	1
+20110	Yaban Domuzu	boar	1	2	1
+20111	Kurt	dog_god	1	2	1
+20112	Kaplan	fire_tiger	1	2	1
+20113	Aslan	lion	1	2	1
+20114	white lion	white lion	1	2	1
+20115	Savaş Yaban Domuzu	boar2	1	2	1
+20116	Kızgın Kurt	dog_god2	1	2	1
+20117	Vahşi Kaplan	fire_tiger2	1	2	1
+20118	Yırtıcı Aslan	lion2	1	2	1
+20119	Asil Kara Yağız Atı	blackpony	1	2	1
+20120	Ã»ÀÇÀü°©È£	청의전갑호	1	2	1
+20121	ÁøÀûÀÇÀü°©È£	진적의전갑호	1	2	1
+20122	È²ÀÇÀü°©È£	황의전갑호	1	2	1
+20123	³ìÀÇÀü°©È£	녹의전갑호	1	2	1
+20124	ÈæÀÇÀü°©È£	흑의전갑호	1	2	1
+20125	¹éÀÇÀü°©È£	백의전갑호	1	2	1
+20126	Noel Baba	산타클로스	1	2	1
+20127	Yıl dönümü flaması 1	길드휘장1	1	2	1
+20128	Yıl dönümü flaması 2	길드휘장2	1	2	1
+20129	Yıl dönümü flaması 3	길드휘장3	1	2	1
+20130	Yıl dönümü flaması 4	길드휘장1	1	2	1
+20131	Yıl dönümü flaması 5	길드휘장2	1	2	1
+20132	Yıl dönümü flaması 6	길드휘장3	1	2	1
+20133	Yıl dönümü flaması 7	길드휘장4	1	2	1
+20134	Güneş flaması	여름휘장1	1	2	1
+20135	Noel Flaması	크리스마스휘장	1	2	1
+20138	Ramazan flaması	라마단휘장1	1	2	1
+20139	Lonca flaması (eflatun)	길드휘장1	1	2	1
+20140	Lonca flam. (mavi/yeşil)	길드휘장2	1	2	1
+20141	Lonca flama (kır./altın)	길드휘장3	1	2	1
+20142	Cadılar Bayramı Flaması	할로윈휘장1	1	2	1
+20143	Paskalya afişi	부활절휘장1	1	2	1
+20201	Àü°©¿ø	전갑원	1	2	1
+20202	Àü°©¶û	전갑랑	1	2	1
+20203	Àü°©È£	전갑호	1	2	1
+20204	Àü°©»çÀÚ	전갑사자	1	2	1
+20205	³­ÆøÇÑ Àü°©¿ø	난폭한 전갑원	1	2	1
+20206	³­ÆøÇÑ Àü°©¶û	난폭한 전갑랑	1	2	1
+20207	³­ÆøÇÑ Àü°©È£	난폭한 전갑호	1	2	1
+20208	³­ÆøÇÑ Àü°©»çÀÚ	난폭한 전갑사자	1	2	1
+20209	¿ë¸ÍÇÑ Àü°©¿ø	용맹한 전갑원	1	2	1
+20210	¿ë¸ÍÇÑ Àü°©¶û	용맹한 전갑랑	1	2	1
+20211	¿ë¸ÍÇÑ Àü°©È£	용맹한 전갑호	1	2	1
+20212	¿ë¸ÍÇÑ Àü°©»çÀÚ	용맹한 전갑사자	1	2	1
+20213	Àü°©¼ı¼ø·Ï	전갑숫순록	1	2	1
+20214	³­ÆøÇÑ Àü°©¼ı¼ø·Ï	난폭한 전갑숫순록	1	2	1
+20215	¿ë¸ÍÇÑ Àü°©¼ı¼ø·Ï	용맹한 전갑숫순록	1	2	1
+20216	Àü°©¾Ï¼ø·Ï	전갑암순록	1	2	1
+20217	³­ÆøÇÑ Àü°©¾Ï¼ø·Ï	난폭한 전갑암순록	1	2	1
+20218	¿ë¸ÍÇÑ Àü°©¾Ï¼ø·Ï	용맹한 전갑암순록	1	2	1
+20219	blackpony	blackpony	1	2	1
+20220	Å©¸®½º¸¶½º ¼ø·Ï	크리스마스 순록	1	2	1
+20221	Àü°©¹é¿õ	전갑백웅	1	2	1
+20222	Àü°©ÆÒ´õ	전갑팬더	1	2	1
+20223	Àü°©¼®·æÀÚ	전갑석룡자	1	2	1
+20224	³­ÆøÇÑ Àü°©¼®·æÀÚ	난폭한 전갑석룡자	1	2	1
+20225	¿ë¸ÍÇÑ Àü°©¼®·æÀÚ	용맹한 전갑석룡자	1	2	1
+20226	ÈæÀ¯´ÏÄÜ	흑유니콘	1	2	1
+20227	¹éÀ¯´ÏÄÜ	백유니콘	1	2	1
+20228	Àü°©¸ÍÁ¶	전갑맹조	1	2	1
+20229	³­ÆøÇÑ Àü°©¸ÍÁ¶	난폭한 전갑맹조	1	2	1
+20230	¿ë¸ÍÇÑ Àü°©¸ÍÁ¶	용맹한 전갑맹조	1	2	1
+20231	Àü°©Èæ¹ü	전갑흑범	1	2	1
+20232	Àü°©Ç¥¹ü	전갑표범	1	2	1
+20233	Muffin (kahve aksesuar)	노랑 전갑병아리1	1	2	1
+20234	Nugget (kahve aksesuar)	흰 전갑병아리1	1	2	1
+20235	Muffin (mavi aksesuar)	노랑 전갑병아리2	1	2	1
+20236	Nugget (mavi aksesuar)	흰 전갑병아리2	1	2	1
+20237	Muffin (yeşil aksesuar)	노랑 전갑병아리3	1	2	1
+20238	Nugget (yeşil aksesuar)	흰 전갑병아리3	1	2	1
+20239	Şimşek	크리스마스 순록 소환패1	1	2	1
+20240	Gümbürtü	크리스마스 순록 소환패2	1	2	1
+20241	Nugget (lacivert)	부활절 병아리 소환패(b)	1	5	1
+20242	Muffin (gül rengi)	부활절 병아리 소환패(r)	1	5	1
+20243	Kizaghan'ın Atı	pepsi mount	1	2	1
+20244	Nirvana Ejderhası	혼테일1	1	2	1
+20245	Samsara Ejderhası	혼테일2	1	2	1
+20246	Manni	메머드1	1	2	1
+20247	Manu	메머드2	1	2	1
+20248	Kahverengi Dövüş Tülüsü	낙타1	1	2	1
+20249	Siyah Dövüş Tülüsü	낙타2	1	2	1
+20250	Lav Cehennemi Keleri	17할로윈 사냥개1	1	2	1
+20251	Buz Cehennemi Keleri	17할로윈 사냥개2	1	2	1
+20252	Magma ejderi	붉은용	1	2	1
+20253	Appaloosa	바둑말	1	2	1
+20254	Beyaz tavşan	토끼1	1	2	1
+20255	Ay tavşanı	토끼2	1	2	1
+20257	Bernie	썰매개1	1	2	1
+20258	Maviş Barry	썰매개2	1	2	1
+20259	Kerberos (altın)	켈베로스1	1	2	1
+20260	Kerberos (gümüş)	켈베로스2	1	2	1
+20261	Spektral at	근위병말1	1	2	1
+20262	At Nokturnat	근위병말2	1	2	1
+20263	Gece Kanadı	박쥐탈것1	1	2	1
+20264	Karanlık kanat	박쥐탈것2	1	2	1
+20265	Ay gölgesi	얼음 말1	1	2	1
+20266	Gümüş yıldız	얼음 말2	1	2	1
+20267	Golden War-Ochs	황소1	1	2	1
+20268	Silver War-Ochs	황소2	1	2	1
+20269	White Sphinx	스핑크스1	1	2	1
+20270	Stone Sphinx	스핑크스2	1	2	1
+20300	Bedensel Savaş Öğretmeni	나한군 교관 장환	1	2	70
+20301	Zihinsel Savaş Öğretmeni	별기군 교관 서광	1	2	70
+20302	Yakın Dövüş Öğretmeni	비살군 교관 화영	1	2	70
+20303	Uzak Dövüş Öğretmeni	강노군 교관 안명	1	2	70
+20304	Büyülü Silah Öğretmeni	환무군 교관 아유카	1	2	70
+20305	Kara Büyü Öğretmeni	흑마군 교관 백천	1	2	70
+20306	Ejderha Gücü Öğretmeni	천룡군 교관 미유	1	2	70
+20307	İyileştirme Öğretmeni	광뢰군 교관 예진	1	2	70
+20320	Bedensel Savaş Öğretmeni	나한군 전주 요화	1	2	70
+20321	Zihinsel Savaş Öğretmeni	별기군 전주 조준	1	2	70
+20322	Yakın Dövüş Öğretmeni	비살군 전주 진마	1	2	70
+20323	Uzak Dövüş Öğretmeni	강노군 전주 진도	1	2	70
+20324	Büyülü Silah Öğretmeni	환무군 전주 비홍	1	2	70
+20325	Kara Büyü Öğretmeni	흑마군 전주 비연	1	2	70
+20326	Ejderha Gücü Öğretmeni	천룡군 전주 문유검	1	2	70
+20327	İyileştirme Öğretmeni	광뢰군 전주 황요	1	2	70
+20340	Bedensel Savaş Öğretmeni	나한군 수장 장환	1	2	70
+20341	Zihinsel Savaş Öğretmeni	별기군 수장 제민호	1	2	70
+20342	Yakın Dövüş Öğretmeni	비살군 수장 비사문	1	2	70
+20343	Uzak Dövüş Öğretmeni	강노군 수장 진아영	1	2	70
+20344	Büyülü Silah Öğretmeni	환무군 수장 곽요준	1	2	70
+20345	Kara Büyü Öğretmeni	흑마군 수장 사마희	1	2	70
+20346	Ejderha Gücü Öğretmeni	천룡군 수장 초선	1	2	70
+20347	İyileştirme Öğretmeni	광뢰군 수장 윤희	1	2	70
+20348	Şeytan Kulesi Bekçisi	사귀탑 경비병	1	2	70
+20349	Seyis	마구간 경비병	1	2	70
+20350	Zindan Bekçisi	동굴 경비병	1	2	70
+20351	Salon Bekçisi	식장 경비병	1	2	70
+20352	Hasun Taş Anıtı	하선동 구전비석	1	2	70
+20353	Seul Rong Taş Anıtı	승룡곡 주전비석	1	2	70
+20354	Şehir Bekçisi	신병교관 하우성	1	2	70
+20355	Yüzbaşı	경비대장 하우연	1	2	70
+20356	Ginseng Toplayıcısı	쓰러져 있는 심마니	1	2	70
+20357	Weol Anıtı	무명월척비	1	2	70
+20358	İsimsiz Çiçekler	이름없는 꽃	1	2	70
+20359	Eski Kutu ile Kağıtlar	오래된문서수발함	1	2	70
+20360	Wha Anıtı	무명화척비	1	2	70
+20361	Su Anıtı	무명수척비	1	2	70
+20362	Mok Anıtı	무명목척비	1	2	70
+20363	Gum Anıtı	무명금척비	1	2	70
+20364	Nakajima	나카지마	1	2	70
+20365	To Anıtı	무명토척비	1	2	70
+20366	Sa-Soe	사귀석쇄비	1	2	70
+20367	Katakomb Bekçisi	아귀동굴 경비병	1	2	70
+20368	Seyyar satıcı	떠돌이 행상인	1	2	1
+20369	Lee Chung	이충	1	2	1
+20370	Zehirlenen Asker	쓰러져 있는 밀정	1	2	1
+20371	Eski Mezar Taşı	고대의 비석	1	2	70
+20372	Aşınmış Taş Levha	신녀국의 비석	1	2	70
+20373	Koruma Görevlisi	용두곶 경비병	1	2	70
+20374	Bekçi	경비병	1	2	70
+20375	Ahşap Barikat	목책	1	2	70
+20376	Kim Rim	채기웅	1	2	70
+20377	Yak-Hwan	악룡도장 약환	1	2	70
+20378	Amiral Angmur	경비대장 악무르	1	2	70
+20379	Yaralı Asker	악무르 부하	1	2	70
+20380	Yon-I Gezgini	학자	1	2	70
+20381	Konfüçyus	촌장	1	2	70
+20382	Kaya Çiçeği	돌무더기	1	2	70
+20383	Jae-Seon Kim	장인 막뢰한	1	2	1
+20384	Noel Ağacı	크리스마스 트리	1	2	1
+20385	Am-heh Yutağı	적룡성비	1	2	1
+20386	İsfet Steli	적룡봉인비	1	2	1
+20387	Kader Kilidi	적룡대건	1	2	1
+20388	Ejderha Kapısı	적룡결계문	4	5	1
+20389	NoNAme	야마천석	1	2	1
+20390	Taramor Mezar Taşı	적룡봉인석	1	2	1
+20391	Güneş Bitkisi	돌무더기	1	2	1
+20392	Ölü Asker	얼어붙은 부하	1	2	1
+20393	Yaralı Asker	약환 부하	1	2	1
+20394	Ateş Diyarı Bekçisi	적룡성 경비병	1	2	70
+20395	Buz Dağı Muhafızı	백룡지성 경비병	1	2	70
+20396	Àû¼ö»ó´Ü ÆÇ¸Å¿ø	적수상단 판매원	1	2	70
+20397	Buz Aslanı	빙혈석	1	2	1
+20398	Arktos Küpü	빙봉인석	1	2	1
+20399	Kuzeyli Ejderha Sütunu	백룡지석	2	5	100
+20400	Bilge Myonghorang	현자 명호랑	1	2	1
+20401	Koloni Bekçisi	경비병	1	2	1
+20402	Portal Bekçisi	경비병	1	2	1
+20403	Amarok	경비병	1	2	1
+20404	Nagual	병장기상인	1	2	1
+20405	Waheela	행상인	1	2	1
+20406	NoNAme	녹림봉인석	1	2	1
+20407	Fenrir	녹림대주	1	2	1
+20408	Tapınak Bekçisi	신목던전 경비병	1	2	1
+20409	Orman Bekçisi	녹림지 보초병	1	2	1
+20410	Orman Casusu	녹림지 수색병	1	2	1
+20411	Orman Kaşifi	녹림지 정찰병	1	2	1
+20412	Orman Bekçileri Lideri	녹림지 경비병	1	2	1
+20413	Kawuco	도굴꾼	1	2	1
+20414	Andastra	무도관 관리인	1	2	1
+20415	Portal	녹림지	1	2	1
+20416	Sam Pumpkin	추운 호박머리	1	2	1
+20417	Okey Masası	미니게임 큐브	1	2	1
+20419	Ejderha Bekçisi Dolnarr	의천	1	2	1
+20420	Altın Ejderha Kutusu	용방보상	1	2	1
+20421	Ejderha Bekçisi Jaharr	의천2	1	2	1
+20422	Ejderha Yumurtası	적룡석	2	5	120
+20423	Ruh Kristali Simyacısı	첨정 연금술사 첨명	1	2	1
+20424	Yakut Simyacısı	홍옥 연금술사 홍명	1	2	1
+20425	Lal Simyacısı	석류 연금술사 석명	1	2	1
+20426	Zümrüt Simyacısı	녹주 연금술사 녹명	1	2	1
+20427	Safir Simyacısı	청옥 연금술사 청명	1	2	1
+20428	Turmalin Simyacısı	오광 연금술사 오명	1	2	1
+20429	Savaş Bölgesi Ustası	배틀필드 관리인	1	2	1
+20430	Pasta	TEN	1	2	1
+20431	Yıl Dönümü Tüccarı	축제 행상인	1	2	1
+20432	Hidra yumurtası	히드라알	2	5	120
+20433	Savaşçı heykeli	동상	1	2	1
+20434	Gemi direği	기둥돛	1	2	1
+20435	Meley'in izi	적룡비늘	1	2	1
+20436	Dümen	조타대	1	2	1
+20437	Onarım tahtası	수리패킷	2	5	1
+20438	Keşiş Milbon	밀본법사	1	2	1
+20439	Zi Portalı	포탈 (자)	1	5	1
+20440	Chou Portalı	포탈 (축)	1	5	1
+20441	Yin Portalı	포탈 (인)	1	5	1
+20442	Mao Portalı	포탈 (묘)	1	5	1
+20443	Chen Portalı	포탈 (진)	1	5	1
+20444	Si Portalı	포탈 (사)	1	5	1
+20445	Wu Portalı	포탈 (오)	1	5	1
+20446	Wei Portalı	포탈 (미)	1	5	1
+20447	Shen Portalı	포탈 (신)	1	5	1
+20448	Yu Portalı	포탈 (유)	1	5	1
+20449	Xu Portalı	포탈 (술)	1	5	1
+20450	Hai Portalı	포탈 (해)	1	5	1
+20451	Zodyak Tüccarı	십이지사원상인	1	2	1
+20452	Zi Heykeli	자신석상	2	5	5
+20453	Chou Heykeli	축신석상	2	5	5
+20454	Yin Heykeli	인신석상	2	5	5
+20455	Mao Heykeli	묘신석상	2	5	5
+20456	Chen Heykeli	진신석상	2	5	5
+20457	Si Heykeli	사신석상	2	5	5
+20458	Wu Heykeli	오신석상	2	5	5
+20459	Wei Heykeli	미신석상	2	5	5
+20460	Shen Heykeli	신신석상	2	5	5
+20461	Yu Heykeli	유신석상	2	5	5
+20462	Xu Heykeli	술신석상	2	5	5
+20463	Hai Heykeli	해신석상	2	5	5
+20464	Top	수호대포	0	2	100
+20465	Zodyak Portalı	십이지보스데미지 이펙트	1	2	70
+20470	Yanılsama heykeli	거북석상	1	2	1
+20471	Uyanış heykeli	각성의 석상	1	2	1
+20472	Zaman Çatlağı heykeli	균열의 석상	1	2	1
+20473	Cephanelik heykeli	무기 제조석상	1	2	1
+20474	Zırh ustası heykeli	방어구 제조석상	1	2	1
+20475	Kutsal set demircisi	장인 고귀한	1	2	1
+20476	Görkemli set demircisi	장인 숭고한	1	2	1
+20477	Kahraman set demircisi	장인 거룩한	1	2	1
+20478	Soylu set demircisi	장인 영롱한	1	2	1
+20479	Heybetli set demircisi	장인 찬란한	1	2	1
+20500	Ejderha Yumurtası	적룡석	2	5	105
+20501	Gaya Sandığı	용방보상(p)	1	2	1
+20502	Yutnori Masası	yutnori	1	2	1
+20503	Gaya Tüccarı	보석세공사	1	2	70
+20504	Gaya Mağazası	Gem Shop	1	2	70
+20505	Yut Çubukları	yut	1	2	1
+20506	Kralı yakala masası	Catchking	1	2	1
+20510	ZÇ: Sura Ruhu	균열 수라귀신	1	5	70
+20511	ZÇ: Am-heh Yutağı	균열 적룡성비	1	2	1
+20512	ZÇ: Taramor mezar taşı	균열 적룡봉인석	1	2	1
+20513	ZÇ: İsfet Steli	균열 적룡봉인비	1	2	1
+20514	ZÇ: Kader Kilidi	균열 적룡대건	1	2	1
+20515	ZÇ: Ejder Kapısı	균열 적룡결계문	4	5	1
+20516	ZÇ: Buz Arslanı	균열 빙혈석	1	2	1
+20517	ZÇ: Arktos Küpü	균열 빙봉인석	1	2	1
+20518	ZÇ: Kuzey ejderi sütunu	균열 백룡지석	2	5	120
+20519	ZÇ: Orman Bekçisi	균열 녹림지 보초병	1	2	1
+20520	ZÇ: Orman Casusu	균열 녹림지 수색병	1	2	1
+20521	ZÇ: Orman İzcisi	균열 녹림지 정찰병	1	2	1
+20522	ZÇ: Orman B. Lideri	균열 녹림지 경비병	1	2	1
+20530	TS: Sura Ruhu	각성 수라귀신	1	5	70
+20531	TS: Am-heh Yutağı	각성 적룡성비	1	2	1
+20532	TS: Taramor mezar taşı	각성 적룡봉인석	1	2	1
+20533	TS: İsfet Steli	각성 적룡봉인비	1	2	1
+20534	TS: Kader Kilidi	각성 적룡대건	1	2	1
+20535	TS: Ejder Kapısı	각성 적룡결계문	4	5	1
+20536	TS: Buz Arslanı	각성 빙혈석	1	2	1
+20537	TS: Arktos Küpü	각성 빙봉인석	1	2	1
+20538	TS: Kuzey Ejderi Sütunu	각성 백룡지석	2	5	120
+20539	TS: Orman Bekçisi	각성 녹림지 보초병	1	2	1
+20540	TS: Orman Casusu	각성 녹림지 수색병	1	2	1
+20541	TS: Orman İzcisi	각성 녹림지 정찰병	1	2	1
+20542	TS: Orman B. Lideri	각성 녹림지 경비병	1	2	1
+20650	Madalya korucusu	길드상인(pve)	1	2	1
+20702	Enerji Tapınağı	기력의 성황당	2	5	0
+20703	Şans Tapınağı	도둑의 성황당	2	5	0
+20704	Güç Tapınağı	무력의 성황당	2	5	0
+20705	Hazine Tapınağı	금화의 성황당	2	5	0
+20706	Aydınlanma Tapınağı	신비의 성황당	2	5	0
+20707	Æ÷Å»(°İÀüÁö) 385 385	포탈(격전지) 385 385	9	5	1
+30000	°³ÀÎ»óÁ¡	개인상점	1	2	1
+30001	°³ÀÎ»óÁ¡	개인상점	1	2	1
+30002	Binbir Gece	양탄자	1	2	1
+30003	Mangal Ustası	군고구마	1	2	1
+30004	Hazine Avcısı	보물상점	1	2	1
+30005	Kısık Ateş	저금통	1	2	1
+30006	Silah Satıcısı	무기	1	2	1
+30007	Zırh Ticareti	갑옷	1	2	1
+30008	Simyacı	용혼석	1	2	1
+30101	Kud Heykeli	나찰인증석	1	2	70
+30102	Bazalt Dikilitaş	사신금제비	1	2	70
+30103	Kaplumbağa Kayalığı	현황석	1	2	70
+30104	Runik Direği	척하석	1	2	70
+30111	1. Lanet Kapısı	시구문	4	2	85
+30112	2. Lanet Kapısı	시구문	4	2	85
+30113	3. Lanet Kapısı	시구문	4	2	85
+30114	4. Lanet Kapısı	시구문	4	2	85
+30115	5. Lanet Kapısı	시구문	4	2	85
+30116	6. Lanet Kapısı	시구문	4	2	85
+30117	7. Lanet Kapısı	시구문	4	2	85
+30118	8. Lanet Kapısı	시구문	4	2	85
+30119	9. Lanet Kapısı	시구문	4	2	85
+30120	Bitki Çantası	이름없는가방	1	2	70
+30121	Sura Ruhu	수라귀신	1	5	70
+30122	Savaşçı Ruhu	무사귀신	1	5	70
+30123	Karanlık Tapınak	용의숭배신전	1	2	70
+30124	Sura-İskeleti 1	수라해골1	1	2	70
+30125	Sura-İskeleti 2	수라해골2	1	2	70
+30126	Sura-İskeleti 3	수라해골3	1	2	70
+30127	Sura-İskeleti 4	수라해골4	1	2	70
+30128	Sura-İskeleti 5	수라해골5	1	2	70
+30129	Paskalya Tavşanı	묘신	1	2	1
+30130	Mezar Taşı	지중절지비	1	2	1
+30131	Bay B.	몬스터백	1	2	1
+30132	Bay B.	몬스터백2	1	2	1
+30301	Ruh Kristali Damarı	첨정광맥	1	2	1
+30302	Yakut Damarı	홍옥광맥	1	2	1
+30303	Grena Damarı	석류석광맥	1	2	1
+30304	Zümrüt Damarı	녹주석광맥	1	2	1
+30305	Safir Damarı	청옥광맥	1	2	1
+30306	Turmalin Maden Damarı	오광석광맥	1	2	1
+30307	Summer	여름 NPC	1	2	1
+30308	Posta kutusu	우체통	1	2	1
+33001	¸ğÇè°¡ÀÇ ÇØ°ñ	모험가의 해골	1	2	70
+33002	Tarihçi	사학자 사마성	1	2	1
+33003	Niyetli Vatandaş	굶주린 자	1	2	1
+33004	Niyetli Vatandaş	굶주린 자	1	2	1
+33005	Niyetli Vatandaş	굶주린 자	1	2	1
+33006	Niyetli Vatandaş	굶주린 자	1	2	1
+33007	Niyetli Vatandaş	굶주린 자	1	2	1
+33008	Jack Pumpkin	호박머리 장씨	1	2	1
+33009	Kan Ritüeli	피의 제단	1	2	1
+34001	Ateş Ankası	불사조	1	5	1
+34002	Yavru Ren Geyiği	아기 순록	1	5	1
+34003	Buz Ankası	빙염불사조	1	5	1
+34004	Yavru Azrail	파황	1	5	1
+34005	Porki	아기 전갑원	1	5	1
+34006	Rufus	아기 전갑랑	1	5	1
+34007	Khan	아기 전갑호	1	5	1
+34008	Leonidas	아기 전갑사자	1	5	1
+34009	Yavru Azrail	파황	1	5	1
+34010	Bambi	크리스마스아기 순록	1	5	1
+34011	Knuud	아기 백곰	1	5	1
+34012	Bao Bao	아기 팬더	1	5	1
+34013	Şişko Cellatcık	붉은도적단애기장수	1	5	1
+34014	Şişko Cellatcık (altın)	붉은도적단황금애기장수	1	5	1
+34015	Boney	할로윈뼈강아지	1	5	1
+34016	Yeşim Ankası	녹염불사조	1	5	1
+34017	Kutup Porki	아기 전갑백원	1	5	1
+34018	Ayaz Rufus	아기 전갑백랑	1	5	1
+34019	Arktik Khan	아기 전갑백호	1	5	1
+34020	Kar Leonidas	아기 전갑백사자	1	5	1
+34021	Sheldon	아기 맹조	1	5	1
+34022	Cooper	부활절토끼	1	5	1
+34023	Panter yavrusu	아기 전갑흑범	1	5	1
+34024	Leopar yavrusu	아기 전갑표범	1	5	1
+34026	Balkabağı Kafası	할로윈아기호박덩쿨	1	5	1
+34027	Küçük Süpürgeci	할로윈마법빗자루	1	5	1
+34028	Kar Tanesi	아기눈사람(적)	1	5	1
+34029	Çancık	아기눈사람(청)	1	5	1
+34030	Cupido	큐피트	1	5	1
+34031	Öfkeli kalp	하트	1	5	1
+34032	Kırmızı hilal	붉은초승달	1	5	1
+34033	Mavi hilal	푸른초승달	1	5	1
+34034	Beyaz Kuzucuk	백양	1	5	1
+34035	Mavi Koç	청양	1	5	1
+34036	Küçük Ejderha	아기 수룡	1	5	1
+34037	Küçük Ejderha (Kahraman)	특수 아기 수룡	1	5	1
+34039	Yavru Huashin	진천의 장군	1	5	1
+34041	Küçük Maymun	아기 원숭이	1	5	1
+34042	Küçük Maymun (Kahraman)	특수 아기 원숭이	1	5	1
+34045	Küçük Örümcek	아기 거미	1	5	1
+34046	Küçük Örümcek (Kahraman)	특수 아기 거미	1	5	1
+34047	Exedyar yavrusu	아기 용왕	1	5	1
+34048	Nadir Exedyar yavrusu	특수 아기 용왕	1	5	1
+34049	Küçük Razadör	아기 야마천	1	5	1
+34050	Küçük Razadör (Kahraman)	특수 아기 야마천	1	5	1
+34053	Küçük Nemere	아기 한마의	1	5	1
+34054	Küçük Nemere (Kahraman)	특수 아기 한마의	1	5	1
+34055	Bruce	할로윈박쥐1	1	5	1
+34056	Wayne	할로윈박쥐2	1	5	1
+34057	Robin	할로윈박쥐(무속성)	1	5	1
+34058	Valentino	곰인형M	1	5	1
+34059	Valentinia	곰인형F	1	5	1
+34060	Valentino	곰인형M(무속성)	1	5	1
+34061	Valentinia	곰인형F(무속성)	1	5	1
+34062	Ay feneri (turuncu)	빛나는 파란초승달	1	5	1
+34063	Ay feneri (mavi)	빛나는 붉은초승달	1	5	1
+34064	Küçük Meley	아기 적룡	1	5	1
+34065	Küçük Meley	특수 아기 적룡	1	5	1
+34066	Bonsa	아기무사	1	5	1
+34067	Bayan Jiangshi+	할로윈강시1	1	5	1
+34068	Bay Jiangshi+	할로윈강시2	1	5	1
+34069	Genç Jiangshi	할로윈강시(무속성)	1	5	1
+34070	Kırmızı Elf	고블린1	1	5	1
+34071	Yeşil Elf	고블린2	1	5	1
+34072	Yardımcı Elf	고블린(무속성)	1	5	1
+34073	Azrailcik	아기 파황	1	5	1
+34074	Azrailcik (Kahraman)	특수 아기 파황	1	5	1
+34075	Tombik cellatcık	아기 붉은도적단	1	5	1
+34076	Tombik cellatcık (Khrmn)	특수 아기 붉은도적단	1	5	1
+34080	Baashido Yavrusu	아기 백양	1	5	1
+34081	Baashido yavrusu (khrmn)	특수 아기 백양	1	5	1
+34082	Nessie	아기 히드라	1	5	1
+34083	Nessie (kahraman)	특수 아기 히드라	1	5	1
+34084	Donni	부활절토끼(W)	1	5	1
+34085	Frank	부활절토끼(G)	1	5	1
+34086	Hui	아기유령1	1	5	1
+34087	Buh	아기유령2	1	5	1
+34088	Grusella	아기유령(무속성)	1	5	1
+34089	Minidall	아기 인간형	1	5	1
+34090	Renkli fener	등불1	1	5	1
+34091	Yeşil fener	등불2	1	5	1
+34092	Osvald Bey	펭귄1	1	5	1
+34093	Cobblepot Bey	펭귄2	1	5	1
+34094	Chesterfield Bey	펭귄(무)	1	5	1
+34095	Griffy	그리폰1	1	5	1
+34096	Nogaj	그리폰2	1	5	1
+34097	Astrabell	아기마녀1	1	5	1
+34098	Helexna	아기마녀2	1	5	1
+34099	Chaotika	아기마녀(무속성)	1	5	1
+34100	Lycan Maddäus	자바비카1	1	5	1
+34101	Lycaninho	자바비카2	1	5	1
+34102	Küçük Catenaccio	자바비카(무속성)	1	5	1
+34103	K. mavi prlk tavus kuşu	아기봉황1	1	5	1
+34104	Pembe parlak tavus kuşu	아기봉황2	1	5	1
+34105	Koyu mavi tavus kuşu	아기봉황(무속성)	1	5	1
+34106	Fırat Fındık	병정1	1	5	1
+34107	Cezmi Ceviz	병정2	1	5	1
+34108	Bartu Badem	병정(무속성)	1	5	1
+34109	De-Zooka	낙타펫1	1	5	1
+34110	Toplu deve	낙타펫2	1	5	1
+34111	Çöl gemiciği	낙타펫(무속성)	1	5	1
+34112	Havalı böcek+	빙충	1	5	1
+34113	Havalı böcek	빙충(무속성)	1	5	1
+34114	Falcı ateş kedisi	아기고양이1	1	5	1
+34115	Falcı buz kedisi	아기고양이2	1	5	1
+34116	Üç gözlü ateş kedisi	아기고양이(무속성)	1	5	1
+34117	Cüce Burun+ (kırmızı)	산타요정1	1	5	1
+34118	Cüce Burun+ (yeşil)	산타요정2	1	5	1
+34119	Cüce Burun	산타요정(무속성)	1	5	1
+34120	Kırmızı yavru Huashin	아기 진천의장군(적)	1	5	1
+34121	Beyaz yavru Huashin	아기 진천의장군(백)	1	5	1
+34122	Bonsai+	아기무사+	1	5	1
+34123	+Bonsai+	아기무사(무속성)	1	5	1
+34124	Küçük ateş elementeri	화염정령	1	5	1
+34125	Küçük buz elementeri	냉기정령	1	5	1
+34126	Küçük şimşek elementeri	전기정령	1	5	1
+34127	Küçük rüzgar elementeri	바람정령	1	5	1
+34128	Küçük toprak elementeri	대지정령	1	5	1
+34129	Küçük karanlk elementeri	어둠정령	1	5	1
+34130	Oyunbaz aşk elçisi	강아지펫1	1	5	1
+34131	Sakar aşk elçisi	강아지펫2	1	5	1
+34132	Küçük aşk elçisi	강아지펫(무속성)	1	5	1
+34133	Mini Crab Warrior	물괴	1	5	1
+34134	Mini Crab	물괴(무속성)	1	5	1
+60000	Lonca yöneticisi	길드 창고1	1	2	70
+60001	Lonca yöneticisi	길드 창고2	1	2	70
+60002	Lonca yöneticisi	길드 창고3	1	2	70
+60003	Teovahdan	여화단 연구원	1	2	70
+8207	Kırmızı Sancak Taşı	KirmiziSancak	2	5	75
+8208	Sarı Sancak Taşı	SariSancak	2	5	75
+8209	Mavi Sancak Taşı	MaviSancak	2	5	75

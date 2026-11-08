@@ -1,0 +1,1130 @@
+================================================================================
+AVRASYA2 DERIN BINARY, VMPROTECT (.rdataa0) VE RASCAL ANALIZ RAPORU
+================================================================================
+
+[1] PYTHON C API VMPROTECT (.rdataa0) TARAMA SONUCU
+  Toplam Python C++ Fonksiyonu : 1291
+  Saf C++ (.text, Acik)        : 1287
+  VMProtect (.rdataa0) Kancali : 4
+
+  VMProtect (.rdataa0) Korumali Python API Listesi:
+    - chr                . IsEnemy                          @ 0x004b78b0 -> VMP 0x00b1b1fb
+    - chr                . IsNPC                            @ 0x004b79b0 -> VMP 0x00a78e1e
+    - chr                . GetInstanceType                  @ 0x004b7430 -> VMP 0x00abead5
+    - player             . SetTarget                        @ 0x00500af0 -> VMP 0x00b2ecd3
+
+[2] RASCAL V2 THREAD WATCHDOG VE INTEGRITY KONTROLLERI
+  'Rascal V2: thread wait TIMEOUT (5s)' (0x008e5438) XREF sayisi: 0
+
+[3] KRITIK OYUN FONKSIYONLARININ TAM GOVDE ANALIZI (HER IKI DAL DAHIL)
+
+  === net.SendAttackPacket : BULUNAMADI ===
+
+  === net.SendChatPacket @ 0x0054ac10 ===
+    0x0054ac10: push     ebp                           
+    0x0054ac11: mov      ebp, esp                      
+    0x0054ac13: sub      esp, 8                        
+    0x0054ac16: lea      eax, [ebp - 8]                
+    0x0054ac19: push     eax                           
+    0x0054ac1a: push     0                             
+    0x0054ac1c: push     dword ptr [ebp + 0xc]         
+    0x0054ac1f: call     0x684510                      
+    0x0054ac24: add      esp, 0xc                      
+    0x0054ac27: test     al, al                        
+    0x0054ac29: jne      0x54ac39                      
+    0x0054ac2b: push     0                             
+    0x0054ac2d: call     0x6845f0                      
+    0x0054ac32: add      esp, 4                        
+    0x0054ac35: mov      esp, ebp                      
+    0x0054ac37: pop      ebp                           
+    0x0054ac38: ret                                    
+    0x0054ac39: lea      eax, [ebp - 4]                
+    0x0054ac3c: push     eax                           
+    0x0054ac3d: push     1                             
+    0x0054ac3f: push     dword ptr [ebp + 0xc]         
+    0x0054ac42: call     0x684400                      
+    0x0054ac47: add      esp, 0xc                      
+    0x0054ac4a: test     al, al                        
+    0x0054ac4c: jne      0x54ac55                      
+    0x0054ac4e: xor      eax, eax                      
+    0x0054ac50: mov      dword ptr [ebp - 4], eax      
+    0x0054ac53: jmp      0x54ac58                      
+    0x0054ac55: mov      eax, dword ptr [ebp - 4]      
+    0x0054ac58: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054ac5e: push     eax                           
+    0x0054ac5f: push     dword ptr [ebp - 8]           
+    0x0054ac62: call     0x560f80                      
+    0x0054ac67: call     0x684680                      
+    0x0054ac6c: mov      esp, ebp                      
+    0x0054ac6e: pop      ebp                           
+    0x0054ac6f: ret                                    
+    0x0054ac70: push     ebp                           
+    0x0054ac71: mov      ebp, esp                      
+    0x0054ac73: sub      esp, 0x20                     
+    0x0054ac76: lea      eax, [ebp - 4]                
+    0x0054ac79: push     esi                           
+    0x0054ac7a: mov      esi, dword ptr [ebp + 0xc]    
+    0x0054ac7d: push     eax                           
+    0x0054ac7e: push     0                             
+    0x0054ac80: push     esi                           
+    0x0054ac81: call     0x684400                      
+    0x0054ac86: add      esp, 0xc                      
+    0x0054ac89: test     al, al                        
+    0x0054ac8b: jne      0x54ac9c                      
+    0x0054ac8d: push     0                             
+    0x0054ac8f: call     0x6845f0                      
+    0x0054ac94: add      esp, 4                        
+    0x0054ac97: pop      esi                           
+    0x0054ac98: mov      esp, ebp                      
+    0x0054ac9a: pop      ebp                           
+    0x0054ac9b: ret                                    
+    0x0054ac9c: lea      eax, [ebp - 0x20]             
+    0x0054ac9f: push     eax                           
+    0x0054aca0: push     1                             
+    0x0054aca2: push     esi                           
+    0x0054aca3: call     0x684510                      
+    0x0054aca8: add      esp, 0xc                      
+    0x0054acab: test     al, al                        
+    0x0054acad: je       0x54ac8d                      
+    0x0054acaf: lea      eax, [ebp - 0x1c]             
+    0x0054acb2: push     eax                           
+    0x0054acb3: push     2                             
+    0x0054acb5: push     esi                           
+    0x0054acb6: call     0x684400                      
+    0x0054acbb: add      esp, 0xc                      
+    0x0054acbe: test     al, al                        
+    0x0054acc0: je       0x54ac8d                      
+    0x0054acc2: lea      eax, [ebp - 0x18]             
+    0x0054acc5: push     eax                           
+    0x0054acc6: push     3                             
+    0x0054acc8: push     esi                           
+    0x0054acc9: call     0x684400                      
+    0x0054acce: add      esp, 0xc                      
+    0x0054acd1: test     al, al                        
+    0x0054acd3: je       0x54ac8d                      
+    0x0054acd5: lea      eax, [ebp - 0x14]             
+    0x0054acd8: push     eax                           
+    0x0054acd9: push     4                             
+    0x0054acdb: push     esi                           
+    0x0054acdc: call     0x684400                      
+    0x0054ace1: add      esp, 0xc                      
+    0x0054ace4: test     al, al                        
+    0x0054ace6: je       0x54ac8d                      
+    0x0054ace8: lea      eax, [ebp - 0x10]             
+    0x0054aceb: push     eax                           
+    0x0054acec: push     5                             
+    0x0054acee: push     esi                           
+    0x0054acef: call     0x684400                      
+    0x0054acf4: add      esp, 0xc                      
+    0x0054acf7: test     al, al                        
+    0x0054acf9: je       0x54ac8d                      
+    0x0054acfb: lea      eax, [ebp - 0xc]              
+    0x0054acfe: push     eax                           
+    0x0054acff: push     6                             
+    0x0054ad01: push     esi                           
+    0x0054ad02: call     0x684400                      
+    0x0054ad07: add      esp, 0xc                      
+    0x0054ad0a: test     al, al                        
+    0x0054ad0c: je       0x54ac8d                      
+    --- Alt Motor Fonksiyonu 0x00560f80 ---
+    0x00560f80: jmp      0xaccd78                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === net.SendCharacterPositionPacket @ 0x0054abd0 ===
+    0x0054abd0: push     ebp                           
+    0x0054abd1: mov      ebp, esp                      
+    0x0054abd3: push     ecx                           
+    0x0054abd4: lea      eax, [ebp - 4]                
+    0x0054abd7: push     eax                           
+    0x0054abd8: push     0                             
+    0x0054abda: push     dword ptr [ebp + 0xc]         
+    0x0054abdd: call     0x684400                      
+    0x0054abe2: add      esp, 0xc                      
+    0x0054abe5: test     al, al                        
+    0x0054abe7: jne      0x54abf7                      
+    0x0054abe9: push     0                             
+    0x0054abeb: call     0x6845f0                      
+    0x0054abf0: add      esp, 4                        
+    0x0054abf3: mov      esp, ebp                      
+    0x0054abf5: pop      ebp                           
+    0x0054abf6: ret                                    
+    0x0054abf7: push     dword ptr [ebp - 4]           
+    0x0054abfa: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054ac00: call     0x560cb0                      
+    0x0054ac05: call     0x684680                      
+    0x0054ac0a: mov      esp, ebp                      
+    0x0054ac0c: pop      ebp                           
+    0x0054ac0d: ret                                    
+    --- Alt Motor Fonksiyonu 0x00560cb0 ---
+    0x00560cb0: push     ebp                           
+    0x00560cb1: mov      ebp, esp                      
+    0x00560cb3: push     ecx                           
+    0x00560cb4: mov      al, byte ptr [ebp + 8]        
+    0x00560cb7: push     esi                           
+    0x00560cb8: mov      byte ptr [ebp - 3], al        
+    0x00560cbb: mov      esi, ecx                      
+    0x00560cbd: lea      eax, [ebp - 4]                
+    0x00560cc0: mov      byte ptr [ebp - 4], 0x1c      
+    0x00560cc4: push     eax                           
+    0x00560cc5: push     2                             
+    0x00560cc7: call     0x5b4e90                      
+    0x00560ccc: test     al, al                        
+    0x00560cce: jne      0x560ce6                      
+    0x00560cd0: push     0x8d5f90                       ; "Send Character Position Packet Error"
+    0x00560cd5: call     0x588af0                      
+    0x00560cda: add      esp, 4                        
+    0x00560cdd: xor      al, al                        
+    0x00560cdf: pop      esi                           
+    0x00560ce0: mov      esp, ebp                      
+    0x00560ce2: pop      ebp                           
+    0x00560ce3: ret      4                             
+    0x00560ce6: mov      ecx, esi                      
+    0x00560ce8: call     0x5b4ed0                      
+    0x00560ced: pop      esi                           
+    0x00560cee: mov      esp, ebp                      
+    0x00560cf0: pop      ebp                           
+    0x00560cf1: ret      4                             
+
+  === net.SendItemUsePacket @ 0x0054b940 ===
+    0x0054b940: push     ebp                           
+    0x0054b941: mov      ebp, esp                      
+    0x0054b943: push     ecx                           
+    0x0054b944: push     esi                           
+    0x0054b945: mov      esi, dword ptr [ebp + 0xc]    
+    0x0054b948: mov      eax, 0xffff                   
+    0x0054b94d: push     esi                           
+    0x0054b94e: mov      byte ptr [ebp - 4], 1         
+    0x0054b952: mov      word ptr [ebp - 3], ax        
+    0x0054b956: call     dword ptr [0x896bc8]          
+    0x0054b95c: add      esp, 4                        
+    0x0054b95f: sub      eax, 1                        
+    0x0054b962: je       0x54b984                      
+    0x0054b964: sub      eax, 1                        
+    0x0054b967: jne      0x54b997                      
+    0x0054b969: lea      eax, [ebp - 4]                
+    0x0054b96c: push     eax                           
+    0x0054b96d: push     0                             
+    0x0054b96f: push     esi                           
+    0x0054b970: call     0x6842f0                      
+    0x0054b975: add      esp, 0xc                      
+    0x0054b978: test     al, al                        
+    0x0054b97a: je       0x54b997                      
+    0x0054b97c: lea      eax, [ebp - 3]                
+    0x0054b97f: push     eax                           
+    0x0054b980: push     1                             
+    0x0054b982: jmp      0x54b98a                      
+    0x0054b984: lea      eax, [ebp - 3]                
+    0x0054b987: push     eax                           
+    0x0054b988: push     0                             
+    0x0054b98a: push     esi                           
+    0x0054b98b: call     0x6843d0                      
+    0x0054b990: add      esp, 0xc                      
+    0x0054b993: test     al, al                        
+    0x0054b995: jne      0x54b9a6                      
+    0x0054b997: push     0                             
+    0x0054b999: call     0x6845f0                      
+    0x0054b99e: add      esp, 4                        
+    0x0054b9a1: pop      esi                           
+    0x0054b9a2: mov      esp, ebp                      
+    0x0054b9a4: pop      ebp                           
+    0x0054b9a5: ret                                    
+    0x0054b9a6: mov      ax, word ptr [ebp - 4]        
+    0x0054b9aa: push     ecx                           
+    0x0054b9ab: mov      ecx, esp                      
+    0x0054b9ad: mov      word ptr [ecx], ax            
+    0x0054b9b0: mov      al, byte ptr [ebp - 2]        
+    0x0054b9b3: mov      byte ptr [ecx + 2], al        
+    0x0054b9b6: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054b9bc: call     0x567910                      
+    0x0054b9c1: call     0x684680                      
+    0x0054b9c6: pop      esi                           
+    0x0054b9c7: mov      esp, ebp                      
+    0x0054b9c9: pop      ebp                           
+    0x0054b9ca: ret                                    
+    --- Alt Motor Fonksiyonu 0x00567910 ---
+    0x00567910: jmp      0xb3c829                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === net.SendItemPickUpPacket @ 0x0054b900 ===
+    0x0054b900: push     ebp                           
+    0x0054b901: mov      ebp, esp                      
+    0x0054b903: push     ecx                           
+    0x0054b904: lea      eax, [ebp - 4]                
+    0x0054b907: push     eax                           
+    0x0054b908: push     0                             
+    0x0054b90a: push     dword ptr [ebp + 0xc]         
+    0x0054b90d: call     0x684400                      
+    0x0054b912: add      esp, 0xc                      
+    0x0054b915: test     al, al                        
+    0x0054b917: jne      0x54b927                      
+    0x0054b919: push     0                             
+    0x0054b91b: call     0x6845f0                      
+    0x0054b920: add      esp, 4                        
+    0x0054b923: mov      esp, ebp                      
+    0x0054b925: pop      ebp                           
+    0x0054b926: ret                                    
+    0x0054b927: push     dword ptr [ebp - 4]           
+    0x0054b92a: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054b930: call     0x5678b0                      
+    0x0054b935: call     0x684680                      
+    0x0054b93a: mov      esp, ebp                      
+    0x0054b93c: pop      ebp                           
+    0x0054b93d: ret                                    
+    --- Alt Motor Fonksiyonu 0x005678b0 ---
+    0x005678b0: jmp      0xcb6f5c                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === net.SendOnClickPacket @ 0x0054a050 ===
+    0x0054a050: push     ebp                           
+    0x0054a051: mov      ebp, esp                      
+    0x0054a053: push     ecx                           
+    0x0054a054: lea      eax, [ebp - 4]                
+    0x0054a057: push     eax                           
+    0x0054a058: push     0                             
+    0x0054a05a: push     dword ptr [ebp + 0xc]         
+    0x0054a05d: call     0x684400                      
+    0x0054a062: add      esp, 0xc                      
+    0x0054a065: test     al, al                        
+    0x0054a067: jne      0x54a077                      
+    0x0054a069: push     0                             
+    0x0054a06b: call     0x6845f0                      
+    0x0054a070: add      esp, 4                        
+    0x0054a073: mov      esp, ebp                      
+    0x0054a075: pop      ebp                           
+    0x0054a076: ret                                    
+    0x0054a077: push     dword ptr [ebp - 4]           
+    0x0054a07a: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054a080: call     0x562080                      
+    0x0054a085: call     0x684680                      
+    0x0054a08a: mov      esp, ebp                      
+    0x0054a08c: pop      ebp                           
+    0x0054a08d: ret                                    
+    --- Alt Motor Fonksiyonu 0x00562080 ---
+    0x00562080: jmp      0xb5903f                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === net.SendShopBuyPacket @ 0x0054c3f0 ===
+    0x0054c3f0: push     ebp                           
+    0x0054c3f1: mov      ebp, esp                      
+    0x0054c3f3: push     ecx                           
+    0x0054c3f4: lea      eax, [ebp - 4]                
+    0x0054c3f7: push     eax                           
+    0x0054c3f8: push     0                             
+    0x0054c3fa: push     dword ptr [ebp + 0xc]         
+    0x0054c3fd: call     0x684400                      
+    0x0054c402: add      esp, 0xc                      
+    0x0054c405: test     al, al                        
+    0x0054c407: jne      0x54c417                      
+    0x0054c409: push     0                             
+    0x0054c40b: call     0x6845f0                      
+    0x0054c410: add      esp, 4                        
+    0x0054c413: mov      esp, ebp                      
+    0x0054c415: pop      ebp                           
+    0x0054c416: ret                                    
+    0x0054c417: push     dword ptr [ebp - 4]           
+    0x0054c41a: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054c420: call     0x567d30                      
+    0x0054c425: call     0x684680                      
+    0x0054c42a: mov      esp, ebp                      
+    0x0054c42c: pop      ebp                           
+    0x0054c42d: ret                                    
+    --- Alt Motor Fonksiyonu 0x00567d30 ---
+    0x00567d30: push     ebp                           
+    0x00567d31: mov      ebp, esp                      
+    0x00567d33: sub      esp, 8                        
+    0x00567d36: push     esi                           
+    0x00567d37: mov      esi, ecx                      
+    0x00567d39: call     0x566680                      
+    0x00567d3e: test     al, al                        
+    0x00567d40: jne      0x567d4b                      
+    0x00567d42: mov      al, 1                         
+    0x00567d44: pop      esi                           
+    0x00567d45: mov      esp, ebp                      
+    0x00567d47: pop      ebp                           
+    0x00567d48: ret      4                             
+    0x00567d4b: lea      eax, [ebp - 8]                
+    0x00567d4e: mov      word ptr [ebp - 8], 0x132     
+    0x00567d54: push     eax                           
+    0x00567d55: push     2                             
+    0x00567d57: mov      ecx, esi                      
+    0x00567d59: call     0x5b4e90                      
+    0x00567d5e: test     al, al                        
+    0x00567d60: je       0x567d96                      
+    0x00567d62: lea      eax, [ebp - 1]                
+    0x00567d65: mov      byte ptr [ebp - 1], 1         
+    0x00567d69: push     eax                           
+    0x00567d6a: push     1                             
+    0x00567d6c: mov      ecx, esi                      
+    0x00567d6e: call     0x5b4e90                      
+    0x00567d73: test     al, al                        
+    0x00567d75: je       0x567d96                      
+    0x00567d77: lea      eax, [ebp + 8]                
+    0x00567d7a: mov      ecx, esi                      
+    0x00567d7c: push     eax                           
+    0x00567d7d: push     1                             
+    0x00567d7f: call     0x5b4e90                      
+    0x00567d84: test     al, al                        
+    0x00567d86: je       0x567d96                      
+    0x00567d88: mov      ecx, esi                      
+    0x00567d8a: call     0x5b4ed0                      
+    0x00567d8f: pop      esi                           
+    0x00567d90: mov      esp, ebp                      
+    0x00567d92: pop      ebp                           
+    0x00567d93: ret      4                             
+    0x00567d96: push     0x8da82c                      
+    0x00567d9b: call     0x588a80                      
+    0x00567da0: add      esp, 4                        
+    0x00567da3: xor      al, al                        
+    0x00567da5: pop      esi                           
+    0x00567da6: mov      esp, ebp                      
+    0x00567da8: pop      ebp                           
+    0x00567da9: ret      4                             
+
+  === net.SendShopSellPacket @ 0x0054c440 ===
+    0x0054c440: push     ebp                           
+    0x0054c441: mov      ebp, esp                      
+    0x0054c443: push     ecx                           
+    0x0054c444: lea      eax, [ebp - 4]                
+    0x0054c447: push     eax                           
+    0x0054c448: push     0                             
+    0x0054c44a: push     dword ptr [ebp + 0xc]         
+    0x0054c44d: call     0x684400                      
+    0x0054c452: add      esp, 0xc                      
+    0x0054c455: test     al, al                        
+    0x0054c457: jne      0x54c467                      
+    0x0054c459: push     0                             
+    0x0054c45b: call     0x6845f0                      
+    0x0054c460: add      esp, 4                        
+    0x0054c463: mov      esp, ebp                      
+    0x0054c465: pop      ebp                           
+    0x0054c466: ret                                    
+    0x0054c467: push     dword ptr [ebp - 4]           
+    0x0054c46a: mov      ecx, dword ptr [0x9c53c8]     
+    0x0054c470: call     0x567e00                      
+    0x0054c475: call     0x684680                      
+    0x0054c47a: mov      esp, ebp                      
+    0x0054c47c: pop      ebp                           
+    0x0054c47d: ret                                    
+    --- Alt Motor Fonksiyonu 0x00567e00 ---
+    0x00567e00: push     ebp                           
+    0x00567e01: mov      ebp, esp                      
+    0x00567e03: push     ecx                           
+    0x00567e04: push     esi                           
+    0x00567e05: mov      esi, ecx                      
+    0x00567e07: call     0x566680                      
+    0x00567e0c: test     al, al                        
+    0x00567e0e: jne      0x567e19                      
+    0x00567e10: mov      al, 1                         
+    0x00567e12: pop      esi                           
+    0x00567e13: mov      esp, ebp                      
+    0x00567e15: pop      ebp                           
+    0x00567e16: ret      4                             
+    0x00567e19: lea      eax, [ebp - 4]                
+    0x00567e1c: mov      word ptr [ebp - 4], 0x232     
+    0x00567e22: push     eax                           
+    0x00567e23: push     2                             
+    0x00567e25: mov      ecx, esi                      
+    0x00567e27: call     0x5b4e90                      
+    0x00567e2c: test     al, al                        
+    0x00567e2e: jne      0x567e46                      
+    0x00567e30: push     0x8da848                      
+    0x00567e35: call     0x588a80                      
+    0x00567e3a: add      esp, 4                        
+    0x00567e3d: xor      al, al                        
+    0x00567e3f: pop      esi                           
+    0x00567e40: mov      esp, ebp                      
+    0x00567e42: pop      ebp                           
+    0x00567e43: ret      4                             
+    0x00567e46: lea      eax, [ebp + 8]                
+    0x00567e49: mov      ecx, esi                      
+    0x00567e4b: push     eax                           
+    0x00567e4c: push     1                             
+    0x00567e4e: call     0x5b4e90                      
+    0x00567e53: test     al, al                        
+    0x00567e55: jne      0x567e6d                      
+    0x00567e57: push     0x8da864                      
+    0x00567e5c: call     0x588a80                      
+    0x00567e61: add      esp, 4                        
+    0x00567e64: xor      al, al                        
+    0x00567e66: pop      esi                           
+    0x00567e67: mov      esp, ebp                      
+    0x00567e69: pop      ebp                           
+    0x00567e6a: ret      4                             
+    0x00567e6d: mov      ecx, esi                      
+    0x00567e6f: call     0x5b4ed0                      
+    0x00567e74: pop      esi                           
+    0x00567e75: mov      esp, ebp                      
+    0x00567e77: pop      ebp                           
+    0x00567e78: ret      4                             
+
+  === player.SetAttackKeyState @ 0x00500240 ===
+    0x00500240: push     ebp                           
+    0x00500241: mov      ebp, esp                      
+    0x00500243: push     ecx                           
+    0x00500244: lea      eax, [ebp - 4]                
+    0x00500247: push     eax                           
+    0x00500248: push     0                             
+    0x0050024a: push     dword ptr [ebp + 0xc]         
+    0x0050024d: call     0x684400                      
+    0x00500252: add      esp, 0xc                      
+    0x00500255: test     al, al                        
+    0x00500257: jne      0x50026a                      
+    0x00500259: push     0x8ad370                       ; "playerSetAttackKeyState(isPressed) - There is no first argument"
+    0x0050025e: call     0x6845f0                      
+    0x00500263: add      esp, 4                        
+    0x00500266: mov      esp, ebp                      
+    0x00500268: pop      ebp                           
+    0x00500269: ret                                    
+    0x0050026a: cmp      dword ptr [ebp - 4], 0        
+    0x0050026e: mov      ecx, dword ptr [0x9c47bc]     
+    0x00500274: setne    al                            
+    0x00500277: movzx    eax, al                       
+    0x0050027a: push     eax                           
+    0x0050027b: call     0x4fbc00                      
+    0x00500280: call     0x684680                      
+    0x00500285: mov      esp, ebp                      
+    0x00500287: pop      ebp                           
+    0x00500288: ret                                    
+    --- Alt Motor Fonksiyonu 0x004fbc00 ---
+    0x004fbc00: push     ebp                           
+    0x004fbc01: mov      ebp, esp                      
+    0x004fbc03: push     ebx                           
+    0x004fbc04: push     esi                           
+    0x004fbc05: mov      esi, ecx                      
+    0x004fbc07: push     0                             
+    0x004fbc09: push     dword ptr [esi + 8]           
+    0x004fbc0c: push     2                             
+    0x004fbc0e: call     0x6ccc90                      
+    0x004fbc13: mov      bl, byte ptr [ebp + 8]        
+    0x004fbc16: add      esp, 0xc                      
+    0x004fbc19: test     bl, bl                        
+    0x004fbc1b: je       0x4fbc45                      
+    0x004fbc1d: mov      eax, dword ptr [esi + 4]      
+    0x004fbc20: lea      ecx, [esi + 4]                
+    0x004fbc23: call     dword ptr [eax + 0x8c]        
+    0x004fbc29: test     eax, eax                      
+    0x004fbc2b: je       0x4fbc45                      
+    0x004fbc2d: mov      ecx, eax                      
+    0x004fbc2f: call     0x4a1520                      
+    0x004fbc34: test     eax, eax                      
+    0x004fbc36: je       0x4fbc45                      
+    0x004fbc38: mov      ecx, esi                      
+    0x004fbc3a: call     0x4fa720                      
+    0x004fbc3f: pop      esi                           
+    0x004fbc40: pop      ebx                           
+    0x004fbc41: pop      ebp                           
+    0x004fbc42: ret      4                             
+    0x004fbc45: push     1                             
+    0x004fbc47: lea      eax, [ebp + 8]                
+    0x004fbc4a: mov      byte ptr [ebp + 8], bl        
+    0x004fbc4d: push     eax                           
+    0x004fbc4e: lea      eax, [esi + 0xb8]             
+    0x004fbc54: push     eax                           
+    0x004fbc55: call     0x6dc0a0                      
+    0x004fbc5a: add      esp, 0xc                      
+    0x004fbc5d: pop      esi                           
+    0x004fbc5e: pop      ebx                           
+    0x004fbc5f: pop      ebp                           
+    0x004fbc60: ret      4                             
+
+  === player.ClickSkillSlot @ 0x004fdb50 ===
+    0x004fdb50: push     ebp                           
+    0x004fdb51: mov      ebp, esp                      
+    0x004fdb53: push     ecx                           
+    0x004fdb54: lea      eax, [ebp - 4]                
+    0x004fdb57: push     eax                           
+    0x004fdb58: push     0                             
+    0x004fdb5a: push     dword ptr [ebp + 0xc]         
+    0x004fdb5d: call     0x684400                      
+    0x004fdb62: add      esp, 0xc                      
+    0x004fdb65: test     al, al                        
+    0x004fdb67: jne      0x4fdb72                      
+    0x004fdb69: call     0x6845e0                      
+    0x004fdb6e: mov      esp, ebp                      
+    0x004fdb70: pop      ebp                           
+    0x004fdb71: ret                                    
+    0x004fdb72: push     dword ptr [ebp - 4]           
+    0x004fdb75: mov      ecx, dword ptr [0x9c47bc]     
+    0x004fdb7b: call     0x500e90                      
+    0x004fdb80: call     0x684680                      
+    0x004fdb85: mov      esp, ebp                      
+    0x004fdb87: pop      ebp                           
+    0x004fdb88: ret                                    
+    --- Alt Motor Fonksiyonu 0x00500e90 ---
+    0x00500e90: jmp      0xd3aa5d                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === player.SetTarget @ 0x00500af0 ===
+    0x00500af0: jmp      0xb2ecd3                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === player.GetTargetVID @ 0x004ff040 ===
+    0x004ff040: mov      ecx, dword ptr [0x9c47bc]     
+    0x004ff046: call     0x4fa4b0                      
+    0x004ff04b: push     eax                           
+    0x004ff04c: push     0x897c10                      
+    0x004ff051: call     dword ptr [0x896bb8]          
+    0x004ff057: add      esp, 8                        
+    0x004ff05a: ret                                    
+    --- Alt Motor Fonksiyonu 0x004fa4b0 ---
+    0x004fa4b0: jmp      0x4fb120                      
+
+  === player.GetPixelPosition : BULUNAMADI ===
+
+  === player.IsAttacking : BULUNAMADI ===
+
+  === chr.MoveToDestPosition @ 0x004b7b30 ===
+    0x004b7b30: push     ebp                           
+    0x004b7b31: mov      ebp, esp                      
+    0x004b7b33: sub      esp, 0x1c                     
+    0x004b7b36: mov      eax, dword ptr [0x9a83c0]     
+    0x004b7b3b: xor      eax, ebp                      
+    0x004b7b3d: mov      dword ptr [ebp - 4], eax      
+    0x004b7b40: push     esi                           
+    0x004b7b41: mov      esi, dword ptr [ebp + 0xc]    
+    0x004b7b44: lea      eax, [ebp - 0x14]             
+    0x004b7b47: push     eax                           
+    0x004b7b48: push     0                             
+    0x004b7b4a: push     esi                           
+    0x004b7b4b: call     0x684400                      
+    0x004b7b50: add      esp, 0xc                      
+    0x004b7b53: test     al, al                        
+    0x004b7b55: jne      0x4b7b6b                      
+    0x004b7b57: call     0x6845e0                      
+    0x004b7b5c: pop      esi                           
+    0x004b7b5d: mov      ecx, dword ptr [ebp - 4]      
+    0x004b7b60: xor      ecx, ebp                      
+    0x004b7b62: call     0x6dc956                      
+    0x004b7b67: mov      esp, ebp                      
+    0x004b7b69: pop      ebp                           
+    0x004b7b6a: ret                                    
+    0x004b7b6b: lea      eax, [ebp - 0x18]             
+    0x004b7b6e: push     eax                           
+    0x004b7b6f: push     1                             
+    0x004b7b71: push     esi                           
+    0x004b7b72: call     0x684400                      
+    0x004b7b77: add      esp, 0xc                      
+    0x004b7b7a: test     al, al                        
+    0x004b7b7c: je       0x4b7b57                      
+    0x004b7b7e: lea      eax, [ebp - 0x1c]             
+    0x004b7b81: push     eax                           
+    0x004b7b82: push     2                             
+    0x004b7b84: push     esi                           
+    0x004b7b85: call     0x684400                      
+    0x004b7b8a: add      esp, 0xc                      
+    0x004b7b8d: test     al, al                        
+    0x004b7b8f: je       0x4b7b57                      
+    0x004b7b91: mov      ecx, dword ptr [0x9c47c0]     
+    0x004b7b97: push     dword ptr [ebp - 0x14]        
+    0x004b7b9a: add      ecx, 4                        
+    0x004b7b9d: mov      eax, dword ptr [ecx]          
+    0x004b7b9f: call     dword ptr [eax + 8]           
+    0x004b7ba2: test     eax, eax                      
+    0x004b7ba4: je       0x4b7bd2                      
+    0x004b7ba6: movd     xmm0, dword ptr [ebp - 0x18]  
+    0x004b7bab: lea      ecx, [ebp - 0x10]             
+    0x004b7bae: cvtdq2ps xmm0, xmm0                    
+    0x004b7bb1: push     ecx                           
+    0x004b7bb2: mov      ecx, eax                      
+    0x004b7bb4: mov      dword ptr [ebp - 8], 0        
+    0x004b7bbb: movss    dword ptr [ebp - 0x10], xmm0  
+    0x004b7bc0: movd     xmm0, dword ptr [ebp - 0x1c]  
+    0x004b7bc5: cvtdq2ps xmm0, xmm0                    
+    0x004b7bc8: movss    dword ptr [ebp - 0xc], xmm0   
+    0x004b7bcd: call     0x4ab530                      
+    0x004b7bd2: call     0x684680                      
+    0x004b7bd7: mov      ecx, dword ptr [ebp - 4]      
+    0x004b7bda: xor      ecx, ebp                      
+    0x004b7bdc: pop      esi                           
+    0x004b7bdd: call     0x6dc956                      
+    0x004b7be2: mov      esp, ebp                      
+    0x004b7be4: pop      ebp                           
+    0x004b7be5: ret                                    
+    --- Alt Motor Fonksiyonu 0x004ab530 ---
+    0x004ab530: jmp      0xbe1726                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === chr.GetPixelPosition @ 0x004b7560 ===
+    0x004b7560: push     ebp                           
+    0x004b7561: mov      ebp, esp                      
+    0x004b7563: sub      esp, 0x14                     
+    0x004b7566: mov      eax, dword ptr [0x9a83c0]     
+    0x004b756b: xor      eax, ebp                      
+    0x004b756d: mov      dword ptr [ebp - 4], eax      
+    0x004b7570: mov      eax, dword ptr [ebp + 0xc]    
+    0x004b7573: lea      ecx, [ebp - 0x14]             
+    0x004b7576: push     ecx                           
+    0x004b7577: push     0                             
+    0x004b7579: push     eax                           
+    0x004b757a: call     0x684400                      
+    0x004b757f: add      esp, 0xc                      
+    0x004b7582: test     al, al                        
+    0x004b7584: jne      0x4b759e                      
+    0x004b7586: push     0                             
+    0x004b7588: call     0x6845f0                      
+    0x004b758d: add      esp, 4                        
+    0x004b7590: mov      ecx, dword ptr [ebp - 4]      
+    0x004b7593: xor      ecx, ebp                      
+    0x004b7595: call     0x6dc956                      
+    0x004b759a: mov      esp, ebp                      
+    0x004b759c: pop      ebp                           
+    0x004b759d: ret                                    
+    0x004b759e: mov      ecx, dword ptr [0x9c47c0]     
+    0x004b75a4: push     esi                           
+    0x004b75a5: call     0x4b4610                      
+    0x004b75aa: mov      esi, eax                      
+    0x004b75ac: test     esi, esi                      
+    0x004b75ae: je       0x4b75f0                      
+    0x004b75b0: mov      ecx, esi                      
+    0x004b75b2: call     0x4a1080                      
+    0x004b75b7: cmp      eax, dword ptr [ebp - 0x14]   
+    0x004b75ba: jne      0x4b75f0                      
+    0x004b75bc: lea      eax, [ebp - 0x10]             
+    0x004b75bf: mov      ecx, esi                      
+    0x004b75c1: push     eax                           
+    0x004b75c2: call     0x4abbc0                      
+    0x004b75c7: movss    xmm0, dword ptr [ebp - 8]     
+    0x004b75cc: sub      esp, 0x18                     
+    0x004b75cf: cvtps2pd xmm0, xmm0                    
+    0x004b75d2: movsd    qword ptr [esp + 0x10], xmm0  
+    0x004b75d8: movss    xmm0, dword ptr [ebp - 0xc]   
+    0x004b75dd: cvtps2pd xmm0, xmm0                    
+    0x004b75e0: movsd    qword ptr [esp + 8], xmm0     
+    0x004b75e6: movss    xmm0, dword ptr [ebp - 0x10]  
+    0x004b75eb: cvtps2pd xmm0, xmm0                    
+    0x004b75ee: jmp      0x4b75fb                      
+    0x004b75f0: sub      esp, 0x18                     
+    0x004b75f3: xorps    xmm0, xmm0                    
+    0x004b75f6: movups   xmmword ptr [esp + 8], xmm0   
+    0x004b75fb: movsd    qword ptr [esp], xmm0         
+    0x004b7600: push     0x898064                       ; "fff"
+    0x004b7605: call     dword ptr [0x896bb8]          
+    0x004b760b: mov      ecx, dword ptr [ebp - 4]      
+    0x004b760e: add      esp, 0x1c                     
+    0x004b7611: xor      ecx, ebp                      
+    0x004b7613: pop      esi                           
+    0x004b7614: call     0x6dc956                      
+    0x004b7619: mov      esp, ebp                      
+    0x004b761b: pop      ebp                           
+    0x004b761c: ret                                    
+    --- Alt Motor Fonksiyonu 0x004b4610 ---
+    0x004b4610: push     ebp                           
+    0x004b4611: mov      ebp, esp                      
+    0x004b4613: push     ecx                           
+    0x004b4614: push     4                             
+    0x004b4616: lea      eax, [ebp - 4]                
+    0x004b4619: mov      dword ptr [ebp - 4], 0        
+    0x004b4620: push     eax                           
+    0x004b4621: lea      eax, [ecx + 0xc]              
+    0x004b4624: push     eax                           
+    0x004b4625: call     0x6dbd90                      
+    0x004b462a: mov      eax, dword ptr [ebp - 4]      
+    0x004b462d: add      esp, 0xc                      
+    0x004b4630: mov      esp, ebp                      
+    0x004b4632: pop      ebp                           
+    0x004b4633: ret                                    
+    --- Alt Motor Fonksiyonu 0x004a1080 ---
+    0x004a1080: mov      eax, dword ptr [ecx + 0x1e0]  
+    0x004a1086: add      ecx, 0x1e0                    
+    0x004a108c: jmp      dword ptr [eax + 0x48]        
+    0x004a1090: push     ebp                           
+    0x004a1091: mov      ebp, esp                      
+    0x004a1093: push     ecx                           
+    0x004a1094: push     4                             
+    0x004a1096: lea      eax, [ebp - 4]                
+    0x004a1099: mov      dword ptr [ebp - 4], 0        
+    0x004a10a0: push     eax                           
+    0x004a10a1: lea      eax, [ecx + 0x170]            
+    0x004a10a7: push     eax                           
+    0x004a10a8: call     0x6dbd90                      
+    0x004a10ad: mov      eax, dword ptr [ebp - 4]      
+    0x004a10b0: add      esp, 0xc                      
+    0x004a10b3: mov      esp, ebp                      
+    0x004a10b5: pop      ebp                           
+    0x004a10b6: ret                                    
+    --- Alt Motor Fonksiyonu 0x004abbc0 ---
+    0x004abbc0: push     ebp                           
+    0x004abbc1: mov      ebp, esp                      
+    0x004abbc3: add      ecx, 0x1e0                    
+    0x004abbc9: call     0x608e00                      
+    0x004abbce: mov      ecx, dword ptr [ebp + 8]      
+    0x004abbd1: movq     xmm0, qword ptr [eax]         
+    0x004abbd5: movq     qword ptr [ecx], xmm0         
+    0x004abbd9: mov      eax, dword ptr [eax + 8]      
+    0x004abbdc: mov      dword ptr [ecx + 8], eax      
+    0x004abbdf: pop      ebp                           
+    0x004abbe0: ret      4                             
+
+  === chr.SelectInstance @ 0x004b7f10 ===
+    0x004b7f10: push     ebp                           
+    0x004b7f11: mov      ebp, esp                      
+    0x004b7f13: push     ecx                           
+    0x004b7f14: lea      eax, [ebp - 4]                
+    0x004b7f17: push     eax                           
+    0x004b7f18: push     0                             
+    0x004b7f1a: push     dword ptr [ebp + 0xc]         
+    0x004b7f1d: call     0x684400                      
+    0x004b7f22: add      esp, 0xc                      
+    0x004b7f25: test     al, al                        
+    0x004b7f27: jne      0x4b7f37                      
+    0x004b7f29: push     0                             
+    0x004b7f2b: call     0x6845f0                      
+    0x004b7f30: add      esp, 4                        
+    0x004b7f33: mov      esp, ebp                      
+    0x004b7f35: pop      ebp                           
+    0x004b7f36: ret                                    
+    0x004b7f37: push     dword ptr [ebp - 4]           
+    0x004b7f3a: mov      ecx, dword ptr [0x9c47c0]     
+    0x004b7f40: call     0x4b4b40                      
+    0x004b7f45: call     0x684680                      
+    0x004b7f4a: mov      esp, ebp                      
+    0x004b7f4c: pop      ebp                           
+    0x004b7f4d: ret                                    
+    --- Alt Motor Fonksiyonu 0x004b4b40 ---
+    0x004b4b40: push     ebp                           
+    0x004b4b41: mov      ebp, esp                      
+    0x004b4b43: push     edi                           
+    0x004b4b44: push     dword ptr [ebp + 8]           
+    0x004b4b47: mov      edi, ecx                      
+    0x004b4b49: call     0x4b3e60                      
+    0x004b4b4e: test     eax, eax                      
+    0x004b4b50: jne      0x4b4b67                      
+    0x004b4b52: push     dword ptr [ebp + 8]           
+    0x004b4b55: push     0x898710                      
+    0x004b4b5a: call     0x588a80                      
+    0x004b4b5f: add      esp, 8                        
+    0x004b4b62: pop      edi                           
+    0x004b4b63: pop      ebp                           
+    0x004b4b64: ret      4                             
+    0x004b4b67: mov      dword ptr [ebp + 8], eax      
+    0x004b4b6a: lea      eax, [ebp + 8]                
+    0x004b4b6d: push     4                             
+    0x004b4b6f: push     eax                           
+    0x004b4b70: lea      eax, [edi + 0x14]             
+    0x004b4b73: push     eax                           
+    0x004b4b74: call     0x6dbe10                      
+    0x004b4b79: add      esp, 0xc                      
+    0x004b4b7c: pop      edi                           
+    0x004b4b7d: pop      ebp                           
+    0x004b4b7e: ret      4                             
+
+  === chr.GetInstanceType @ 0x004b7430 ===
+    0x004b7430: jmp      0xabead5                       ; [VMP .rdataa0]
+    [DOGURDAN VMPROTECT (.rdataa0) KORUMALI FONKSIYON]
+
+  === chr.GetVirtualNumber @ 0x004b77c0 ===
+    0x004b77c0: push     ebp                           
+    0x004b77c1: mov      ebp, esp                      
+    0x004b77c3: push     ecx                           
+    0x004b77c4: lea      eax, [ebp - 4]                
+    0x004b77c7: push     eax                           
+    0x004b77c8: push     0                             
+    0x004b77ca: push     dword ptr [ebp + 0xc]         
+    0x004b77cd: call     0x684400                      
+    0x004b77d2: add      esp, 0xc                      
+    0x004b77d5: test     al, al                        
+    0x004b77d7: jne      0x4b77e7                      
+    0x004b77d9: push     0                             
+    0x004b77db: call     0x6845f0                      
+    0x004b77e0: add      esp, 4                        
+    0x004b77e3: mov      esp, ebp                      
+    0x004b77e5: pop      ebp                           
+    0x004b77e6: ret                                    
+    0x004b77e7: mov      ecx, dword ptr [0x9c47c0]     
+    0x004b77ed: push     dword ptr [ebp - 4]           
+    0x004b77f0: add      ecx, 4                        
+    0x004b77f3: mov      eax, dword ptr [ecx]          
+    0x004b77f5: call     dword ptr [eax + 8]           
+    0x004b77f8: test     eax, eax                      
+    0x004b77fa: je       0x4b7816                      
+    0x004b77fc: mov      ecx, eax                      
+    0x004b77fe: call     0x4a1090                      
+    0x004b7803: push     eax                           
+    0x004b7804: push     0x897c10                      
+    0x004b7809: call     dword ptr [0x896bb8]          
+    0x004b780f: add      esp, 8                        
+    0x004b7812: mov      esp, ebp                      
+    0x004b7814: pop      ebp                           
+    0x004b7815: ret                                    
+    0x004b7816: push     6                             
+    0x004b7818: push     0x897c10                      
+    0x004b781d: call     dword ptr [0x896bb8]          
+    0x004b7823: add      esp, 8                        
+    0x004b7826: mov      esp, ebp                      
+    0x004b7828: pop      ebp                           
+    0x004b7829: ret                                    
+    --- Alt Motor Fonksiyonu 0x004a1090 ---
+    0x004a1090: push     ebp                           
+    0x004a1091: mov      ebp, esp                      
+    0x004a1093: push     ecx                           
+    0x004a1094: push     4                             
+    0x004a1096: lea      eax, [ebp - 4]                
+    0x004a1099: mov      dword ptr [ebp - 4], 0        
+    0x004a10a0: push     eax                           
+    0x004a10a1: lea      eax, [ecx + 0x170]            
+    0x004a10a7: push     eax                           
+    0x004a10a8: call     0x6dbd90                      
+    0x004a10ad: mov      eax, dword ptr [ebp - 4]      
+    0x004a10b0: add      esp, 0xc                      
+    0x004a10b3: mov      esp, ebp                      
+    0x004a10b5: pop      ebp                           
+    0x004a10b6: ret                                    
+
+  === chrmgr.GetVIDInfo @ 0x004b59c0 ===
+    0x004b59c0: push     ebp                           
+    0x004b59c1: mov      ebp, esp                      
+    0x004b59c3: push     ecx                           
+    0x004b59c4: lea      eax, [ebp - 4]                
+    0x004b59c7: push     eax                           
+    0x004b59c8: push     0                             
+    0x004b59ca: push     dword ptr [ebp + 0xc]         
+    0x004b59cd: call     0x684400                      
+    0x004b59d2: add      esp, 0xc                      
+    0x004b59d5: test     al, al                        
+    0x004b59d7: jne      0x4b59e2                      
+    0x004b59d9: call     0x6845e0                      
+    0x004b59de: mov      esp, ebp                      
+    0x004b59e0: pop      ebp                           
+    0x004b59e1: ret                                    
+    0x004b59e2: push     0x897518                      
+    0x004b59e7: push     0x898060                      
+    0x004b59ec: call     dword ptr [0x896bb8]          
+    0x004b59f2: add      esp, 8                        
+    0x004b59f5: mov      esp, ebp                      
+    0x004b59f7: pop      ebp                           
+    0x004b59f8: ret                                    
+
+  === chrmgr.IsDead : BULUNAMADI ===
+
+  === nav.MoveToPosition : BULUNAMADI ===
+
+  === nav.PreviewToPosition @ 0x004e59d0 ===
+    0x004e59d0: push     ebp                           
+    0x004e59d1: mov      ebp, esp                      
+    0x004e59d3: sub      esp, 8                        
+    0x004e59d6: lea      eax, [ebp - 8]                
+    0x004e59d9: push     eax                           
+    0x004e59da: push     0                             
+    0x004e59dc: push     dword ptr [ebp + 0xc]         
+    0x004e59df: call     0x684360                      
+    0x004e59e4: add      esp, 0xc                      
+    0x004e59e7: test     al, al                        
+    0x004e59e9: jne      0x4e59f9                      
+    0x004e59eb: push     0                             
+    0x004e59ed: call     0x6845f0                      
+    0x004e59f2: add      esp, 4                        
+    0x004e59f5: mov      esp, ebp                      
+    0x004e59f7: pop      ebp                           
+    0x004e59f8: ret                                    
+    0x004e59f9: lea      eax, [ebp - 4]                
+    0x004e59fc: push     eax                           
+    0x004e59fd: push     1                             
+    0x004e59ff: push     dword ptr [ebp + 0xc]         
+    0x004e5a02: call     0x684360                      
+    0x004e5a07: add      esp, 0xc                      
+    0x004e5a0a: test     al, al                        
+    0x004e5a0c: je       0x4e59eb                      
+    0x004e5a0e: movss    xmm0, dword ptr [ebp - 4]     
+    0x004e5a13: sub      esp, 8                        
+    0x004e5a16: movss    xmm1, dword ptr [ebp - 8]     
+    0x004e5a1b: mov      ecx, dword ptr [0x9c54dc]     
+    0x004e5a21: movss    dword ptr [esp + 4], xmm0     
+    0x004e5a27: movss    dword ptr [esp], xmm1         
+    0x004e5a2c: call     0x4ded30                      
+    0x004e5a31: push     eax                           
+    0x004e5a32: push     0x897c10                      
+    0x004e5a37: call     dword ptr [0x896bb8]          
+    0x004e5a3d: add      esp, 8                        
+    0x004e5a40: mov      esp, ebp                      
+    0x004e5a42: pop      ebp                           
+    0x004e5a43: ret                                    
+    --- Alt Motor Fonksiyonu 0x004ded30 ---
+    0x004ded30: push     ebp                           
+    0x004ded31: mov      ebp, esp                      
+    0x004ded33: and      esp, 0xfffffff8               
+    0x004ded36: sub      esp, 0x24                     
+    0x004ded39: push     ebx                           
+    0x004ded3a: mov      ebx, dword ptr [0x9c54d8]     
+    0x004ded40: push     esi                           
+    0x004ded41: push     edi                           
+    0x004ded42: mov      edi, ecx                      
+    0x004ded44: cmp      byte ptr [ebx + 0x718], 0     
+    0x004ded4b: jne      0x4ded5b                      
+    0x004ded4d: mov      eax, 1                        
+    0x004ded52: pop      edi                           
+    0x004ded53: pop      esi                           
+    0x004ded54: pop      ebx                           
+    0x004ded55: mov      esp, ebp                      
+    0x004ded57: pop      ebp                           
+    0x004ded58: ret      8                             
+    0x004ded5b: cmp      byte ptr [edi + 0x924], 0     
+    0x004ded62: jne      0x4ded72                      
+    0x004ded64: mov      eax, 2                        
+    0x004ded69: pop      edi                           
+    0x004ded6a: pop      esi                           
+    0x004ded6b: pop      ebx                           
+    0x004ded6c: mov      esp, ebp                      
+    0x004ded6e: pop      ebp                           
+    0x004ded6f: ret      8                             
+    0x004ded72: call     0x4e44b0                      
+    0x004ded77: mov      eax, dword ptr [ebx + 0x720]  
+    0x004ded7d: test     eax, eax                      
+    0x004ded7f: je       0x4defd3                      
+    0x004ded85: cmp      byte ptr [eax], 0             
+    0x004ded88: je       0x4defd3                      
+    0x004ded8e: cmp      dword ptr [edi + 0x84c], 3    
+    0x004ded95: jne      0x4deda5                      
+    0x004ded97: mov      eax, 8                        
+    0x004ded9c: pop      edi                           
+    0x004ded9d: pop      esi                           
+    0x004ded9e: pop      ebx                           
+    0x004ded9f: mov      esp, ebp                      
+    0x004deda1: pop      ebp                           
+    0x004deda2: ret      8                             
+    0x004deda5: mov      ecx, edi                      
+    0x004deda7: call     0x4e1950                      
+    0x004dedac: mov      dword ptr [esp + 0xc], eax    
+    0x004dedb0: test     eax, eax                      
+    0x004dedb2: je       0x4defc5                      
+    0x004dedb8: push     eax                           
+    0x004dedb9: mov      ecx, edi                      
+    0x004dedbb: call     0x4dff30                      
+    0x004dedc0: test     al, al                        
+    0x004dedc2: jne      0x4dedd2                      
+    0x004dedc4: mov      eax, 5                        
+    0x004dedc9: pop      edi                           
+    0x004dedca: pop      esi                           
+    0x004dedcb: pop      ebx                           
+    0x004dedcc: mov      esp, ebp                      
+    0x004dedce: pop      ebp                           
+    0x004dedcf: ret      8                             
+    0x004dedd2: lea      eax, [esp + 0x18]             
+    0x004dedd6: mov      dword ptr [esp + 0x18], 0     
+    0x004dedde: push     eax                           
+    0x004deddf: mov      ecx, edi                      
+
+  === nav.GetWaypoint @ 0x004e56e0 ===
+    0x004e56e0: push     ebp                           
+    0x004e56e1: mov      ebp, esp                      
+    0x004e56e3: sub      esp, 0xc                      
+    0x004e56e6: lea      eax, [ebp - 0xc]              
+    0x004e56e9: push     eax                           
+    0x004e56ea: push     0                             
+    0x004e56ec: push     dword ptr [ebp + 0xc]         
+    0x004e56ef: call     0x684400                      
+    0x004e56f4: add      esp, 0xc                      
+    0x004e56f7: test     al, al                        
+    0x004e56f9: jne      0x4e5709                      
+    0x004e56fb: push     0                             
+    0x004e56fd: call     0x6845f0                      
+    0x004e5702: add      esp, 4                        
+    0x004e5705: mov      esp, ebp                      
+    0x004e5707: pop      ebp                           
+    0x004e5708: ret                                    
+    0x004e5709: mov      ecx, dword ptr [0x9c54dc]     
+    0x004e570f: lea      eax, [ebp - 4]                
+    0x004e5712: push     eax                           
+    0x004e5713: lea      eax, [ebp - 8]                
+    0x004e5716: mov      dword ptr [ebp - 8], 0        
+    0x004e571d: push     eax                           
+    0x004e571e: push     dword ptr [ebp - 0xc]         
+    0x004e5721: mov      dword ptr [ebp - 4], 0        
+    0x004e5728: call     0x4de580                      
+    0x004e572d: sub      esp, 0x10                     
+    0x004e5730: test     al, al                        
+    0x004e5732: jne      0x4e574f                      
+    0x004e5734: xorps    xmm0, xmm0                    
+    0x004e5737: movups   xmmword ptr [esp], xmm0       
+    0x004e573b: push     0                             
+    0x004e573d: push     0x8a2960                       ; "(iff)"
+    0x004e5742: call     dword ptr [0x896bb8]          
+    0x004e5748: add      esp, 0x18                     
+    0x004e574b: mov      esp, ebp                      
+    0x004e574d: pop      ebp                           
+    0x004e574e: ret                                    
+    0x004e574f: movss    xmm0, dword ptr [ebp - 4]     
+    0x004e5754: cvtps2pd xmm0, xmm0                    
+    0x004e5757: movsd    qword ptr [esp + 8], xmm0     
+    0x004e575d: movss    xmm0, dword ptr [ebp - 8]     
+    0x004e5762: cvtps2pd xmm0, xmm0                    
+    0x004e5765: movsd    qword ptr [esp], xmm0         
+    0x004e576a: push     1                             
+    0x004e576c: push     0x8a2960                       ; "(iff)"
+    0x004e5771: call     dword ptr [0x896bb8]          
+    0x004e5777: add      esp, 0x18                     
+    0x004e577a: mov      esp, ebp                      
+    0x004e577c: pop      ebp                           
+    0x004e577d: ret                                    
+    --- Alt Motor Fonksiyonu 0x004de580 ---
+    0x004de580: push     ebp                           
+    0x004de581: mov      ebp, esp                      
+    0x004de583: mov      eax, dword ptr [ecx + 0x8a8]  
+    0x004de589: mov      edx, dword ptr [ebp + 8]      
+    0x004de58c: push     esi                           
+    0x004de58d: mov      esi, dword ptr [ecx + 0x8a4]  
+    0x004de593: sub      eax, esi                      
+    0x004de595: sar      eax, 3                        
+    0x004de598: cmp      edx, eax                      
+    0x004de59a: jb       0x4de5a3                      
+    0x004de59c: xor      al, al                        
+    0x004de59e: pop      esi                           
+    0x004de59f: pop      ebp                           
+    0x004de5a0: ret      0xc                           
+    0x004de5a3: lea      ecx, [edx*8]                  
+    0x004de5aa: mov      edx, dword ptr [ebp + 0xc]    
+    0x004de5ad: test     edx, edx                      
+    0x004de5af: je       0x4de5b6                      
+    0x004de5b1: mov      eax, dword ptr [esi + ecx]    
+    0x004de5b4: mov      dword ptr [edx], eax          
+    0x004de5b6: mov      edx, dword ptr [ebp + 0x10]   
+    0x004de5b9: test     edx, edx                      
+    0x004de5bb: je       0x4de5c3                      
+    0x004de5bd: mov      eax, dword ptr [ecx + esi + 4]
+    0x004de5c1: mov      dword ptr [edx], eax          
+    0x004de5c3: mov      al, 1                         
+    0x004de5c5: pop      esi                           
+    0x004de5c6: pop      ebp                           
+    0x004de5c7: ret      0xc                           
+
+  === nav.GetWaypointCount @ 0x004e5780 ===
+    0x004e5780: mov      eax, dword ptr [0x9c54dc]     
+    0x004e5785: mov      ecx, dword ptr [eax + 0x8a8]  
+    0x004e578b: sub      ecx, dword ptr [eax + 0x8a4]  
+    0x004e5791: sar      ecx, 3                        
+    0x004e5794: push     ecx                           
+    0x004e5795: push     0x897c10                      
+    0x004e579a: call     dword ptr [0x896bb8]          
+    0x004e57a0: add      esp, 8                        
+    0x004e57a3: ret                                    
+
+  === nav.Stop : BULUNAMADI ===
+
+  === nav.IsMapReady @ 0x004e57f0 ===
+    0x004e57f0: mov      eax, dword ptr [0x9c54d8]     
+    0x004e57f5: mov      eax, dword ptr [eax + 0x720]  
+    0x004e57fb: test     eax, eax                      
+    0x004e57fd: je       0x4e5819                      
+    0x004e57ff: cmp      byte ptr [eax], 0             
+    0x004e5802: je       0x4e5819                      
+    0x004e5804: mov      eax, 1                        
+    0x004e5809: push     eax                           
+    0x004e580a: push     0x897c10                      
+    0x004e580f: call     dword ptr [0x896bb8]          
+    0x004e5815: add      esp, 8                        
+    0x004e5818: ret                                    
+    0x004e5819: xor      eax, eax                      
+    0x004e581b: push     eax                           
+    0x004e581c: push     0x897c10                      
+    0x004e5821: call     dword ptr [0x896bb8]          
+    0x004e5827: add      esp, 8                        
+    0x004e582a: ret                                    
+
+[4] TESPIT EDILEN ANA C++ SINGLETON ADRESLERI (.data)
+  CPythonPlayer              : 0x009c47bc
+  CPythonNetworkStream       : 0x009c47b4
+  CPythonCharacterManager    : 0x009c47a4
+  CItemManager               : 0x009c47c8
+  CPythonNonPlayer           : 0x009c47a8
+  CPythonBackground          : 0x009c54d8
+  CEterPackManager           : 0x009c53cc
+  CPythonSystem              : 0x009c7654

@@ -1,0 +1,594 @@
+20:52:55 === Avrasya2 Bootstrap v2.0.0 ===
+20:52:55 import kancasi kuruldu, arayuz bekleniyor
+20:52:55 === Avrasya2 Bootstrap v2.0.0 ===
+20:52:55 import kancasi kuruldu, arayuz bekleniyor
+20:52:55 === Avrasya2 Bootstrap v2.0.0 ===
+20:52:55 import kancasi kuruldu, arayuz bekleniyor
+20:52:55 === Avrasya2 Bootstrap v2.0.0 ===
+20:52:55 import kancasi kuruldu, arayuz bekleniyor
+21:05:15 === Avrasya2 Bootstrap v2.0.0 ===
+21:05:15 import kancasi kuruldu, arayuz bekleniyor
+21:05:15 === Avrasya2 Bootstrap v2.0.0 ===
+21:05:15 import kancasi kuruldu, arayuz bekleniyor
+21:05:15 === Avrasya2 Bootstrap v2.0.0 ===
+21:05:15 import kancasi kuruldu, arayuz bekleniyor
+21:05:15 === Avrasya2 Bootstrap v2.0.0 ===
+21:05:15 import kancasi kuruldu, arayuz bekleniyor
+21:07:27 === Avrasya2 Bootstrap v2.0.0 ===
+21:07:27 import kancasi kuruldu, arayuz bekleniyor
+21:07:27 === Avrasya2 Bootstrap v2.0.0 ===
+21:07:27 import kancasi kuruldu, arayuz bekleniyor
+21:08:24 === Avrasya2 Bootstrap v2.0.0 ===
+21:08:24 import kancasi kuruldu, arayuz bekleniyor
+21:08:24 === Avrasya2 Bootstrap v2.0.0 ===
+21:08:24 import kancasi kuruldu, arayuz bekleniyor
+21:21:54 === Avrasya2 Bootstrap v2.0.0 ===
+21:21:54 import kancasi kuruldu, arayuz bekleniyor
+21:21:54 === Avrasya2 Bootstrap v2.0.0 ===
+21:21:54 import kancasi kuruldu, arayuz bekleniyor
+21:21:54 === Avrasya2 Bootstrap v2.0.0 ===
+21:21:54 import kancasi kuruldu, arayuz bekleniyor
+21:21:54 === Avrasya2 Bootstrap v2.0.0 ===
+21:21:54 import kancasi kuruldu, arayuz bekleniyor
+21:52:25 === Avrasya2 Bootstrap v2.0.0 ===
+21:52:25 import kancasi kuruldu, arayuz bekleniyor
+21:52:25 === Avrasya2 Bootstrap v2.0.0 ===
+21:52:25 import kancasi kuruldu, arayuz bekleniyor
+21:53:17 === Avrasya2 Bootstrap v2.2.0 ===
+21:53:17 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+21:54:51 === Avrasya2 Bootstrap v2.2.0 ===
+21:54:51 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+21:54:51 system.module_do kancasi kuruldu
+21:54:51 kapi [compile:ui.py]: ui.Window bekleniyor
+21:54:51 ui.Window.__init__ kancasi kuruldu
+21:54:51 kapi [module_do:ui]: hazir (1920x)
+21:54:51 baslatiliyor (module_do:ui): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+21:54:51 main.py basariyla yuklendi
+21:56:02 === Avrasya2 Bootstrap v2.2.0 ===
+21:56:02 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+21:56:02 system.module_do kancasi kuruldu
+21:56:02 kapi [compile:ui.py]: ui.Window bekleniyor
+21:56:02 ui.Window.__init__ kancasi kuruldu
+21:56:02 kapi [module_do:ui]: ekran genisligi 0
+21:56:02 kapi [ui.Window.__init__]: hazir (1920x)
+21:56:02 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+21:56:02 main.py basariyla yuklendi
+21:57:36 === Avrasya2 Bootstrap v2.2.0 ===
+21:57:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+21:57:36 system.module_do kancasi kuruldu
+21:57:37 kapi [import:app]: ui.Window bekleniyor
+21:57:37 ui.Window.__init__ kancasi kuruldu
+21:57:37 kapi [module_do:ui]: hazir (963793011x)
+21:57:37 baslatiliyor (module_do:ui): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+21:58:36 === Avrasya2 Bootstrap v2.2.0 ===
+21:58:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+21:58:36 system.module_do kancasi kuruldu
+21:58:36 kapi [import:app]: ui.Window bekleniyor
+21:58:36 ui.Window.__init__ kancasi kuruldu
+21:58:36 kapi [module_do:ui]: ekran genisligi 0
+21:58:36 kapi [ui.Window.__init__]: hazir (800x)
+21:58:36 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+21:58:36 main.py basariyla yuklendi
+22:01:01 === Avrasya2 Bootstrap v2.2.0 ===
+22:01:01 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:01:01 system.module_do kancasi kuruldu
+22:01:01 kapi [import:app]: ui.Window bekleniyor
+22:01:01 ui.Window.__init__ kancasi kuruldu
+22:01:01 kapi [module_do:ui]: hazir (1128612921x)
+22:01:01 baslatiliyor (module_do:ui): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+22:02:52 === Avrasya2 Bootstrap v2.2.0 ===
+22:02:52 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:02:52 system.module_do kancasi kuruldu
+22:02:52 kapi [import:app]: ui.Window bekleniyor
+22:02:52 ui.Window.__init__ kancasi kuruldu
+22:02:52 kapi [module_do:ui]: hazir (7536751x)
+22:02:52 baslatiliyor (module_do:ui): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+22:24:07 === Avrasya2 Bootstrap v2.2.0 ===
+22:24:07 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:24:07 === Avrasya2 Bootstrap v2.2.0 ===
+22:24:07 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:24:07 system.module_do kancasi kuruldu
+22:24:07 ui.Window.__init__ kancasi kuruldu
+22:24:07 kapi [ui.Window.__init__]: hazir (1920x1080)
+22:24:07 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+22:24:07 main.py basariyla yuklendi
+22:25:27 === Avrasya2 Bootstrap v2.2.0 ===
+22:25:27 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:25:27 system.module_do kancasi kuruldu
+22:25:27 ui.Window.__init__ kancasi kuruldu
+22:25:28 kapi [ui.Window.__init__]: hazir (800x600)
+22:25:28 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+22:25:28 main.py basariyla yuklendi
+22:32:01 === Avrasya2 Bootstrap v2.2.0 ===
+22:32:01 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+22:32:01 system.module_do kancasi kuruldu
+22:32:01 ui.Window.__init__ kancasi kuruldu
+23:46:26 === Avrasya2 Bootstrap v2.2.0 ===
+23:46:26 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+23:46:26 === Avrasya2 Bootstrap v2.2.0 ===
+23:46:26 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+23:46:26 system.module_do kancasi kuruldu
+23:46:26 ui.Window.__init__ kancasi kuruldu
+23:46:26 kapi [ui.Window.__init__]: hazir (1920x1080)
+23:46:26 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+23:46:26 main.py basariyla yuklendi
+23:48:17 === Avrasya2 Bootstrap v2.2.0 ===
+23:48:17 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+23:48:17 system.module_do kancasi kuruldu
+23:48:18 ui.Window.__init__ kancasi kuruldu
+23:48:18 kapi [ui.Window.__init__]: hazir (800x600)
+23:48:18 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+23:48:18 main.py basariyla yuklendi
+23:48:48 === Avrasya2 Bootstrap v2.2.0 ===
+23:48:48 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+23:48:48 system.module_do kancasi kuruldu
+23:48:49 ui.Window.__init__ kancasi kuruldu
+23:48:49 kapi [ui.Window.__init__]: hazir (800x600)
+23:48:49 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+23:48:49 main.py basariyla yuklendi
+01:13:22 === Avrasya2 Bootstrap v2.2.0 ===
+01:13:22 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:13:22 === Avrasya2 Bootstrap v2.2.0 ===
+01:13:22 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:13:22 system.module_do kancasi kuruldu
+01:13:22 ui.Window.__init__ kancasi kuruldu
+01:13:22 kapi [ui.Window.__init__]: hazir (1920x1080)
+01:13:22 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+01:13:22 HATA main.py:
+Traceback (most recent call last):
+  File "C:/Users/erenk/Desktop/Avrasya2/source/sitecustomize.py", line 192, in _launch
+    exec code_obj in ns
+  File "C:\Users\erenk\Desktop\Avrasya2\source\main.py", line 2002, in <module>
+    bootstrap_in_client()
+  File "C:\Users\erenk\Desktop\Avrasya2\source\main.py", line 1857, in bootstrap_in_client
+    ov = build_hud_and_attach(_CONTROLLER)
+  File "C:\Users\erenk\Desktop\Avrasya2\source\main.py", line 1691, in build_hud_and_attach
+    return SuiteOverlay()
+  File "C:\Users\erenk\Desktop\Avrasya2\source\main.py", line 1519, in __init__
+    self.title_line.SetPackedFontColor(0xFF55CCFF)
+AttributeError: 'TextLine' object has no attribute 'SetPackedFontColor'
+
+01:17:35 === Avrasya2 Bootstrap v2.2.0 ===
+01:17:35 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:17:35 === Avrasya2 Bootstrap v2.2.0 ===
+01:17:35 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:17:35 system.module_do kancasi kuruldu
+01:17:35 ui.Window.__init__ kancasi kuruldu
+01:17:35 kapi [ui.Window.__init__]: hazir (1920x1080)
+01:17:35 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+01:17:35 main.py basariyla yuklendi
+01:19:37 === Avrasya2 Bootstrap v2.2.0 ===
+01:19:37 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:19:37 system.module_do kancasi kuruldu
+01:19:37 ui.Window.__init__ kancasi kuruldu
+01:19:38 kapi [ui.Window.__init__]: hazir (800x600)
+01:19:38 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+01:19:38 main.py basariyla yuklendi
+01:42:00 === Avrasya2 Bootstrap v2.2.0 ===
+01:42:00 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:42:00 === Avrasya2 Bootstrap v2.2.0 ===
+01:42:00 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:42:00 system.module_do kancasi kuruldu
+01:42:00 ui.Window.__init__ kancasi kuruldu
+01:42:00 kapi [ui.Window.__init__]: hazir (1920x1080)
+01:42:00 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+01:42:00 main.py basariyla yuklendi
+01:43:39 === Avrasya2 Bootstrap v2.2.0 ===
+01:43:39 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+01:43:39 system.module_do kancasi kuruldu
+01:43:39 ui.Window.__init__ kancasi kuruldu
+01:43:39 kapi [ui.Window.__init__]: hazir (800x600)
+01:43:39 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+01:43:39 main.py basariyla yuklendi
+02:19:36 === Avrasya2 Bootstrap v2.2.0 ===
+02:19:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+02:19:36 === Avrasya2 Bootstrap v2.2.0 ===
+02:19:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+02:19:36 system.module_do kancasi kuruldu
+02:19:36 ui.Window.__init__ kancasi kuruldu
+02:19:36 kapi [ui.Window.__init__]: hazir (1920x1080)
+02:19:36 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+02:19:36 main.py basariyla yuklendi
+02:21:20 === Avrasya2 Bootstrap v2.2.0 ===
+02:21:20 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+02:21:20 system.module_do kancasi kuruldu
+02:21:20 ui.Window.__init__ kancasi kuruldu
+02:21:20 kapi [ui.Window.__init__]: hazir (800x600)
+02:21:20 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+02:21:20 main.py basariyla yuklendi
+03:04:30 === Avrasya2 Bootstrap v2.2.0 ===
+03:04:30 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:04:30 === Avrasya2 Bootstrap v2.2.0 ===
+03:04:30 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:04:30 system.module_do kancasi kuruldu
+03:04:30 ui.Window.__init__ kancasi kuruldu
+03:04:30 kapi [ui.Window.__init__]: hazir (1920x1080)
+03:04:30 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+03:04:30 main.py basariyla yuklendi
+03:11:45 === Avrasya2 Bootstrap v2.2.0 ===
+03:11:45 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:11:45 system.module_do kancasi kuruldu
+03:11:45 ui.Window.__init__ kancasi kuruldu
+03:11:45 kapi [ui.Window.__init__]: hazir (800x600)
+03:11:45 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+03:11:45 main.py basariyla yuklendi
+03:16:02 === Avrasya2 Bootstrap v2.2.0 ===
+03:16:02 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:16:02 system.module_do kancasi kuruldu
+03:16:02 ui.Window.__init__ kancasi kuruldu
+03:16:03 kapi [ui.Window.__init__]: hazir (800x600)
+03:16:03 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+03:16:03 main.py basariyla yuklendi
+03:46:26 === Avrasya2 Bootstrap v2.2.0 ===
+03:46:26 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:46:26 === Avrasya2 Bootstrap v2.2.0 ===
+03:46:26 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:46:26 system.module_do kancasi kuruldu
+03:46:26 ui.Window.__init__ kancasi kuruldu
+03:46:26 kapi [ui.Window.__init__]: hazir (1920x1080)
+03:46:26 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+03:46:26 main.py basariyla yuklendi
+03:47:28 === Avrasya2 Bootstrap v2.2.0 ===
+03:47:28 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+03:47:28 system.module_do kancasi kuruldu
+03:47:28 ui.Window.__init__ kancasi kuruldu
+03:47:29 kapi [ui.Window.__init__]: hazir (800x600)
+03:47:29 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+03:47:29 main.py basariyla yuklendi
+04:23:36 === Avrasya2 Bootstrap v2.2.0 ===
+04:23:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+04:23:36 === Avrasya2 Bootstrap v2.2.0 ===
+04:23:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+04:23:36 system.module_do kancasi kuruldu
+04:23:36 ui.Window.__init__ kancasi kuruldu
+04:23:36 kapi [ui.Window.__init__]: hazir (1920x1080)
+04:23:36 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+04:23:36 main.py basariyla yuklendi
+04:24:50 === Avrasya2 Bootstrap v2.2.0 ===
+04:24:50 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+04:24:50 system.module_do kancasi kuruldu
+04:24:50 ui.Window.__init__ kancasi kuruldu
+04:24:51 kapi [ui.Window.__init__]: hazir (800x600)
+04:24:51 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+04:24:51 main.py basariyla yuklendi
+04:59:56 === Avrasya2 Bootstrap v2.2.0 ===
+04:59:56 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+04:59:56 === Avrasya2 Bootstrap v2.2.0 ===
+04:59:56 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+04:59:56 system.module_do kancasi kuruldu
+04:59:56 ui.Window.__init__ kancasi kuruldu
+04:59:56 kapi [ui.Window.__init__]: hazir (1920x1080)
+04:59:56 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+04:59:56 main.py basariyla yuklendi
+05:01:43 === Avrasya2 Bootstrap v2.2.0 ===
+05:01:43 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+05:01:43 system.module_do kancasi kuruldu
+05:01:43 ui.Window.__init__ kancasi kuruldu
+05:01:43 kapi [ui.Window.__init__]: hazir (800x600)
+05:01:43 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+05:01:43 main.py basariyla yuklendi
+05:55:12 === Avrasya2 Bootstrap v2.2.0 ===
+05:55:12 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+05:55:12 === Avrasya2 Bootstrap v2.2.0 ===
+05:55:12 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+05:55:12 system.module_do kancasi kuruldu
+05:55:12 ui.Window.__init__ kancasi kuruldu
+05:55:12 kapi [ui.Window.__init__]: hazir (1920x1080)
+05:55:12 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+05:55:12 main.py basariyla yuklendi
+05:56:23 === Avrasya2 Bootstrap v2.2.0 ===
+05:56:23 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+05:56:23 system.module_do kancasi kuruldu
+05:56:23 ui.Window.__init__ kancasi kuruldu
+05:56:23 kapi [ui.Window.__init__]: hazir (1280x1017)
+05:56:23 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+05:56:23 main.py basariyla yuklendi
+07:04:41 === Avrasya2 Bootstrap v2.2.0 ===
+07:04:41 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:04:41 system.module_do kancasi kuruldu
+07:04:41 ui.Window.__init__ kancasi kuruldu
+07:04:41 kapi [ui.Window.__init__]: hazir (1280x1017)
+07:04:41 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+07:04:42 main.py basariyla yuklendi
+07:49:29 === Avrasya2 Bootstrap v2.2.0 ===
+07:49:29 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:49:29 system.module_do kancasi kuruldu
+07:49:29 ui.Window.__init__ kancasi kuruldu
+07:49:29 kapi [ui.Window.__init__]: hazir (1920x1080)
+07:49:29 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+07:49:29 main.py basariyla yuklendi
+07:57:19 === Avrasya2 Bootstrap v2.2.0 ===
+07:57:19 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:57:19 === Avrasya2 Bootstrap v2.2.1 ===
+07:57:19 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:57:19 system.module_do kancasi kuruldu
+07:57:19 ui.Window.__init__ kancasi kuruldu
+07:57:19 kapi [ui.Window.__init__]: hazir (1920x1080)
+07:57:19 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py (ctypes=False)
+07:57:19 main.py basariyla yuklendi
+07:57:55 === Avrasya2 Bootstrap v2.2.1 ===
+07:57:55 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:57:55 === Avrasya2 Bootstrap v2.2.1 ===
+07:57:55 ctypes import err:
+Traceback (most recent call last):
+  File "C:/Users/erenk/Desktop/Avrasya2/source/sitecustomize.py", line 22, in <module>
+    import ctypes as _preloaded_ctypes
+  File "C:\Users\erenk\AppData\Roaming\Python\Python27\site-packages\ctypes\__init__.py", line 7, in <module>
+    from _ctypes import Union, Structure, Array
+ImportError: DLL load failed: The specified procedure could not be found.
+
+07:57:55 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:57:55 system.module_do kancasi kuruldu
+07:57:55 ui.Window.__init__ kancasi kuruldu
+07:57:55 kapi [ui.Window.__init__]: hazir (1920x1080)
+07:57:55 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py (ctypes=False)
+07:57:55 main.py basariyla yuklendi
+07:59:21 === Avrasya2 Bootstrap v2.2.1 ===
+07:59:21 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:59:21 system.module_do kancasi kuruldu
+07:59:21 ui.Window.__init__ kancasi kuruldu
+07:59:21 kapi [ui.Window.__init__]: hazir (1920x1080)
+07:59:21 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py (ctypes=True)
+07:59:21 main.py basariyla yuklendi
+07:59:56 === Avrasya2 Bootstrap v2.2.1 ===
+07:59:56 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+07:59:56 system.module_do kancasi kuruldu
+07:59:56 ui.Window.__init__ kancasi kuruldu
+07:59:56 kapi [ui.Window.__init__]: hazir (1920x1080)
+07:59:56 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py (ctypes=True)
+07:59:56 main.py basariyla yuklendi
+08:07:40 === Avrasya2 Bootstrap v2.2.1 ===
+08:07:40 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:07:40 === Avrasya2 Bootstrap v2.2.2 ===
+08:07:40 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:07:40 system.module_do kancasi kuruldu
+08:07:40 ui.Window.__init__ kancasi kuruldu
+08:07:40 kapi [ui.Window.__init__]: hazir (1920x1080)
+08:07:40 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+08:07:40 main.py basariyla yuklendi
+08:19:05 === Avrasya2 Bootstrap v2.2.2 ===
+08:19:05 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:19:05 system.module_do kancasi kuruldu
+08:19:05 ui.Window.__init__ kancasi kuruldu
+08:19:05 kapi [ui.Window.__init__]: hazir (1920x1080)
+08:19:05 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+08:19:05 main.py basariyla yuklendi
+08:21:25 === Avrasya2 Bootstrap v2.2.2 ===
+08:21:25 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:21:25 system.module_do kancasi kuruldu
+08:21:25 ui.Window.__init__ kancasi kuruldu
+08:21:26 kapi [ui.Window.__init__]: hazir (1280x1017)
+08:21:26 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+08:21:26 main.py basariyla yuklendi
+08:33:36 === Avrasya2 Bootstrap v2.2.2 ===
+08:33:36 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:33:36 system.module_do kancasi kuruldu
+08:33:36 ui.Window.__init__ kancasi kuruldu
+08:33:36 kapi [ui.Window.__init__]: hazir (1920x1080)
+08:33:36 baslatiliyor (ui.Window.__init__): C:\Users\erenk\Desktop\Avrasya2\source\main.py
+08:33:36 main.py basariyla yuklendi
+08:38:04 === Avrasya2 Bootstrap v2.2.2 ===
+08:38:04 cok katmanli kanca kuruldu (__import__ + compile + module_do + ui.Window)
+08:39:17 === Avrasya2 Live Runtime Bridge v3.0.0 ===
+08:39:17 canli runtime izleyici kuruldu (__import__ + compile + module_do + RPC)
+09:19:10 === Avrasya2 Live Runtime Bridge v3.0.0 ===
+09:19:10 canli runtime izleyici kuruldu (__import__ + compile + module_do + RPC)
+09:19:10 === Avrasya2 Live Runtime Bridge v3.1.0 ===
+09:19:10 ctypes yuklendi (RWX-free, zero-LoadLibrary)
+09:19:10 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + RPC)
+09:19:10 system.module_do kancasi kuruldu
+09:19:10 ui.Window.__init__ kancasi kuruldu
+09:19:10 kapi [ui.Window.__init__]: hazir (1920x1080)
+09:19:10 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+09:22:42 === Avrasya2 Live Runtime Bridge v3.1.0 ===
+09:22:42 ctypes yuklendi (RWX-free, zero-LoadLibrary)
+09:22:42 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + RPC)
+09:22:42 system.module_do kancasi kuruldu
+09:22:42 ui.Window.__init__ kancasi kuruldu
+09:22:43 kapi [ui.Window.__init__]: hazir (1280x1017)
+09:22:43 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+09:41:35 === Avrasya2 Live Runtime Bridge v3.1.0 ===
+09:41:37 ctypes yuklendi (RWX-free, zero-LoadLibrary)
+09:41:37 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + RPC)
+09:43:47 === Avrasya2 Live Runtime Bridge v3.1.1 ===
+09:43:47 ctypes yuklendi (RWX-free, zero-LoadLibrary)
+09:43:47 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + RPC)
+09:43:47 system.module_do kancasi kuruldu
+09:43:47 ui.Window.__init__ kancasi kuruldu
+09:43:47 kapi [ui.Window.__init__]: hazir (1280x1017)
+09:43:47 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+10:13:52 === Avrasya2 Live Runtime Bridge v3.1.1 ===
+10:13:52 ctypes yuklendi (RWX-free, zero-LoadLibrary)
+10:13:52 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + RPC)
+10:13:52 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+10:13:52 ctypes yuklendi (RWX-free, PEB-stealth)
+10:13:52 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+10:13:52 system.module_do kancasi kuruldu
+10:13:52 ui.Window.__init__ kancasi kuruldu
+10:13:52 kapi [ui.Window.__init__]: hazir (1920x1080)
+10:13:52 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+10:16:08 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+10:16:08 ctypes yuklendi (RWX-free, PEB-stealth)
+10:16:08 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+10:17:26 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+10:17:26 ctypes yuklendi (RWX-free, PEB-stealth)
+10:17:26 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+10:17:26 system.module_do kancasi kuruldu
+10:17:26 ui.Window.__init__ kancasi kuruldu
+10:17:26 kapi [ui.Window.__init__]: hazir (1280x1017)
+10:17:26 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+11:06:35 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+11:06:35 ctypes yuklendi (RWX-free, PEB-stealth)
+11:06:35 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+11:06:35 system.module_do kancasi kuruldu
+11:06:35 ui.Window.__init__ kancasi kuruldu
+11:06:35 kapi [ui.Window.__init__]: hazir (1280x1017)
+11:06:35 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+12:08:07 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:08:07 ctypes yuklendi (RWX-free, PEB-stealth)
+12:08:07 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:08:27 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:08:27 ctypes yuklendi (RWX-free, PEB-stealth)
+12:08:27 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:08:27 system.module_do kancasi kuruldu
+12:08:27 ui.Window.__init__ kancasi kuruldu
+12:08:27 kapi [ui.Window.__init__]: hazir (1920x1080)
+12:08:27 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+12:08:48 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:08:48 ctypes yuklendi (RWX-free, PEB-stealth)
+12:08:48 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:09:09 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:09:09 ctypes yuklendi (RWX-free, PEB-stealth)
+12:09:09 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:10:26 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:10:26 ctypes yuklendi (RWX-free, PEB-stealth)
+12:10:26 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:10:26 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:10:26 ctypes yuklendi (RWX-free, PEB-stealth)
+12:10:26 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:11:44 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:11:44 ctypes yuklendi (RWX-free, PEB-stealth)
+12:11:44 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:11:44 system.module_do kancasi kuruldu
+12:11:44 ui.Window.__init__ kancasi kuruldu
+12:11:44 kapi [ui.Window.__init__]: hazir (1280x1017)
+12:11:44 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+12:48:39 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:48:39 ctypes yuklendi (RWX-free, PEB-stealth)
+12:48:39 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:48:55 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:48:55 ctypes yuklendi (RWX-free, PEB-stealth)
+12:48:55 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:50:11 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+12:50:11 ctypes yuklendi (RWX-free, PEB-stealth)
+12:50:11 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+12:50:11 system.module_do kancasi kuruldu
+12:50:11 ui.Window.__init__ kancasi kuruldu
+12:50:12 kapi [ui.Window.__init__]: hazir (1280x1017)
+12:50:12 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+13:11:36 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+13:11:36 ctypes yuklendi (RWX-free, PEB-stealth)
+13:11:36 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+13:11:36 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+13:11:36 ctypes yuklendi (RWX-free, PEB-stealth)
+13:11:36 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+13:12:22 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+13:12:22 ctypes yuklendi (RWX-free, PEB-stealth)
+13:12:22 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+13:12:22 system.module_do kancasi kuruldu
+13:12:22 ui.Window.__init__ kancasi kuruldu
+13:12:23 kapi [ui.Window.__init__]: hazir (1280x1017)
+13:12:23 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+14:46:07 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+14:46:07 ctypes yuklendi (RWX-free, PEB-stealth)
+14:46:07 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+14:46:07 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+14:46:07 ctypes yuklendi (RWX-free, PEB-stealth)
+14:46:07 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+14:46:07 system.module_do kancasi kuruldu
+14:46:07 ui.Window.__init__ kancasi kuruldu
+14:46:07 kapi [ui.Window.__init__]: hazir (1920x1080)
+14:46:07 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+14:49:35 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+14:49:35 ctypes yuklendi (RWX-free, PEB-stealth)
+14:49:35 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+14:49:35 system.module_do kancasi kuruldu
+14:49:35 ui.Window.__init__ kancasi kuruldu
+14:49:36 kapi [ui.Window.__init__]: hazir (1280x1017)
+14:49:36 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+14:50:01 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+14:50:01 ctypes yuklendi (RWX-free, PEB-stealth)
+14:50:01 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+14:50:01 system.module_do kancasi kuruldu
+14:50:01 ui.Window.__init__ kancasi kuruldu
+14:50:02 kapi [ui.Window.__init__]: hazir (1280x1017)
+14:50:02 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+15:13:14 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+15:13:14 ctypes yuklendi (RWX-free, PEB-stealth)
+15:13:14 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+15:13:14 system.module_do kancasi kuruldu
+15:13:14 ui.Window.__init__ kancasi kuruldu
+15:13:14 kapi [ui.Window.__init__]: hazir (1280x1017)
+15:13:14 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+18:19:39 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+18:19:39 ctypes yuklendi (RWX-free, PEB-stealth)
+18:19:39 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+18:19:39 system.module_do kancasi kuruldu
+18:19:39 ui.Window.__init__ kancasi kuruldu
+18:19:40 kapi [ui.Window.__init__]: hazir (1280x1017)
+18:19:40 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+18:47:36 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+18:47:37 ctypes yuklendi (RWX-free, PEB-stealth)
+18:47:37 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+18:47:37 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+18:47:37 ctypes yuklendi (RWX-free, PEB-stealth)
+18:47:37 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+18:51:49 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+18:51:49 ctypes yuklendi (RWX-free, PEB-stealth)
+18:51:49 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+18:51:49 system.module_do kancasi kuruldu
+18:51:49 ui.Window.__init__ kancasi kuruldu
+18:51:49 kapi [ui.Window.__init__]: hazir (1280x1017)
+18:51:49 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+18:52:53 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+18:52:53 ctypes yuklendi (RWX-free, PEB-stealth)
+18:52:53 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+18:52:53 system.module_do kancasi kuruldu
+18:52:53 ui.Window.__init__ kancasi kuruldu
+18:52:54 kapi [ui.Window.__init__]: hazir (1280x1017)
+18:52:54 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+20:29:06 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:29:06 ctypes yuklendi (RWX-free, PEB-stealth)
+20:29:06 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:30:11 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:30:11 ctypes yuklendi (RWX-free, PEB-stealth)
+20:30:11 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:31:00 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:31:00 ctypes yuklendi (RWX-free, PEB-stealth)
+20:31:00 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:31:00 system.module_do kancasi kuruldu
+20:31:00 ui.Window.__init__ kancasi kuruldu
+20:31:01 kapi [ui.Window.__init__]: hazir (1280x1017)
+20:31:01 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+20:49:14 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:49:14 ctypes yuklendi (RWX-free, PEB-stealth)
+20:49:14 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:49:14 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:49:14 ctypes yuklendi (RWX-free, PEB-stealth)
+20:49:15 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:50:44 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+20:50:44 ctypes yuklendi (RWX-free, PEB-stealth)
+20:50:44 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+20:50:44 system.module_do kancasi kuruldu
+20:50:44 ui.Window.__init__ kancasi kuruldu
+20:50:44 kapi [ui.Window.__init__]: hazir (1280x1017)
+20:50:44 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+21:18:38 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+21:18:38 ctypes yuklendi (RWX-free, PEB-stealth)
+21:18:38 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+21:18:38 system.module_do kancasi kuruldu
+21:18:38 ui.Window.__init__ kancasi kuruldu
+21:18:38 kapi [ui.Window.__init__]: hazir (1280x1017)
+21:18:38 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+22:39:04 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+22:39:04 ctypes yuklendi (RWX-free, PEB-stealth)
+22:39:05 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+22:39:05 system.module_do kancasi kuruldu
+22:39:05 ui.Window.__init__ kancasi kuruldu
+22:39:05 kapi [ui.Window.__init__]: hazir (1280x1017)
+22:39:05 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
+22:46:56 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+22:46:56 ctypes yuklendi (RWX-free, PEB-stealth)
+22:46:56 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+22:53:25 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+22:53:25 ctypes yuklendi (RWX-free, PEB-stealth)
+22:53:25 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+22:55:03 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+22:55:04 ctypes yuklendi (RWX-free, PEB-stealth)
+22:55:04 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+23:03:21 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+23:03:21 ctypes yuklendi (RWX-free, PEB-stealth)
+23:03:21 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+23:04:10 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+23:04:10 ctypes yuklendi (RWX-free, PEB-stealth)
+23:04:10 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)

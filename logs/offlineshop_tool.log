@@ -1,0 +1,586 @@
+12:08:07 Avrasya2 Offline Pazar Araci v1.0.0 yuklendi! [F7] veya ustteki butonla acabilirsiniz.
+12:11:45 OfflineShopSuiteGUI initialized.
+12:11:56 Avrasya2 Offline Pazar Araci v1.0.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+12:11:59 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0ACB27D0
+12:12:04 Otomatik pazar taramasi basladi (248 pazar)...
+12:12:16 Otomatik pazar taramasi basladi (248 pazar)...
+12:12:17 Otomatik pazar taramasi basladi (248 pazar)...
+12:12:27 Otomatik pazar taramasi basladi (209 pazar)...
+12:13:12 Satin alma paketi gonderildi: Bambu Ok x60 (10 Yang) -> seco00
+12:13:15 Satin alma paketi gonderildi: Bambu Ok x30 (1 Yang) -> seco00
+12:13:17 Satin alma paketi gonderildi: Bambu Ok x150 (1 Yang) -> seco00
+12:13:26 Tarama durduruldu (121/209 pazar, 2286 esya bulundu).
+12:13:26 Pazar uzaktan aciliyor: ? (ID:227345, X:0 Y:0)
+12:13:30 Satin alma paketi gonderildi: Uzun Yay +0 x1 (100 Yang) -> SunseT
+12:13:41 Pazar uzaktan aciliyor: ? (ID:214489, X:0 Y:0)
+12:13:46 Pazar uzaktan aciliyor: ? (ID:227345, X:0 Y:0)
+12:13:59 Pazar uzaktan aciliyor: AHPAP (ID:5998, X:64922 Y:58544)
+12:14:06 Pazar uzaktan aciliyor: AHPAP (ID:5998, X:64922 Y:58544)
+12:14:07 Pazar uzaktan aciliyor: RAGE (ID:7210, X:65308 Y:58641)
+12:14:09 Pazar uzaktan aciliyor: phantom4141 (ID:7531, X:64642 Y:58119)
+12:14:16 Pazar uzaktan aciliyor: Shadowcurse (ID:4040, X:66996 Y:60725)
+12:14:27 Oto-Sniper AKTIF (0 kural izleniyor).
+12:14:30 Oto-Sniper KAPATILDI.
+12:14:51 Otomatik pazar taramasi basladi (248 pazar)...
+12:14:57 Satin alma paketi gonderildi: Kobra Hanceri+0 x1 (100 Yang) -> SunseT
+12:15:02 Satin alma paketi gonderildi: Baltali Mizrak+2 x1 (6.666 Yang) -> Shadowcurse
+12:15:03 Satin alma paketi gonderildi: YesimTasi Kupe+0 x1 (1.000 Yang) -> everestt
+12:15:03 Satin alma paketi gonderildi: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+12:15:04 Satin alma paketi gonderildi: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+12:15:40 Satin alma paketi gonderildi: Bambu Ok x200 (2.000 Yang) -> Kjoling
+12:15:46 Yetersiz Yang! Gereken: 49.800 Yang | Mevcut: 8.782 Yang
+12:16:08 Satin alma paketi gonderildi: Bambu Ok x40 (400 Yang) -> Kjoling
+12:16:18 Tarama durduruldu (174/248 pazar, 3702 esya bulundu).
+12:16:18 Pazar uzaktan aciliyor: ? (ID:207194, X:0 Y:0)
+12:16:20 Pazar uzaktan aciliyor: ? (ID:207194, X:0 Y:0)
+12:16:21 Pazar uzaktan aciliyor: ? (ID:212599, X:0 Y:0)
+12:16:21 Pazar uzaktan aciliyor: ? (ID:204930, X:0 Y:0)
+12:16:21 Pazar uzaktan aciliyor: ? (ID:212599, X:0 Y:0)
+12:16:22 Pazar uzaktan aciliyor: ? (ID:213808, X:0 Y:0)
+12:16:25 Pazar uzaktan aciliyor: ? (ID:204930, X:0 Y:0)
+12:16:25 Pazar uzaktan aciliyor: ? (ID:212599, X:0 Y:0)
+12:16:25 Pazar uzaktan aciliyor: ? (ID:213808, X:0 Y:0)
+12:16:26 Pazar uzaktan aciliyor: ? (ID:206556, X:0 Y:0)
+12:16:26 Pazar uzaktan aciliyor: ? (ID:213808, X:0 Y:0)
+12:16:26 Pazar uzaktan aciliyor: ? (ID:223168, X:0 Y:0)
+12:16:26 Pazar uzaktan aciliyor: ? (ID:209947, X:0 Y:0)
+12:16:27 Pazar uzaktan aciliyor: ? (ID:209947, X:0 Y:0)
+12:16:27 Pazar uzaktan aciliyor: ? (ID:209947, X:0 Y:0)
+12:16:27 Pazar uzaktan aciliyor: ? (ID:204930, X:0 Y:0)
+12:16:31 Otomatik pazar taramasi basladi (249 pazar)...
+12:16:32 Otomatik pazar taramasi basladi (249 pazar)...
+12:16:35 Yetersiz Yang! Gereken: 100.000 Yang | Mevcut: 8.782 Yang
+12:16:50 Tarama durduruldu (37/249 pazar, 3828 esya bulundu).
+12:17:00 Otomatik pazar taramasi basladi (249 pazar)...
+12:17:16 Satin alma paketi gonderildi: Bambu Ok x60 (1.332 Yang) -> tarkan
+12:17:20 Satin alma paketi gonderildi: Bambu Ok x60 (5.000 Yang) -> Ahmetgfb
+12:17:23 Yetersiz Yang! Gereken: 100.000 Yang | Mevcut: 8.782 Yang
+12:17:28 Satin alma paketi gonderildi: Bambu Ok x30 (660 Yang) -> tarkan
+12:18:32 Satin alma paketi gonderildi: Kurt Pencesi x2 (1.000 Yang) -> AYDIN
+12:18:41 Satin alma paketi gonderildi: Bakir Kolye+0 x1 (1.000 Yang) -> seco00
+12:19:02 Satin alma paketi gonderildi: Shiriken x3 (999 Yang) -> Moxxi
+12:19:07 Tarama tamamlandi! 249 pazar tarandi, 5864 esya ve 1840 firsat bulundu.
+12:19:17 Satin alma paketi gonderildi: Gango Koku x2 (1.000 Yang) -> Majezik
+12:20:02 Satin alma paketi gonderildi: B. Domuzkuyrugu Kurdele x2 (2.000 Yang) -> Majezik
+12:20:58 Satin alma paketi gonderildi: Gango Koku x3 (2.000 Yang) -> Majezik
+12:50:12 OfflineShopSuiteGUI initialized.
+12:50:54 Avrasya2 Offline Pazar Araci v1.1.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+12:50:55 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x19724410
+12:51:01 Otomatik pazar taramasi basladi (250 pazar)...
+12:52:41 Pazar baglantisi acilip satin aliniyor: Saman x1 (1.000 Yang) -> AYDIN
+12:52:47 Pazar uzaktan aciliyor: AYDIN (VID:6082, X:611 Y:611, Mesafe:42m)
+12:52:49 Pazar baglantisi acilip satin aliniyor: Tahta Kolye+0 x1 (500 Yang) -> RSK35
+12:52:50 SATIN ALINDI: Tahta Kolye+0 x1 (500 Yang) -> RSK35 (Kalan Yang: 8.670)
+12:55:33 Pazar baglantisi acilip satin aliniyor: Saman x7 (1.500 Yang) -> AYDIN
+12:55:33 SATIN ALINDI: Saman x7 (1.500 Yang) -> AYDIN (Kalan Yang: 6.670)
+12:57:19 Pazar baglantisi acilip satin aliniyor: Turna Kanadi Yelpaze+1 x1 (1 Yang) -> Redhack80
+12:57:19 SATIN ALINDI: Turna Kanadi Yelpaze+1 x1 (1 Yang) -> Redhack80 (Kalan Yang: 6.669)
+12:59:19 Pazar baglantisi acilip satin aliniyor: Havuc x1 (1.000 Yang) -> AYDIN
+12:59:19 SATIN ALINDI: Havuc x1 (1.000 Yang) -> AYDIN (Kalan Yang: 5.669)
+13:02:56 Pazar baglantisi acilip satin aliniyor: Birlesik Yay+2 x1 (1.000 Yang) -> RSK35
+13:02:56 SATIN ALINDI: Birlesik Yay+2 x1 (1.000 Yang) -> RSK35 (Kalan Yang: 4.669)
+13:12:23 OfflineShopSuiteGUI initialized.
+13:12:40 Avrasya2 Offline Pazar Araci v1.1.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+13:12:41 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x18F69990
+13:12:55 Otomatik pazar taramasi basladi (251 pazar)...
+13:13:01 Envanterde NPC karli alinmis esya bulunamadi (Once NPC Kar filtresinden esya satin alin).
+13:13:05 Envanterde NPC karli alinmis esya bulunamadi (Once NPC Kar filtresinden esya satin alin).
+13:13:08 Envanterde NPC karli alinmis esya bulunamadi (Once NPC Kar filtresinden esya satin alin).
+13:13:09 Pazar baglantisi acilip satin aliniyor: Kobra Hanceri+0 x1 (100 Yang) -> SunseT
+13:13:12 Pazar baglantisi acilip satin aliniyor: Kobra Hanceri+0 x1 (100 Yang) -> SunseT
+13:13:12 Satin alma istegi gonderildi: Kobra Hanceri+0 x1 (100 Yang) -> SunseT
+13:13:12 SATIN ALINDI: Kobra Hanceri+0 x1 (100 Yang) -> SunseT (Kalan Yang: 4.569)
+13:13:14 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:15 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:16 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:19 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:21 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:22 Envanterde 1 slot NPC esyasi hazir (Deger: 120 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:13:33 NPC'ye 1 slot esya satildi! Toplam NPC Geliri: +120 Yang
+13:13:41 Otomatik pazar taramasi basladi (251 pazar)...
+13:14:39 Pazar baglantisi acilip satin aliniyor: Kesis Plaka Zirh+0 x1 (100 Yang) -> Doncici
+13:14:42 Pazar baglantisi acilip satin aliniyor: Kesis Plaka Zirh+0 x1 (100 Yang) -> Doncici
+13:14:42 SATIN ALINDI: Kesis Plaka Zirh+0 x1 (100 Yang) -> Doncici (Kalan Yang: 4.586)
+13:14:54 NPC'ye 1 slot esya satildi! Toplam NPC Geliri: +600 Yang
+13:15:08 Sniper kurali eklendi: Kobra Hanceri+0 (Vnum:1010) Max Birim Fiyat: 4.250 Yang
+13:15:08 Oto-Sniper AKTIF (1 kural izleniyor).
+13:15:12 Oto-Sniper KAPATILDI.
+13:15:16 Otomatik pazar taramasi basladi (185 pazar)...
+13:15:22 Pazar baglantisi acilip satin aliniyor: Samandan Koruyan Tas+2 x1 (1.000 Yang) -> everestt
+13:15:24 Pazar baglantisi acilip satin aliniyor: Samandan Koruyan Tas+2 x1 (1.000 Yang) -> everestt
+13:15:24 SATIN ALINDI: Samandan Koruyan Tas+2 x1 (1.000 Yang) -> everestt (Kalan Yang: 4.168)
+13:15:26 Envanterde 1 slot NPC esyasi hazir (Deger: 2.000 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:15:27 Envanterde 1 slot NPC esyasi hazir (Deger: 2.000 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:15:30 Envanterde 1 slot NPC esyasi hazir (Deger: 2.000 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:15:38 NPC'ye 1 slot esya satildi! Toplam NPC Geliri: +2.000 Yang
+13:15:50 Envanterde NPC karli alinmis esya bulunamadi (Once NPC Kar filtresinden esya satin alin).
+13:16:27 Pazar baglantisi acilip satin aliniyor: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+13:16:28 SATIN ALINDI: Beceri Kitabi x1 (1.111 Yang) -> McBaaN (Kalan Yang: 4.997)
+13:16:35 Satin alma istegi gonderildi: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+13:16:35 SATIN ALINDI: Beceri Kitabi x1 (1.111 Yang) -> McBaaN (Kalan Yang: 3.886)
+13:16:42 Satin alma istegi gonderildi: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+13:16:42 SATIN ALINDI: Beceri Kitabi x1 (1.111 Yang) -> McBaaN (Kalan Yang: 2.775)
+13:16:47 Satin alma istegi gonderildi: Beceri Kitabi x1 (1.111 Yang) -> McBaaN
+13:16:47 SATIN ALINDI: Beceri Kitabi x1 (1.111 Yang) -> McBaaN (Kalan Yang: 1.664)
+13:19:41 Pazar baglantisi acilip satin aliniyor: YesimTasi Kupe+0 x1 (1.000 Yang) -> everestt
+13:19:41 SATIN ALINDI: YesimTasi Kupe+0 x1 (1.000 Yang) -> everestt (Kalan Yang: 664)
+13:20:33 Otomatik pazar taramasi basladi (177 pazar)...
+13:20:37 Otomatik pazar taramasi basladi (251 pazar)...
+13:20:39 Sniper'a eklemek icin listeden bir esyaya tiklayin!
+13:20:46 Otomatik pazar taramasi basladi (251 pazar)...
+13:21:27 Otomatik pazar taramasi basladi (251 pazar)...
+13:23:33 Tarama tamamlandi! 251 pazar tarandi, 5035 esya ve 1489 firsat bulundu.
+13:23:33 Otomatik pazar taramasi basladi (251 pazar)...
+13:23:36 Satin alma istegi gonderildi: Gok Mavisi Takim+0 x1 (500 Yang) -> NinjaFain
+13:23:37 Mesafe siniri (76m > 15m): NinjaFain pazarina otomatik yuruyup satin aliniyor...
+13:23:47 SATIN ALINDI: Gok Mavisi Takim+0 x1 (500 Yang) -> NinjaFain (Kalan Yang: -415.579.686)
+13:23:48 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x18F6D050
+13:24:02 Otomatik pazar taramasi basladi (251 pazar)...
+13:25:08 Otomatik pazar taramasi basladi (251 pazar)...
+13:27:01 Pazar baglantisi acilip satin aliniyor: Gok Mavisi Takim+0 x1 (500 Yang) -> xenveju
+13:27:02 SATIN ALINDI: Gok Mavisi Takim+0 x1 (500 Yang) -> xenveju (Kalan Yang: 164)
+13:27:06 Envanterde 1 slot NPC esyasi hazir (Deger: 600 Yang). Lutfen bir NPC (Market/Satici) acip tekrar basin!
+13:28:42 Otomatik pazar taramasi basladi (251 pazar)...
+13:28:43 Otomatik pazar taramasi basladi (251 pazar)...
+13:30:47 Tarama tamamlandi! 251 pazar tarandi, 6721 esya ve 2226 firsat bulundu.
+13:30:47 Otomatik pazar taramasi basladi (251 pazar)...
+13:30:52 Pazar baglantisi acilip satin aliniyor: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:30:56 Pazar baglantisi acilip satin aliniyor: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:30:57 Mesafe siniri (76m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:31:09 SATIN ALINDI: YesimTasi Can+0 x1 (55 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:31:10 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x18F65450
+13:31:42 Pazar baglantisi acilip satin aliniyor: Orkide Kilici+0 x1 (1.000 Yang) -> bendeozledi5
+13:31:43 Mesafe siniri (51m > 15m): bendeozledi5 pazarina otomatik yuruyup satin aliniyor...
+13:31:55 SATIN ALINDI: Orkide Kilici+0 x1 (1.000 Yang) -> bendeozledi5 (Kalan Yang: -415.579.686)
+13:31:56 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0A8E04F0
+13:38:17 Otomatik pazar taramasi basladi (229 pazar)...
+13:38:23 Pazar baglantisi acilip satin aliniyor: Orkide Kilici+0 x1 (1.000 Yang) -> bendeozledi5
+13:38:23 SATIN ALINDI: Orkide Kilici+0 x1 (1.000 Yang) -> bendeozledi5 (Kalan Yang: 967)
+13:38:40 Pazar baglantisi acilip satin aliniyor: Kaynak Can+0 x1 (2.000 Yang) -> vivo
+13:38:41 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:38:50 SATIN ALINDI: Kaynak Can+0 x1 (2.000 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:38:51 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x194A8A30
+13:38:55 Satin alma istegi gonderildi: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:38:55 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:39:05 SATIN ALINDI: YesimTasi Can+0 x1 (55 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:39:06 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0A8D1F70
+13:39:17 Otomatik pazar taramasi basladi (252 pazar)...
+13:39:40 Tarama durduruldu (47/252 pazar, 6720 esya bulundu).
+13:39:42 Pazar baglantisi acilip satin aliniyor: Okyanus Yelpazesi+0 x1 (2.000 Yang) -> vivo
+13:39:42 SATIN ALINDI: Okyanus Yelpazesi+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 1.101)
+13:39:55 Satin alma istegi gonderildi: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:39:56 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:40:04 SATIN ALINDI: YesimTasi Can+0 x1 (55 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:40:05 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x364972F0
+13:40:12 Satin alma istegi gonderildi: Kaynak Can+0 x1 (2.000 Yang) -> vivo
+13:40:13 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:40:22 SATIN ALINDI: Kaynak Can+0 x1 (2.000 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:40:23 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x362ACC50
+13:40:32 Satin alma istegi gonderildi: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+13:40:33 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:40:41 SATIN ALINDI: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:40:42 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x36580AB0
+13:40:44 Otomatik pazar taramasi basladi (252 pazar)...
+13:41:23 Pazar baglantisi acilip satin aliniyor: Kaynak Can+0 x1 (2.000 Yang) -> bendeozledi5
+13:41:23 SATIN ALINDI: Kaynak Can+0 x1 (2.000 Yang) -> bendeozledi5 (Kalan Yang: 2.011)
+13:41:35 Pazar baglantisi acilip satin aliniyor: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+13:41:36 SATIN ALINDI: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 2.921)
+13:41:48 Satin alma istegi gonderildi: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:41:49 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:41:58 SATIN ALINDI: YesimTasi Can+0 x1 (55 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:41:59 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x3679D730
+13:42:07 Satin alma istegi gonderildi: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+13:42:08 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:42:32 Satin alma zaman asimina ugradi: Kara Yikim Yayi+0
+13:43:56 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x3666C030
+13:43:59 Otomatik pazar taramasi basladi (252 pazar)...
+13:44:09 Pazar baglantisi acilip satin aliniyor: Kaynak Can+0 x1 (2.000 Yang) -> vivo
+13:44:10 SATIN ALINDI: Kaynak Can+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 3.831)
+13:44:15 Satin alma istegi gonderildi: YesimTasi Can+0 x1 (55 Yang) -> vivo
+13:44:15 SATIN ALINDI: YesimTasi Can+0 x1 (55 Yang) -> vivo (Kalan Yang: 3.776)
+13:44:25 Satin alma istegi gonderildi: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+13:44:25 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:44:50 Satin alma zaman asimina ugradi: Kara Yikim Yayi+0
+13:44:54 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x36796270
+13:44:57 Otomatik pazar taramasi basladi (252 pazar)...
+13:45:04 Tarama durduruldu (15/252 pazar, 6719 esya bulundu).
+13:45:06 Pazar baglantisi acilip satin aliniyor: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+13:45:06 SATIN ALINDI: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 6.238)
+13:45:17 Pazar baglantisi acilip satin aliniyor: Kedi Isirigi Bicak+0 x1 (2.222 Yang) -> TEACHER
+13:45:18 SATIN ALINDI: Kedi Isirigi Bicak+0 x1 (2.222 Yang) -> TEACHER (Kalan Yang: 4.016)
+13:45:23 Pazar baglantisi acilip satin aliniyor: Kaynak Can+1 x1 (2.222 Yang) -> TEACHERS
+13:45:23 SATIN ALINDI: Kaynak Can+1 x1 (2.222 Yang) -> TEACHERS (Kalan Yang: 1.794)
+13:45:27 Yetersiz Yang! Gereken: 2.500 Yang | Mevcut: 1.794 Yang
+13:45:39 Pazar baglantisi acilip satin aliniyor: Kedi Isirigi Bicak+0 x1 (2.500 Yang) -> vivo
+13:45:40 Mesafe siniri (79m > 15m): vivo pazarina otomatik yuruyup satin aliniyor...
+13:45:49 SATIN ALINDI: Kedi Isirigi Bicak+0 x1 (2.500 Yang) -> vivo (Kalan Yang: -415.579.686)
+13:45:49 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x3649EC10
+13:45:55 Pazar baglantisi acilip satin aliniyor: Sevgi Elbisesi+1 x1 (2.222 Yang) -> TEACHERS
+13:45:56 SATIN ALINDI: Sevgi Elbisesi+1 x1 (2.222 Yang) -> TEACHERS (Kalan Yang: 8.302)
+13:46:10 Otomatik pazar taramasi basladi (252 pazar)...
+13:47:52 Otomatik pazar taramasi basladi (16 pazar)...
+13:48:00 Tarama tamamlandi! 16 pazar tarandi, 7019 esya ve 2317 firsat bulundu.
+13:48:00 Otomatik pazar taramasi basladi (251 pazar)...
+13:50:05 Tarama tamamlandi! 251 pazar tarandi, 7044 esya ve 2312 firsat bulundu.
+13:50:05 Otomatik pazar taramasi basladi (252 pazar)...
+13:50:27 Pazar baglantisi acilip satin aliniyor: Gok Mavisi Takim+0 x1 (500 Yang) -> NinjaFain
+13:50:30 Pazar baglantisi acilip satin aliniyor: Gok Mavisi Takim+0 x1 (500 Yang) -> NinjaFain
+13:50:31 SATIN ALINDI: Gok Mavisi Takim+0 x1 (500 Yang) -> NinjaFain (Kalan Yang: 10.130)
+13:51:09 Otomatik pazar taramasi basladi (252 pazar)...
+14:49:36 OfflineShopSuiteGUI initialized.
+14:50:02 OfflineShopSuiteGUI initialized.
+14:50:21 Avrasya2 Offline Pazar Araci v1.1.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+14:50:23 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0ACF79B0
+14:50:38 Otomatik pazar taramasi basladi (253 pazar)...
+14:52:44 Tarama tamamlandi! 253 pazar tarandi, 3633 esya ve 1092 firsat bulundu.
+14:53:02 Otomatik pazar taramasi basladi (253 pazar)...
+14:53:54 Pazar baglantisi acilip satin aliniyor: Yaban Domuzu Disi x1 (500 Yang) -> Moxxi
+14:53:58 Pazar baglantisi acilip satin aliniyor: Yaban Domuzu Disi x1 (500 Yang) -> Moxxi
+14:53:58 Mesafe siniri (31m > 15m): Moxxi pazarina otomatik yuruyup satin aliniyor...
+14:54:12 SATIN ALINDI: Yaban Domuzu Disi x1 (500 Yang) -> Moxxi (Kalan Yang: -415.579.686)
+14:54:13 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0ACFB970
+14:54:18 Otomatik pazar taramasi basladi (253 pazar)...
+14:56:24 Tarama tamamlandi! 253 pazar tarandi, 5649 esya ve 1741 firsat bulundu.
+14:56:24 Otomatik pazar taramasi basladi (253 pazar)...
+15:13:15 OfflineShopSuiteGUI initialized.
+15:13:28 Avrasya2 Offline Pazar Araci v1.1.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+15:13:30 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0AB429B0
+15:14:01 Otomatik pazar taramasi basladi (252 pazar)...
+15:16:06 Tarama tamamlandi! 252 pazar tarandi, 3908 esya ve 1086 firsat bulundu.
+15:16:06 Otomatik pazar taramasi basladi (252 pazar)...
+15:18:13 Tarama tamamlandi! 252 pazar tarandi, 6219 esya ve 2022 firsat bulundu.
+15:18:13 Otomatik pazar taramasi basladi (251 pazar)...
+15:18:31 Tarama durduruldu (29/251 pazar, 6219 esya bulundu).
+15:18:33 Pazar baglantisi acilip satin aliniyor: Kedi Isirigi Bicak+0 x1 (2.500 Yang) -> vivo
+15:18:33 SATIN ALINDI: Kedi Isirigi Bicak+0 x1 (2.500 Yang) -> vivo (Kalan Yang: 8.212)
+15:19:53 Pazar baglantisi acilip satin aliniyor: Shiriken x3 (999 Yang) -> Moxxi
+15:19:53 SATIN ALINDI: Shiriken x3 (999 Yang) -> Moxxi (Kalan Yang: 10.123)
+15:21:49 Otomatik pazar taramasi basladi (251 pazar)...
+15:23:52 Tarama tamamlandi! 251 pazar tarandi, 6685 esya ve 2196 firsat bulundu.
+15:23:52 Otomatik pazar taramasi basladi (251 pazar)...
+15:24:37 Sniper kurali eklendi: Saman (Vnum:50054) Max Birim Fiyat: 850 Yang
+15:24:37 Oto-Sniper AKTIF (1 kural izleniyor).
+15:24:37 Sniper kurali eklendi: Saman (Vnum:50054) Max Birim Fiyat: 850 Yang
+15:24:38 Sniper kurali eklendi: Saman (Vnum:50054) Max Birim Fiyat: 850 Yang
+15:25:58 Tarama tamamlandi! 251 pazar tarandi, 6692 esya ve 2200 firsat bulundu.
+15:25:58 Otomatik pazar taramasi basladi (251 pazar)...
+15:28:05 Tarama tamamlandi! 251 pazar tarandi, 6859 esya ve 2232 firsat bulundu.
+15:28:05 Otomatik pazar taramasi basladi (251 pazar)...
+15:29:25 Otomatik pazar taramasi basladi (10 pazar)...
+15:29:30 Tarama tamamlandi! 10 pazar tarandi, 6923 esya ve 2256 firsat bulundu.
+15:29:30 Otomatik pazar taramasi basladi (252 pazar)...
+15:29:39 Oto-Sniper KAPATILDI.
+15:31:38 Tarama tamamlandi! 252 pazar tarandi, 6988 esya ve 2279 firsat bulundu.
+15:31:38 Otomatik pazar taramasi basladi (252 pazar)...
+15:33:45 Tarama tamamlandi! 252 pazar tarandi, 6988 esya ve 2279 firsat bulundu.
+15:33:45 Otomatik pazar taramasi basladi (252 pazar)...
+15:35:52 Tarama tamamlandi! 252 pazar tarandi, 7091 esya ve 2313 firsat bulundu.
+15:35:52 Otomatik pazar taramasi basladi (251 pazar)...
+15:37:58 Tarama tamamlandi! 251 pazar tarandi, 7085 esya ve 2313 firsat bulundu.
+15:37:58 Otomatik pazar taramasi basladi (251 pazar)...
+15:40:05 Tarama tamamlandi! 251 pazar tarandi, 7081 esya ve 2314 firsat bulundu.
+15:40:05 Otomatik pazar taramasi basladi (251 pazar)...
+15:42:13 Tarama tamamlandi! 251 pazar tarandi, 7078 esya ve 2311 firsat bulundu.
+15:42:13 Otomatik pazar taramasi basladi (251 pazar)...
+15:44:20 Tarama tamamlandi! 251 pazar tarandi, 7077 esya ve 2304 firsat bulundu.
+15:44:20 Otomatik pazar taramasi basladi (251 pazar)...
+15:46:26 Tarama tamamlandi! 251 pazar tarandi, 7092 esya ve 2316 firsat bulundu.
+15:46:26 Otomatik pazar taramasi basladi (251 pazar)...
+15:48:34 Tarama tamamlandi! 251 pazar tarandi, 7094 esya ve 2318 firsat bulundu.
+15:48:34 Otomatik pazar taramasi basladi (251 pazar)...
+15:50:40 Tarama tamamlandi! 251 pazar tarandi, 7088 esya ve 2318 firsat bulundu.
+15:50:40 Otomatik pazar taramasi basladi (251 pazar)...
+15:52:48 Tarama tamamlandi! 251 pazar tarandi, 7085 esya ve 2319 firsat bulundu.
+15:52:48 Otomatik pazar taramasi basladi (251 pazar)...
+15:54:55 Tarama tamamlandi! 251 pazar tarandi, 7083 esya ve 2318 firsat bulundu.
+15:54:55 Otomatik pazar taramasi basladi (251 pazar)...
+15:57:03 Tarama tamamlandi! 251 pazar tarandi, 7081 esya ve 2315 firsat bulundu.
+15:57:03 Otomatik pazar taramasi basladi (251 pazar)...
+15:59:11 Tarama tamamlandi! 251 pazar tarandi, 7078 esya ve 2312 firsat bulundu.
+15:59:11 Otomatik pazar taramasi basladi (251 pazar)...
+16:01:19 Tarama tamamlandi! 251 pazar tarandi, 7078 esya ve 2318 firsat bulundu.
+16:01:19 Otomatik pazar taramasi basladi (251 pazar)...
+16:03:25 Tarama tamamlandi! 251 pazar tarandi, 7078 esya ve 2318 firsat bulundu.
+16:03:25 Otomatik pazar taramasi basladi (251 pazar)...
+16:05:32 Tarama tamamlandi! 251 pazar tarandi, 7075 esya ve 2316 firsat bulundu.
+16:05:32 Otomatik pazar taramasi basladi (251 pazar)...
+16:07:40 Tarama tamamlandi! 251 pazar tarandi, 7078 esya ve 2322 firsat bulundu.
+16:07:40 Otomatik pazar taramasi basladi (251 pazar)...
+16:09:48 Tarama tamamlandi! 251 pazar tarandi, 7074 esya ve 2324 firsat bulundu.
+16:09:48 Otomatik pazar taramasi basladi (251 pazar)...
+16:11:55 Tarama tamamlandi! 251 pazar tarandi, 7076 esya ve 2325 firsat bulundu.
+16:11:55 Otomatik pazar taramasi basladi (251 pazar)...
+16:14:02 Tarama tamamlandi! 251 pazar tarandi, 7073 esya ve 2323 firsat bulundu.
+16:14:02 Otomatik pazar taramasi basladi (251 pazar)...
+16:16:09 Tarama tamamlandi! 251 pazar tarandi, 7073 esya ve 2323 firsat bulundu.
+16:16:09 Otomatik pazar taramasi basladi (251 pazar)...
+16:18:16 Tarama tamamlandi! 251 pazar tarandi, 7069 esya ve 2321 firsat bulundu.
+16:18:16 Otomatik pazar taramasi basladi (251 pazar)...
+16:20:23 Tarama tamamlandi! 251 pazar tarandi, 7068 esya ve 2321 firsat bulundu.
+16:20:23 Otomatik pazar taramasi basladi (251 pazar)...
+16:22:31 Tarama tamamlandi! 251 pazar tarandi, 7063 esya ve 2318 firsat bulundu.
+16:22:31 Otomatik pazar taramasi basladi (251 pazar)...
+16:24:38 Tarama tamamlandi! 251 pazar tarandi, 7062 esya ve 2318 firsat bulundu.
+16:24:38 Otomatik pazar taramasi basladi (251 pazar)...
+16:26:45 Tarama tamamlandi! 251 pazar tarandi, 7062 esya ve 2318 firsat bulundu.
+16:26:45 Otomatik pazar taramasi basladi (251 pazar)...
+16:28:52 Tarama tamamlandi! 251 pazar tarandi, 7061 esya ve 2318 firsat bulundu.
+16:28:52 Otomatik pazar taramasi basladi (252 pazar)...
+16:30:59 Tarama tamamlandi! 252 pazar tarandi, 7061 esya ve 2320 firsat bulundu.
+16:30:59 Otomatik pazar taramasi basladi (251 pazar)...
+16:33:06 Tarama tamamlandi! 251 pazar tarandi, 7059 esya ve 2319 firsat bulundu.
+16:33:06 Otomatik pazar taramasi basladi (251 pazar)...
+16:35:13 Tarama tamamlandi! 251 pazar tarandi, 7059 esya ve 2319 firsat bulundu.
+16:35:13 Otomatik pazar taramasi basladi (251 pazar)...
+16:37:21 Tarama tamamlandi! 251 pazar tarandi, 7075 esya ve 2326 firsat bulundu.
+16:37:21 Otomatik pazar taramasi basladi (251 pazar)...
+16:39:28 Tarama tamamlandi! 251 pazar tarandi, 7075 esya ve 2326 firsat bulundu.
+16:39:28 Otomatik pazar taramasi basladi (251 pazar)...
+16:41:36 Tarama tamamlandi! 251 pazar tarandi, 7120 esya ve 2352 firsat bulundu.
+16:41:36 Otomatik pazar taramasi basladi (251 pazar)...
+16:43:44 Tarama tamamlandi! 251 pazar tarandi, 7120 esya ve 2353 firsat bulundu.
+16:43:44 Otomatik pazar taramasi basladi (252 pazar)...
+16:45:51 Tarama tamamlandi! 252 pazar tarandi, 7119 esya ve 2366 firsat bulundu.
+16:45:51 Otomatik pazar taramasi basladi (253 pazar)...
+16:47:59 Tarama tamamlandi! 253 pazar tarandi, 7124 esya ve 2367 firsat bulundu.
+16:47:59 Otomatik pazar taramasi basladi (253 pazar)...
+16:50:07 Tarama tamamlandi! 253 pazar tarandi, 7128 esya ve 2357 firsat bulundu.
+16:50:07 Otomatik pazar taramasi basladi (253 pazar)...
+16:52:16 Tarama tamamlandi! 253 pazar tarandi, 7127 esya ve 2357 firsat bulundu.
+16:52:16 Otomatik pazar taramasi basladi (253 pazar)...
+16:54:25 Tarama tamamlandi! 253 pazar tarandi, 7126 esya ve 2356 firsat bulundu.
+16:54:25 Otomatik pazar taramasi basladi (252 pazar)...
+16:56:32 Tarama tamamlandi! 252 pazar tarandi, 7126 esya ve 2356 firsat bulundu.
+16:56:32 Otomatik pazar taramasi basladi (253 pazar)...
+16:58:41 Tarama tamamlandi! 253 pazar tarandi, 7126 esya ve 2356 firsat bulundu.
+16:58:41 Otomatik pazar taramasi basladi (254 pazar)...
+17:00:49 Tarama tamamlandi! 254 pazar tarandi, 7132 esya ve 2357 firsat bulundu.
+17:00:49 Otomatik pazar taramasi basladi (254 pazar)...
+17:02:58 Tarama tamamlandi! 254 pazar tarandi, 7152 esya ve 2357 firsat bulundu.
+17:02:58 Otomatik pazar taramasi basladi (254 pazar)...
+17:05:07 Tarama tamamlandi! 254 pazar tarandi, 7152 esya ve 2357 firsat bulundu.
+17:05:07 Otomatik pazar taramasi basladi (254 pazar)...
+17:07:16 Tarama tamamlandi! 254 pazar tarandi, 7152 esya ve 2357 firsat bulundu.
+17:07:17 Otomatik pazar taramasi basladi (253 pazar)...
+17:09:25 Tarama tamamlandi! 253 pazar tarandi, 7154 esya ve 2357 firsat bulundu.
+17:09:25 Otomatik pazar taramasi basladi (253 pazar)...
+17:11:33 Tarama tamamlandi! 253 pazar tarandi, 7158 esya ve 2358 firsat bulundu.
+17:11:33 Otomatik pazar taramasi basladi (253 pazar)...
+18:19:40 OfflineShopSuiteGUI initialized.
+18:19:54 Avrasya2 Offline Pazar Araci v1.1.0 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+18:19:56 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x199C89B0
+18:20:13 Otomatik pazar taramasi basladi (254 pazar)...
+18:21:17 Pazar baglantisi acilip satin aliniyor: Seytan Surat Hancer+0 x1 (3.000 Yang) -> AKREP35
+18:21:17 SATIN ALINDI: Seytan Surat Hancer+0 x1 (3.000 Yang) -> AKREP35 (Kalan Yang: 7.123)
+18:22:10 Otomatik pazar taramasi basladi (254 pazar)...
+18:22:21 Tarama durduruldu (24/254 pazar, 2110 esya bulundu).
+18:22:25 Pazar baglantisi acilip satin aliniyor: Orkide Kilici+0 x1 (1.000 Yang) -> SunseT
+18:22:25 SATIN ALINDI: Orkide Kilici+0 x1 (1.000 Yang) -> SunseT (Kalan Yang: 10.003)
+18:22:27 Satin alma istegi gonderildi: Deri Ayakkabi+5 x1 (500 Yang) -> SunseT
+18:22:27 SATIN ALINDI: Deri Ayakkabi+5 x1 (500 Yang) -> SunseT (Kalan Yang: 9.503)
+18:22:28 Satin alma istegi gonderildi: Tahta Kupe+5 x1 (500 Yang) -> SunseT
+18:22:28 SATIN ALINDI: Tahta Kupe+5 x1 (500 Yang) -> SunseT (Kalan Yang: 9.003)
+18:22:30 Satin alma istegi gonderildi: Bakir Kolye+3 x1 (200 Yang) -> SunseT
+18:22:30 SATIN ALINDI: Bakir Kolye+3 x1 (200 Yang) -> SunseT (Kalan Yang: 8.803)
+18:22:47 Otomatik pazar taramasi basladi (254 pazar)...
+18:24:49 Pazar baglantisi acilip satin aliniyor: Shiriken x3 (3.000 Yang) -> Siqdirdeli
+18:24:49 SATIN ALINDI: Shiriken x3 (3.000 Yang) -> Siqdirdeli (Kalan Yang: 9.237)
+18:26:32 Otomatik pazar taramasi basladi (86 pazar)...
+18:27:15 Tarama tamamlandi! 86 pazar tarandi, 5561 esya ve 1814 firsat bulundu.
+18:27:15 Otomatik pazar taramasi basladi (254 pazar)...
+18:29:21 Tarama tamamlandi! 254 pazar tarandi, 6154 esya ve 2028 firsat bulundu.
+18:29:21 Otomatik pazar taramasi basladi (255 pazar)...
+18:31:30 Tarama tamamlandi! 255 pazar tarandi, 6625 esya ve 2204 firsat bulundu.
+18:31:30 Otomatik pazar taramasi basladi (255 pazar)...
+18:33:38 Tarama tamamlandi! 255 pazar tarandi, 6810 esya ve 2273 firsat bulundu.
+18:33:38 Otomatik pazar taramasi basladi (255 pazar)...
+18:35:46 Tarama tamamlandi! 255 pazar tarandi, 6803 esya ve 2270 firsat bulundu.
+18:35:46 Otomatik pazar taramasi basladi (255 pazar)...
+18:37:54 Tarama tamamlandi! 255 pazar tarandi, 6997 esya ve 2355 firsat bulundu.
+18:37:55 Otomatik pazar taramasi basladi (255 pazar)...
+18:40:03 Tarama tamamlandi! 255 pazar tarandi, 6986 esya ve 2352 firsat bulundu.
+18:40:03 Otomatik pazar taramasi basladi (255 pazar)...
+18:40:46 Tarama durduruldu (83/255 pazar, 6986 esya bulundu).
+18:40:47 Pazar baglantisi acilip satin aliniyor: Kayisi Agaci Can+0 x1 (2.000 Yang) -> vivo
+18:40:48 SATIN ALINDI: Kayisi Agaci Can+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 7.237)
+18:40:50 Satin alma istegi gonderildi: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo
+18:40:50 SATIN ALINDI: Kara Yikim Yayi+0 x1 (2.000 Yang) -> vivo (Kalan Yang: 5.237)
+18:41:14 Otomatik pazar taramasi basladi (255 pazar)...
+18:42:55 Envanterde NPC karli alinmis esya bulunamadi (Once NPC Kar filtresinden esya satin alin).
+18:43:24 Tarama tamamlandi! 255 pazar tarandi, 6981 esya ve 2348 firsat bulundu.
+18:43:24 Otomatik pazar taramasi basladi (256 pazar)...
+18:45:02 Tarama durduruldu (171/256 pazar, 6985 esya bulundu).
+18:45:32 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x19EB1910
+18:45:42 Otomatik pazar taramasi basladi (256 pazar)...
+18:51:50 OfflineShopSuiteGUI initialized.
+18:52:54 OfflineShopSuiteGUI initialized.
+18:53:06 Avrasya2 Offline Pazar Araci v1.1.1 aktif! [F7] veya ustteki PAZAR ARACI butonuyla acabilirsiniz.
+18:53:09 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0AE6C390
+18:53:15 Tarama hizi: YAVAS MOD (0.90sn aralik + 20 pazarda bir 2.2sn mola - Maksimum koruma).
+18:53:16 Tarama hizi: NORMAL MOD (0.45sn aralik + 30 pazarda bir 1.5sn mola).
+18:53:16 Tarama hizi: GUVENLI MOD (0.60sn aralik + 25 pazarda bir 1.8sn mola - Logout korumali).
+18:53:17 Tarama hizi: YAVAS MOD (0.90sn aralik + 20 pazarda bir 2.2sn mola - Maksimum koruma).
+18:53:18 Tarama hizi: NORMAL MOD (0.45sn aralik + 30 pazarda bir 1.5sn mola).
+18:53:18 Tarama hizi: GUVENLI MOD (0.60sn aralik + 25 pazarda bir 1.8sn mola - Logout korumali).
+18:53:19 Otomatik pazar taramasi basladi (256 pazar)...
+20:31:01 OfflineShopSuiteGUI initialized.
+20:31:15 Avrasya2 Akilli Pazar & Ticaret Botu v1.2.0 aktif! Kesintisiz arka plan taramasi basladi [F7].
+20:31:17 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x19260410
+20:31:58 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:32:01 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:32:03 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:32:06 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:32:09 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:32:11 Su an pazarda NPC karli esya bulunmuyor.
+20:35:37 Su an pazarda NPC karli esya bulunmuyor.
+20:37:00 Su an pazarda NPC karli esya bulunmuyor.
+20:37:03 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:37:07 Su an pazarda NPC karli esya bulunmuyor.
+20:37:08 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:37:42 Pazar baglantisi acilip satin aliniyor: Iyilestirme BK x1 (1.200 Yang) -> sarac16
+20:37:47 Pazar baglantisi acilip satin aliniyor: Iyilestirme BK x1 (1.200 Yang) -> sarac16
+20:37:47 SATIN ALINDI: Iyilestirme BK x1 (1.200 Yang) -> sarac16 (Kalan Yang: 10.827)
+20:38:13 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:38:13 Oto-Sniper AKTIF (1 kural + Garanti NPC Kari izleniyor).
+20:38:38 Satin alma istegi gonderildi: Iyilestirme BK x1 (8.000 Yang) -> CaGaTaY
+20:38:38 SNIPER TETIKLENDI: Iyilestirme BK x1 (8.000 Yang, Birim:8.000) Satici:CaGaTaY
+20:38:38 SATIN ALINDI: Iyilestirme BK x1 (8.000 Yang) -> CaGaTaY (Kalan Yang: 2.827)
+20:38:39 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:38:43 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:38:58 Oto-Sniper KAPATILDI.
+20:39:32 Su an pazarda NPC karli esya bulunmuyor.
+20:39:44 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:44 Oto-Sniper AKTIF (4 kural + Garanti NPC Kari izleniyor).
+20:39:46 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:48 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:49 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:50 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:51 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:39:52 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:40:55 Sniper kurali eklendi: Iyilestirme BK -> Max Birim Fiyat: 8.499 Yang
+20:40:59 Oto-Sniper KAPATILDI.
+20:41:16 Envanterde 2 slot NPC esyasi hazir (+400 Yang). Herhangi bir NPC'ye (Market/Satici) tikladiginiz an OTOMATIK satilacak!
+20:43:56 Su an pazarda NPC karli esya bulunmuyor.
+20:47:09 Sniper kurali eklendi: Kutsama BK -> Max Birim Fiyat: 297.500 Yang
+20:47:09 Oto-Sniper AKTIF (1 kural + Garanti NPC Kari izleniyor).
+20:47:16 Oto-Sniper KAPATILDI.
+20:49:03 Pazar baglantisi acilip satin aliniyor: Sogutma Tasi+1 x1 (2.000 Yang) -> everestt
+20:49:03 SATIN ALINDI: Sogutma Tasi+1 x1 (2.000 Yang) -> everestt (Kalan Yang: 827)
+20:49:32 Sniper kurali eklendi: Sogutma Tasi+1 -> Max Birim Fiyat: 5.666 Yang
+20:49:32 Oto-Sniper AKTIF (1 kural + Garanti NPC Kari izleniyor).
+20:49:34 Oto-Sniper KAPATILDI.
+20:50:44 OfflineShopSuiteGUI initialized.
+20:50:58 Pazar & Ticaret Botu hazir. [INSERT] tusu ile acip kapatabilirsiniz.
+20:51:00 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0AF304F0
+20:52:12 Su an pazarda NPC karli esya bulunmuyor.
+20:53:59 Su an pazarda NPC karli esya bulunmuyor.
+20:54:00 Su an pazarda NPC karli esya bulunmuyor.
+20:54:01 Su an pazarda NPC karli esya bulunmuyor.
+20:54:32 Slot #1 (Mavi Iksir(K)) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+20:54:38 Slot #1 (Mavi Iksir(K)) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+20:54:41 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:43 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:45 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:46 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:46 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:47 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:48 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:48 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:49 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:49 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:50 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:50 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:54:51 Slot #1 (Mavi Iksir(K)) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+20:55:53 Su an pazarda NPC karli esya bulunmuyor.
+20:55:54 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:55:59 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:56:01 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:56:03 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+20:58:28 Su an pazarda NPC karli esya bulunmuyor.
+20:59:29 Su an pazarda NPC karli esya bulunmuyor.
+21:00:00 Su an pazarda NPC karli esya bulunmuyor.
+21:00:18 Su an pazarda NPC karli esya bulunmuyor.
+21:00:47 Pazar uzaktan aciliyor: SeigneuR (VID:6019, X:662 Y:568, Mesafe:17m)
+21:02:43 Piyasa raporu kaydedildi: logs/offlineshop_market_dump.txt & .json (2392 esya)
+21:02:43 Piyasa raporu kaydedildi: logs/offlineshop_market_dump.txt & .json (2392 esya)
+21:10:03 Su an pazarda NPC karli esya bulunmuyor.
+21:10:47 Su an pazarda NPC karli esya bulunmuyor.
+21:12:04 Piyasa raporu kaydedildi: logs/offlineshop_market_dump.txt & .json (7338 esya)
+21:18:38 OfflineShopSuiteGUI initialized.
+21:18:54 Pazar & Ticaret Botu hazir. [INSERT] tusu ile acip kapatabilirsiniz.
+21:18:56 [HOOK_OK] Hooked OfflineShopRenewal.OpenShop_End on board=0x0AC9D4F0
+21:21:45 Envanterde NPC karli esya bulunamadi! (Tab 3 -> Envanter NPC Satis listesinden istediginiz slotu tek tikla satabilirsiniz).
+21:22:02 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(5, 1, 1)
+21:22:03 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(6, 17, 1)
+21:22:05 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(1, 27, 1)
+21:22:06 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(6, 17, 1)
+21:22:08 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(2, 22, 1)
+21:22:10 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(7, 3, 1)
+21:22:12 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(0, 1, 1)
+21:22:19 Pazar baglantisi acilip satin aliniyor: Kayisi Agaci Can+0 x1 (1.000 Yang) -> gitarist90
+21:22:19 Mesafe siniri (16m > 15m): gitarist90 pazarina otomatik yuruyup satin aliniyor...
+21:22:24 Pazar baglantisi acilip satin aliniyor: Kayisi Agaci Can+0 x1 (1.000 Yang) -> gitarist90
+21:22:24 SATIN ALINDI: Kayisi Agaci Can+0 x1 (1.000 Yang) -> gitarist90 (Kalan Yang: 50)
+21:22:32 NPC acildi -> 1 adet NPC karli esya otomatik satiliyor (+4.000 Yang)...
+21:22:32 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(0, 1, 1)
+21:22:32 NPC'ye satildi: Kayisi Agaci Can+0 x1 (Slot:0) -> +4.000 Yang
+21:22:40 Pazar baglantisi acilip satin aliniyor: Kayisi Agaci Can+0 x1 (1.000 Yang) -> gitarist90
+21:22:41 SATIN ALINDI: Kayisi Agaci Can+0 x1 (1.000 Yang) -> gitarist90 (Kalan Yang: 2.930)
+21:22:46 Envanterde 1 slot NPC esyasi hazir (+4.000 Yang). Herhangi bir NPC'ye (Market/Satici) tikladiginiz an OTOMATIK satilacak!
+21:22:52 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(0, 1, 1)
+21:22:52 NPC'ye satildi: Kayisi Agaci Can+0 x1 (Slot:0) -> +4.000 Yang
+21:24:55 Su an pazarda NPC karli esya bulunmuyor.
+21:29:23 Pazar baglantisi acilip satin aliniyor: Azap Yelpazesi+0 x1 (2.000 Yang) -> bendeozledi5
+21:29:23 SATIN ALINDI: Azap Yelpazesi+0 x1 (2.000 Yang) -> bendeozledi5 (Kalan Yang: 10.810)
+21:29:24 Satin alma istegi gonderildi: Sahte Kilic+0 x1 (2.000 Yang) -> bendeozledi5
+21:29:25 Mesafe siniri (24m > 15m): bendeozledi5 pazarina otomatik yuruyup satin aliniyor...
+21:29:25 Satin alma istegi gonderildi: Kirmizi Goz Yay+1 x1 (2.000 Yang) -> bendeozledi5
+21:29:26 Mesafe siniri (23m > 15m): bendeozledi5 pazarina otomatik yuruyup satin aliniyor...
+21:29:28 Satin alma istegi gonderildi: Sahte Kilic+0 x1 (2.000 Yang) -> bendeozledi5
+21:29:29 Mesafe siniri (16m > 15m): bendeozledi5 pazarina otomatik yuruyup satin aliniyor...
+21:29:33 SATIN ALINDI: Sahte Kilic+0 x1 (2.000 Yang) -> bendeozledi5 (Kalan Yang: 8.810)
+21:29:34 Satin alma istegi gonderildi: Kirmizi Goz Yay+1 x1 (2.000 Yang) -> bendeozledi5
+21:29:36 Pazar baglantisi acilip satin aliniyor: Kirmizi Goz Yay+1 x1 (2.000 Yang) -> bendeozledi5
+21:29:39 Pazar baglantisi acilip satin aliniyor: Kirmizi Goz Yay+1 x1 (2.000 Yang) -> bendeozledi5
+21:29:39 SATIN ALINDI: Kirmizi Goz Yay+1 x1 (2.000 Yang) -> bendeozledi5 (Kalan Yang: 6.810)
+21:30:18 NPC acildi -> 3 adet NPC karli esya otomatik satiliyor (+10.880 Yang)...
+21:30:18 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(5, 1, 1)
+21:30:18 NPC'ye satildi: Azap Yelpazesi+0 x1 (Slot:5) -> +4.000 Yang
+21:30:19 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(8, 1, 1)
+21:30:19 NPC'ye satildi: Sahte Kilic+0 x1 (Slot:8) -> +3.000 Yang
+21:30:19 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(9, 1, 1)
+21:30:19 NPC'ye satildi: Kirmizi Goz Yay+1 x1 (Slot:9) -> +3.880 Yang
+21:30:56 Pazar baglantisi acilip satin aliniyor: Kaynak Can+0 x1 (2.500 Yang) -> volvi
+21:30:59 Pazar baglantisi acilip satin aliniyor: Kaynak Can+0 x1 (2.500 Yang) -> volvi
+21:30:59 SATIN ALINDI: Kaynak Can+0 x1 (2.500 Yang) -> volvi (Kalan Yang: 16.480)
+21:31:11 NPC acildi -> 1 adet NPC karli esya otomatik satiliyor (+3.000 Yang)...
+21:31:11 [NPC_SELL_PKT] net.SendShopSellPacketNew args=(7, 1, 1)
+21:31:11 NPC'ye satildi: Kaynak Can+0 x1 (Slot:7) -> +3.000 Yang
+21:31:52 Pazar baglantisi acilip satin aliniyor: Ejderha Yardimi BK x1 (10.000 Yang) -> Khalesi
+21:31:55 Pazar baglantisi acilip satin aliniyor: Ejderha Yardimi BK x1 (10.000 Yang) -> Khalesi
+21:31:55 SATIN ALINDI: Ejderha Yardimi BK x1 (10.000 Yang) -> Khalesi (Kalan Yang: 9.390)
+21:33:28 Pazar baglantisi acilip satin aliniyor: Inci Kolye+0 x1 (3.333 Yang) -> YenerBey57
+21:33:30 Pazar baglantisi acilip satin aliniyor: Inci Kolye+0 x1 (3.333 Yang) -> YenerBey57
+21:33:31 Mesafe siniri (32m > 15m): YenerBey57 pazarina otomatik yuruyup satin aliniyor...
+21:33:31 SATIN ALINDI: Inci Kolye+0 x1 (3.333 Yang) -> YenerBey57 (Kalan Yang: 6.057)
+21:41:40 Su an pazarda NPC karli esya bulunmuyor.
+21:43:09 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:10 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:12 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:13 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:15 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:15 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:16 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:17 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:17 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:43:18 Slot #5 (Kurt Postu+) satis kuyruguna alindi. NPC (Market/Satici) acildigi an otomatik satilacak!
+21:49:48 Pazar baglantisi acilip satin aliniyor: Yilan Kuyrugu x8 (3.000 Yang) -> Majezik
+21:49:49 SATIN ALINDI: Yilan Kuyrugu x8 (3.000 Yang) -> Majezik (Kalan Yang: 3.057)
+21:52:07 Pazar baglantisi acilip satin aliniyor: Savunma Tasi+0 x1 (1.000 Yang) -> everestt
+21:52:07 SATIN ALINDI: Savunma Tasi+0 x1 (1.000 Yang) -> everestt (Kalan Yang: 2.057)
+22:55:22 [HOOK] Installed silent OpenShop_End + Owner + Safebox hooks on board=<uiofflineshop_ae.OfflineShopRenewal object at 0x1913A4D0>
+22:55:22 [INIT] OfflineShopSuiteGUI v2.0 initialized successfully.
+22:55:22 Avrasya2 All-In-One Bot v2.0 Hazir! [INSERT] ile acip kapatabilirsiniz.
+22:55:22 [SUITE_CTRL_BIND_ERR] encoding problem: with BOM (main.py, line 2)
+23:03:39 [CACHE_LOAD_ERR] a bytes-like object is required, not 'str'
+23:04:11 [CACHE_LOAD] Loaded 261 shops (7338 items, 356 bargains) from TSV cache.

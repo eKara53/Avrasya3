@@ -1,0 +1,18 @@
+[07:03:24.097] PID Watcher active, waiting for metin2client.bin...
+[07:04:19.655] [PID_DETECTED] Id=16472 Name=metin2client.bin StartTime=07:04:19.625 Threads=4
+[07:07:35.879] [PID_DETECTED] Id=20696 Name=metin2client.bin StartTime= Threads=0
+[08:01:26.681] [PID_DETECTED] Id=13684 Name=metin2client.bin StartTime=08:01:26.652 Threads=1
+[08:01:57.818] [PID_DETECTED] Id=4172 Name=metin2client.bin StartTime= Threads=0
+[08:02:44.528] [PID_DETECTED] Id=15996 Name=metin2client.bin StartTime=08:02:44.487 Threads=10
+[08:20:19.956] [PID_DETECTED] Id=12460 Name=metin2client.bin StartTime=08:20:19.865 Threads=10
+[08:20:36.449] [PID_DETECTED] Id=2852 Name=metin2client.bin StartTime= Threads=0
+[08:21:10.264] [PID_DETECTED] Id=11168 Name=metin2client.bin StartTime=08:21:10.176 Threads=10
+[08:23:32.987] [PID_DETECTED] Id=20012 Name=metin2client.bin StartTime= Threads=0
+[09:19:40.191] [PID_DETECTED] Id=10720 Name=metin2client.bin StartTime=09:19:40.066 Threads=6
+[09:21:31.058] [PID_DETECTED] Id=4156 Name=metin2client.bin StartTime=09:21:31.022 Threads=6
+[09:22:15.223] [PID_DETECTED] Id=7732 Name=metin2client.bin StartTime= Threads=0
+[09:22:25.937] [PID_DETECTED] Id=13360 Name=metin2client.bin StartTime=09:22:25.855 Threads=10
+[09:22:45.867] [PID_DETECTED] Id=12852 Name=metin2client.bin StartTime= Threads=0
+[09:33:02.877] [PID_DETECTED] Id=11820 Name=metin2client.bin StartTime=09:33:02.833 Threads=9
+[09:33:19.839] [PID_DETECTED] Id=8980 Name=metin2client.bin StartTime= Threads=0
+[09:43:27.886] [PID_DETECTED] Id=21468 Name=metin2client.bin StartTime=09:43:27.745 Threads=10

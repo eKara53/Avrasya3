@@ -1,0 +1,2654 @@
+# Avrasya2 Native Python Modulleri ve API Imzalari
+# Kaynak: C:\Program Files (x86)\Avrasya2\metin2client.bin
+# Toplam: 37 modul, 1291 fonksiyon, 1261 sabit
+
+[ServerStateChecker] (tablo=0x994668, fonksiyon=5, sabit=0)
+  Create()  @ 0x56aa50
+  Update()  @ 0x56aab0
+  Request()  @ 0x56aaa0
+  AddChannel()  @ 0x56a9e0
+  Initialize()  @ 0x56aa90
+
+[acce] (tablo=0x98fba8, fonksiyon=8, sabit=8)
+  Clear()  @ 0x4ad2e0
+  SendCloseRequest()  @ 0x4ad600
+  Add()  @ 0x4ad570
+  Remove()  @ 0x4ad650
+  GetPrice() -> i  @ 0x4ad480
+  GetAttachedItem() -> ii  @ 0x4ad410
+  GetResultItem() -> iii  @ 0x4ad4a0
+  SendRefineRequest()  @ 0x4ad610
+  # Sabitler:
+  const ABSORPTION_SOCKET = 0
+  const ABSORBED_SOCKET = 1
+  const CLEAN_ATTR_VALUE0 = 7
+  const WINDOW_MAX_MATERIALS = 2
+  const CLEAN_ATTR_VALUE_FIELD = 0
+  const LIMIT_RANGE = 1000
+  const ACCE_REVERSAL_VNUM_1 = 39046
+  const ACCE_REVERSAL_VNUM_2 = 90000
+
+[app] (tablo=0x992ba0, fonksiyon=109, sabit=232)
+  IsDevStage() -> i  @ 0x5379d0
+  IsTestStage() -> i  @ 0x537b70
+  IsLiveStage() -> i  @ 0x537ad0
+  SetTextTailLivingTime()  @ 0x538b00
+  EnablePerformanceTime()  @ 0x536fd0
+  SetHairColorEnable()  @ 0x5388f0
+  SetArmorSpecularEnable()  @ 0x5381e0
+  SetWeaponSpecularEnable()  @ 0x538b90
+  SetSkillEffectUpgradeEnable()  @ 0x538a60
+  SetTwoHandedWeaponAttSpeedDecreaseValue()  @ 0x536e90
+  SetRideHorseEnable()  @ 0x5389e0
+  SetCameraMaxDistance()  @ 0x538320
+  SetMinFog()  @ 0x538950
+  SetFrameSkip()  @ 0x538730
+  GetImageInfo() -> iii  @ 0x5374f0
+  GetInfo() -> s|i  @ 0x537590
+  UpdateGame()  @ 0x538d10
+  RenderGame()  @ 0x538100
+  Loop()  @ 0x537de0
+  Create()  @ 0x536f30
+  Process() -> i  @ 0x5380c0
+  Exit()  @ 0x537080
+  Abort()  @ 0x536ed0
+  SetMouseHandler()  @ 0x5389a0
+  IsExistFile() -> i  @ 0x537a10
+  GetFileList()  @ 0x5373e0
+  SetCamera()  @ 0x538270
+  GetCamera() -> ffff  @ 0x537110
+  GetCameraPitch() -> f  @ 0x537180
+  GetCameraRotation() -> f  @ 0x5371a0
+  GetTime() -> f  @ 0x537910
+  GetGlobalTime() -> i  @ 0x5374b0
+  GetGlobalTimeStamp() -> i  @ 0x5374d0
+  GetUpdateFPS() -> i  @ 0x537940
+  GetRenderFPS() -> i  @ 0x537780
+  RotateCamera()  @ 0x538110
+  PitchCamera()  @ 0x538080
+  ZoomCamera()  @ 0x538d20
+  MovieRotateCamera()  @ 0x537ef0
+  MoviePitchCamera()  @ 0x537ea0
+  MovieZoomCamera()  @ 0x537f30
+  MovieResetCamera()  @ 0x537ee0
+  GetAvailableTextureMemory() -> i  @ 0x5370f0
+  GetRenderTime() -> fi  @ 0x5377a0
+  GetUpdateTime() -> i  @ 0x537960
+  GetLoad() -> i  @ 0x537690
+  GetFaceSpeed() -> f  @ 0x5373b0
+  GetFaceCount() -> i  @ 0x537390
+  SetFPS()  @ 0x5386f0
+  SetGlobalCenterPosition()  @ 0x538780
+  SetCenterPosition()  @ 0x538510
+  GetCursorPosition() -> ii  @ 0x5372c0
+  GetRandom() -> i  @ 0x537710
+  RunPythonFile() -> i  @ 0x538150
+  IsWebPageMode() -> i  @ 0x537bb0
+  ShowWebPage()  @ 0x538bf0
+  MoveWebPage()  @ 0x537df0
+  HideWebPage() -> i  @ 0x5379a0
+  IsPressed() -> i  @ 0x537af0
+  SetCursor()  @ 0x538630
+  GetCursor() -> i  @ 0x5372a0
+  ShowCursor()  @ 0x538bd0
+  HideCursor() -> i  @ 0x537980
+  IsShowCursor() -> i  @ 0x537b40
+  IsLiarCursorOn() -> i  @ 0x537ab0
+  SetSoftwareCursor()  @ 0x538aa0
+  SetHardwareCursor()  @ 0x538930
+  SetConnectData()  @ 0x5385b0
+  GetConnectData() -> si|i  @ 0x5371c0
+  GetRotatingDirection() -> i  @ 0x5377d0
+  GetDegreeDifference() -> f|i  @ 0x537320
+  Sleep()  @ 0x538cd0
+  SetDefaultFontName()  @ 0x5386b0
+  SetGuildSymbolPath()  @ 0x5388b0
+  EnableSpecialCameraMode()  @ 0x537060
+  SetCameraSpeed()  @ 0x5384a0
+  SaveCameraSetting()  @ 0x5381a0
+  LoadCameraSetting() -> i  @ 0x537bd0
+  SetDefaultCamera()  @ 0x538690
+  SetCameraSetting()  @ 0x538370
+  SetSightRange()  @ 0x538a20
+  IsFileExist() -> i  @ 0x537a60
+  OpenTextFile() -> i  @ 0x537f70
+  CloseTextFile()  @ 0x536ee0
+  GetTextFileLineCount() -> i  @ 0x5378c0
+  GetTextFileLine() -> s  @ 0x537840
+  GetLocaleServiceName() -> s  @ 0x5376f0
+  GetLocaleName() -> s  @ 0x5376b0
+  GetLocalePath() -> s  @ 0x5376d0
+  ForceSetLocale()  @ 0x537090
+  LoadLocaleAddr()  @ 0x537c20
+  LoadLocaleData() -> i  @ 0x537d00
+  SetCHEONMA()  @ 0x538220
+  IsCHEONMA() -> i  @ 0x5379b0
+  GetDefaultCodePage() -> i  @ 0x537300
+  SetControlFP()  @ 0x538610
+  SetSpecularSpeed()  @ 0x538ac0
+  testGetAccumulationTime() -> i  @ 0x538d60
+  testResetAccumulationTime()  @ 0x538d80
+  testSetSpecularColor()  @ 0x538d90
+  SetVisibleNotice()  @ 0x538b50
+  IsVisibleNotice() -> i  @ 0x537b90
+  EnableTestServerFlag()  @ 0x537070
+  IsEnableTestServerFlag() -> i  @ 0x5379f0
+  SetGuildMarkPath()  @ 0x5387e0
+  OnLogoUpdate() -> i  @ 0x537dc0
+  OnLogoRender() -> i  @ 0x537db0
+  OnLogoOpen() -> i  @ 0x537d60
+  OnLogoClose() -> i  @ 0x537d50
+  # Sabitler:
+  const INFO_ITEM = 2
+  const INFO_ACTOR = 0
+  const INFO_EFFECT = 1
+  const INFO_TEXTTAIL = 3
+  const DEGREE_DIRECTION_SAME = 0
+  const DEGREE_DIRECTION_RIGHT = 1
+  const DEGREE_DIRECTION_LEFT = 2
+  const VK_LEFT = 37
+  const VK_RIGHT = 39
+  const VK_UP = 38
+  const VK_DOWN = 40
+  const VK_HOME = 36
+  const VK_END = 35
+  const VK_DELETE = 46
+  const DIK_ESCAPE = 1
+  const DIK_ESC = 1
+  const DIK_1 = 2
+  const DIK_2 = 3
+  const DIK_3 = 4
+  const DIK_4 = 5
+  const DIK_5 = 6
+  const DIK_6 = 7
+  const DIK_7 = 8
+  const DIK_8 = 9
+  const DIK_9 = 10
+  const DIK_0 = 11
+  const DIK_MINUS = 12
+  const DIK_EQUALS = 13
+  const DIK_BACK = 14
+  const DIK_TAB = 15
+  const DIK_Q = 16
+  const DIK_W = 17
+  const DIK_E = 18
+  const DIK_R = 19
+  const DIK_T = 20
+  const DIK_Y = 21
+  const DIK_U = 22
+  const DIK_I = 23
+  const DIK_O = 24
+  const DIK_P = 25
+  const DIK_LBRACKET = 26
+  const DIK_RBRACKET = 27
+  const DIK_RETURN = 28
+  const DIK_LCONTROL = 29
+  const DIK_A = 30
+  const DIK_S = 31
+  const DIK_D = 32
+  const DIK_F = 33
+  const DIK_G = 34
+  const DIK_H = 35
+  const DIK_J = 36
+  const DIK_K = 37
+  const DIK_L = 38
+  const DIK_SEMICOLON = 39
+  const DIK_APOSTROPHE = 40
+  const DIK_GRAVE = 41
+  const DIK_LSHIFT = 42
+  const DIK_BACKSLASH = 43
+  const DIK_Z = 44
+  const DIK_X = 45
+  const DIK_C = 46
+  const DIK_V = 47
+  const DIK_B = 48
+  const DIK_N = 49
+  const DIK_M = 50
+  const DIK_COMMA = 51
+  const DIK_PERIOD = 52
+  const DIK_SLASH = 53
+  const DIK_RSHIFT = 54
+  const DIK_MULTIPLY = 55
+  const DIK_LALT = 56
+  const DIK_SPACE = 57
+  const DIK_CAPITAL = 58
+  const DIK_F1 = 59
+  const DIK_F2 = 60
+  const DIK_F3 = 61
+  const DIK_F4 = 62
+  const DIK_F5 = 63
+  const DIK_F6 = 64
+  const DIK_F7 = 65
+  const DIK_F8 = 66
+  const DIK_F9 = 67
+  const DIK_F10 = 68
+  const DIK_NUMLOCK = 69
+  const DIK_SCROLL = 70
+  const DIK_NUMPAD7 = 71
+  const DIK_NUMPAD8 = 72
+  const DIK_NUMPAD9 = 73
+  const DIK_SUBTRACT = 74
+  const DIK_NUMPAD4 = 75
+  const DIK_NUMPAD5 = 76
+  const DIK_NUMPAD6 = 77
+  const DIK_ADD = 78
+  const DIK_NUMPAD1 = 79
+  const DIK_NUMPAD2 = 80
+  const DIK_NUMPAD3 = 81
+  const DIK_NUMPAD0 = 82
+  const DIK_DECIMAL = 83
+  const DIK_F11 = 87
+  const DIK_F12 = 88
+  const DIK_NEXTTRACK = 153
+  const DIK_NUMPADENTER = 156
+  const DIK_RCONTROL = 157
+  const DIK_MUTE = 160
+  const DIK_CALCULATOR = 161
+  const DIK_PLAYPAUSE = 162
+  const DIK_MEDIASTOP = 164
+  const DIK_VOLUMEDOWN = 174
+  const DIK_VOLUMEUP = 176
+  const DIK_WEBHOME = 178
+  const DIK_NUMPADCOMMA = 179
+  const DIK_DIVIDE = 181
+  const DIK_SYSRQ = 183
+  const DIK_RALT = 184
+  const DIK_PAUSE = 197
+  const DIK_HOME = 199
+  const DIK_UP = 200
+  const DIK_PGUP = 201
+  const DIK_LEFT = 203
+  const DIK_RIGHT = 205
+  const DIK_END = 207
+  const DIK_DOWN = 208
+  const DIK_PGDN = 209
+  const DIK_INSERT = 210
+  const DIK_DELETE = 211
+  const DIK_LWIN = 219
+  const DIK_RWIN = 220
+  const DIK_APPS = 221
+  const NORMAL = 0
+  const ATTACK = 1
+  const TARGET = 2
+  const TALK = 3
+  const CANT_GO = 4
+  const PICK = 5
+  const DOOR = 6
+  const CHAIR = 7
+  const MAGIC = 8
+  const BUY = 9
+  const SELL = 10
+  const CAMERA_ROTATE = 11
+  const HSIZE = 12
+  const VSIZE = 13
+  const HVSIZE = 14
+  const CAMERA_TO_POSITIVE = 1
+  const CAMERA_TO_NEGATIVE = -1
+  const CAMERA_STOP = 0
+  const ENABLE_COSTUME_SYSTEM = 1
+  const __BL_ENVIRONMENT_EFFECT_OPTION__ = 0
+  const ENABLE_ENERGY_SYSTEM = 1
+  const ENABLE_DRAGON_SOUL_SYSTEM = 1
+  const ENABLE_NEW_EQUIPMENT_SYSTEM = 1
+  const ENABLE_CUBE_RENEWAL_WORLDARD = 1
+  const ENABLE_MAINTENANCE_SYSTEM = 1
+  const ENABLE_GET_GUILD_YANG = 1
+  const ENABLE_ALL_PLAYERS_PM = 1
+  const ENABLE_SECURITY_COMPUTER_REDVEGAS = 1
+  const ENABLE_SOULBIND_SYSTEM = 0
+  const ENABLE_PLAYER_PER_ACCOUNT5 = 1
+  const PLAYER_PER_ACCOUNT = 5
+  const ENABLE_WOLFMAN_CHARACTER = 0
+  const ENABLE_HORSE_UPGRADE_SYSTEM = 0
+  const __BL_CHEST_DROP_INFO__ = 0
+  const __THREE_KINGDOM_WAR__ = 0
+  const ENABLE_AUTO_SYSTEM = 0
+  const ENABLE_AUTO_SYSTEM = 0
+  const ENABLE_IMPROVED_AUTOMATIC_HUNTING_SYSTEM = 0
+  const ENABLE_AUTO_AFFECT_DISPLAY = 0
+  const ENABLE_SPECIAL_MISSION_SYSTEM = 0
+  const ENABLE_BIYOLOG_MISSION_SYSTEM = 0
+  const ENABLE_ITEM_DELETE_SYSTEMS = 0
+  const ENABLE_ANCIENT_ENCHANTMENT_SYSTEM = 0
+  const KADIM_EFSUN_5 = 1
+  const DISABLE_WOLFMAN_ON_CREATE = 0
+  const ENABLE_QUIVER_SYSTEM = 1
+  const ENABLE_LEVEL_IN_TRADE = 1
+  const ENABLE_678TH_SKILL = 0
+  const LOGIN_COUNT_DOWN_UI_MODIFY = 0
+  const ENABLE_MOUNT_COSTUME_SYSTEM = 1
+  const ENABLE_ACCE_SYSTEM = 1
+  const ENABLE_ACCE_COSTUME_SYSTEM = 1
+  const USE_ACCE_ABSORB_WITH_NO_NEGATIVE_BONUS = 0
+  const ENABLE_ENVIRONMENT_EFFECT_OPTION = 0
+  const WJ_SHOW_MOB_INFO = 1
+  const NEW_SELECT_CHARACTER = 0
+  const ENABLE_GROWTH_PET_SYSTEM = 0
+  const ENABLE_AUTO_SYSTEM = 0
+  const ENABLE_MONSTER_CARD = 0
+  const ENABLE_HELP_RENEWAL = 0
+  const ENABLE_MAGIC_REDUCTION_SYSTEM = 0
+  const ENABLE_DICE_SYSTEM = 0
+  const ENABLE_CHEQUE_SYSTEM = 0
+  const ENABLE_EXTEND_INVEN_SYSTEM = 0
+  const ENABLE_VEGAS_MULTI_LANGUAGE = 0
+  const ENABLE_OFFLINE_SHOP = 0
+  const ENABLE_OFFLINESHOP_SYSTEM = 0
+  const ENABLE_NEW_SHOP_GUI = 0
+  const ENABLE_NEW_FONT_CHANGER = 0
+  const ENABLE_ITEM_SHOP_SYSTEM = 1
+  const ENABLE_DROP_DIALOG_EXTENDED_SYSTEM = 0
+  const ENABLE_ITEM_DELETE_SYSTEM = 0
+  const ENABLE_TARGET_INFORMATION_SYSTEM = 1
+  const __ENABLE_NEW_OFFLINESHOP__ = 1
+  const __ENABLE_NEW_SHOP_IN_CITIES__ = 1
+  const ENABLE_COORDINATE_INFO_SYSTEM = 1
+  const ENABLE_SHOW_NIGHT_SYSTEM = 1
+  const ENABLE_WEAPON_COSTUME_SYSTEM = 1
+  const ENABLE_LVL115_ARMOR_EFFECT = 1
+  const ENABLE_USE_COSTUME_ATTR = 1
+  const ENABLE_SLOT_WINDOW_EX = 1
+  const USE_OPENID = 0
+  const OPENID_TEST = 0
+  const ENABLE_HIGHLIGHT_NEW_ITEM = 1
+  const BL_ENABLE_PICKUP_ITEM_EFFECT = 1
+  const __BL_ENABLE_PICKUP_ITEM_EFFECT__ = 1
+  const ENABLE_MOUSEWHEEL_EVENT = 1
+  const ENABLE_EMOJI_SYSTEM = 1
+  const ENABLE_PET_SYSTEM_EX = 1
+  const ENABLE_LOCALE_COMMON = 0
+  const ENABLE_VEGAS_NEW_HORSE_MANAGER = 0
+  const ENABLE_NO_DSS_QUALIFICATION = 1
+  const ENABLE_NO_SELL_PRICE_DIVIDED_BY_5 = 0
+  const ENABLE_PENDANT_SYSTEM = 1
+  const ENABLE_GLOVE_SYSTEM = 1
+  const ENABLE_MOVE_CHANNEL = 0
+  const ENABLE_RACE_HEIGHT = 0
+  const ENABLE_ELEMENTAL_TARGET = 0
+  const WJ_SHOW_MOB_INFO_EX = 0
+  const __BL_MOUSE_WHEEL_TOP_WINDOW__ = 0
+  const ENABLE_UI_CIRCLE = 0
+  const ENABLE_UI_MOVING = 0
+  const __BL_CLIP_MASK__ = 0
+  const ENABLE_AUTO_L2R = 0
+
+[background] (tablo=0x98fc48, fonksiyon=48, sabit=25)
+  IsSoftwareTiling() -> i  @ 0x4b1220
+  EnableSoftwareTiling()  @ 0x4b0d10
+  EnableSnow()  @ 0x4b0cc0
+  GlobalPositionToLocalPosition() -> ii  @ 0x4b1110
+  GlobalPositionToMapInfo() -> sii  @ 0x4b1180
+  GetRenderShadowTime() -> i  @ 0x4b0f70
+  LoadMap()  @ 0x4b1240
+  Destroy()  @ 0x4b0c90
+  RegisterEnvironmentData()  @ 0x4b13a0
+  SetEnvironmentData()  @ 0x4b1550
+  GetCurrentMapName() -> s  @ 0x4b0d80
+  GetPickingPoint() -> fff|i  @ 0x4b0ee0
+  BeginEnvironment()  @ 0x4b0c80
+  EndEnvironment() -> s  @ 0x4b0d70
+  SetCharacterDirLight()  @ 0x4b1540
+  SetBackgroundDirLight()  @ 0x4b1530
+  Initialize() -> i  @ 0x4b1210
+  Update()  @ 0x4b17f0
+  Render()  @ 0x4b1410
+  RenderPCBlocker()  @ 0x4b1490
+  RenderCollision()  @ 0x4b1460
+  RenderSky()  @ 0x4b14a0
+  RenderCloud()  @ 0x4b1450
+  RenderWater()  @ 0x4b14b0
+  RenderEffect()  @ 0x4b1480
+  RenderBeforeLensFlare()  @ 0x4b1430
+  RenderAfterLensFlare()  @ 0x4b1420
+  RenderCharacterShadowToTexture()  @ 0x4b1440
+  RenderDungeon()  @ 0x4b1470
+  GetHeight() -> f  @ 0x4b0e50
+  SetShadowLevel()  @ 0x4b15f0
+  SetVisiblePart()  @ 0x4b1730
+  GetShadowMapColor() -> i  @ 0x4b10a0
+  SetSplatLimit()  @ 0x4b1630
+  GetRenderedSplatNum() -> iifs  @ 0x4b0fd0
+  GetRenderedGraphicThingInstanceNum() -> ii  @ 0x4b0f90
+  SelectViewDistanceNum()  @ 0x4b14c0
+  SetViewDistanceSet()  @ 0x4b16d0
+  GetFarClip() -> f  @ 0x4b0e10
+  GetDistanceSetInfo() -> ifff  @ 0x4b0da0
+  SetBGLoading()  @ 0x4b1500
+  SetRenderSort()  @ 0x4b15b0
+  SetTransparentTree()  @ 0x4b1680
+  SetXMasTree()  @ 0x4b17b0
+  RegisterDungeonMapName()  @ 0x4b1360
+  VisibleGuildArea()  @ 0x4b1880
+  DisableGuildArea()  @ 0x4b0cb0
+  WarpTest()  @ 0x4b1890
+  # Sabitler:
+  const PART_SKY = 5
+  const PART_TREE = 4
+  const PART_CLOUD = 2
+  const PART_WATER = 3
+  const PART_OBJECT = 1
+  const PART_TERRAIN = 0
+  const SKY_RENDER_MODE_DEFAULT = 0
+  const SKY_RENDER_MODE_DIFFUSE = 1
+  const SKY_RENDER_MODE_TEXTURE = 2
+  const SKY_RENDER_MODE_MODULATE = 3
+  const SKY_RENDER_MODE_MODULATE2X = 4
+  const SKY_RENDER_MODE_MODULATE4X = 5
+  const SHADOW_NONE = 0
+  const SHADOW_GROUND = 1
+  const SHADOW_GROUND_AND_SOLO = 2
+  const SHADOW_ALL = 3
+  const SHADOW_ALL_HIGH = 4
+  const SHADOW_ALL_MAX = 5
+  const DISTANCE0 = 0
+  const DISTANCE1 = 1
+  const DISTANCE2 = 2
+  const DISTANCE3 = 3
+  const DISTANCE4 = 4
+  const DISTANCE_SORT = 0
+  const TEXTURE_SORT = 1
+
+[chat] (tablo=0x991f58, fonksiyon=30, sabit=18)
+  SetChatColor()  @ 0x51a340
+  Clear()  @ 0x519730
+  Close() -> i  @ 0x519780
+  CreateChatSet() -> i  @ 0x519790
+  Update()  @ 0x51a6d0
+  Render()  @ 0x51a200
+  SetBoardState()  @ 0x51a2e0
+  SetPosition()  @ 0x51a490
+  SetHeight()  @ 0x51a430
+  SetStep()  @ 0x51a500
+  ToggleChatMode()  @ 0x51a670
+  EnableChatMode()  @ 0x519880
+  DisableChatMode()  @ 0x519820
+  SetEndPos()  @ 0x51a3d0
+  GetLineCount() -> i  @ 0x5198e0
+  GetVisibleLineCount() -> i  @ 0x51a0f0
+  GetLineStep() -> i  @ 0x519930
+  AppendChat()  @ 0x5195b0
+  AppendChatWithDelay()  @ 0x519610
+  ArrangeShowingChat()  @ 0x5196f0
+  IgnoreCharacter()  @ 0x51a140
+  IsIgnoreCharacter()  @ 0x51a1c0
+  CreateWhisper()  @ 0x5197e0
+  AppendWhisper()  @ 0x519680
+  RenderWhisper()  @ 0x51a240
+  SetWhisperBoxSize()  @ 0x51a560
+  SetWhisperPosition()  @ 0x51a600
+  ClearWhisper()  @ 0x519740
+  InitWhisper()  @ 0x51a180
+  GetLinkFromHyperlink()  @ 0x519980
+  # Sabitler:
+  const CHAT_TYPE_TALKING = 0
+  const CHAT_TYPE_INFO = 1
+  const CHAT_TYPE_NOTICE = 2
+  const CHAT_TYPE_PARTY = 3
+  const CHAT_TYPE_GUILD = 4
+  const CHAT_TYPE_COMMAND = 5
+  const CHAT_TYPE_SHOUT = 6
+  const CHAT_TYPE_WHISPER = 7
+  const CHAT_TYPE_BIG_NOTICE = 8
+  const CHAT_TYPE_MONARCH_NOTICE = 9
+  const WHISPER_TYPE_CHAT = 0
+  const WHISPER_TYPE_SYSTEM = 255
+  const WHISPER_TYPE_GM = 5
+  const BOARD_STATE_VIEW = 0
+  const BOARD_STATE_EDIT = 1
+  const BOARD_STATE_LOG = 2
+  const CHAT_SET_CHAT_WINDOW = 0
+  const CHAT_SET_LOG_WINDOW = 1
+
+[chr] (tablo=0x9901e0, fonksiyon=79, sabit=162)
+  DismountHorse() -> ffff  @ 0x4b7240
+  MountHorse()  @ 0x4b7b00
+  Destroy() -> ffff  @ 0x4b7200
+  Update()  @ 0x4b86e0
+  Deform()  @ 0x4b7170
+  Render()  @ 0x4b7e40
+  RenderCollision()  @ 0x4b7e50
+  CreateInstance()  @ 0x4b6f20
+  DeleteInstance()  @ 0x4b7180
+  DeleteInstanceByFade()  @ 0x4b71c0
+  SelectInstance()  @ 0x4b7f10
+  HasInstance() -> i  @ 0x4b7830
+  IsEnemy() -> i  @ 0x4b78b0
+  IsNPC()  @ 0x4b79b0
+  IsGameMaster() -> i  @ 0x4b7930
+  IsPartyMember() -> i  @ 0x4b7a30
+  Select()  @ 0x4b7e80
+  SetAddRenderMode()  @ 0x4b7fa0
+  SetBlendRenderMode()  @ 0x4b80d0
+  Unselect()  @ 0x4b8690
+  Hide() -> i  @ 0x4b7890
+  Show()  @ 0x4b8670
+  Pick() -> i  @ 0x4b7bf0
+  PickAll() -> i  @ 0x4b7c40
+  SetArmor()  @ 0x4b8060
+  SetWeapon()  @ 0x4b8620
+  ChangeShape()  @ 0x4b6ed0
+  SetRace()  @ 0x4b8450
+  SetHair()  @ 0x4b8190
+  SetAcce()  @ 0x4b7f50
+  ChangeHair()  @ 0x4b6e80
+  SetVirtualID()  @ 0x4b85d0
+  SetNameString()  @ 0x4b82f0
+  SetInstanceType()  @ 0x4b81e0
+  SetPixelPosition()  @ 0x4b8360
+  SetDirection()  @ 0x4b8140
+  Refresh()  @ 0x4b7e30
+  Revive()  @ 0x4b7e60
+  Die() -> ffff  @ 0x4b7220
+  AttachEffectByID()  @ 0x4b6c20
+  AttachEffectByName()  @ 0x4b6cc0
+  LookAt()  @ 0x4b7aa0
+  SetMotionMode()  @ 0x4b8290
+  SetLoopMotion()  @ 0x4b8230
+  BlendLoopMotion()  @ 0x4b6d60
+  PushOnceMotion()  @ 0x4b7ce0
+  PushLoopMotion()  @ 0x4b7c60
+  GetPixelPosition() -> fff  @ 0x4b7560
+  SetRotation()  @ 0x4b84a0
+  SetRotationAll()  @ 0x4b8520
+  BlendRotation()  @ 0x4b6de0
+  GetRotation() -> f  @ 0x4b7770
+  GetRace() -> i  @ 0x4b7730
+  GetName() -> i|s  @ 0x4b74b0
+  GetNameByVID() -> s  @ 0x4b74f0
+  GetGuildID() -> i  @ 0x4b73c0
+  GetProjectPosition() -> ii  @ 0x4b7620
+  GetVirtualNumber() -> i  @ 0x4b77c0
+  GetInstanceType() -> i|s  @ 0x4b7430
+  GetBoundBoxOnlyXY() -> ffff  @ 0x4b7320
+  RaceToJob() -> i  @ 0x4b7d60
+  RaceToSex() -> i  @ 0x4b7db0
+  testGetPKData() -> ii  @ 0x4b87a0
+  FaintTest() -> ffff  @ 0x4b7260
+  SetMoveSpeed()  @ 0x4b82e0
+  SetAttackSpeed()  @ 0x4b80c0
+  WeaponTraceSetTexture()  @ 0x4b86f0
+  WeaponTraceUseAlpha() -> ii  @ 0x4b8740
+  WeaponTraceUseTexture() -> ii  @ 0x4b8770
+  MoveToDestPosition()  @ 0x4b7b30
+  testSetComboType()  @ 0x4b89e0
+  testSetAddRenderMode()  @ 0x4b8840
+  testSetModulateRenderMode()  @ 0x4b8a30
+  testSetAddRenderModeRGB()  @ 0x4b8920
+  testSetModulateRenderModeRGB()  @ 0x4b8b10
+  testSetSpecularRenderMode()  @ 0x4b8de0
+  testSetSpecularRenderMode2()  @ 0x4b8d50
+  testRestoreRenderMode()  @ 0x4b87f0
+  testSetRideMan()  @ 0x4b8bd0
+  # Sabitler:
+  const PLAYER_NAME_MAX_LEN = 12
+  const MOTION_NONE = 0
+  const MOTION_SPAWN = 25
+  const MOTION_WAIT = 1
+  const MOTION_WALK = 2
+  const MOTION_RUN = 3
+  const MOTION_CHANGE_WEAPON = 4
+  const MOTION_DAMAGE = 5
+  const MOTION_DAMAGE_FLYING = 6
+  const MOTION_STAND_UP = 7
+  const MOTION_DAMAGE_BACK = 8
+  const MOTION_DAMAGE_FLYING_BACK = 9
+  const MOTION_STAND_UP_BACK = 10
+  const MOTION_DEAD = 11
+  const MOTION_DEAD_BACK = 12
+  const MOTION_NORMAL_ATTACK = 13
+  const MOTION_COMBO_ATTACK_1 = 14
+  const MOTION_COMBO_ATTACK_2 = 15
+  const MOTION_COMBO_ATTACK_3 = 16
+  const MOTION_COMBO_ATTACK_4 = 17
+  const MOTION_COMBO_ATTACK_5 = 18
+  const MOTION_COMBO_ATTACK_6 = 19
+  const MOTION_COMBO_ATTACK_7 = 20
+  const MOTION_COMBO_ATTACK_8 = 21
+  const MOTION_INTRO_WAIT = 22
+  const MOTION_INTRO_SELECTED = 23
+  const MOTION_INTRO_NOT_SELECTED = 24
+  const MOTION_FISHING_THROW = 26
+  const MOTION_FISHING_WAIT = 27
+  const MOTION_FISHING_STOP = 28
+  const MOTION_FISHING_REACT = 29
+  const MOTION_FISHING_CATCH = 30
+  const MOTION_FISHING_FAIL = 31
+  const MOTION_STOP = 32
+  const MOTION_SKILL = 50
+  const MOTION_CLAP = 306
+  const MOTION_DANCE_1 = 326
+  const MOTION_DANCE_2 = 327
+  const MOTION_DANCE_3 = 328
+  const MOTION_DANCE_4 = 329
+  const MOTION_DANCE_5 = 330
+  const MOTION_DANCE_6 = 331
+  const MOTION_CONGRATULATION = 343
+  const MOTION_FORGIVE = 344
+  const MOTION_ANGRY = 345
+  const MOTION_ATTRACTIVE = 346
+  const MOTION_SAD = 347
+  const MOTION_SHY = 348
+  const MOTION_CHEERUP = 349
+  const MOTION_BANTER = 350
+  const MOTION_JOY = 351
+  const MOTION_CHEERS_1 = 307
+  const MOTION_CHEERS_2 = 308
+  const MOTION_KISS_WITH_WARRIOR = 309
+  const MOTION_KISS_WITH_ASSASSIN = 310
+  const MOTION_KISS_WITH_SURA = 311
+  const MOTION_KISS_WITH_SHAMAN = 312
+  const MOTION_FRENCH_KISS_WITH_WARRIOR = 313
+  const MOTION_FRENCH_KISS_WITH_ASSASSIN = 314
+  const MOTION_FRENCH_KISS_WITH_SURA = 315
+  const MOTION_FRENCH_KISS_WITH_SHAMAN = 316
+  const MOTION_SLAP_HIT_WITH_WARRIOR = 317
+  const MOTION_SLAP_HIT_WITH_ASSASSIN = 318
+  const MOTION_SLAP_HIT_WITH_SURA = 319
+  const MOTION_SLAP_HIT_WITH_SHAMAN = 320
+  const MOTION_SLAP_HURT_WITH_WARRIOR = 321
+  const MOTION_SLAP_HURT_WITH_ASSASSIN = 322
+  const MOTION_SLAP_HURT_WITH_SURA = 323
+  const MOTION_SLAP_HURT_WITH_SHAMAN = 324
+  const MOTION_DIG = 325
+  const MOTION_MODE_RESERVED = 0
+  const MOTION_MODE_GENERAL = 1
+  const MOTION_MODE_ONEHAND_SWORD = 2
+  const MOTION_MODE_TWOHAND_SWORD = 3
+  const MOTION_MODE_DUALHAND_SWORD = 4
+  const MOTION_MODE_BOW = 5
+  const MOTION_MODE_FAN = 6
+  const MOTION_MODE_BELL = 7
+  const MOTION_MODE_FISHING = 8
+  const MOTION_MODE_HORSE = 9
+  const MOTION_MODE_HORSE_ONEHAND_SWORD = 10
+  const MOTION_MODE_HORSE_TWOHAND_SWORD = 11
+  const MOTION_MODE_HORSE_DUALHAND_SWORD = 12
+  const MOTION_MODE_HORSE_BOW = 13
+  const MOTION_MODE_HORSE_FAN = 14
+  const MOTION_MODE_HORSE_BELL = 15
+  const MOTION_MODE_WEDDING_DRESS = 16
+  const DIR_NORTH = 0
+  const DIR_NORTHEAST = 1
+  const DIR_EAST = 2
+  const DIR_SOUTHEAST = 3
+  const DIR_SOUTH = 4
+  const DIR_SOUTHWEST = 5
+  const DIR_WEST = 6
+  const DIR_NORTHWEST = 7
+  const INSTANCE_TYPE_PLAYER = 6
+  const INSTANCE_TYPE_NPC = 1
+  const INSTANCE_TYPE_ENEMY = 0
+  const INSTANCE_TYPE_BUILDING = 5
+  const INSTANCE_TYPE_OBJECT = 10
+  const PART_WEAPON = 1
+  const PART_HEAD = 2
+  const PART_WEAPON_LEFT = 3
+  const PART_ACCE = 5
+  const AFFECT_YMIR = 0
+  const AFFECT_INVISIBILITY = 1
+  const AFFECT_SPAWN = 2
+  const AFFECT_POISON = 3
+  const AFFECT_SLOW = 4
+  const AFFECT_STUN = 5
+  const AFFECT_DUNGEON_READY = 6
+  const AFFECT_SHOW_ALWAYS = 7
+  const AFFECT_BUILDING_CONSTRUCTION_SMALL = 8
+  const AFFECT_BUILDING_CONSTRUCTION_LARGE = 9
+  const AFFECT_BUILDING_UPGRADE = 10
+  const AFFECT_MOV_SPEED_POTION = 11
+  const AFFECT_ATT_SPEED_POTION = 12
+  const AFFECT_FISH_MIND = 13
+  const AFFECT_JEONGWI = 14
+  const AFFECT_GEOMGYEONG = 15
+  const AFFECT_CHEONGEUN = 16
+  const AFFECT_GYEONGGONG = 17
+  const AFFECT_EUNHYEONG = 18
+  const AFFECT_GWIGEOM = 19
+  const AFFECT_GONGPO = 20
+  const AFFECT_JUMAGAP = 21
+  const AFFECT_HOSIN = 22
+  const AFFECT_BOHO = 23
+  const AFFECT_KWAESOK = 24
+  const AFFECT_HEUKSIN = 25
+  const AFFECT_MUYEONG = 26
+  const AFFECT_REVIVE_INVISIBILITY = 27
+  const AFFECT_FIRE = 28
+  const AFFECT_GICHEON = 29
+  const AFFECT_JEUNGRYEOK = 30
+  const AFFECT_PABEOP = 32
+  const AFFECT_FALLEN_CHEONGEUN = 33
+  const AFFECT_WAR_FLAG1 = 35
+  const AFFECT_WAR_FLAG2 = 36
+  const AFFECT_WAR_FLAG3 = 37
+  const AFFECT_CHINA_FIREWORK = 38
+  const AFFECT_PREMIUM_SILVER = 39
+  const AFFECT_PREMIUM_GOLD = 40
+  const AFFECT_RAMADAN_RING = 41
+  const NEW_AFFECT_MALL = 510
+  const NEW_AFFECT_NO_DEATH_PENALTY = 511
+  const NEW_AFFECT_SKILL_BOOK_BONUS = 512
+  const NEW_AFFECT_SKILL_BOOK_NO_DELAY = 513
+  const NEW_AFFECT_EXP_BONUS = 500
+  const NEW_AFFECT_EXP_BONUS_EURO_FREE = 516
+  const NEW_AFFECT_EXP_BONUS_EURO_FREE_UNDER_15 = 517
+  const NEW_AFFECT_ITEM_BONUS = 501
+  const NEW_AFFECT_SAFEBOX = 502
+  const NEW_AFFECT_AUTOLOOT = 503
+  const NEW_AFFECT_FISH_MIND = 504
+  const NEW_AFFECT_MARRIAGE_FAST = 505
+  const NEW_AFFECT_GOLD_BONUS = 506
+  const NEW_AFFECT_AUTO_HP_RECOVERY = 534
+  const NEW_AFFECT_AUTO_SP_RECOVERY = 535
+  const NEW_AFFECT_DRAGON_SOUL_QUALIFIED = 540
+  const NEW_AFFECT_DRAGON_SOUL_DECK1 = 541
+  const NEW_AFFECT_DRAGON_SOUL_DECK2 = 542
+
+[chrmgr] (tablo=0x98ff60, fonksiyon=39, sabit=69)
+  SetEmpireNameMode()  @ 0x4b65a0
+  GetVIDInfo() -> s  @ 0x4b59c0
+  GetPickedVID() -> i  @ 0x4b5980
+  SetShapeModel()  @ 0x4b6740
+  AppendShapeSkin()  @ 0x4b57f0
+  SetPathName()  @ 0x4b6700
+  LoadRaceData()  @ 0x4b5b40
+  LoadLocalRaceData()  @ 0x4b5ad0
+  CreateRace()  @ 0x4b5890
+  SelectRace()  @ 0x4b6430
+  RegisterAttachingBoneName()  @ 0x4b5bc0
+  RegisterMotionMode()  @ 0x4b5fe0
+  SetMotionRandomWeight()  @ 0x4b6640
+  RegisterNormalAttack()  @ 0x4b60c0
+  ReserveComboAttack()  @ 0x4b6320
+  RegisterComboAttack()  @ 0x4b5d80
+  ReserveComboAttackNew()  @ 0x4b63a0
+  RegisterComboAttackNew()  @ 0x4b5e10
+  RegisterMotionData()  @ 0x4b5f20
+  RegisterRaceName()  @ 0x4b6190
+  RegisterRaceSrcName()  @ 0x4b61f0
+  RegisterCacheMotionData()  @ 0x4b5ca0
+  SetAffect()  @ 0x4b6470
+  SetEmoticon()  @ 0x4b6540
+  IsPossibleEmoticon() -> i  @ 0x4b5a80
+  RegisterEffect()  @ 0x4b5eb0
+  RegisterCacheEffect()  @ 0x4b5c30
+  RegisterPointEffect()  @ 0x4b6130
+  ShowPointEffect()  @ 0x4b67b0
+  ToggleDirectionLine()  @ 0x4b6810
+  SetMovingSpeed()  @ 0x4b66f0
+  SetDustGap()  @ 0x4b64f0
+  SetHorseDustGap()  @ 0x4b65f0
+  RegisterTitleName()  @ 0x4b62d0
+  RegisterNameColor()  @ 0x4b6040
+  RegisterTitleColor()  @ 0x4b6250
+  HasAffectByVID() -> i  @ 0x4b5a00
+  GetHorseVnumByVID() -> i  @ 0x4b58d0
+  GetMainVID() -> i  @ 0x4b5940
+  # Sabitler:
+  const NAMECOLOR_MOB = 7
+  const NAMECOLOR_NPC = 8
+  const NAMECOLOR_PC = 9
+  const NAMECOLOR_EMPIRE_MOB = 14
+  const NAMECOLOR_EMPIRE_NPC = 15
+  const NAMECOLOR_EMPIRE_PC = 16
+  const NAMECOLOR_FUNC = 21
+  const NAMECOLOR_PK = 22
+  const NAMECOLOR_PVP = 23
+  const NAMECOLOR_PARTY = 24
+  const NAMECOLOR_WARP = 25
+  const NAMECOLOR_WAYPOINT = 26
+  const NAMECOLOR_EXTRA = 31
+  const EFFECT_SPAWN_DISAPPEAR = 10
+  const EFFECT_SPAWN_APPEAR = 9
+  const EFFECT_DUST = 0
+  const EFFECT_HORSE_DUST = 228
+  const EFFECT_STUN = 1
+  const EFFECT_HIT = 2
+  const EFFECT_FLAME_ATTACK = 3
+  const EFFECT_FLAME_HIT = 4
+  const EFFECT_FLAME_ATTACH = 5
+  const EFFECT_ELECTRIC_ATTACK = 6
+  const EFFECT_ELECTRIC_HIT = 7
+  const EFFECT_ELECTRIC_ATTACH = 8
+  const EFFECT_SELECT = 221
+  const EFFECT_TARGET = 222
+  const EFFECT_CRITICAL = 17
+  const EFFECT_DAMAGE_TARGET = 252
+  const EFFECT_DAMAGE_NOT_TARGET = 253
+  const EFFECT_DAMAGE_SELFDAMAGE = 254
+  const EFFECT_DAMAGE_SELFDAMAGE2 = 255
+  const EFFECT_DAMAGE_POISON = 256
+  const EFFECT_DAMAGE_MISS = 257
+  const EFFECT_DAMAGE_TARGETMISS = 258
+  const EFFECT_DAMAGE_CRITICAL = 259
+  const EFFECT_LEVELUP = 11
+  const EFFECT_SKILLUP = 12
+  const EFFECT_HPUP_RED = 13
+  const EFFECT_SPUP_BLUE = 14
+  const EFFECT_SPEEDUP_GREEN = 15
+  const EFFECT_DXUP_PURPLE = 16
+  const EFFECT_PENETRATE = 18
+  const EFFECT_BLOCK = 19
+  const EFFECT_DODGE = 20
+  const EFFECT_FIRECRACKER = 21
+  const EFFECT_SPIN_TOP = 22
+  const EFFECT_WEAPON = 23
+  const EFFECT_AFFECT = 27
+  const EFFECT_EMOTICON = 92
+  const EFFECT_EMPIRE = 223
+  const EFFECT_REFINED = 229
+  const EFFECT_SUCCESS = 260
+  const EFFECT_FAIL = 261
+  const EFFECT_FR_SUCCESS = 262
+  const EFFECT_LEVELUP_ON_14_FOR_GERMANY = 263
+  const EFFECT_LEVELUP_UNDER_15_FOR_GERMANY = 264
+  const EFFECT_PERCENT_DAMAGE1 = 265
+  const EFFECT_PERCENT_DAMAGE2 = 266
+  const EFFECT_PERCENT_DAMAGE3 = 267
+  const EFFECT_AUTO_HPUP = 268
+  const EFFECT_AUTO_SPUP = 269
+  const EFFECT_RAMADAN_RING_EQUIP = 270
+  const EFFECT_HALLOWEEN_CANDY_EQUIP = 271
+  const EFFECT_HAPPINESS_RING_EQUIP = 272
+  const EFFECT_LOVE_PENDANT_EQUIP = 273
+  const EFFECT_ACCE_SUCESS_ABSORB = 275
+  const EFFECT_ACCE_EQUIP = 276
+  const EFFECT_ACCE_BACK = 277
+
+[cube_renewal] (tablo=0x9906e0, fonksiyon=5, sabit=0)
+  CountDates() -> i  @ 0x4b99d0
+  GetDates()  @ 0x4b9a10
+  SetCubeRenewalHandler()  @ 0x4b9b70
+  CubeRenewalMakeItem() -> i  @ 0x4b9960
+  CubeRenewalClose() -> i  @ 0x4b9950
+
+[dbg] (tablo=0x999cc8, fonksiyon=5, sabit=0)
+  LogBox()  @ 0x685ad0
+  Trace()  @ 0x685be0
+  Tracen()  @ 0x685c60
+  TraceError()  @ 0x685c20
+  RegisterExceptionString()  @ 0x685b40
+
+[effect] (tablo=0x990740, fonksiyon=7, sabit=21)
+  RegisterEffect()  @ 0x4b9cc0
+  CreateEffect() -> i  @ 0x4b9be0
+  DeleteEffect()  @ 0x4b9c80
+  SetPosition()  @ 0x4b9d80
+  RegisterIndexedFlyData()  @ 0x4b9d00
+  Update()  @ 0x4b9e50
+  Render()  @ 0x4b9d70
+  # Sabitler:
+  const INDEX_FLY_TYPE_NORMAL = 0
+  const INDEX_FLY_TYPE_FIRE_CRACKER = 1
+  const INDEX_FLY_TYPE_AUTO_FIRE = 2
+  const FLY_NONE = 0
+  const FLY_EXP = 1
+  const FLY_HP_MEDIUM = 2
+  const FLY_HP_BIG = 3
+  const FLY_SP_SMALL = 4
+  const FLY_SP_MEDIUM = 5
+  const FLY_SP_BIG = 6
+  const FLY_FIREWORK1 = 7
+  const FLY_FIREWORK2 = 8
+  const FLY_FIREWORK3 = 9
+  const FLY_FIREWORK4 = 10
+  const FLY_FIREWORK5 = 11
+  const FLY_FIREWORK6 = 12
+  const FLY_FIREWORK_XMAS = 13
+  const FLY_CHAIN_LIGHTNING = 14
+  const FLY_HP_SMALL = 15
+  const FLY_SKILL_MUYEONG = 16
+  const FLY_QUIVER_ATTACK_NORMAL = 17
+
+[event] (tablo=0x9907d8, fonksiyon=24, sabit=4)
+  RegisterEventSet() -> i  @ 0x4be3c0
+  RegisterEventSetFromString() -> i  @ 0x4be410
+  ClearEventSet()  @ 0x4be0e0
+  SetRestrictedCount()  @ 0x4be6a0
+  GetEventSetLocalYPosition() -> i  @ 0x4be170
+  AddEventSetLocalYPosition()  @ 0x4be080
+  InsertText()  @ 0x4be260
+  InsertTextInline()  @ 0x4be2c0
+  UpdateEventSet()  @ 0x4be800
+  RenderEventSet()  @ 0x4be4c0
+  SetEventSetWidth()  @ 0x4be5c0
+  Skip()  @ 0x4be7c0
+  IsWait() -> i  @ 0x4be330
+  EndEventProcess()  @ 0x4be130
+  SelectAnswer()  @ 0x4be500
+  GetLineCount() -> i  @ 0x4be1c0
+  SetVisibleStartLine()  @ 0x4be760
+  GetVisibleStartLine() -> i  @ 0x4be210
+  SetVisibleLineCount()  @ 0x4be700
+  SetEventHandler()  @ 0x4be560
+  SetInterfaceWindow()  @ 0x4be620
+  SetLeftTimeString()  @ 0x4be660
+  QuestButtonClick()  @ 0x4be380
+  Destroy()  @ 0x4be120
+  # Sabitler:
+  const BOX_VISIBLE_LINE_COUNT = 5
+  const BUTTON_TYPE_NEXT = 0
+  const BUTTON_TYPE_DONE = 1
+  const BUTTON_TYPE_CANCEL = 2
+
+[exchange] (tablo=0x992148, fonksiyon=20, sabit=1)
+  InitTrading()  @ 0x51b1b0
+  isTrading() -> i  @ 0x51b210
+  GetElkFromSelf() -> i  @ 0x51adb0
+  GetElkFromTarget() -> i  @ 0x51add0
+  GetItemVnumFromSelf() -> i  @ 0x51b090
+  GetItemVnumFromTarget() -> i  @ 0x51b0e0
+  GetItemCountFromSelf() -> i  @ 0x51af10
+  GetItemCountFromTarget() -> i  @ 0x51af60
+  GetAcceptFromSelf() -> i  @ 0x51ad70
+  GetAcceptFromTarget() -> i  @ 0x51ad90
+  GetNameFromSelf() -> s  @ 0x51b170
+  GetNameFromTarget() -> s  @ 0x51b190
+  GetLevelFromSelf() -> I  @ 0x51b130
+  GetLevelFromTarget() -> I  @ 0x51b150
+  GetItemMetinSocketFromTarget() -> i  @ 0x51b020
+  GetItemMetinSocketFromSelf() -> i  @ 0x51afb0
+  GetItemAttributeFromTarget() -> ii  @ 0x51ae90
+  GetItemAttributeFromSelf() -> ii  @ 0x51ae10
+  GetElkMode() -> b  @ 0x51adf0
+  SetElkMode()  @ 0x51b1c0
+  # Sabitler:
+  const EXCHANGE_ITEM_MAX_NUM = 12
+
+[fly] (tablo=0x992298, fonksiyon=2, sabit=0)
+  Update()  @ 0x51b270
+  Render()  @ 0x51b260
+
+[grp] (tablo=0x995940, fonksiyon=54, sabit=0)
+  InitScreenEffect()  @ 0x5e9f40
+  Culling()  @ 0x5e9ce0
+  ClearDepthBuffer()  @ 0x5e9ac0
+  Identity()  @ 0x5e9f30
+  GenerateColor() -> l  @ 0x5e9d30
+  PopState()  @ 0x5e9f60
+  PushState()  @ 0x5e9f80
+  PushMatrix()  @ 0x5e9f70
+  PopMatrix()  @ 0x5e9f50
+  Translate()  @ 0x5eb8a0
+  Rotate()  @ 0x5eaae0
+  SetColorRenderState()  @ 0x5eaf70
+  SetAroundCamera()  @ 0x5eade0
+  SetPositionCamera()  @ 0x5eb450
+  SetEyeCamera()  @ 0x5eb090
+  SetPerspective()  @ 0x5eb3a0
+  SetOrtho2d()  @ 0x5eb260
+  SetOrtho3d()  @ 0x5eb2f0
+  SetColor()  @ 0x5eaf30
+  SetAlpha()  @ 0x5eadb0
+  SetDiffuseColor()  @ 0x5eafe0
+  SetClearColor()  @ 0x5eae90
+  GetCursorPosition3d() -> (fff)  @ 0x5e9e70
+  SetCursorPosition()  @ 0x5eaf80
+  RenderLine()  @ 0x5ea5c0
+  RenderBox()  @ 0x5ea250
+  RenderRoundBox()  @ 0x5ea690
+  RenderBox3d()  @ 0x5ea160
+  RenderBar()  @ 0x5ea090
+  RenderBar3d()  @ 0x5e9f90
+  RenderGradationBar()  @ 0x5ea4d0
+  RenderCube()  @ 0x5ea320
+  RenderDownButton()  @ 0x5ea410
+  RenderUpButton()  @ 0x5eaa10
+  GetAvailableMemory() -> i  @ 0x5e9df0
+  SaveScreenShot() -> (is)  @ 0x5eab90
+  SaveScreenShotToPath() -> (is)  @ 0x5eace0
+  SetGamma()  @ 0x5eb1f0
+  SetInterfaceRenderState()  @ 0x5eb240
+  SetGameRenderState()  @ 0x5eb1e0
+  SetViewport()  @ 0x5eb610
+  RestoreViewport()  @ 0x5eaad0
+  SetOmniLight()  @ 0x5eb250
+  GetCameraPosition() -> fff  @ 0x5e9e10
+  GetTargetPosition() -> fff  @ 0x5e9ed0
+  CreateTextBar() -> i  @ 0x5e9c00
+  CreateBigTextBar() -> i  @ 0x5e9b10
+  DestroyTextBar()  @ 0x5e9cf0
+  RenderTextBar()  @ 0x5ea9a0
+  TextBarTextOut()  @ 0x5eb810
+  TextBarSetTextColor()  @ 0x5eb780
+  TextBarGetTextExtent() -> ii  @ 0x5eb700
+  ClearTextBar()  @ 0x5e9ad0
+  SetTextBarClipRect()  @ 0x5eb540
+
+[grpImage] (tablo=0x995cb0, fonksiyon=15, sabit=0)
+  Render()  @ 0x5ebd30
+  SetPosition()  @ 0x5ebf40
+  Generate() -> i  @ 0x5ebb50
+  GenerateExpanded() -> i  @ 0x5ebc10
+  GenerateFromHandle() -> i  @ 0x5ebce0
+  Delete()  @ 0x5ebad0
+  DeleteExpanded()  @ 0x5ebb10
+  SetFileName()  @ 0x5ebd70
+  SetOrigin()  @ 0x5ebec0
+  SetRotation()  @ 0x5ebfc0
+  SetScale()  @ 0x5ec020
+  SetRenderingRect()  @ 0x5ec0a0
+  SetDiffuseColor()  @ 0x5ebe00
+  GetWidth() -> i  @ 0x5eba70
+  GetHeight() -> i  @ 0x5eba10
+
+[grpText] (tablo=0x995db0, fonksiyon=21, sabit=0)
+  Update()  @ 0x5ecbd0
+  Render()  @ 0x5ec750
+  Generate() -> i  @ 0x5ec580
+  Destroy()  @ 0x5ec540
+  SetFontName()  @ 0x5ec880
+  SetFontColor()  @ 0x5ec790
+  SetOutLineColor()  @ 0x5ec980
+  SetSecret()  @ 0x5ecad0
+  SetOutline()  @ 0x5ec690
+  SetText()  @ 0x5ecb30
+  GetText() -> s  @ 0x5ec600
+  GetSize()  @ 0x5ec5a0
+  SetPosition()  @ 0x5eca40
+  ShowCursor()  @ 0x5ecb90
+  HideCursor()  @ 0x5ec650
+  SetHorizontalAlign()  @ 0x5ec420
+  SetVerticalAlign()  @ 0x5ec4e0
+  SetMax()  @ 0x5ec480
+  GetSplitingTextLineCount() -> i  @ 0x5ec360
+  GetSplitingTextLine() -> s  @ 0x5ec1c0
+  PixelPositionToCharacterPosition() -> i  @ 0x5ec6f0
+
+[guild] (tablo=0x9922c8, fonksiyon=34, sabit=5)
+  IsGuildEnable() -> i  @ 0x51e540
+  GuildIDToMarkID() -> i  @ 0x51e4d0
+  GetMarkImageFilenameByMarkID() -> s|i  @ 0x51e0d0
+  GetMarkIndexByMarkID() -> i  @ 0x51e1e0
+  GetGuildID() -> i  @ 0x51de20
+  HasGuildLand() -> i  @ 0x51e520
+  GetGuildName() -> s|i  @ 0x51df40
+  GetGuildMasterName() -> s  @ 0x51de60
+  GetEnemyGuildName() -> s|si  @ 0x51daa0
+  GetGuildMoney() -> i  @ 0x51df20
+  GetGuildBoardCommentCount() -> i  @ 0x51dcc0
+  GetGuildBoardCommentData() -> iss  @ 0x51dd00
+  GetGuildLevel() -> i  @ 0x51de40
+  GetGuildExperience() -> ii  @ 0x51ddb0
+  GetGuildMemberCount() -> ii|i  @ 0x51dec0
+  GetGuildMemberLevelSummary() -> i  @ 0x51df00
+  GetGuildMemberLevelAverage() -> i  @ 0x51dee0
+  GetGuildExperienceSummary() -> i  @ 0x51de00
+  GetGuildSkillPoint() -> i  @ 0x51e0b0
+  GetDragonPowerPoint() -> ii  @ 0x51da70
+  GetGuildSkillLevel() -> i  @ 0x51e060
+  GetSkillLevel() -> i  @ 0x51e390
+  GetSkillMaxLevelNew() -> i  @ 0x51e430
+  SetSkillIndex()  @ 0x51e750
+  GetSkillIndex() -> i  @ 0x51e300
+  GetGradeData() -> si  @ 0x51dbc0
+  GetGradeName() -> s  @ 0x51dc40
+  GetMemberCount() -> i  @ 0x51e240
+  GetMemberData() -> isiiiii  @ 0x51e260
+  MemberIndexToPID() -> i  @ 0x51e6e0
+  IsMember() -> i  @ 0x51e560
+  IsMemberByName() -> i  @ 0x51e5d0
+  MainPlayerHasAuthority() -> i  @ 0x51e640
+  Destroy() -> ii  @ 0x51da10
+  # Sabitler:
+  const AUTH_ADD_MEMBER = 1
+  const AUTH_REMOVE_MEMBER = 2
+  const AUTH_NOTICE = 4
+  const AUTH_SKILL = 8
+  const ENEMY_GUILD_SLOT_MAX_COUNT = 6
+
+[ime] (tablo=0x993280, fonksiyon=33, sabit=0)
+  Enable()  @ 0x53a4b0
+  Disable()  @ 0x53a450
+  EnableCaptureInput()  @ 0x53a4e0
+  DisableCaptureInput()  @ 0x53a470
+  SetMax()  @ 0x53aa70
+  SetUserMax()  @ 0x53ab60
+  SetText()  @ 0x53ab00
+  GetText() -> s  @ 0x53a7f0
+  GetCodePage() -> i  @ 0x53a6b0
+  GetCandidateCount() -> i  @ 0x53a670
+  GetCandidate() -> si|i  @ 0x53a570
+  GetCandidateSelection() -> i  @ 0x53a690
+  GetReading() -> s|i  @ 0x53a6f0
+  GetReadingError() -> i  @ 0x53a7d0
+  EnableIME()  @ 0x53a500
+  DisableIME()  @ 0x53a490
+  GetInputMode() -> i  @ 0x53a6d0
+  SetInputMode()  @ 0x53aa20
+  SetNumberMode()  @ 0x53aac0
+  SetStringMode()  @ 0x53aae0
+  AddExceptKey()  @ 0x53a3d0
+  ClearExceptKey()  @ 0x53a420
+  MoveLeft()  @ 0x53a910
+  MoveRight()  @ 0x53a920
+  MoveHome()  @ 0x53a900
+  MoveEnd()  @ 0x53a8f0
+  SetCursorPosition()  @ 0x53a9e0
+  Delete()  @ 0x53a440
+  PasteString()  @ 0x53a970
+  PasteBackspace()  @ 0x53a930
+  PasteReturn()  @ 0x53a950
+  PasteTextFromClipBoard()  @ 0x53a9c0
+  EnablePaste()  @ 0x53a520
+
+[item] (tablo=0x990a00, fonksiyon=36, sabit=338)
+  SetUseSoundFileName()  @ 0x4c3450
+  SetDropSoundFileName()  @ 0x4c33a0
+  SelectItem()  @ 0x4c3340
+  GetItemName() -> s  @ 0x4c2b90
+  GetItemDescription() -> s  @ 0x4c2b50
+  GetItemSummary() -> s  @ 0x4c2c50
+  GetIconImage() -> i  @ 0x4c2a40
+  GetIconImageFileName() -> s  @ 0x4c2a80
+  GetItemSize() -> (ii)  @ 0x4c2bd0
+  GetItemType() -> i  @ 0x4c2c90
+  GetItemSubType() -> i  @ 0x4c2c10
+  GetIBuyItemPrice() -> i  @ 0x4c2980
+  GetISellItemPrice() -> i  @ 0x4c29c0
+  IsAntiFlag() -> i  @ 0x4c2ec0
+  IsFlag() -> i  @ 0x4c3030
+  IsWearableFlag() -> i  @ 0x4c3250
+  Is1GoldItem() -> i  @ 0x4c2e80
+  GetLimit() -> ii  @ 0x4c2cd0
+  GetAffect() -> ii  @ 0x4c28d0
+  GetValue() -> i  @ 0x4c2e20
+  GetSocket() -> i  @ 0x4c2d50
+  GetIconInstance() -> i  @ 0x4c2ae0
+  GetUseType() -> s  @ 0x4c2db0
+  DeleteIconInstance()  @ 0x4c2850
+  IsEquipmentVID() -> i  @ 0x4c2fc0
+  IsRefineScroll() -> i  @ 0x4c31b0
+  IsDetachScroll() -> i  @ 0x4c2f20
+  IsKey() -> i  @ 0x4c3090
+  IsMetin() -> i  @ 0x4c3120
+  CanAddToQuickSlotItem() -> i  @ 0x4c26e0
+  Update()  @ 0x4c3500
+  Render()  @ 0x4c3330
+  CreateItem()  @ 0x4c2780
+  DeleteItem()  @ 0x4c2890
+  Pick() -> i  @ 0x4c32f0
+  LoadItemTable()  @ 0x4c32b0
+  # Sabitler:
+  const USESOUND_ACCESSORY = 5
+  const USESOUND_ARMOR = 2
+  const USESOUND_BOW = 4
+  const USESOUND_DEFAULT = 1
+  const USESOUND_WEAPON = 3
+  const USESOUND_POTION = 6
+  const USESOUND_PORTAL = 7
+  const DROPSOUND_ACCESSORY = 4
+  const DROPSOUND_ARMOR = 1
+  const DROPSOUND_BOW = 3
+  const DROPSOUND_DEFAULT = 0
+  const DROPSOUND_WEAPON = 2
+  const EQUIPMENT_COUNT = 12
+  const EQUIPMENT_HEAD = 91
+  const EQUIPMENT_BODY = 90
+  const EQUIPMENT_WEAPON = 94
+  const EQUIPMENT_WRIST = 93
+  const EQUIPMENT_SHOES = 92
+  const EQUIPMENT_NECK = 95
+  const EQUIPMENT_EAR = 96
+  const EQUIPMENT_UNIQUE1 = 97
+  const EQUIPMENT_UNIQUE2 = 98
+  const EQUIPMENT_ARROW = 99
+  const EQUIPMENT_SHIELD = 100
+  const EQUIPMENT_BELT = 113
+  const EQUIPMENT_PENDANT = 115
+  const EQUIPMENT_GLOVE = 116
+  const ITEM_TYPE_NONE = 0
+  const ITEM_TYPE_WEAPON = 1
+  const ITEM_TYPE_ARMOR = 2
+  const ITEM_TYPE_USE = 3
+  const ITEM_TYPE_AUTOUSE = 4
+  const ITEM_TYPE_MATERIAL = 5
+  const ITEM_TYPE_SPECIAL = 6
+  const ITEM_TYPE_TOOL = 7
+  const ITEM_TYPE_LOTTERY = 8
+  const ITEM_TYPE_ELK = 9
+  const ITEM_TYPE_METIN = 10
+  const ITEM_TYPE_CONTAINER = 11
+  const ITEM_TYPE_FISH = 12
+  const ITEM_TYPE_ROD = 13
+  const ITEM_TYPE_RESOURCE = 14
+  const ITEM_TYPE_CAMPFIRE = 15
+  const ITEM_TYPE_UNIQUE = 16
+  const ITEM_TYPE_SKILLBOOK = 17
+  const ITEM_TYPE_QUEST = 18
+  const ITEM_TYPE_POLYMORPH = 19
+  const ITEM_TYPE_TREASURE_BOX = 20
+  const ITEM_TYPE_TREASURE_KEY = 21
+  const ITEM_TYPE_SKILLFORGET = 22
+  const ITEM_TYPE_GIFTBOX = 23
+  const ITEM_TYPE_PICK = 24
+  const ITEM_TYPE_HAIR = 25
+  const ITEM_TYPE_TOTEM = 26
+  const ITEM_TYPE_BLEND = 27
+  const ITEM_TYPE_COSTUME = 28
+  const ITEM_TYPE_DS = 29
+  const ITEM_TYPE_SPECIAL_DS = 30
+  const ITEM_TYPE_EXTRACT = 31
+  const ITEM_TYPE_SECONDARY_COIN = 32
+  const ITEM_TYPE_RING = 33
+  const ITEM_TYPE_BELT = 34
+  const ITEM_TYPE_PET = 35
+  const ITEM_TYPE_MEDIUM = 36
+  const ITEM_TYPE_GACHA = 37
+  const ITEM_TYPE_SOUL = 38
+  const ITEM_TYPE_PASSIVE = 39
+  const ITEM_TYPE_COSTUME = 28
+  const COSTUME_TYPE_BODY = 0
+  const COSTUME_TYPE_HAIR = 1
+  const COSTUME_TYPE_MOUNT = 2
+  const COSTUME_TYPE_ACCE = 3
+  const COSTUME_TYPE_WEAPON = 4
+  const COSTUME_SLOT_START = 109
+  const COSTUME_SLOT_COUNT = 4
+  const COSTUME_SLOT_BODY = 109
+  const COSTUME_SLOT_HAIR = 110
+  const COSTUME_SLOT_MOUNT = 111
+  const COSTUME_SLOT_ACCE = 112
+  const COSTUME_SLOT_WEAPON = 114
+  const COSTUME_SLOT_END = 113
+  const BELT_INVENTORY_SLOT_START = 152
+  const BELT_INVENTORY_SLOT_COUNT = 16
+  const BELT_INVENTORY_SLOT_END = 168
+  const WEAPON_SWORD = 0
+  const WEAPON_DAGGER = 1
+  const WEAPON_BOW = 2
+  const WEAPON_TWO_HANDED = 3
+  const WEAPON_BELL = 4
+  const WEAPON_FAN = 5
+  const WEAPON_ARROW = 6
+  const WEAPON_MOUNT_SPEAR = 7
+  const WEAPON_QUIVER = 9
+  const WEAPON_NUM_TYPES = 10
+  const USE_POTION = 0
+  const USE_TALISMAN = 1
+  const USE_TUNING = 2
+  const USE_MOVE = 3
+  const USE_TREASURE_BOX = 4
+  const USE_MONEYBAG = 5
+  const USE_BAIT = 6
+  const USE_ABILITY_UP = 7
+  const USE_AFFECT = 8
+  const USE_CREATE_STONE = 9
+  const USE_SPECIAL = 10
+  const USE_POTION_NODELAY = 11
+  const USE_CLEAR = 12
+  const USE_INVISIBILITY = 13
+  const USE_DETACHMENT = 14
+  const USE_TIME_CHARGE_PER = 27
+  const USE_TIME_CHARGE_FIX = 28
+  const MATERIAL_DS_REFINE_NORMAL = 5
+  const MATERIAL_DS_REFINE_BLESSED = 6
+  const MATERIAL_DS_REFINE_HOLLY = 7
+  const METIN_NORMAL = 0
+  const METIN_GOLD = 1
+  const LIMIT_NONE = 0
+  const LIMIT_LEVEL = 1
+  const LIMIT_STR = 2
+  const LIMIT_DEX = 3
+  const LIMIT_INT = 4
+  const LIMIT_CON = 5
+  const LIMIT_PCBANG = 6
+  const LIMIT_REAL_TIME = 7
+  const LIMIT_REAL_TIME_START_FIRST_USE = 8
+  const LIMIT_TIMER_BASED_ON_WEAR = 9
+  const LIMIT_NEWWORLD_LEVEL = 10
+  const LIMIT_TYPE_MAX_NUM = 11
+  const LIMIT_MAX_NUM = 2
+  const ITEM_ANTIFLAG_FEMALE = 1
+  const ITEM_ANTIFLAG_MALE = 2
+  const ITEM_ANTIFLAG_WARRIOR = 4
+  const ITEM_ANTIFLAG_ASSASSIN = 8
+  const ITEM_ANTIFLAG_SURA = 16
+  const ITEM_ANTIFLAG_SHAMAN = 32
+  const ITEM_ANTIFLAG_GET = 64
+  const ITEM_ANTIFLAG_DROP = 128
+  const ITEM_ANTIFLAG_SELL = 256
+  const ITEM_ANTIFLAG_EMPIRE_A = 512
+  const ITEM_ANTIFLAG_EMPIRE_B = 1024
+  const ITEM_ANTIFLAG_EMPIRE_R = 2048
+  const ITEM_ANTIFLAG_SAVE = 4096
+  const ITEM_ANTIFLAG_GIVE = 8192
+  const ITEM_ANTIFLAG_PKDROP = 16384
+  const ITEM_ANTIFLAG_STACK = 32768
+  const ITEM_ANTIFLAG_MYSHOP = 65536
+  const ITEM_ANTIFLAG_SAFEBOX = 131072
+  const ITEM_FLAG_REFINEABLE = 1
+  const ITEM_FLAG_SAVE = 2
+  const ITEM_FLAG_STACKABLE = 4
+  const ITEM_FLAG_COUNT_PER_1GOLD = 8
+  const ITEM_FLAG_SLOW_QUERY = 16
+  const ITEM_FLAG_RARE = 32
+  const ITEM_FLAG_UNIQUE = 64
+  const ITEM_FLAG_MAKECOUNT = 128
+  const ITEM_FLAG_IRREMOVABLE = 256
+  const ITEM_FLAG_CONFIRM_WHEN_USE = 512
+  const ITEM_FLAG_QUEST_USE = 1024
+  const ITEM_FLAG_QUEST_USE_MULTIPLE = 2048
+  const ITEM_FLAG_QUEST_GIVE = 4096
+  const ITEM_FLAG_LOG = 8192
+  const ITEM_FLAG_APPLICABLE = 16384
+  const ANTIFLAG_FEMALE = 1
+  const ANTIFLAG_MALE = 2
+  const ANTIFLAG_WARRIOR = 4
+  const ANTIFLAG_ASSASSIN = 8
+  const ANTIFLAG_SURA = 16
+  const ANTIFLAG_SHAMAN = 32
+  const ANTIFLAG_GET = 64
+  const ANTIFLAG_DROP = 128
+  const ANTIFLAG_SELL = 256
+  const ANTIFLAG_EMPIRE_A = 512
+  const ANTIFLAG_EMPIRE_B = 1024
+  const ANTIFLAG_EMPIRE_R = 2048
+  const ANTIFLAG_SAVE = 4096
+  const ANTIFLAG_GIVE = 8192
+  const ANTIFLAG_PKDROP = 16384
+  const ANTIFLAG_STACK = 32768
+  const ANTIFLAG_MYSHOP = 65536
+  const ANTIFLAG_SAFEBOX = 131072
+  const ITEM_ANTIFLAG_CHANGELOOK = 2097152
+  const ITEM_ANTIFLAG_REINFORCE = 4194304
+  const ITEM_ANTIFLAG_ENCHANT = 8388608
+  const ITEM_ANTIFLAG_ENERGY = 16777216
+  const ITEM_ANTIFLAG_PETFEED = 33554432
+  const ITEM_ANTIFLAG_APPLY = 67108864
+  const ITEM_ANTIFLAG_ACCE = 134217728
+  const ITEM_ANTIFLAG_MAIL = 268435456
+  const WEARABLE_BODY = 1
+  const WEARABLE_HEAD = 2
+  const WEARABLE_FOOTS = 4
+  const WEARABLE_WRIST = 8
+  const WEARABLE_WEAPON = 16
+  const WEARABLE_NECK = 32
+  const WEARABLE_EAR = 64
+  const WEARABLE_UNIQUE = 128
+  const WEARABLE_SHIELD = 256
+  const WEARABLE_ARROW = 512
+  const WEARABLE_HAIR = 1024
+  const WEARABLE_ABILITY = 2048
+  const WEARABLE_PENDANT = 4096
+  const WEARABLE_GLOVE = 8192
+  const ARMOR_BODY = 0
+  const ARMOR_HEAD = 1
+  const ARMOR_SHIELD = 2
+  const ARMOR_WRIST = 3
+  const ARMOR_FOOTS = 4
+  const ARMOR_NECK = 5
+  const ARMOR_EAR = 6
+  const ARMOR_PENDANT = 7
+  const ARMOR_GLOVE = 8
+  const ITEM_APPLY_MAX_NUM = 3
+  const ITEM_SOCKET_MAX_NUM = 3
+  const APPLY_NONE = 0
+  const APPLY_STR = 5
+  const APPLY_DEX = 6
+  const APPLY_CON = 3
+  const APPLY_INT = 4
+  const APPLY_MAX_HP = 1
+  const APPLY_MAX_SP = 2
+  const APPLY_HP_REGEN = 10
+  const APPLY_SP_REGEN = 11
+  const APPLY_DEF_GRADE_BONUS = 54
+  const APPLY_ATT_GRADE_BONUS = 53
+  const APPLY_ATT_SPEED = 7
+  const APPLY_MOV_SPEED = 8
+  const APPLY_CAST_SPEED = 9
+  const APPLY_MAGIC_ATT_GRADE = 55
+  const APPLY_MAGIC_DEF_GRADE = 56
+  const APPLY_SKILL = 51
+  const APPLY_ATTBONUS_ANIMAL = 18
+  const APPLY_ATTBONUS_UNDEAD = 21
+  const APPLY_ATTBONUS_DEVIL = 22
+  const APPLY_ATTBONUS_HUMAN = 17
+  const APPLY_BOW_DISTANCE = 52
+  const APPLY_RESIST_BOW = 34
+  const APPLY_RESIST_FIRE = 35
+  const APPLY_RESIST_ELEC = 36
+  const APPLY_RESIST_MAGIC = 37
+  const APPLY_POISON_PCT = 12
+  const APPLY_SLOW_PCT = 14
+  const APPLY_STUN_PCT = 13
+  const APPLY_CRITICAL_PCT = 15
+  const APPLY_PENETRATE_PCT = 16
+  const APPLY_ATTBONUS_ORC = 19
+  const APPLY_ATTBONUS_MILGYO = 20
+  const APPLY_ATTBONUS_UNDEAD = 21
+  const APPLY_ATTBONUS_DEVIL = 22
+  const APPLY_STEAL_HP = 23
+  const APPLY_STEAL_SP = 24
+  const APPLY_MANA_BURN_PCT = 25
+  const APPLY_DAMAGE_SP_RECOVER = 26
+  const APPLY_BLOCK = 27
+  const APPLY_DODGE = 28
+  const APPLY_RESIST_SWORD = 29
+  const APPLY_RESIST_TWOHAND = 30
+  const APPLY_RESIST_DAGGER = 31
+  const APPLY_RESIST_BELL = 32
+  const APPLY_RESIST_FAN = 33
+  const APPLY_RESIST_WIND = 38
+  const APPLY_REFLECT_MELEE = 39
+  const APPLY_REFLECT_CURSE = 40
+  const APPLY_POISON_REDUCE = 41
+  const APPLY_KILL_SP_RECOVER = 42
+  const APPLY_EXP_DOUBLE_BONUS = 43
+  const APPLY_GOLD_DOUBLE_BONUS = 44
+  const APPLY_ITEM_DROP_BONUS = 45
+  const APPLY_POTION_BONUS = 46
+  const APPLY_KILL_HP_RECOVER = 47
+  const APPLY_IMMUNE_STUN = 48
+  const APPLY_IMMUNE_SLOW = 49
+  const APPLY_IMMUNE_FALL = 50
+  const APPLY_MAX_STAMINA = 58
+  const APPLY_ATTBONUS_WARRIOR = 59
+  const APPLY_ATTBONUS_ASSASSIN = 60
+  const APPLY_ATTBONUS_SURA = 61
+  const APPLY_ATTBONUS_SHAMAN = 62
+  const APPLY_ATTBONUS_MONSTER = 63
+  const APPLY_MALL_ATTBONUS = 64
+  const APPLY_MALL_DEFBONUS = 65
+  const APPLY_MALL_EXPBONUS = 66
+  const APPLY_MALL_ITEMBONUS = 67
+  const APPLY_MALL_GOLDBONUS = 68
+  const APPLY_MAX_HP_PCT = 69
+  const APPLY_MAX_SP_PCT = 70
+  const APPLY_SKILL_DAMAGE_BONUS = 71
+  const APPLY_NORMAL_HIT_DAMAGE_BONUS = 72
+  const APPLY_SKILL_DEFEND_BONUS = 73
+  const APPLY_NORMAL_HIT_DEFEND_BONUS = 74
+  const APPLY_PC_BANG_EXP_BONUS = 76
+  const APPLY_PC_BANG_DROP_BONUS = 77
+  const APPLY_RESIST_WARRIOR = 78
+  const APPLY_RESIST_ASSASSIN = 79
+  const APPLY_RESIST_SURA = 80
+  const APPLY_RESIST_SHAMAN = 81
+  const APPLY_ENERGY = 82
+  const APPLY_COSTUME_ATTR_BONUS = 84
+  const APPLY_MAGIC_ATTBONUS_PER = 85
+  const APPLY_MELEE_MAGIC_ATTBONUS_PER = 86
+  const APPLY_RESIST_ICE = 87
+  const APPLY_RESIST_EARTH = 88
+  const APPLY_RESIST_DARK = 89
+  const APPLY_ANTI_CRITICAL_PCT = 90
+  const APPLY_ANTI_PENETRATE_PCT = 91
+  const APPLY_ACCEDRAIN_RATE = 97
+  const APPLY_ENCHANT_ELECT = 99
+  const APPLY_ENCHANT_FIRE = 100
+  const APPLY_ENCHANT_ICE = 101
+  const APPLY_ENCHANT_WIND = 102
+  const APPLY_ENCHANT_EARTH = 103
+  const APPLY_ENCHANT_DARK = 104
+  const APPLY_ATTBONUS_CZ = 105
+  const APPLY_ATTBONUS_INSECT = 106
+  const APPLY_ATTBONUS_DESERT = 107
+  const APPLY_ATTBONUS_SWORD = 108
+  const APPLY_ATTBONUS_TWOHAND = 109
+  const APPLY_ATTBONUS_DAGGER = 110
+  const APPLY_ATTBONUS_BELL = 111
+  const APPLY_ATTBONUS_FAN = 112
+  const APPLY_ATTBONUS_BOW = 113
+  const APPLY_RESIST_HUMAN = 115
+  const APPLY_RESIST_MOUNT_FALL = 116
+  const APPLY_MOUNT = 118
+  const ITEM_TYPE_PET = 35
+  const PET_EGG = 0
+  const PET_UPBRINGING = 1
+  const PET_BAG = 2
+  const PET_FEEDSTUFF = 3
+  const PET_SKILL = 4
+  const PET_SKILL_DEL_BOOK = 5
+  const PET_NAME_CHANGE = 6
+  const PET_EXPFOOD = 7
+  const PET_SKILL_ALL_DEL_BOOK = 8
+  const PET_EXPFOOD_PER = 9
+  const PET_ATTR_DETERMINE = 10
+  const PET_ATTR_CHANGE = 11
+  const PET_PAY = 12
+  const PET_PRIMIUM_FEEDSTUFF = 13
+
+[liveSupport] (tablo=0x990c50, fonksiyon=11, sabit=4)
+  Configure() -> sss|i  @ 0x4d5fa0
+  Request() -> issOs|i  @ 0x4d6da0
+  Poll()  @ 0x4d6700
+  Reset()  @ 0x4d7120
+  NewUuid() -> s  @ 0x4d6650
+  SetLeave() -> sOs|i  @ 0x4d71b0
+  ClearLeave() -> sss|i  @ 0x4d5ed0
+  LeaveTimer() -> i|s  @ 0x4d64d0
+  FireLeave() -> i|s  @ 0x4d6390
+  Protect()  @ 0x4d68d0
+  Unprotect() -> s  @ 0x4d7480
+  # Sabitler:
+  const i = 0
+  const i = 0
+  const i = 0
+  const i = 0
+
+[messenger] (tablo=0x9924f8, fonksiyon=5, sabit=0)
+  RemoveFriend()  @ 0x520260
+  IsFriendByName() -> i  @ 0x520200
+  Destroy() -> i  @ 0x5201f0
+  RefreshGuildMember()  @ 0x520250
+  SetMessengerHandler()  @ 0x5202a0
+
+[miniMap] (tablo=0x992560, fonksiyon=27, sabit=9)
+  SetScale()  @ 0x528f60
+  ScaleUp()  @ 0x528e70
+  ScaleDown()  @ 0x528e60
+  SetMiniMapSize()  @ 0x528ef0
+  SetCenterPosition()  @ 0x528e80
+  Destroy() -> isiili  @ 0x528800
+  Create() -> isiili  @ 0x5287f0
+  Update()  @ 0x528fe0
+  Render()  @ 0x528d80
+  Show()  @ 0x528fb0
+  Hide() -> b  @ 0x528c90
+  isShow() -> b  @ 0x529060
+  GetInfo() -> isiil|b  @ 0x528ad0
+  LoadAtlas()  @ 0x528cd0
+  UpdateAtlas() -> b  @ 0x529050
+  RenderAtlas()  @ 0x528df0
+  ShowAtlas()  @ 0x528fc0
+  HideAtlas() -> b  @ 0x528ca0
+  isShowAtlas() -> b  @ 0x529080
+  IsAtlas() -> b  @ 0x528cb0
+  GetAtlasInfo() -> isiili  @ 0x528810
+  GetAtlasSize() -> bii  @ 0x5289b0
+  AddWayPoint() -> isiili  @ 0x528730
+  RemoveWayPoint()  @ 0x528d40
+  RegisterAtlasWindow()  @ 0x528d00
+  UnregisterAtlasWindow()  @ 0x528fd0
+  GetGuildAreaID() -> i  @ 0x528a50
+  # Sabitler:
+  const TYPE_OPC = 0
+  const TYPE_OPCPVP = 1
+  const TYPE_OPCPVPSELF = 2
+  const TYPE_NPC = 3
+  const TYPE_MONSTER = 4
+  const TYPE_WARP = 5
+  const TYPE_WAYPOINT = 6
+  const TYPE_PARTY = 7
+  const TYPE_EMPIRE = 8
+
+[nav] (tablo=0x990d20, fonksiyon=34, sabit=40)
+  IsAvailable() -> i  @ 0x4e57d0
+  IsActive() -> i  @ 0x4e57b0
+  IsRunning() -> i  @ 0x4e5860
+  GetState() -> i  @ 0x4e5580
+  IsMapReady() -> i  @ 0x4e57f0
+  GetTravelCost() -> i  @ 0x4e56c0
+  PreviewFromAtlas() -> i  @ 0x4e5950
+  PreviewToPosition() -> i  @ 0x4e59d0
+  IsPreviewReady() -> i  @ 0x4e5830
+  GetRequestedTarget() -> (iff)  @ 0x4e5450
+  GetSnappedTarget() -> (iff)  @ 0x4e5500
+  GetSnapDistance() -> f  @ 0x4e54d0
+  GetPreviewRouteLength() -> f  @ 0x4e5400
+  GetStraightDistance() -> i  @ 0x4e55a0
+  Confirm() -> i  @ 0x4e5210
+  CancelPreview() -> i  @ 0x4e51f0
+  OnServerAuth()  @ 0x4e5890
+  GetAuthRequestID() -> i  @ 0x4e5230
+  Cancel() -> i  @ 0x4e51d0
+  GetLastCancelReason() -> i  @ 0x4e53b0
+  PopEvent() -> i  @ 0x4e5930
+  GetLastEventValue() -> f  @ 0x4e53d0
+  GetDestination() -> (iff)  @ 0x4e52c0
+  GetRemainingDistance() -> f  @ 0x4e5430
+  GetWaypointCount() -> i  @ 0x4e5780
+  GetWaypoint() -> (iff)  @ 0x4e56e0
+  GetCurrentWaypointIndex() -> i  @ 0x4e5250
+  GetDiagnostics() -> (iiiiiif)  @ 0x4e5340
+  GetTraceCount() -> i  @ 0x4e55c0
+  GetTraceEntry() -> (iiifff)  @ 0x4e55e0
+  ClearTrace() -> i  @ 0x4e5200
+  GetDebugText() -> s  @ 0x4e5270
+  SetEnable()  @ 0x4e5aa0
+  SetDebugRender()  @ 0x4e5a50
+  # Sabitler:
+  const TRAVEL_COST = 20000
+  const PRICE_MIN = 20000
+  const PRICE_MAX = 120000
+  const STATE_IDLE = 0
+  const STATE_PREVIEW = 1
+  const STATE_AWAIT_CONFIRM = 2
+  const STATE_AWAIT_SERVER = 3
+  const STATE_REQUESTING = 4
+  const STATE_FOLLOWING = 5
+  const START_OK = 0
+  const START_FAIL_DISABLED = 1
+  const START_FAIL_NO_ATLAS = 2
+  const START_FAIL_NO_DATA = 3
+  const START_FAIL_NO_ACTOR = 4
+  const START_FAIL_CANNOT_MOVE = 5
+  const START_FAIL_OUT_OF_RANGE = 6
+  const START_FAIL_TOO_CLOSE = 7
+  const START_FAIL_BUSY = 8
+  const EVENT_NONE = 0
+  const EVENT_TARGET_SELECTED = 1
+  const EVENT_ROUTE_PREPARING = 2
+  const EVENT_ROUTE_READY = 3
+  const EVENT_DEST_ADJUSTED = 4
+  const EVENT_AWAIT_SERVER = 5
+  const EVENT_NAV_STARTED = 6
+  const EVENT_ARRIVED = 7
+  const EVENT_MANUAL_CANCEL = 8
+  const EVENT_NOT_ENOUGH_YANG = 9
+  const EVENT_INVALID_TARGET = 10
+  const EVENT_NO_ROUTE = 11
+  const EVENT_MAP_CHANGED = 12
+  const EVENT_CANCELLED = 13
+  const EVENT_SERVER_REJECT = 14
+  const EVENT_TIMEOUT = 15
+  const EVENT_STUCK = 16
+  const EVENT_DATA_LOADING = 17
+  const EVENT_DATA_READY = 18
+  const EVENT_OBSTACLE_AHEAD = 19
+  const EVENT_CROWD_DETOUR = 20
+  const EVENT_CROWD_WAITING = 21
+
+[net] (tablo=0x993e10, fonksiyon=129, sabit=44)
+  GetBettingGuildWarValue() -> i  @ 0x549b10
+  EnableChatInsultFilter()  @ 0x5499c0
+  SetServerInfo()  @ 0x54c7b0
+  GetServerInfo() -> s  @ 0x549ec0
+  PreserveServerCommand()  @ 0x54a090
+  GetPreservedServerCommand() -> s  @ 0x549e10
+  StartGame() -> i  @ 0x54c970
+  Warp()  @ 0x54ca80
+  IsTest() -> i  @ 0x549fd0
+  SetMarkServer()  @ 0x54c670
+  IsChatInsultIn() -> i  @ 0x549ef0
+  IsInsultIn() -> i  @ 0x549f60
+  LoadInsultList() -> i  @ 0x549ff0
+  UploadMark() -> i  @ 0x54c9e0
+  UploadSymbol() -> i  @ 0x54ca30
+  GetGuildID() -> i  @ 0x549bc0
+  GetEmpireID() -> i  @ 0x549b60
+  GetMainActorVID() -> i  @ 0x549df0
+  GetMainActorRace() -> i  @ 0x549db0
+  GetMainActorEmpire() -> i  @ 0x549d90
+  GetMainActorSkillGroup() -> i  @ 0x549dd0
+  GetAccountCharacterSlotDataInteger() -> i  @ 0x549a30
+  GetAccountCharacterSlotDataString() -> s  @ 0x549aa0
+  GetFieldMusicFileName() -> s  @ 0x549b80
+  GetFieldMusicVolume() -> f|i  @ 0x549ba0
+  ToggleGameDebugInfo() -> i  @ 0x54c9d0
+  SetLoginInfo()  @ 0x54c600
+  SetPhaseWindow()  @ 0x54c710
+  ClearPhaseWindow()  @ 0x5497b0
+  SetServerCommandParserWindow()  @ 0x54c770
+  SetAccountConnectorHandler()  @ 0x54c540
+  SetHandler()  @ 0x54c5c0
+  SetTCPRecvBufferSize()  @ 0x54c840
+  SetTCPSendBufferSize()  @ 0x54c880
+  SetUDPRecvBufferSize()  @ 0x54c8c0
+  DirectEnter()  @ 0x549950
+  LogOutGame()  @ 0x54a040
+  ExitGame() -> i  @ 0x549a20
+  ExitApplication() -> i  @ 0x549a10
+  ConnectTCP()  @ 0x549810
+  ConnectUDP()  @ 0x549900
+  ConnectToAccountServer()  @ 0x549870
+  SendTargetInfoLoad() -> i  @ 0x54c980
+  SendLoginPacket()  @ 0x54bac0
+  SendSelectEmpirePacket()  @ 0x54c370
+  SendSelectCharacterPacket()  @ 0x54c330
+  SendChangeNamePacket()  @ 0x54ab70
+  SendCreateCharacterPacket()  @ 0x54ac70
+  SendDestroyCharacterPacket()  @ 0x54ad70
+  SendEnterGamePacket()  @ 0x54ae80
+  SendItemUsePacket()  @ 0x54b940
+  SendItemUseToItemPacket()  @ 0x54b9d0
+  SendItemDropPacket()  @ 0x54b680
+  SendItemDropPacketNew()  @ 0x54b710
+  SendElkDropPacket()  @ 0x54ade0
+  SendGoldDropPacketNew()  @ 0x54b0f0
+  SendItemMovePacket()  @ 0x54b7e0
+  SendItemPickUpPacket()  @ 0x54b900
+  SendGiveItemPacket()  @ 0x54b000
+  SetOfflinePhase()  @ 0x54c6d0
+  Disconnect()  @ 0x549990
+  IsConnect() -> i  @ 0x549f40
+  SendBulkWhisperPacket()  @ 0x54ab30
+  GetGuildYang() -> i  @ 0x549be0
+  SendChatPacket()  @ 0x54ac10
+  SendEmoticon()  @ 0x54ae40
+  SendWhisperPacket()  @ 0x54c4e0
+  SendMobileMessagePacket()  @ 0x54bcd0
+  SendCharacterPositionPacket()  @ 0x54abd0
+  SendShopEndPacket()  @ 0x54c430
+  SendShopBuyPacket()  @ 0x54c3f0
+  SendShopSellPacket()  @ 0x54c440
+  SendShopSellPacketNew()  @ 0x54c480
+  SendExchangeStartPacket()  @ 0x54afc0
+  SendExchangeItemAddPacket()  @ 0x54aef0
+  SendExchangeItemDelPacket()  @ 0x54af80
+  SendExchangeElkAddPacket()  @ 0x54aea0
+  SendExchangeAcceptPacket()  @ 0x54ae90
+  SendExchangeExitPacket()  @ 0x54aee0
+  SendOnClickPacket()  @ 0x54a050
+  RegisterEmoticonString()  @ 0x54a310
+  SendMessengerAddByVIDPacket()  @ 0x54bc30
+  SendMessengerAddByNamePacket()  @ 0x54bbf0
+  SendMessengerRemovePacket()  @ 0x54bc70
+  SendPartyInvitePacket()  @ 0x54bd80
+  SendPartyInviteAnswerPacket()  @ 0x54bd20
+  SendPartyExitPacket()  @ 0x54bce0
+  SendPartyRemovePacket()  @ 0x54be00
+  SendPartyRemovePacketPID()  @ 0x54be00
+  SendPartyRemovePacketVID()  @ 0x54be40
+  SendPartySetStatePacket()  @ 0x54bea0
+  SendPartyUseSkillPacket()  @ 0x54bf10
+  SendPartyParameterPacket()  @ 0x54bdc0
+  SendSafeboxSaveMoneyPacket()  @ 0x54c2b0
+  SendSafeboxWithdrawMoneyPacket()  @ 0x54c2f0
+  SendSafeboxCheckinPacket()  @ 0x54c0a0
+  SendSafeboxCheckoutPacket()  @ 0x54c170
+  SendSafeboxItemMovePacket()  @ 0x54c240
+  SendMallCheckoutPacket()  @ 0x54bb20
+  SendAddSecurityPCPacket()  @ 0x54a380
+  SendAnswerMakeGuildPacket()  @ 0x54aaf0
+  SendQuestInputStringPacket()  @ 0x54bfd0
+  SendQuestConfirmPacket()  @ 0x54bf70
+  SendGuildAddMemberPacket()  @ 0x54b150
+  SendGuildRemoveMemberPacket()  @ 0x54b470
+  SendGuildChangeGradeNamePacket()  @ 0x54b1f0
+  SendGuildChangeGradeAuthorityPacket()  @ 0x54b190
+  SendGuildOfferPacket()  @ 0x54b3f0
+  SendGuildPostCommentPacket()  @ 0x54c930
+  SendGuildDeleteCommentPacket()  @ 0x54c8f0
+  SendGuildRefreshCommentsPacket()  @ 0x54b430
+  SendGuildChangeMemberGradePacket()  @ 0x54b2b0
+  SendGuildUseSkillPacket()  @ 0x54b5e0
+  SendGuildChangeMemberGeneralPacket()  @ 0x54b250
+  SendGuildInviteAnswerPacket()  @ 0x54b390
+  SendGuildChargeGSPPacket()  @ 0x54b310
+  SendGuildDepositMoneyPacket()  @ 0x54b350
+  SendGuildWithdrawMoneyPacket()  @ 0x54b640
+  SendRequestRefineInfoPacket()  @ 0x54c070
+  SendRefinePacket()  @ 0x54c010
+  SendSelectItemPacket()  @ 0x54c3b0
+  SetPacketSequenceMode()  @ 0x54c6e0
+  SetEmpireLanguageMode()  @ 0x54c580
+  SetSkillGroupFake()  @ 0x54c800
+  SendGuildSymbol()  @ 0x54b4f0
+  DisconnectUploader()  @ 0x5499b0
+  RecvGuildSymbol()  @ 0x54a1a0
+  ASKFCRT()  @ 0x549760
+  RegisterErrorLog()  @ 0x54a350
+  # Sabitler:
+  const ERROR_NONE = 0
+  const ERROR_CONNECT_MARK_SERVER = 2
+  const ERROR_LOAD_MARK = 3
+  const ERROR_MARK_WIDTH = 4
+  const ERROR_MARK_HEIGHT = 5
+  const ERROR_MARK_UPLOAD_NEED_RECONNECT = 6
+  const ERROR_MARK_CHECK_NEED_RECONNECT = 7
+  const PHASE_WINDOW_LOGIN = 1
+  const PHASE_WINDOW_SELECT = 2
+  const PHASE_WINDOW_CREATE = 3
+  const PHASE_WINDOW_LOAD = 4
+  const PHASE_WINDOW_GAME = 5
+  const PHASE_WINDOW_EMPIRE = 6
+  const PHASE_WINDOW_LOGO = 0
+  const ACCOUNT_CHARACTER_SLOT_ID = 0
+  const ACCOUNT_CHARACTER_SLOT_NAME = 1
+  const ACCOUNT_CHARACTER_SLOT_RACE = 2
+  const ACCOUNT_CHARACTER_SLOT_LEVEL = 3
+  const ACCOUNT_CHARACTER_SLOT_STR = 4
+  const ACCOUNT_CHARACTER_SLOT_DEX = 5
+  const ACCOUNT_CHARACTER_SLOT_INT = 7
+  const ACCOUNT_CHARACTER_SLOT_HTH = 6
+  const ACCOUNT_CHARACTER_SLOT_PLAYTIME = 8
+  const ACCOUNT_CHARACTER_SLOT_FORM = 9
+  const ACCOUNT_CHARACTER_SLOT_ADDR = 10
+  const ACCOUNT_CHARACTER_SLOT_PORT = 11
+  const ACCOUNT_CHARACTER_SLOT_GUILD_ID = 12
+  const ACCOUNT_CHARACTER_SLOT_GUILD_NAME = 13
+  const ACCOUNT_CHARACTER_SLOT_CHANGE_NAME_FLAG = 14
+  const ACCOUNT_CHARACTER_SLOT_HAIR = 15
+  const ACCOUNT_CHARACTER_SLOT_ACCE = 16
+  const SERVER_COMMAND_LOG_OUT = 0
+  const SERVER_COMMAND_RETURN_TO_SELECT_CHARACTER = 1
+  const SERVER_COMMAND_QUIT = 2
+  const EMPIRE_A = 1
+  const EMPIRE_B = 2
+  const EMPIRE_C = 3
+  const DS_SUB_HEADER_REFINE_FAIL = 5
+  const DS_SUB_HEADER_REFINE_FAIL_MAX_REFINE = 6
+  const DS_SUB_HEADER_REFINE_FAIL_INVALID_MATERIAL = 7
+  const DS_SUB_HEADER_REFINE_FAIL_NOT_ENOUGH_MONEY = 8
+  const DS_SUB_HEADER_REFINE_FAIL_NOT_ENOUGH_MATERIAL = 9
+  const DS_SUB_HEADER_REFINE_FAIL_TOO_MUCH_MATERIAL = 10
+  const DS_SUB_HEADER_REFINE_SUCCEED = 11
+
+[nonplayer] (tablo=0x990f68, fonksiyon=21, sabit=23)
+  GetEventType() -> i  @ 0x4ea4a0
+  GetEventTypeByVID() -> i  @ 0x4ea4f0
+  GetLevelByVID() -> i  @ 0x4ea5d0
+  GetGradeByVID() -> i  @ 0x4ea540
+  GetMonsterName() -> s  @ 0x4eaa20
+  GetRaceNumByVID() -> i  @ 0x4eab10
+  GetMonsterMaxHP() -> i  @ 0x4ea9d0
+  GetMonsterRaceFlag() -> i  @ 0x4eaa70
+  GetMonsterLevel() -> i  @ 0x4ea980
+  GetMonsterDamage() -> ii  @ 0x4ea880
+  GetMonsterExp() -> i  @ 0x4ea930
+  GetMonsterDamageMultiply() -> f  @ 0x4ea8e0
+  GetMonsterST() -> i  @ 0x4eaac0
+  GetMonsterDX() -> i  @ 0x4ea830
+  IsMonsterStone() -> i  @ 0x4eab90
+  GetMobRegenCycle() -> i  @ 0x4ea720
+  GetMobRegenPercent() -> i  @ 0x4ea770
+  GetMobGoldMin() -> i  @ 0x4ea6d0
+  GetMobGoldMax() -> i  @ 0x4ea680
+  GetResist() -> i  @ 0x4ea7c0
+  LoadNonPlayerData()  @ 0x4eabe0
+  # Sabitler:
+  const ON_CLICK_EVENT_NONE = 0
+  const ON_CLICK_EVENT_BATTLE = 1
+  const ON_CLICK_EVENT_SHOP = 2
+  const ON_CLICK_EVENT_TALK = 3
+  const ON_CLICK_EVENT_VEHICLE = 4
+  const PAWN = 0
+  const S_PAWN = 1
+  const KNIGHT = 2
+  const S_KNIGHT = 3
+  const BOSS = 4
+  const KING = 5
+  const MOB_RESIST_SWORD = 0
+  const MOB_RESIST_TWOHAND = 1
+  const MOB_RESIST_DAGGER = 2
+  const MOB_RESIST_BELL = 3
+  const MOB_RESIST_FAN = 4
+  const MOB_RESIST_BOW = 5
+  const MOB_RESIST_FIRE = 6
+  const MOB_RESIST_ELECT = 7
+  const MOB_RESIST_MAGIC = 8
+  const MOB_RESIST_WIND = 9
+  const MOB_RESIST_POISON = 10
+  const MOB_RESIST_MAX_NUM = 11
+
+[offlineshop] (tablo=0x9910e8, fonksiyon=39, sabit=4)
+  SendShopCreate()  @ 0x4f4180
+  SendExtendTime()  @ 0x4f3df0
+  GetMeInfo() -> s  @ 0x4f3860
+  SendChangeName()  @ 0x4f3cf0
+  SendForceCloseShop()  @ 0x4f3e50
+  SendOpenShopOwner()  @ 0x4f4020
+  SendBuyItem()  @ 0x4f3c40
+  SendAddItem()  @ 0x4f3900
+  SendRemoveItem()  @ 0x4f4030
+  SendEditItem()  @ 0x4f3d60
+  SendOfferCreate()  @ 0x4f3f40
+  SendOfferAccept()  @ 0x4f3e60
+  SendOfferCancel()  @ 0x4f3ec0
+  SendOfferListRequest()  @ 0x4f4010
+  SendSafeboxOpen()  @ 0x4f4170
+  SendSafeboxGetItem()  @ 0x4f40a0
+  SendSafeboxGetValutes()  @ 0x4f4100
+  SendSafeboxClose()  @ 0x4f4090
+  SendAuctionListRequest()  @ 0x4f3bc0
+  SendAuctionOpenAuction()  @ 0x4f3bd0
+  SendAuctionAddOffer()  @ 0x4f39e0
+  SendAuctionExitFrom()  @ 0x4f3b60
+  SendAuctionCreate()  @ 0x4f3a70
+  SendAuctionOpenMy()  @ 0x4f3c30
+  SendCloseBoard()  @ 0x4f3d50
+  RefreshFilterHistory()  @ 0x4f38d0
+  RefreshFilterPatterns()  @ 0x4f38e0
+  AppendNewFilterHistory()  @ 0x4f3060
+  AppendNewFilterPattern()  @ 0x4f33b0
+  UpdateLastUseFilterPattern()  @ 0x4f4650
+  RefreshItemNameMap()  @ 0x4f38f0
+  SetOfflineshopBoard()  @ 0x4f44f0
+  GetOfflineshopBoard()  @ 0x4f3880
+  ShopBuilding_AddInventoryItem()  @ 0x4f4550
+  AuctionBuilding_AddInventoryItem()  @ 0x4f3780
+  ShopBuilding_AddItem()  @ 0x4f45b0
+  AuctionBuilding_AddItem()  @ 0x4f37e0
+  HideShopNames()  @ 0x4f38b0
+  ShowShopNames()  @ 0x4f4630
+  # Sabitler:
+  const FILTER_ATTRIBUTE_NUM = 5
+  const OFFLINESHOP_MAX_DAYS = 8
+  const OFFLINESHOP_MAX_HOURS = 23
+  const OFFLINESHOP_MAX_MINUTES = 11520
+
+[pack] (tablo=0x992b50, fonksiyon=2, sabit=0)
+  Exist() -> i  @ 0x5307f0
+  Get()  @ 0x530840
+
+[player] (tablo=0x991378, fonksiyon=132, sabit=211)
+  GetAutoPotionInfo() -> biii  @ 0x4fdc20
+  SetAutoPotionInfo()  @ 0x5002e0
+  PickCloseItem()  @ 0x4ffc10
+  SetGameWindow()  @ 0x500380
+  RegisterEffect()  @ 0x4ffc90
+  RegisterCacheEffect()  @ 0x4ffc20
+  SetMouseState()  @ 0x500880
+  SetMouseFunc()  @ 0x5007e0
+  GetMouseFunc() -> i  @ 0x4feaf0
+  SetMouseMiddleButtonState()  @ 0x500840
+  SetMainCharacterIndex()  @ 0x500790
+  GetMainCharacterIndex() -> i  @ 0x4fea40
+  GetMainCharacterName() -> s  @ 0x4fea60
+  GetMainCharacterPosition() -> fff  @ 0x4fea80
+  IsMainCharacterIndex() -> i  @ 0x4ff4a0
+  CanAttackInstance() -> i  @ 0x4fd530
+  IsActingEmotion() -> i  @ 0x4ff0b0
+  IsPVPInstance() -> i  @ 0x4ff570
+  IsSameEmpire() -> i  @ 0x4ff830
+  IsChallengeInstance() -> i  @ 0x4ff280
+  IsRevengeInstance() -> i  @ 0x4ff7e0
+  IsCantFightInstance() -> i  @ 0x4ff230
+  GetCharacterDistance() -> f  @ 0x4fdc90
+  IsInSafeArea() -> i  @ 0x4ff460
+  IsMountingHorse() -> i  @ 0x4ff4f0
+  IsObserverMode() -> i  @ 0x4ff530
+  ActEmotion()  @ 0x4fd260
+  GetDragonCoin() -> i  @ 0x4fdd30
+  GetDragonMark() -> i  @ 0x4fdd50
+  ShowPlayer() -> i  @ 0x500c00
+  HidePlayer() -> i  @ 0x4ff080
+  ComboAttack() -> ii  @ 0x4fdb90
+  SetAutoCameraRotationSpeed()  @ 0x500290
+  SetAttackKeyState()  @ 0x500240
+  SetSingleDIKKeyState()  @ 0x5009b0
+  EndKeyWalkingImmediately() -> ii  @ 0x4fdba0
+  StartMouseWalking() -> i  @ 0x500c80
+  EndMouseWalking() -> ii  @ 0x4fdbb0
+  ResetCameraRotation()  @ 0x500090
+  SetQuickCameraMode()  @ 0x500920
+  SetSkill()  @ 0x500a30
+  GetSkillIndex() -> i  @ 0x4fee70
+  GetSkillSlotIndex() -> i  @ 0x4fef60
+  GetSkillGrade() -> i  @ 0x4fee20
+  GetSkillLevel() -> i  @ 0x4feec0
+  GetSkillCurrentEfficientPercentage() -> f  @ 0x4fedd0
+  GetSkillNextEfficientPercentage() -> f  @ 0x4fef10
+  ClickSkillSlot()  @ 0x4fdb50
+  ChangeCurrentSkillNumberOnly()  @ 0x4fdad0
+  ClearSkillDict()  @ 0x4fdb20
+  GetItemIndex() -> i  @ 0x4fe630
+  GetItemFlags() -> i  @ 0x4fe470
+  GetItemCount() -> i  @ 0x4fe340
+  GetItemCountByVnum() -> i  @ 0x4fe420
+  GetItemMetinSocket() -> i  @ 0x4fe8e0
+  GetItemAttribute() -> ii  @ 0x4fe260
+  GetISellItemPrice() -> i|ii  @ 0x4fe0d0
+  MoveItem()  @ 0x4ffad0
+  SendClickItemPacket()  @ 0x5000a0
+  GetName() -> s  @ 0x4feb40
+  GetJob() -> i  @ 0x4fe9b0
+  GetRace() -> i  @ 0x4fed30
+  GetPlayTime() -> i  @ 0x4fecf0
+  SetPlayTime()  @ 0x5008e0
+  IsSkillCoolTime() -> i  @ 0x4ff910
+  GetSkillCoolTime() -> ff  @ 0x4fed50
+  IsSkillActive() -> i  @ 0x4ff8c0
+  UseGuildSkill()  @ 0x500ce0
+  AffectIndexToSkillIndex() -> i  @ 0x4fd2a0
+  GetEXP() -> l|i  @ 0x4fdd70
+  GetStatus() -> i  @ 0x4fefc0
+  SetStatus()  @ 0x500a90
+  GetElk() -> i  @ 0x4fdd90
+  GetMoney() -> i  @ 0x4fdd90
+  GetGuildID() -> i  @ 0x4fdf50
+  GetGuildName() -> s|i  @ 0x4fdf90
+  GetAlignmentData() -> ii  @ 0x4fdbd0
+  RequestAddLocalQuickSlot()  @ 0x4ffee0
+  RequestAddToEmptyLocalQuickSlot()  @ 0x4fff50
+  RequestDeleteGlobalQuickSlot()  @ 0x4fffb0
+  RequestMoveGlobalQuickSlotToLocalQuickSlot()  @ 0x4ffff0
+  RequestUseLocalQuickSlot()  @ 0x500050
+  LocalQuickSlotIndexToGlobalQuickSlotIndex() -> i  @ 0x4ffa80
+  GetQuickPage() -> i  @ 0x4fed10
+  SetQuickPage()  @ 0x500970
+  GetLocalQuickSlot() -> ii  @ 0x4fe9e0
+  GetGlobalQuickSlot() -> ii  @ 0x4fdef0
+  RemoveQuickSlotByValue()  @ 0x4ffe70
+  isItem() -> i  @ 0x500d20
+  IsEquipmentSlot() -> i  @ 0x4ff3b0
+  IsDSEquipmentSlot() -> i  @ 0x4ff330
+  IsCostumeSlot() -> i  @ 0x4ff2d0
+  IsValuableItem() -> i  @ 0x4ff960
+  IsOpenPrivateShop() -> i  @ 0x4ff550
+  IsBeltInventorySlot() -> i  @ 0x4ff1c0
+  IsEquippingBelt() -> b  @ 0x4ff410
+  IsAvailableBeltInventoryCell() -> b  @ 0x4ff0f0
+  GetItemGrade() -> i  @ 0x4fe550
+  CanRefine() -> i  @ 0x4fd7c0
+  CanDetach() -> i  @ 0x4fd5c0
+  CanUnlock() -> i  @ 0x4fd980
+  CanAttachMetin() -> i  @ 0x4fd310
+  IsRefineGradeScroll()  @ 0x4ff760
+  ClearTarget()  @ 0x4fdb30
+  SetTarget()  @ 0x500af0
+  OpenCharacterMenu()  @ 0x4ffbd0
+  Update()  @ 0x500cd0
+  Render()  @ 0x4ffed0
+  Clear()  @ 0x4fdb10
+  IsPartyMember() -> i  @ 0x4ff710
+  IsPartyLeader() -> i  @ 0x4ff600
+  IsPartyLeaderByPID() -> i  @ 0x4ff690
+  GetPartyMemberHPPercentage() -> i  @ 0x4fec10
+  GetPartyMemberState() -> i  @ 0x4fec80
+  GetPartyMemberAffects() -> i|iiiiiii  @ 0x4feb80
+  RemovePartyMember()  @ 0x4ffe30
+  ExitParty() -> ii  @ 0x4fdbc0
+  GetPKMode() -> i  @ 0x4feb60
+  HasMobilePhoneNumber() -> i  @ 0x4ff060
+  RegisterEmotionIcon()  @ 0x4ffd00
+  GetEmotionIconImage() -> i|ii  @ 0x4fddb0
+  SetWeaponAttackBonusFlag() -> i  @ 0x500bd0
+  ToggleCoolTime() -> i  @ 0x500c90
+  ToggleLevelLimit() -> i  @ 0x500cb0
+  GetTargetVID() -> i  @ 0x4ff040
+  SetItemData()  @ 0x5005c0
+  SetItemMetinSocket()  @ 0x5006a0
+  SetItemAttribute()  @ 0x5003c0
+  SetItemCount()  @ 0x5004e0
+  GetItemLink() -> s  @ 0x4fe710
+  SlotTypeToInvenType() -> i  @ 0x500c30
+  SendDragonSoulRefine()  @ 0x5000e0
+  # Sabitler:
+  const LEVEL = 1
+  const VOICE = 2
+  const EXP = 3
+  const NEXT_EXP = 4
+  const HP = 5
+  const MAX_HP = 6
+  const SP = 7
+  const MAX_SP = 8
+  const STAMINA = 9
+  const MAX_STAMINA = 10
+  const ELK = 11
+  const ST = 12
+  const HT = 13
+  const DX = 14
+  const IQ = 15
+  const ATT_POWER = 16
+  const ATT_MIN = 29
+  const ATT_MAX = 30
+  const MIN_MAGIC_WEP = 202
+  const MAX_MAGIC_WEP = 203
+  const ATT_SPEED = 17
+  const ATT_BONUS = 95
+  const EVADE_RATE = 18
+  const MOVING_SPEED = 19
+  const DEF_GRADE = 20
+  const DEF_BONUS = 96
+  const CASTING_SPEED = 21
+  const MAG_ATT = 22
+  const MAG_DEF = 23
+  const EMPIRE_POINT = 24
+  const STAT = 26
+  const SKILL_PASSIVE = 27
+  const SKILL_SUPPORT = 27
+  const SKILL_ACTIVE = 28
+  const SKILL_HORSE = 113
+  const PLAYTIME = 31
+  const BOW_DISTANCE = 34
+  const HP_RECOVERY = 35
+  const SP_RECOVERY = 36
+  const ATTACKER_BONUS = 91
+  const MAX_NUM = 255
+  const POINT_CRITICAL_PCT = 40
+  const POINT_PENETRATE_PCT = 41
+  const POINT_MALL_ATTBONUS = 114
+  const POINT_ATT_BONUS = 93
+  const POINT_MALL_DEFBONUS = 115
+  const POINT_MALL_EXPBONUS = 116
+  const POINT_MALL_ITEMBONUS = 117
+  const POINT_MALL_GOLDBONUS = 118
+  const POINT_MAX_HP_PCT = 119
+  const POINT_MAX_SP_PCT = 120
+  const POINT_SKILL_DAMAGE_BONUS = 121
+  const POINT_NORMAL_HIT_DAMAGE_BONUS = 122
+  const POINT_SKILL_DEFEND_BONUS = 123
+  const POINT_NORMAL_HIT_DEFEND_BONUS = 124
+  const POINT_PC_BANG_EXP_BONUS = 125
+  const POINT_PC_BANG_DROP_BONUS = 126
+  const MAIN_RACE_WARRIOR_M = 0
+  const MAIN_RACE_ASSASSIN_W = 1
+  const MAIN_RACE_SURA_M = 2
+  const MAIN_RACE_SHAMAN_W = 3
+  const MAIN_RACE_WARRIOR_W = 4
+  const MAIN_RACE_ASSASSIN_M = 5
+  const MAIN_RACE_SURA_W = 6
+  const MAIN_RACE_SHAMAN_M = 7
+  const MAIN_RACE_MAX_NUM = 8
+  const ENERGY = 128
+  const ENERGY_END_TIME = 129
+  const SKILL_GRADE_NORMAL = 0
+  const SKILL_GRADE_MASTER = 1
+  const SKILL_GRADE_GRAND_MASTER = 2
+  const SKILL_GRADE_PERFECT_MASTER = 3
+  const CATEGORY_ACTIVE = 1
+  const CATEGORY_PASSIVE = 2
+  const INVENTORY_PAGE_COLUMN = 5
+  const INVENTORY_PAGE_ROW = 9
+  const INVENTORY_PAGE_SIZE = 45
+  const INVENTORY_PAGE_COUNT = 2
+  const INVENTORY_SLOT_COUNT = 168
+  const EQUIPMENT_SLOT_START = 90
+  const EQUIPMENT_PAGE_COUNT = 12
+  const NEW_EQUIPMENT_SLOT_START = 113
+  const NEW_EQUIPMENT_SLOT_COUNT = 1
+  const MBF_SKILL = 4
+  const MBF_ATTACK = 3
+  const MBF_CAMERA = 2
+  const MBF_SMART = 0
+  const MBF_MOVE = 1
+  const MBF_AUTO = 5
+  const MBS_PRESS = 1
+  const MBS_CLICK = 0
+  const MBT_RIGHT = 1
+  const MBT_LEFT = 0
+  const SLOT_TYPE_NONE = 0
+  const SLOT_TYPE_INVENTORY = 1
+  const SLOT_TYPE_SKILL = 2
+  const SLOT_TYPE_SHOP = 4
+  const SLOT_TYPE_EXCHANGE_OWNER = 5
+  const SLOT_TYPE_EXCHANGE_TARGET = 6
+  const SLOT_TYPE_QUICK_SLOT = 7
+  const SLOT_TYPE_SAFEBOX = 8
+  const SLOT_TYPE_PRIVATE_SHOP = 9
+  const SLOT_TYPE_MALL = 10
+  const SLOT_TYPE_EMOTION = 3
+  const SLOT_TYPE_DRAGON_SOUL_INVENTORY = 11
+  const RESERVED_WINDOW = 0
+  const INVENTORY = 1
+  const EQUIPMENT = 2
+  const SAFEBOX = 3
+  const MALL = 4
+  const DRAGON_SOUL_INVENTORY = 5
+  const GROUND = 7
+  const ITEM_MONEY = -1
+  const SKILL_SLOT_COUNT = 255
+  const EFFECT_PICK = 0
+  const METIN_SOCKET_TYPE_NONE = 0
+  const METIN_SOCKET_TYPE_SILVER = 1
+  const METIN_SOCKET_TYPE_GOLD = 2
+  const METIN_SOCKET_MAX_NUM = 3
+  const ATTRIBUTE_SLOT_NORM_NUM = 5
+  const ATTRIBUTE_SLOT_RARE_NUM = 2
+  const ATTRIBUTE_SLOT_NORM_START = 0
+  const ATTRIBUTE_SLOT_NORM_END = 5
+  const ATTRIBUTE_SLOT_RARE_START = 5
+  const ATTRIBUTE_SLOT_RARE_END = 7
+  const ATTRIBUTE_SLOT_MAX_NUM = 7
+  const REFINE_CANT = 0
+  const REFINE_OK = 1
+  const REFINE_ALREADY_MAX_SOCKET_COUNT = 2
+  const REFINE_NEED_MORE_GOOD_SCROLL = 3
+  const REFINE_CANT_MAKE_SOCKET_ITEM = 4
+  const REFINE_NOT_NEXT_GRADE_ITEM = 5
+  const REFINE_CANT_REFINE_METIN_TO_EQUIPMENT = 6
+  const REFINE_CANT_REFINE_ROD = 7
+  const ATTACH_METIN_CANT = 0
+  const ATTACH_METIN_OK = 1
+  const ATTACH_METIN_NOT_MATCHABLE_ITEM = 2
+  const ATTACH_METIN_NO_MATCHABLE_SOCKET = 3
+  const ATTACH_METIN_NOT_EXIST_GOLD_SOCKET = 4
+  const ATTACH_METIN_CANT_ATTACH_TO_EQUIPMENT = 5
+  const DETACH_METIN_CANT = 0
+  const DETACH_METIN_OK = 1
+  const PARTY_STATE_NORMAL = 0
+  const PARTY_STATE_LEADER = 1
+  const PARTY_STATE_ATTACKER = 2
+  const PARTY_STATE_TANKER = 3
+  const PARTY_STATE_BUFFER = 4
+  const PARTY_STATE_SKILL_MASTER = 5
+  const PARTY_STATE_BERSERKER = 6
+  const PARTY_STATE_DEFENDER = 7
+  const PARTY_STATE_MAX_NUM = 8
+  const SKILL_INDEX_TONGSOL = 121
+  const SKILL_INDEX_FISHING = 123
+  const SKILL_INDEX_MINING = 124
+  const SKILL_INDEX_MAKING = 125
+  const SKILL_INDEX_COMBO = 122
+  const SKILL_INDEX_LANGUAGE1 = 126
+  const SKILL_INDEX_LANGUAGE2 = 127
+  const SKILL_INDEX_LANGUAGE3 = 128
+  const SKILL_INDEX_POLYMORPH = 129
+  const SKILL_INDEX_RIDING = 130
+  const SKILL_INDEX_SUMMON = 131
+  const SKILL_INDEX_JANGRU = 133
+  const SKILL_INDEX_YONGRIN = 134
+  const PK_MODE_PEACE = 0
+  const PK_MODE_REVENGE = 1
+  const PK_MODE_FREE = 2
+  const PK_MODE_PROTECT = 3
+  const PK_MODE_GUILD = 4
+  const PK_MODE_MAX_NUM = 5
+  const BLOCK_EXCHANGE = 1
+  const BLOCK_PARTY = 2
+  const BLOCK_GUILD = 4
+  const BLOCK_WHISPER = 8
+  const BLOCK_FRIEND = 16
+  const BLOCK_PARTY_REQUEST = 32
+  const PARTY_EXP_NON_DISTRIBUTION = 0
+  const PARTY_EXP_DISTRIBUTION_PARITY = 1
+  const EMOTION_CLAP = 1
+  const EMOTION_CHEERS_1 = 2
+  const EMOTION_CHEERS_2 = 3
+  const EMOTION_DANCE_1 = 4
+  const EMOTION_DANCE_2 = 5
+  const EMOTION_DANCE_3 = 6
+  const EMOTION_DANCE_4 = 7
+  const EMOTION_DANCE_5 = 8
+  const EMOTION_DANCE_6 = 9
+  const EMOTION_CONGRATULATION = 10
+  const EMOTION_FORGIVE = 11
+  const EMOTION_ANGRY = 12
+  const EMOTION_ATTRACTIVE = 13
+  const EMOTION_SAD = 14
+  const EMOTION_SHY = 15
+  const EMOTION_CHEERUP = 16
+  const EMOTION_BANTER = 17
+  const EMOTION_JOY = 18
+  const EMOTION_KISS = 51
+  const EMOTION_FRENCH_KISS = 52
+  const EMOTION_SLAP = 53
+  const AUTO_POTION_TYPE_HP = 0
+  const AUTO_POTION_TYPE_SP = 1
+  const DRAGON_SOUL_PAGE_SIZE = 32
+  const DRAGON_SOUL_PAGE_COUNT = 5
+  const DRAGON_SOUL_SLOT_COUNT = 960
+  const DRAGON_SOUL_EQUIPMENT_SLOT_START = 122
+  const DRAGON_SOUL_EQUIPMENT_PAGE_COUNT = 2
+  const DRAGON_SOUL_EQUIPMENT_FIRST_SIZE = 6
+  const DRAGON_SOUL_REFINE_CLOSE = 1
+  const DS_SUB_HEADER_DO_UPGRADE = 2
+  const DS_SUB_HEADER_DO_IMPROVEMENT = 3
+  const DS_SUB_HEADER_DO_REFINE = 4
+
+[profiler] (tablo=0x9934a0, fonksiyon=2, sabit=0)
+  Push()  @ 0x53ac20
+  Pop()  @ 0x53abf0
+
+[quest] (tablo=0x991bc8, fonksiyon=5, sabit=1)
+  GetQuestCount() -> i  @ 0x5033f0
+  GetQuestData() -> sisi|i  @ 0x503410
+  GetQuestIndex() -> i  @ 0x5036a0
+  GetQuestLastTime() -> si  @ 0x503710
+  Clear() -> i  @ 0x5033e0
+  # Sabitler:
+  const QUEST_MAX_NUM = 5
+
+[safebox] (tablo=0x992720, fonksiyon=12, sabit=3)
+  GetCurrentSafeboxSize() -> i  @ 0x5298e0
+  GetItemID() -> i  @ 0x529a70
+  GetItemCount() -> i  @ 0x5299a0
+  GetItemFlags() -> i  @ 0x529a10
+  GetItemMetinSocket() -> i  @ 0x529ad0
+  GetItemAttribute() -> ii  @ 0x529900
+  GetMoney() -> i  @ 0x529d60
+  GetMallItemID() -> i  @ 0x529c60
+  GetMallItemCount() -> i  @ 0x529bf0
+  GetMallItemMetinSocket() -> i  @ 0x529cc0
+  GetMallItemAttribute() -> ii  @ 0x529b50
+  GetMallSize() -> i  @ 0x529d40
+  # Sabitler:
+  const SAFEBOX_SLOT_X_COUNT = 5
+  const SAFEBOX_SLOT_Y_COUNT = 9
+  const SAFEBOX_PAGE_SIZE = 45
+
+[shop] (tablo=0x9927f0, fonksiyon=18, sabit=3)
+  Open()  @ 0x52bf90
+  Close()  @ 0x52baf0
+  IsOpen() -> i  @ 0x52bf50
+  IsPrivateShop() -> i  @ 0x52bf70
+  IsMainPlayerPrivateShop() -> i  @ 0x52bf30
+  GetItemID() -> i  @ 0x52bc80
+  GetItemCount() -> i  @ 0x52bc10
+  GetItemPrice() -> i  @ 0x52bd80
+  GetItemMetinSocket() -> i  @ 0x52bcf0
+  GetItemAttribute() -> ii  @ 0x52bb70
+  GetTabCount() -> i  @ 0x52bec0
+  GetTabName() -> s  @ 0x52bee0
+  GetTabCoinType() -> i  @ 0x52be70
+  ClearPrivateShopStock()  @ 0x52bae0
+  AddPrivateShopItemStock()  @ 0x52ba00
+  DelPrivateShopItemStock()  @ 0x52bb00
+  GetPrivateShopItemPrice() -> i  @ 0x52bdf0
+  BuildPrivateShop()  @ 0x52baa0
+  # Sabitler:
+  const SHOP_SLOT_COUNT = 40
+  const SHOP_COIN_TYPE_GOLD = 0
+  const SHOP_COIN_TYPE_SECONDARY_COIN = 1
+
+[skill] (tablo=0x991c48, fonksiyon=40, sabit=10)
+  SetPathName()  @ 0x514310
+  RegisterSkill()  @ 0x514170
+  LoadSkillData()  @ 0x514160
+  ClearSkillData()  @ 0x512d00
+  GetSkillName() -> s  @ 0x513ac0
+  GetSkillDescription() -> s  @ 0x513900
+  GetSkillType() -> i  @ 0x513e20
+  GetSkillConditionDescriptionCount() -> i  @ 0x513760
+  GetSkillConditionDescription() -> s  @ 0x5136a0
+  GetSkillAffectDescriptionCount() -> i  @ 0x513620
+  GetSkillAffectDescription() -> s  @ 0x513570
+  GetSkillCoolTime() -> i  @ 0x513870
+  GetSkillNeedSP() -> i  @ 0x513b60
+  GetSkillContinuationSP() -> i  @ 0x5137e0
+  GetSkillMaxLevel() -> i  @ 0x513a50
+  GetSkillLevelUpPoint() -> i  @ 0x5139e0
+  GetSkillLevelLimit() -> i  @ 0x513970
+  IsSkillRequirement() -> i  @ 0x513f00
+  GetSkillRequirementData() -> si  @ 0x513d20
+  GetSkillRequireStatCount() -> i  @ 0x513bf0
+  GetSkillRequireStatData() -> ii  @ 0x513c70
+  CanLevelUpSkill() -> i  @ 0x512a10
+  IsLevelUpSkill() -> i  @ 0x513e90
+  CheckRequirementSueccess() -> i  @ 0x512c00
+  GetNeedCharacterLevel() -> i  @ 0x513160
+  IsToggleSkill() -> i  @ 0x514080
+  IsUseHPSkill() -> i  @ 0x5140f0
+  IsStandingSkill() -> i  @ 0x514010
+  CanUseSkill() -> i  @ 0x512b90
+  GetIconName() -> s  @ 0x5130e0
+  GetIconImage() -> i  @ 0x512e90
+  GetIconImageNew() -> i  @ 0x512f00
+  GetIconInstance() -> i  @ 0x512fa0
+  GetIconInstanceNew() -> i  @ 0x513020
+  DeleteIconInstance()  @ 0x512d10
+  GetGradeData() -> i  @ 0x512de0
+  GetNewAffectDataCount() -> i  @ 0x5134e0
+  GetNewAffectData() -> sff  @ 0x513200
+  GetDuration() -> i  @ 0x512d50
+  TEST()  @ 0x514350
+  # Sabitler:
+  const SKILL_TYPE_NONE = 0
+  const SKILL_TYPE_ACTIVE = 1
+  const SKILL_TYPE_SUPPORT = 2
+  const SKILL_TYPE_GUILD = 3
+  const SKILL_TYPE_HORSE = 4
+  const SKILL_TYPE_MAX_NUM = 5
+  const SKILL_GRADE_COUNT = 3
+  const SKILL_GRADE_STEP_COUNT = 20
+  const SKILL_GRADEGAP = 25
+  const SKILL_EFFECT_COUNT = 4
+
+[snd] (tablo=0x9934d0, fonksiyon=14, sabit=0)
+  PlaySound()  @ 0x53ae80
+  PlaySound3D()  @ 0x53add0
+  PlayMusic()  @ 0x53ad90
+  FadeInMusic()  @ 0x53ac70
+  FadeOutMusic()  @ 0x53ad40
+  FadeOutAllMusic()  @ 0x53ad30
+  FadeLimitOutMusic()  @ 0x53acc0
+  StopAllSound()  @ 0x53b040
+  SetMusicVolumef()  @ 0x53af10
+  SetMusicVolume()  @ 0x53af10
+  SetSoundVolumef()  @ 0x53aff0
+  SetSoundVolume()  @ 0x53afb0
+  SetSoundScale()  @ 0x53af60
+  SetAmbienceSoundScale()  @ 0x53aec0
+
+[systemSetting] (tablo=0x9935c0, fonksiyon=43, sabit=10)
+  GetWidth() -> i  @ 0x53c950
+  GetHeight() -> i  @ 0x53c7f0
+  SetInterfaceHandler()  @ 0x53ce60
+  DestroyInterfaceHandler() -> iiiiiiii  @ 0x53c680
+  ReserveResource()  @ 0x53cad0
+  isInterfaceConfig() -> i  @ 0x53d250
+  SaveWindowStatus()  @ 0x53cb90
+  GetWindowStatus() -> iiiii  @ 0x53c970
+  GetResolutionCount() -> i  @ 0x53c8d0
+  GetFrequencyCount() -> i  @ 0x53c7a0
+  GetCurrentResolution() -> iii  @ 0x53c700
+  GetResolution() -> iii  @ 0x53c850
+  GetFrequency() -> i  @ 0x53c730
+  ApplyConfig() -> iiiiiiii  @ 0x53c670
+  SetConfig()  @ 0x53cc90
+  SaveConfig() -> i  @ 0x53cb70
+  GetConfig() -> iiiiiiii  @ 0x53c690
+  SetSaveID()  @ 0x53cf30
+  isSaveID() -> i  @ 0x53d270
+  GetSaveID() -> s  @ 0x53c8f0
+  GetMusicVolume() -> f|i  @ 0x53c810
+  GetSoundVolume() -> i  @ 0x53c930
+  SetMusicVolume()  @ 0x53cea0
+  SetSoundVolumef()  @ 0x53d1c0
+  IsSoftwareCursor() -> i  @ 0x53ca90
+  SetViewChatFlag()  @ 0x53d210
+  IsViewChat() -> i  @ 0x53cab0
+  SetAlwaysShowNameFlag()  @ 0x53cc50
+  IsAlwaysShowName() -> i  @ 0x53c9d0
+  SetShowDamageFlag()  @ 0x53cfe0
+  IsShowDamage() -> i  @ 0x53c9f0
+  SetShowSalesTextFlag()  @ 0x53d180
+  GetShowSalesText() -> i  @ 0x53ca70
+  IsShowLevel() -> i  @ 0x53ca10
+  SetShowLevelFlag()  @ 0x53d020
+  GetNightMode() -> i  @ 0x53c830
+  SetNightMode()  @ 0x53cef0
+  GetShadowLevel() -> i  @ 0x53c910
+  SetShadowLevel()  @ 0x53cf90
+  IsShowMobAIFlag() -> i  @ 0x53ca30
+  SetShowMobAIFlag()  @ 0x53d060
+  IsShowMobLevel() -> i  @ 0x53ca50
+  SetShowMobLevel()  @ 0x53d0f0
+  # Sabitler:
+  const WINDOW_STATUS = 0
+  const WINDOW_INVENTORY = 1
+  const WINDOW_ABILITY = 2
+  const WINDOW_SOCIETY = 3
+  const WINDOW_JOURNAL = 4
+  const WINDOW_COMMAND = 5
+  const WINDOW_QUICK = 6
+  const WINDOW_GAUGE = 7
+  const WINDOW_MINIMAP = 8
+  const WINDOW_CHAT = 9
+
+[textTail] (tablo=0x992a20, fonksiyon=18, sabit=0)
+  Clear()  @ 0x530300
+  UpdateAllTextTail()  @ 0x530720
+  UpdateShowingTextTail()  @ 0x530730
+  Render()  @ 0x530640
+  ShowCharacterTextTail()  @ 0x5306a0
+  ShowItemTextTail()  @ 0x5306e0
+  GetPosition() -> fff  @ 0x530350
+  IsChat() -> i  @ 0x530450
+  ArrangeTextTail()  @ 0x530230
+  HideAllTextTail() -> i  @ 0x530440
+  ShowAllTextTail()  @ 0x530690
+  Pick() -> i  @ 0x5304a0
+  SelectItemName()  @ 0x530650
+  EnablePKTitle()  @ 0x530310
+  RegisterCharacterTextTail()  @ 0x530510
+  RegisterChatTail()  @ 0x530580
+  RegisterInfoTail()  @ 0x5305e0
+  AttachTitle()  @ 0x530240
+
+[wndMgr] (tablo=0x995f10, fonksiyon=165, sabit=16)
+  SetMouseHandler()  @ 0x5efde0
+  SetScreenSize()  @ 0x5eff60
+  GetScreenWidth() -> i  @ 0x5ee6a0
+  GetScreenHeight() -> i  @ 0x5ee680
+  AttachIcon()  @ 0x5edff0
+  DeattachIcon()  @ 0x5ee280
+  SetAttachingFlag()  @ 0x5ef9e0
+  GetAspect() -> f  @ 0x5ee470
+  GetHyperlink() -> ii  @ 0x5ee530
+  OnceIgnoreMouseLeftButtonUpEvent()  @ 0x5eeff0
+  Register() -> i  @ 0x5ef0f0
+  RegisterSlotWindow() -> i  @ 0x5ef710
+  RegisterGridSlotWindow() -> i  @ 0x5ef470
+  RegisterTextLine() -> i  @ 0x5ef780
+  RegisterMarkBox() -> i  @ 0x5ef5c0
+  RegisterImageBox() -> i  @ 0x5ef4e0
+  RegisterExpandedImageBox() -> i  @ 0x5ef400
+  RegisterAniImageBox() -> i  @ 0x5ef160
+  RegisterButton() -> i  @ 0x5ef320
+  RegisterRadioButton() -> i  @ 0x5ef6a0
+  RegisterToggleButton() -> i  @ 0x5ef7f0
+  RegisterDragButton() -> i  @ 0x5ef390
+  RegisterBox() -> i  @ 0x5ef2b0
+  RegisterBar() -> i  @ 0x5ef240
+  RegisterLine() -> i  @ 0x5ef550
+  RegisterBar3D() -> i  @ 0x5ef1d0
+  RegisterNumberLine() -> i  @ 0x5ef630
+  Destroy()  @ 0x5ee290
+  AddFlag()  @ 0x5edb20
+  IsRTL() -> i  @ 0x5eede0
+  SetName()  @ 0x5efe20
+  GetName() -> s  @ 0x5ee630
+  SetTop()  @ 0x5f04e0
+  Show()  @ 0x5f07a0
+  Hide()  @ 0x5eeaa0
+  IsShow() -> i  @ 0x5eeeb0
+  SetParent()  @ 0x5efec0
+  SetPickAlways()  @ 0x5eff20
+  IsFocus() -> i  @ 0x5eecf0
+  SetFocus()  @ 0x5efc60
+  KillFocus()  @ 0x5eef00
+  Lock()  @ 0x5eef40
+  Unlock()  @ 0x5f0950
+  SetWindowSize()  @ 0x5f0730
+  SetWindowPosition()  @ 0x5f06c0
+  GetWindowWidth() -> i  @ 0x5ee9e0
+  GetWindowHeight() -> i  @ 0x5ee940
+  GetWindowLocalPosition() -> ii  @ 0x5ee980
+  GetWindowGlobalPosition() -> ii  @ 0x5ee8f0
+  GetWindowRect() -> iiii  @ 0x5ee8a0
+  SetWindowHorizontalAlign()  @ 0x5f0600
+  SetWindowVerticalAlign()  @ 0x5f0660
+  GetChildCount() -> i  @ 0x5ee490
+  IsPickedWindow() -> i  @ 0x5eed90
+  IsIn() -> i  @ 0x5eed40
+  GetMouseLocalPosition() -> ii  @ 0x5ee590
+  GetMousePosition() -> ii  @ 0x5ee5f0
+  IsDragging() -> i  @ 0x5eecd0
+  SetLimitBias()  @ 0x5efd40
+  UpdateRect()  @ 0x5f09d0
+  AppendSlot()  @ 0x5edd90
+  ArrangeSlot()  @ 0x5edee0
+  ClearSlot()  @ 0x5ee1a0
+  ClearAllSlot()  @ 0x5ee090
+  HasSlot() -> i  @ 0x5eea20
+  SetSlot()  @ 0x5effc0
+  SetSlotCount()  @ 0x5f02d0
+  SetSlotCountNew()  @ 0x5f0350
+  SetSlotCoolTime()  @ 0x5f0220
+  SetToggleSlot()  @ 0x5f04d0
+  ActivateSlot()  @ 0x5eda70
+  DeactivateSlot()  @ 0x5ee210
+  EnableSlot()  @ 0x5ee400
+  DisableSlot()  @ 0x5ee330
+  ShowSlotBaseImage()  @ 0x5f0880
+  HideSlotBaseImage()  @ 0x5eeb80
+  SetSlotType()  @ 0x5f0460
+  SetSlotStyle()  @ 0x5f03f0
+  SetSlotBaseImage()  @ 0x5f0120
+  SetCardSlot()  @ 0x5efa20
+  ResetFrame()  @ 0x5ed420
+  SetCoverButton()  @ 0x5efb80
+  EnableCoverButton()  @ 0x5ee3a0
+  DisableCoverButton()  @ 0x5ee2d0
+  IsDisableCoverButton() -> i  @ 0x5eec70
+  SetAlwaysRenderCoverButton()  @ 0x5ef970
+  AppendSlotButton()  @ 0x5ede60
+  AppendRequirementSignImage()  @ 0x5edd30
+  ShowSlotButton()  @ 0x5f08f0
+  HideAllSlotButton()  @ 0x5eeae0
+  ShowRequirementSign()  @ 0x5f0820
+  HideRequirementSign()  @ 0x5eeb20
+  RefreshSlot()  @ 0x5ef0a0
+  SetUseMode()  @ 0x5f0590
+  SetUsableItem()  @ 0x5f0520
+  SelectSlot()  @ 0x5ef900
+  ClearSelected()  @ 0x5ee150
+  GetSelectedSlotCount() -> i  @ 0x5ee6c0
+  GetSelectedSlotNumber() -> i  @ 0x5ee720
+  IsSelectedSlot() -> i  @ 0x5eee30
+  GetSlotCount() -> i  @ 0x5ee840
+  LockSlot()  @ 0x5eef80
+  UnlockSlot()  @ 0x5f0960
+  SetColor()  @ 0x5ecd40
+  SetMax()  @ 0x5f1000
+  SetHorizontalAlign()  @ 0x5f0f40
+  SetVerticalAlign()  @ 0x5f11e0
+  SetSecret()  @ 0x5f1120
+  SetOutline()  @ 0x5f10c0
+  SetFeather()  @ 0x5f0d80
+  SetMultiLine()  @ 0x5f1060
+  SetText()  @ 0x5f1180
+  SetFontName()  @ 0x5f0ee0
+  SetFontColor()  @ 0x5f0de0
+  SetLimitWidth()  @ 0x5f0fa0
+  GetText() -> s  @ 0x5f0c90
+  GetTextSize() -> (ii)  @ 0x5f0ce0
+  ShowCursor()  @ 0x5f1240
+  HideCursor()  @ 0x5f0d40
+  GetCursorPosition() -> i  @ 0x5f0c40
+  SetNumber()  @ 0x5f0a10
+  SetNumberHorizontalAlignCenter()  @ 0x5f0a70
+  SetNumberHorizontalAlignRight()  @ 0x5f0ab0
+  SetPath()  @ 0x5f0af0
+  SetGridSpecial()  @ 0x5efca0
+  GetEmptyGrid() -> i  @ 0x5ee4d0
+  ClearGrid()  @ 0x5ee0e0
+  ClearItemGrid()  @ 0x5ef860
+  PutItemGrid()  @ 0x5ef000
+  SetClipRect()  @ 0x5f0b50
+  MarkBox_SetImage()  @ 0x5ed940
+  MarkBox_SetImageFilename()  @ 0x5ed950
+  MarkBox_Load()  @ 0x5ed870
+  MarkBox_SetIndex()  @ 0x5ed9b0
+  MarkBox_SetScale()  @ 0x5eda10
+  MarkBox_SetDiffuseColor()  @ 0x5ed880
+  LoadImage()  @ 0x5ed3b0
+  SetDiffuseColor()  @ 0x5ed4c0
+  GetWidth() -> i  @ 0x5ed360
+  GetHeight() -> i  @ 0x5ed310
+  SetScale()  @ 0x5ed7f0
+  SetOrigin()  @ 0x5ed580
+  SetRotation()  @ 0x5ed790
+  SetRenderingRect()  @ 0x5ed670
+  SetRenderingMode()  @ 0x5ed600
+  SetDelay()  @ 0x5ed460
+  AppendImage()  @ 0x5ed2b0
+  SetUpVisual()  @ 0x5ed250
+  SetOverVisual()  @ 0x5ed110
+  SetDownVisual()  @ 0x5ed0b0
+  SetDisableVisual()  @ 0x5ed050
+  GetUpVisualFileName() -> s  @ 0x5ecfb0
+  GetOverVisualFileName() -> s  @ 0x5ecf60
+  GetDownVisualFileName() -> s  @ 0x5ecf10
+  Flash()  @ 0x5eced0
+  Enable()  @ 0x5ece90
+  Disable()  @ 0x5ece10
+  Down()  @ 0x5ece50
+  SetUp()  @ 0x5ed210
+  IsDown() -> i  @ 0x5ed000
+  SetRestrictMovementArea()  @ 0x5ed170
+  SetOutlineFlag()  @ 0x5efe80
+  ShowOverInWindowName()  @ 0x5f07e0
+  IsActivatedSlot() -> i  @ 0x5eebf0
+  GetSlotCoolTime() -> ff  @ 0x5ee7a0
+  # Sabitler:
+  const SLOT_STYLE_NONE = 0
+  const SLOT_STYLE_PICK_UP = 1
+  const SLOT_STYLE_SELECT = 2
+  const TEXT_HORIZONTAL_ALIGN_LEFT = 1
+  const TEXT_HORIZONTAL_ALIGN_RIGHT = 3
+  const TEXT_HORIZONTAL_ALIGN_CENTER = 2
+  const TEXT_VERTICAL_ALIGN_TOP = 16
+  const TEXT_VERTICAL_ALIGN_BOTTOM = 48
+  const TEXT_VERTICAL_ALIGN_CENTER = 32
+  const HORIZONTAL_ALIGN_LEFT = 0
+  const HORIZONTAL_ALIGN_CENTER = 1
+  const HORIZONTAL_ALIGN_RIGHT = 2
+  const VERTICAL_ALIGN_TOP = 0
+  const VERTICAL_ALIGN_CENTER = 1
+  const VERTICAL_ALIGN_BOTTOM = 2
+  const RENDERING_MODE_MODULATE = 3
+
