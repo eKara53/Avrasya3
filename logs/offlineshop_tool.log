@@ -584,3 +584,10 @@
 22:55:22 [SUITE_CTRL_BIND_ERR] encoding problem: with BOM (main.py, line 2)
 23:03:39 [CACHE_LOAD_ERR] a bytes-like object is required, not 'str'
 23:04:11 [CACHE_LOAD] Loaded 261 shops (7338 items, 356 bargains) from TSV cache.
+23:16:15 [CACHE_LOAD] Loaded 261 shops (7338 items, 356 bargains) from TSV cache.
+23:16:15 [INIT] OfflineShopSuiteGUI v2.0 initialized successfully.
+23:16:15 Avrasya2 All-In-One Bot v2.0 Hazir! [INSERT] ile acip kapatabilirsiniz.
+23:16:33 [HOOK] Installed silent OpenShop_End + Owner + Safebox hooks on board=<uiofflineshop_ae.OfflineShopRenewal object at 0x0F849090>
+23:16:51 Alim + Oto-Magaza kuyruga eklendi: Tahta Ok x200 (Alis: 400 -> Satis: 400)
+23:17:04 [BUY_SEND_ERR] bad argument type for built-in operation
+23:20:10 [HOOK] Installed silent OpenShop_End + Owner + Safebox hooks on board=<uiofflineshop_ae.OfflineShopRenewal object at 0x0F849230>

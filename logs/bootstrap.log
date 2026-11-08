@@ -592,3 +592,10 @@ ImportError: DLL load failed: The specified procedure could not be found.
 23:04:10 === Avrasya2 Live Runtime Bridge v3.2.0 ===
 23:04:10 ctypes yuklendi (RWX-free, PEB-stealth)
 23:04:10 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+23:16:14 === Avrasya2 Live Runtime Bridge v3.2.0 ===
+23:16:14 ctypes yuklendi (RWX-free, PEB-stealth)
+23:16:14 canli runtime izleyici kuruldu (__import__ + compile + module_do + ctypes + PEB-stealth + RPC)
+23:16:14 system.module_do kancasi kuruldu
+23:16:14 ui.Window.__init__ kancasi kuruldu
+23:16:15 kapi [ui.Window.__init__]: hazir (1280x1017)
+23:16:15 canli runtime koprusu kuruldu (ui.Window.__init__, ctypes=True)
